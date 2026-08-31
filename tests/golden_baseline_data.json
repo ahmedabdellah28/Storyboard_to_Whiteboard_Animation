@@ -1,0 +1,859 @@
+{
+  "user_test_1_muscles.jpg": {
+    "image_dimensions": [
+      1024,
+      571
+    ],
+    "detected_structure_type": "STORYBOARD",
+    "detected_confidence": 0.99,
+    "panel_count": 6,
+    "panels": [
+      {
+        "id": 1,
+        "bbox": [
+          13,
+          8,
+          319,
+          271
+        ],
+        "interior_bbox": [
+          28,
+          21,
+          289,
+          245
+        ],
+        "row": 0,
+        "col": 0,
+        "is_empty": false,
+        "content_score": 3.475
+      },
+      {
+        "id": 2,
+        "bbox": [
+          352,
+          8,
+          320,
+          271
+        ],
+        "interior_bbox": [
+          368,
+          21,
+          288,
+          245
+        ],
+        "row": 0,
+        "col": 1,
+        "is_empty": false,
+        "content_score": 4.2293
+      },
+      {
+        "id": 3,
+        "bbox": [
+          692,
+          8,
+          319,
+          271
+        ],
+        "interior_bbox": [
+          707,
+          21,
+          289,
+          245
+        ],
+        "row": 0,
+        "col": 2,
+        "is_empty": false,
+        "content_score": 3.73
+      },
+      {
+        "id": 4,
+        "bbox": [
+          13,
+          293,
+          319,
+          271
+        ],
+        "interior_bbox": [
+          28,
+          306,
+          289,
+          245
+        ],
+        "row": 1,
+        "col": 0,
+        "is_empty": false,
+        "content_score": 3.2874
+      },
+      {
+        "id": 5,
+        "bbox": [
+          352,
+          293,
+          320,
+          271
+        ],
+        "interior_bbox": [
+          368,
+          306,
+          288,
+          245
+        ],
+        "row": 1,
+        "col": 1,
+        "is_empty": false,
+        "content_score": 4.7013
+      },
+      {
+        "id": 6,
+        "bbox": [
+          692,
+          293,
+          319,
+          271
+        ],
+        "interior_bbox": [
+          707,
+          306,
+          289,
+          245
+        ],
+        "row": 1,
+        "col": 2,
+        "is_empty": false,
+        "content_score": 4.2697
+      }
+    ],
+    "processed_scenes_count": 6,
+    "total_objects_count": 8,
+    "objects": [
+      {
+        "name": "Panel 1 - Character 1",
+        "panel_id": 1,
+        "bbox": [
+          72,
+          6,
+          126,
+          239
+        ],
+        "global_bbox": [
+          100,
+          27,
+          126,
+          239
+        ],
+        "width": 126,
+        "height": 239,
+        "area": 16292
+      },
+      {
+        "name": "Panel 2 - Character 1",
+        "panel_id": 2,
+        "bbox": [
+          72,
+          9,
+          126,
+          236
+        ],
+        "global_bbox": [
+          440,
+          30,
+          126,
+          236
+        ],
+        "width": 126,
+        "height": 236,
+        "area": 16395
+      },
+      {
+        "name": "Panel 3 - Character 1",
+        "panel_id": 3,
+        "bbox": [
+          84,
+          9,
+          117,
+          236
+        ],
+        "global_bbox": [
+          791,
+          30,
+          117,
+          236
+        ],
+        "width": 117,
+        "height": 236,
+        "area": 12829
+      },
+      {
+        "name": "Panel 4 - Character 1",
+        "panel_id": 4,
+        "bbox": [
+          100,
+          10,
+          94,
+          235
+        ],
+        "global_bbox": [
+          128,
+          316,
+          94,
+          235
+        ],
+        "width": 94,
+        "height": 235,
+        "area": 11510
+      },
+      {
+        "name": "Panel 5 - Character 1",
+        "panel_id": 5,
+        "bbox": [
+          92,
+          10,
+          104,
+          235
+        ],
+        "global_bbox": [
+          460,
+          316,
+          104,
+          235
+        ],
+        "width": 104,
+        "height": 235,
+        "area": 11545
+      },
+      {
+        "name": "Panel 5 - Reaction Effect",
+        "panel_id": 5,
+        "bbox": [
+          77,
+          137,
+          134,
+          79
+        ],
+        "global_bbox": [
+          445,
+          443,
+          134,
+          79
+        ],
+        "width": 134,
+        "height": 79,
+        "area": 1690
+      },
+      {
+        "name": "Panel 6 - Character 1",
+        "panel_id": 6,
+        "bbox": [
+          82,
+          10,
+          157,
+          235
+        ],
+        "global_bbox": [
+          789,
+          316,
+          157,
+          235
+        ],
+        "width": 157,
+        "height": 235,
+        "area": 12780
+      },
+      {
+        "name": "Panel 6 - Reaction Effect",
+        "panel_id": 6,
+        "bbox": [
+          48,
+          211,
+          47,
+          34
+        ],
+        "global_bbox": [
+          755,
+          517,
+          47,
+          34
+        ],
+        "width": 47,
+        "height": 34,
+        "area": 345
+      }
+    ]
+  },
+  "user_test_2_padlock_numbered.jpg": {
+    "image_dimensions": [
+      1024,
+      571
+    ],
+    "detected_structure_type": "STORYBOARD",
+    "detected_confidence": 0.8802,
+    "panel_count": 6,
+    "panels": [
+      {
+        "id": 1,
+        "bbox": [
+          28,
+          25,
+          313,
+          271
+        ],
+        "interior_bbox": [
+          43,
+          38,
+          283,
+          245
+        ],
+        "row": 0,
+        "col": 0,
+        "is_empty": false,
+        "content_score": 9.8809
+      },
+      {
+        "id": 2,
+        "bbox": [
+          358,
+          25,
+          312,
+          271
+        ],
+        "interior_bbox": [
+          373,
+          38,
+          282,
+          245
+        ],
+        "row": 0,
+        "col": 1,
+        "is_empty": false,
+        "content_score": 9.6992
+      },
+      {
+        "id": 3,
+        "bbox": [
+          686,
+          25,
+          313,
+          271
+        ],
+        "interior_bbox": [
+          701,
+          38,
+          283,
+          245
+        ],
+        "row": 0,
+        "col": 2,
+        "is_empty": false,
+        "content_score": 16.9888
+      },
+      {
+        "id": 4,
+        "bbox": [
+          28,
+          313,
+          313,
+          237
+        ],
+        "interior_bbox": [
+          43,
+          324,
+          283,
+          215
+        ],
+        "row": 1,
+        "col": 0,
+        "is_empty": false,
+        "content_score": 7.9103
+      },
+      {
+        "id": 5,
+        "bbox": [
+          358,
+          313,
+          312,
+          237
+        ],
+        "interior_bbox": [
+          373,
+          324,
+          282,
+          215
+        ],
+        "row": 1,
+        "col": 1,
+        "is_empty": false,
+        "content_score": 17.55
+      },
+      {
+        "id": 6,
+        "bbox": [
+          686,
+          313,
+          313,
+          237
+        ],
+        "interior_bbox": [
+          701,
+          324,
+          283,
+          215
+        ],
+        "row": 1,
+        "col": 2,
+        "is_empty": false,
+        "content_score": 6.9
+      }
+    ],
+    "processed_scenes_count": 6,
+    "total_objects_count": 17,
+    "objects": [
+      {
+        "name": "Panel 1 - Character 1",
+        "panel_id": 1,
+        "bbox": [
+          16,
+          80,
+          130,
+          165
+        ],
+        "global_bbox": [
+          59,
+          118,
+          130,
+          165
+        ],
+        "width": 130,
+        "height": 165,
+        "area": 7986
+      },
+      {
+        "name": "Panel 1 - Character 2",
+        "panel_id": 1,
+        "bbox": [
+          152,
+          0,
+          129,
+          193
+        ],
+        "global_bbox": [
+          195,
+          38,
+          129,
+          193
+        ],
+        "width": 129,
+        "height": 193,
+        "area": 17509
+      },
+      {
+        "name": "Panel 1 - Reaction Effect",
+        "panel_id": 1,
+        "bbox": [
+          0,
+          0,
+          273,
+          245
+        ],
+        "global_bbox": [
+          43,
+          38,
+          273,
+          245
+        ],
+        "width": 273,
+        "height": 245,
+        "area": 972
+      },
+      {
+        "name": "Panel 2 - Character 1",
+        "panel_id": 2,
+        "bbox": [
+          23,
+          76,
+          76,
+          169
+        ],
+        "global_bbox": [
+          396,
+          114,
+          76,
+          169
+        ],
+        "width": 76,
+        "height": 169,
+        "area": 7283
+      },
+      {
+        "name": "Panel 2 - Character 2",
+        "panel_id": 2,
+        "bbox": [
+          93,
+          0,
+          189,
+          245
+        ],
+        "global_bbox": [
+          466,
+          38,
+          189,
+          245
+        ],
+        "width": 189,
+        "height": 245,
+        "area": 31987
+      },
+      {
+        "name": "Panel 2 - Reaction Effect",
+        "panel_id": 2,
+        "bbox": [
+          0,
+          0,
+          13,
+          20
+        ],
+        "global_bbox": [
+          373,
+          38,
+          13,
+          20
+        ],
+        "width": 13,
+        "height": 20,
+        "area": 175
+      },
+      {
+        "name": "Panel 3 - Character 1",
+        "panel_id": 3,
+        "bbox": [
+          0,
+          0,
+          13,
+          20
+        ],
+        "global_bbox": [
+          701,
+          38,
+          13,
+          20
+        ],
+        "width": 13,
+        "height": 20,
+        "area": 181
+      },
+      {
+        "name": "Panel 3 - Character 2",
+        "panel_id": 3,
+        "bbox": [
+          267,
+          198,
+          15,
+          6
+        ],
+        "global_bbox": [
+          968,
+          236,
+          15,
+          6
+        ],
+        "width": 15,
+        "height": 6,
+        "area": 32
+      },
+      {
+        "name": "Panel 4 - Character 1",
+        "panel_id": 4,
+        "bbox": [
+          0,
+          0,
+          14,
+          22
+        ],
+        "global_bbox": [
+          43,
+          324,
+          14,
+          22
+        ],
+        "width": 14,
+        "height": 22,
+        "area": 182
+      },
+      {
+        "name": "Panel 4 - Character 2",
+        "panel_id": 4,
+        "bbox": [
+          153,
+          44,
+          14,
+          17
+        ],
+        "global_bbox": [
+          196,
+          368,
+          14,
+          17
+        ],
+        "width": 14,
+        "height": 17,
+        "area": 42
+      },
+      {
+        "name": "Panel 4 - Character 3",
+        "panel_id": 4,
+        "bbox": [
+          218,
+          37,
+          19,
+          42
+        ],
+        "global_bbox": [
+          261,
+          361,
+          19,
+          42
+        ],
+        "width": 19,
+        "height": 42,
+        "area": 100
+      },
+      {
+        "name": "Panel 5 - Character 1",
+        "panel_id": 5,
+        "bbox": [
+          0,
+          1,
+          14,
+          21
+        ],
+        "global_bbox": [
+          373,
+          325,
+          14,
+          21
+        ],
+        "width": 14,
+        "height": 21,
+        "area": 214
+      },
+      {
+        "name": "Panel 5 - Character 2",
+        "panel_id": 5,
+        "bbox": [
+          166,
+          20,
+          12,
+          12
+        ],
+        "global_bbox": [
+          539,
+          344,
+          12,
+          12
+        ],
+        "width": 12,
+        "height": 12,
+        "area": 62
+      },
+      {
+        "name": "Panel 5 - Character 3",
+        "panel_id": 5,
+        "bbox": [
+          177,
+          189,
+          9,
+          10
+        ],
+        "global_bbox": [
+          550,
+          513,
+          9,
+          10
+        ],
+        "width": 9,
+        "height": 10,
+        "area": 40
+      },
+      {
+        "name": "Panel 5 - Character 4",
+        "panel_id": 5,
+        "bbox": [
+          152,
+          201,
+          6,
+          10
+        ],
+        "global_bbox": [
+          525,
+          525,
+          6,
+          10
+        ],
+        "width": 6,
+        "height": 10,
+        "area": 31
+      },
+      {
+        "name": "Panel 6 - Character 1",
+        "panel_id": 6,
+        "bbox": [
+          66,
+          1,
+          154,
+          214
+        ],
+        "global_bbox": [
+          767,
+          325,
+          154,
+          214
+        ],
+        "width": 154,
+        "height": 214,
+        "area": 21701
+      },
+      {
+        "name": "Panel 6 - Reaction Effect",
+        "panel_id": 6,
+        "bbox": [
+          0,
+          0,
+          14,
+          22
+        ],
+        "global_bbox": [
+          701,
+          324,
+          14,
+          22
+        ],
+        "width": 14,
+        "height": 22,
+        "area": 188
+      }
+    ]
+  },
+  "user_test_3_continuity_code.jpg": {
+    "image_dimensions": [
+      1024,
+      571
+    ],
+    "detected_structure_type": "SINGLE_UNFRAMED_SCENE",
+    "detected_confidence": 0.0,
+    "panel_count": 0,
+    "panels": [],
+    "processed_scenes_count": 1,
+    "total_objects_count": 2,
+    "objects": [
+      {
+        "name": "Object_1",
+        "panel_id": 1,
+        "bbox": [
+          361,
+          28,
+          558,
+          37
+        ],
+        "global_bbox": [
+          361,
+          28,
+          558,
+          37
+        ],
+        "width": 558,
+        "height": 37,
+        "area": 20646
+      },
+      {
+        "name": "Object_2",
+        "panel_id": 1,
+        "bbox": [
+          33,
+          83,
+          1220,
+          617
+        ],
+        "global_bbox": [
+          33,
+          83,
+          1220,
+          617
+        ],
+        "width": 1220,
+        "height": 617,
+        "area": 752740
+      }
+    ]
+  },
+  "_video_render_baseline": {
+    "output_resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30.0,
+    "total_frames": 871,
+    "duration_seconds": 29.03,
+    "file_size_bytes": 17961927,
+    "checkpoints": {
+      "0": {
+        "mean_bgr": [
+          250.0,
+          253.0,
+          251.0
+        ],
+        "std_bgr": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "217": {
+        "mean_bgr": [
+          236.75,
+          240.13,
+          236.55
+        ],
+        "std_bgr": [
+          43.1,
+          41.56,
+          48.69
+        ]
+      },
+      "435": {
+        "mean_bgr": [
+          231.03,
+          234.71,
+          230.98
+        ],
+        "std_bgr": [
+          50.82,
+          48.85,
+          55.78
+        ]
+      },
+      "653": {
+        "mean_bgr": [
+          215.21,
+          221.64,
+          215.8
+        ],
+        "std_bgr": [
+          62.74,
+          59.36,
+          71.28
+        ]
+      },
+      "870": {
+        "mean_bgr": [
+          221.18,
+          225.49,
+          219.88
+        ],
+        "std_bgr": [
+          60.86,
+          58.38,
+          68.1
+        ]
+      }
+    }
+  }
+}

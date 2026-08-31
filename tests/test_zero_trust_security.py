@@ -30,12 +30,24 @@ from licensing.local_cache import save_cached_license_key, load_cached_license_k
 
 class TestZeroTrustLicensingSecurity(unittest.TestCase):
     """Rigorous Security Test Suite for Zero-Trust Licensing."""
+    _original_key = None
+
+    @classmethod
+    def setUpClass(cls):
+        cls._original_key = load_cached_license_key()
+
+    @classmethod
+    def tearDownClass(cls):
+        if cls._original_key:
+            save_cached_license_key(cls._original_key)
+        else:
+            clear_cached_license_key()
 
     def setUp(self):
         clear_cached_license_key()
 
     def tearDown(self):
-        clear_cached_license_key()
+        pass
 
     # ════════════════════════════════════════════════
     #  Test Group 1: Cryptographic Primitives & DPAPI

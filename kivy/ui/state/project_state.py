@@ -1,167 +1,25 @@
 """
-Central Project State — Single Source of Truth for the entire Visual Animation Studio.
-All components (Layers, Canvas, Inspector, Toolbar) read from and write to this state.
+Central Project State (Pure Python — Zero Kivy Dependency).
+Single Source of Truth for the entire Visual Animation Studio.
 Includes robust Command-based Undo / Redo system.
 """
 import uuid
-import numpy as np
-from abc import ABC, abstractmethod
-from enum import Enum
 from typing import List, Optional, Callable, Dict, Any, Tuple
+import numpy as np
+
 from engine.core.scene import SceneObject
+from .commands import (
+    AppPhase,
+    Command,
+    MoveOrResizeCommand,
+    AddObjectCommand,
+    DeleteObjectCommand,
+    ReorderCommand,
+    RenameCommand,
+    PropertyChangeCommand,
+    CommandHistory
+)
 
-
-from kivy.clock import Clock
-
-
-class AppPhase(Enum):
-    EMPTY = "empty"
-    ANALYZING = "analyzing"
-    READY = "ready"
-    ANIMATING = "animating"
-    PREVIEW = "preview"
-    EXPORTING = "exporting"
-
-
-# ═══════════════════════════════════════════════════════════════════════════════
-#  Command Pattern for Unified Undo / Redo Architecture
-# ═══════════════════════════════════════════════════════════════════════════════
-
-class Command(ABC):
-    @abstractmethod
-    def execute(self):
-        pass
-
-    @abstractmethod
-    def undo(self):
-        pass
-
-
-class MoveOrResizeCommand(Command):
-    def __init__(self, state: "ProjectState", obj_id: str, old_bbox: tuple, new_bbox: tuple):
-        self.state = state
-        self.obj_id = obj_id
-        self.old_bbox = old_bbox
-        self.new_bbox = new_bbox
-
-    def execute(self):
-        self.state.update_object_bbox(self.obj_id, self.new_bbox, record_undo=False)
-
-    def undo(self):
-        self.state.update_object_bbox(self.obj_id, self.old_bbox, record_undo=False)
-
-
-class AddObjectCommand(Command):
-    def __init__(self, state: "ProjectState", obj: SceneObject):
-        self.state = state
-        self.obj = obj
-
-    def execute(self):
-        self.state.add_object(self.obj, record_undo=False)
-
-    def undo(self):
-        self.state.remove_object_by_id(self.obj.id, record_undo=False)
-
-
-class DeleteObjectCommand(Command):
-    def __init__(self, state: "ProjectState", obj: SceneObject, index: int):
-        self.state = state
-        self.obj = obj
-        self.index = index
-
-    def execute(self):
-        self.state.remove_object_by_id(self.obj.id, record_undo=False)
-
-    def undo(self):
-        self.state.insert_object(self.index, self.obj, record_undo=False)
-
-
-class ReorderCommand(Command):
-    def __init__(self, state: "ProjectState", from_idx: int, to_idx: int):
-        self.state = state
-        self.from_idx = from_idx
-        self.to_idx = to_idx
-
-    def execute(self):
-        self.state.reorder(self.from_idx, self.to_idx, record_undo=False)
-
-    def undo(self):
-        self.state.reorder(self.to_idx, self.from_idx, record_undo=False)
-
-
-class RenameCommand(Command):
-    def __init__(self, state: "ProjectState", obj_id: str, old_name: str, new_name: str):
-        self.state = state
-        self.obj_id = obj_id
-        self.old_name = old_name
-        self.new_name = new_name
-
-    def execute(self):
-        self.state.update_object_name(self.obj_id, self.new_name, record_undo=False)
-
-    def undo(self):
-        self.state.update_object_name(self.obj_id, self.old_name, record_undo=False)
-
-
-class PropertyChangeCommand(Command):
-    def __init__(self, state: "ProjectState", obj_id: str, prop_name: str, old_val: Any, new_val: Any):
-        self.state = state
-        self.obj_id = obj_id
-        self.prop_name = prop_name
-        self.old_val = old_val
-        self.new_val = new_val
-
-    def execute(self):
-        self.state.update_object_property(self.obj_id, self.prop_name, self.new_val, record_undo=False)
-
-    def undo(self):
-        self.state.update_object_property(self.obj_id, self.prop_name, self.old_val, record_undo=False)
-
-
-class CommandHistory:
-    def __init__(self, max_history: int = 50):
-        self._undo_stack: List[Command] = []
-        self._redo_stack: List[Command] = []
-        self._max_history = max_history
-
-    def push(self, cmd: Command):
-        self._undo_stack.append(cmd)
-        self._redo_stack.clear()
-        if len(self._undo_stack) > self._max_history:
-            self._undo_stack.pop(0)
-
-    def undo(self) -> bool:
-        if not self._undo_stack:
-            return False
-        cmd = self._undo_stack.pop()
-        cmd.undo()
-        self._redo_stack.append(cmd)
-        return True
-
-    def redo(self) -> bool:
-        if not self._redo_stack:
-            return False
-        cmd = self._redo_stack.pop()
-        cmd.execute()
-        self._undo_stack.append(cmd)
-        return True
-
-    @property
-    def can_undo(self) -> bool:
-        return len(self._undo_stack) > 0
-
-    @property
-    def can_redo(self) -> bool:
-        return len(self._redo_stack) > 0
-
-    def clear(self):
-        self._undo_stack.clear()
-        self._redo_stack.clear()
-
-
-# ═══════════════════════════════════════════════════════════════════════════════
-#  ProjectState Main Model
-# ═══════════════════════════════════════════════════════════════════════════════
 
 class ProjectState:
     def __init__(self):
@@ -191,12 +49,35 @@ class ProjectState:
         self.analysis_progress: float = 0.0
         self.analysis_stage: str = ""
 
-        # Observers & Callbacks
+        # Event Listeners (Pure Python Observers)
+        self._listeners: List[Callable[[str, Any], None]] = []
+
+        # Direct Observers & Callbacks (for backwards compatibility)
         self._on_phase_change: Optional[Callable] = None
         self._on_progress: Optional[Callable] = None
         self._on_objects_changed: Optional[Callable] = None
         self._on_active_object_changed: Optional[Callable] = None
         self._on_tool_changed: Optional[Callable] = None
+
+    # ── Observer Subscription API ──
+
+    def subscribe(self, listener: Callable[[str, Any], None]):
+        """Subscribe a pure callback to all state events."""
+        if listener not in self._listeners:
+            self._listeners.append(listener)
+
+    def unsubscribe(self, listener: Callable[[str, Any], None]):
+        """Unsubscribe a callback."""
+        if listener in self._listeners:
+            self._listeners.remove(listener)
+
+    def _emit(self, event_name: str, payload: Any = None):
+        """Emit state mutation event to all registered observers."""
+        for listener in self._listeners:
+            try:
+                listener(event_name, payload)
+            except Exception as e:
+                print(f"[ProjectState Observer Error] on '{event_name}': {e}")
 
     # ── Phase ──
 
@@ -204,6 +85,7 @@ class ProjectState:
         self.phase = phase
         if self._on_phase_change:
             self._on_phase_change(phase)
+        self._emit("PHASE_CHANGED", phase)
 
     # ── Tool ──
 
@@ -212,6 +94,7 @@ class ProjectState:
             self.active_tool = tool
             if self._on_tool_changed:
                 self._on_tool_changed(tool)
+            self._emit("TOOL_CHANGED", tool)
 
     # ── Analysis Progress ──
 
@@ -220,6 +103,7 @@ class ProjectState:
         self.analysis_stage = stage
         if self._on_progress:
             self._on_progress(progress, stage)
+        self._emit("PROGRESS_CHANGED", (progress, stage))
 
     # ── Project & Scenes ──
     
@@ -238,6 +122,7 @@ class ProjectState:
             self.set_objects(all_objects)
         else:
             self.set_objects([])
+        self._emit("PROJECT_CHANGED", project)
 
     @property
     def scene(self):
@@ -270,8 +155,7 @@ class ProjectState:
         else:
             self._notify_active_changed()
 
-        if self._on_objects_changed:
-            self._on_objects_changed(self.objects)
+        self._notify_objects_changed()
 
     def get_object_by_id(self, obj_id: Optional[str]) -> Optional[SceneObject]:
         if not obj_id:
@@ -281,7 +165,9 @@ class ProjectState:
                 return o
         return None
 
-    def get_object_index(self, obj_id: str) -> int:
+    def get_object_index(self, obj_id: Optional[str]) -> int:
+        if not obj_id:
+            return -1
         for idx, o in enumerate(self.objects):
             if o.id == obj_id:
                 return idx
@@ -297,17 +183,13 @@ class ProjectState:
     def _notify_active_changed(self):
         active_obj = self.get_object_by_id(self.active_object_id)
         if self._on_active_object_changed:
-            try:
-                Clock.schedule_once(lambda dt: self._on_active_object_changed(active_obj))
-            except Exception:
-                self._on_active_object_changed(active_obj)
+            self._on_active_object_changed(active_obj)
+        self._emit("ACTIVE_OBJECT_CHANGED", active_obj)
 
     def _notify_objects_changed(self):
         if self._on_objects_changed:
-            try:
-                Clock.schedule_once(lambda dt: self._on_objects_changed(self.objects))
-            except Exception:
-                self._on_objects_changed(self.objects)
+            self._on_objects_changed(self.objects)
+        self._emit("OBJECTS_CHANGED", self.objects)
 
     @property
     def active_object(self) -> Optional[SceneObject]:
@@ -462,51 +344,21 @@ class ProjectState:
                 self.command_history.push(ReorderCommand(self, from_idx, to_idx))
             obj = self.objects.pop(from_idx)
             self.objects.insert(to_idx, obj)
-            if self._on_objects_changed:
-                self._on_objects_changed(self.objects)
+            self._notify_objects_changed()
 
     def undo(self) -> bool:
         res = self.command_history.undo()
         if res:
-            if self._on_objects_changed:
-                self._on_objects_changed(self.objects)
+            self._notify_objects_changed()
             self._notify_active_changed()
         return res
 
     def redo(self) -> bool:
         res = self.command_history.redo()
         if res:
-            if self._on_objects_changed:
-                self._on_objects_changed(self.objects)
+            self._notify_objects_changed()
             self._notify_active_changed()
         return res
-
-    # ── Backward Compatibility Properties ──
-
-    @property
-    def selected_index(self) -> int:
-        return self.get_object_index(self.active_object_id)
-
-    @selected_index.setter
-    def selected_index(self, index: int):
-        if 0 <= index < len(self.objects):
-            self.set_active_id(self.objects[index].id)
-        else:
-            self.set_active_id(None)
-
-    @property
-    def selected_object(self) -> Optional[SceneObject]:
-        return self.active_object
-
-    def select(self, index: int):
-        if 0 <= index < len(self.objects):
-            self.set_active_id(self.objects[index].id)
-        else:
-            self.set_active_id(None)
-
-    def remove_object(self, index: int):
-        if 0 <= index < len(self.objects):
-            self.remove_object_by_id(self.objects[index].id, record_undo=True)
 
     # ── Reset ──
 
@@ -522,3 +374,4 @@ class ProjectState:
         self.command_history.clear()
         self.analysis_progress = 0.0
         self.analysis_stage = ""
+        self._emit("RESET", None)

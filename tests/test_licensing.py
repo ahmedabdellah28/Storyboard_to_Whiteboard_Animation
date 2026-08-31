@@ -28,11 +28,24 @@ from licensing.license_guard import LicenseGuard
 
 
 class TestLicensing(unittest.TestCase):
+    _original_key = None
+
+    @classmethod
+    def setUpClass(cls):
+        cls._original_key = load_cached_license_key()
+
+    @classmethod
+    def tearDownClass(cls):
+        if cls._original_key:
+            save_cached_license_key(cls._original_key)
+        else:
+            clear_cached_license_key()
+
     def setUp(self):
         clear_cached_license_key()
 
     def tearDown(self):
-        clear_cached_license_key()
+        pass
 
     def test_machine_code_format(self):
         """Test Machine Code format conforms to MCH-XXXX-XXXX-XXXX-XXXX."""

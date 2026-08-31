@@ -1,16 +1,16 @@
 ; ====================================================================
-;  Inno Setup Script for Sketch Animation Studio
+;  Inno Setup Script for Storyboard to Whiteboard Animation Studio
 ;  High-Compression Commercial Installer with Modern Wizard
 ; ====================================================================
 
-#define MyAppName "Sketch Animation Studio"
-#define MyAppVersion "0.7.0"
-#define MyAppPublisher "Sketch Animation Studio"
-#define MyAppURL "https://github.com/daslearning-org/image-to-animation-offline"
-#define MyAppExeName "Img2Sketch.exe"
+#define MyAppName "Storyboard to Whiteboard Animation"
+#define MyAppVersion "3.0.0"
+#define MyAppPublisher "Ahmed Abdellah"
+#define MyAppURL "https://github.com/ahmedabdellah28/Storyboard_to_Whiteboard_Animation"
+#define MyAppExeName "StoryboardToWhiteboard.exe"
 
 [Setup]
-; Unique GUID for Sketch Animation Studio
+; Unique GUID for Storyboard to Whiteboard Animation Studio
 AppId={{B661F148-0BD1-4317-BE5C-B153C46EA052}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
@@ -29,7 +29,7 @@ DisableProgramGroupPage=yes
 
 ; Output Configuration
 OutputDir=dist\installer
-OutputBaseFilename=Setup_SketchAnimationStudio_v{#MyAppVersion}
+OutputBaseFilename=Setup_Storyboard_to_Whiteboard_Animation_v{#MyAppVersion}
 
 ; High-Efficiency LZMA2 Ultra Compression
 Compression=lzma2/ultra64
@@ -47,8 +47,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"
 
 [Files]
-; Copy all bundled application files and directories recursively from PyInstaller dist
-Source: "dist\Img2Sketch\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+; Copy all bundled application files and directories recursively from Nuitka / PyInstaller dist
+Source: "dist\Storyboard_to_Whiteboard_Animation\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
 Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; WorkingDir: "{app}"

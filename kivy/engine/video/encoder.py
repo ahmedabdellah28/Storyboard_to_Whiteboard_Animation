@@ -81,6 +81,10 @@ class VideoEncoder:
                 frame_bgr = cv2.resize(frame_bgr, (self.width, self.height), interpolation=cv2.INTER_LINEAR)
             self.cv2_writer.write(frame_bgr)
 
+    def write(self, frame_bgr: np.ndarray):
+        """Alias for write_frame (VideoWriter compatibility)."""
+        self.write_frame(frame_bgr)
+
     def close(self):
         """
         Flushes and finalizes the MP4 video container.
@@ -96,3 +100,8 @@ class VideoEncoder:
         elif self.cv2_writer:
             self.cv2_writer.release()
             print(f"[VideoEncoder] Finalized OpenCV video: {self.output_path}")
+
+    def release(self):
+        """Alias for close (VideoWriter compatibility)."""
+        self.close()
+
