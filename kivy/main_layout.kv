@@ -1,0 +1,322 @@
+#:import MDScreen kivymd.uix.screen.MDScreen
+#:import MDGridLayout kivymd.uix.gridlayout.MDGridLayout
+#:import MDLabel kivymd.uix.label.MDLabel
+#:import MDTextField kivymd.uix.textfield.MDTextField
+#:import MDFillRoundFlatIconButton kivymd.uix.button.MDFillRoundFlatIconButton
+#:import MDIconButton kivymd.uix.button.MDIconButton
+
+#:import dp kivy.metrics.dp
+#:import sp kivy.metrics.sp
+
+# Import local components
+#:import MyMDDivider screens.divider.MyMDDivider
+
+<TempSpinWait>:
+    id: temp_spin
+    orientation: 'horizontal'
+    adaptive_height: True
+    padding: dp(8)
+
+    MDLabel:
+        text: root.txt
+        font_style: "Subtitle1"
+        adaptive_width: True
+
+    MDSpinner:
+        size_hint: None, None
+        size: dp(14), dp(14)
+        active: True
+
+<BatchStopBtn>:
+    orientation: 'horizontal'
+    spacing: dp(4)
+    adaptive_height: True
+    MDFloatingActionButton:
+        icon: 'stop'
+        type: 'small'
+        theme_icon_color: "Custom"
+        md_bg_color: '#e9dff7'
+        icon_color: '#211c29'
+        on_release: app.stop_batch()
+
+<VideoActionBtn>:
+    orientation: 'horizontal'
+    spacing: dp(4)
+    adaptive_height: True
+    MDFloatingActionButton:
+        icon: 'download'
+        type: 'small'
+        theme_icon_color: "Custom"
+        md_bg_color: '#e9dff7'
+        icon_color: '#211c29'
+        on_release: app.open_vid_file_manager()
+    MDFloatingActionButton:
+        icon: 'delete'
+        type: 'small'
+        theme_icon_color: "Custom"
+        md_bg_color: '#e9dff7'
+        icon_color: '#211c29'
+        on_release: app.current_delete_alert()
+
+<BatchImgFolderBtn>:
+    id: btn_img_fldr
+    text: "Batch"
+    icon: "folder"
+    font_size: sp(18)
+    md_bg_color: '#635a05'
+    pos_hint: {"center_x": .5, "center_y": .5}
+    #size_hint_x: 0.3
+    #size_hint_y: 0.9
+    on_release: app.open_img_fldr_manager()
+
+<PreferencesPop>: # MDScrollView
+    id: pop_preference
+    size_hint: (1, None)
+    height: dp(300)
+    MDList:
+        adaptive_height: True
+        OneLineIconListItem:
+            text: "End Colour"
+            on_release: app.preference_toggle(end_colour, "end_colour")
+            IconLeftWidget:
+                id: end_colour
+                icon: root.end_colour_icon
+                theme_text_color: "Custom"
+                text_color: root.end_colour_icon_colour
+                on_release: app.preference_toggle(self, "end_colour")
+        OneLineIconListItem:
+            text: "Hand on Video"
+            on_release: app.preference_toggle(draw_hand, "draw_hand")
+            IconLeftWidget:
+                id: draw_hand
+                icon: root.draw_hand_icon
+                theme_text_color: "Custom"
+                text_color: root.draw_hand_icon_colour
+                on_release: app.preference_toggle(self, "draw_hand")
+        OneLineIconListItem:
+            text: "1080p Max Resolution"
+            on_release: app.preference_toggle(max_1080p, "max_1080p")
+            IconLeftWidget:
+                id: max_1080p
+                icon: root.max_1080p_icon
+                theme_text_color: "Custom"
+                text_color: root.max_1080p_icon_colour
+                on_release: app.preference_toggle(self, "max_1080p")
+
+<OldFileMgrBox>: #MDBoxLayout
+    id: old_file_mgr
+    orientation: 'vertical'
+    padding: dp(10)
+    spacing: dp(4)
+    MDLabel:
+        text: "If your download is successful, the file will be deleted from internal storage"
+        adaptive_height: True
+
+<ManageOldFilesScrl>: # MDScrollView
+    adaptive_height: True
+    # MDList will be added here from app
+
+<OldFileItem>: #OneLineAvatarIconListItem
+    text: root.vid_file_name
+    IconLeftWidget:
+        icon: "download"
+        on_release: app.old_file_action(self, "download", root.vid_file_name)
+    IconRightWidget:
+        icon: "delete"
+        on_release: app.old_file_action(self, "delete", root.vid_file_name)
+
+
+### The kivymd main screen ###
+MDScreen:
+
+    MainBox: # main container
+        orientation: 'vertical'
+        padding: 0, self.top_pad, 0, self.bottom_pad # left, top, right, bottom
+        spacing: dp(4)
+
+        MDTopAppBar:
+            title: "Image2Sketch Animation"
+            left_action_items: [["menu", lambda x: app.menu_bar_callback(x)]]
+            md_bg_color: '#7643a8'
+
+        MDGridLayout: # top file browser
+            id: file_choose_grid
+            cols: 4
+            size_hint_y: 0.1
+            spacing: dp(4)
+            padding: 8, 10, 8, 10 # left, top, right, bottom
+
+            MDLabel:
+                id: img_selector_lbl
+                text: "Select an image file >"
+                size_hint_y: None
+                height: self.texture_size[1]
+                size_hint_x: 0.7
+                #pos_hint: {"y": 0.1}
+                #valign: 'top'
+                #halign: 'right'
+
+            MDFillRoundFlatIconButton:
+                id: btn_img_upload
+                text: "Upload"
+                icon: "file-image"
+                font_size: sp(18)
+                #md_bg_color: '#f8d7e3'
+                pos_hint: {"center_x": .5, "center_y": .5}
+                #size_hint_x: 0.3
+                #size_hint_y: 0.9
+                on_release: app.open_img_file_manager()
+
+        MyMDDivider:
+            color: (0, 0, 0, 0.25)
+
+        MDGridLayout: # video player
+            id: player_box
+            cols: 1
+            size_hint_y: 0.5
+            padding: 2, 10, 2, 10 # left, top, right, bottom
+            spacing: dp(4)
+
+            # video player will be added under this box from main program
+
+        MyMDDivider:
+            color: (0, 0, 0, 0.25)
+
+        MDGridLayout: # params
+            cols: 5
+            size_hint_y: 0.2
+            spacing: dp(4)
+            padding: 2, 10, 2, 10 # left, top, right, bottom
+            ## Split len, Frame rate, Object skip rate, Background skip rate, Original image duration
+
+            # hint texts in first row
+            MDLabel:
+                text: "Select video speed"
+                font_style: 'Caption'
+                size_hint_y: None
+                height: self.texture_size[1]
+                size_hint_x: 0.2
+
+            MDLabel:
+                text: "Frame rate"
+                font_style: 'Caption'
+                size_hint_y: None
+                height: self.texture_size[1]
+                size_hint_x: 0.2
+
+            MDLabel:
+                text: "Object skip rate"
+                font_style: 'Caption'
+                size_hint_y: None
+                height: self.texture_size[1]
+                size_hint_x: 0.2
+
+            MDLabel:
+                text: "Background skip rate"
+                font_style: 'Caption'
+                size_hint_y: None
+                height: self.texture_size[1]
+                size_hint_x: 0.2
+
+            MDLabel:
+                text: "End image duration"
+                font_style: 'Caption'
+                size_hint_y: None
+                height: self.texture_size[1]
+                size_hint_x: 0.2
+
+            # taking the values in next row
+            MDDropDownItem:
+                id: split_len_drp
+                md_bg_color: "#bdc6b0"
+                on_release: app.split_len_options.open()
+                text: "speed"
+                font_size: sp(14)
+                size_hint_x: 0.2
+
+            MDTextField:
+                id: frame_rate
+                text: "25"
+                input_filter: 'int'
+                max_text_length: 2
+                hint_text: "fps"
+                helper_text: "default: 25"
+                helper_text_mode: "persistent"
+                mode: "rectangle"
+                size_hint_x: 0.2
+                font_size: sp(14)
+
+            MDTextField:
+                id: obj_skip_rate
+                text: "8"
+                input_filter: 'int'
+                max_text_length: 2
+                hint_text: "obj skip"
+                helper_text: "default: 8"
+                helper_text_mode: "persistent"
+                mode: "rectangle"
+                size_hint_x: 0.2
+                font_size: sp(14)
+
+            MDTextField:
+                id: bck_skip_rate
+                text: "14"
+                input_filter: 'int'
+                max_text_length: 2
+                hint_text: "bck skip"
+                helper_text: "default: 14"
+                helper_text_mode: "persistent"
+                mode: "rectangle"
+                size_hint_x: 0.2
+                font_size: sp(14)
+
+            MDTextField:
+                id: main_img_duration
+                text: "2"
+                input_filter: 'int'
+                max_text_length: 1
+                hint_text: "seconds"
+                helper_text: "default: 2"
+                helper_text_mode: "persistent"
+                mode: "rectangle"
+                size_hint_x: 0.2
+                font_size: sp(14)
+
+        MDGridLayout: # buttons
+            cols: 3
+            size_hint_y: 0.2
+            spacing: dp(4)
+            padding: 14, 0, 14, 0 # left, top, right, bottom
+
+            MDIconButton:
+                id: btn_end_img
+                #text: ""
+                #text_color: 'black'
+                icon: "tune-variant" #toggle-switch
+                theme_icon_color: "Custom"
+                icon_color: "blue"
+                icon_size: sp(18)
+                md_bg_color: 'gray'
+                pos_hint: {"center_x": .5, "center_y": .5}
+                size_hint_x: 0.2
+                on_release: app.popup_preference()
+
+            MDFillRoundFlatIconButton:
+                id: btn_submit
+                text: "Submit"
+                icon: "send"
+                font_size: sp(18)
+                md_bg_color: 'orange'
+                pos_hint: {"center_x": .5, "center_y": .5}
+                size_hint_x: 0.5
+                on_release: app.submit_sketch_req()
+
+            MDFillRoundFlatIconButton:
+                id: btn_reset
+                text: "Reset"
+                icon: "undo-variant"
+                font_size: sp(18)
+                md_bg_color: '#333036'
+                pos_hint: {"center_x": .5, "center_y": .5}
+                size_hint_x: 0.3
+                on_release: app.reset_all()
