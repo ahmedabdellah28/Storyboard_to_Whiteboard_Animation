@@ -33,7 +33,6 @@ class DropZone(MDBoxLayout):
         with self.canvas.before:
             Color(rgba=Theme.BORDER_DASHED)
             self._border = Line(
-                rounded_rectangle=(0, 0, 0, 0, dp(12)),
                 width=1.5,
                 dash_offset=8,
                 dash_length=6
@@ -56,7 +55,7 @@ class DropZone(MDBoxLayout):
             self.add_widget(icon_img)
         else:
             icon_lbl = MDLabel(
-                text="[size=48]" + chr(0xF0552) + "[/size]",
+                text="[size=32]+[/size]",
                 markup=True,
                 font_style="H4",
                 theme_text_color="Custom",
@@ -125,7 +124,8 @@ class DropZone(MDBoxLayout):
     def _redraw(self, *args):
         x, y = self.pos
         w, h = self.size
-        self._border.rounded_rectangle = (x, y, w, h, dp(12))
+        if w > dp(12) and h > dp(12):
+            self._border.rounded_rectangle = (x, y, w, h, dp(12))
 
 
 class HomeScreen(MDScreen):

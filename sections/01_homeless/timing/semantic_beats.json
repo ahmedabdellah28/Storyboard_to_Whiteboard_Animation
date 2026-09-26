@@ -1,0 +1,234 @@
+{
+  "semantic_beats": [
+    {
+      "id": "sb_001",
+      "sentence_id": null,
+      "subject": "r0_00_title_banner",
+      "action": "reveal",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "بلا مأوى .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_002",
+      "sentence_id": null,
+      "subject": "r1_01_waking_street",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "تصحى قبل الفجر، لأن الشارع يصير مزعج مع بداية حركة المدينة .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_003",
+      "sentence_id": null,
+      "subject": "r1_02_back_pain",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "أول شيء تسويه ؟",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_004",
+      "sentence_id": null,
+      "subject": "r1_03_check_backpack",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "تشيك على أغراضك القليلة، وتتأكد إن ما انسرق منك شيء في الليل .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_005",
+      "sentence_id": null,
+      "subject": "r1_04_broken_phone",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "فتدور على واي فاي مجاني، كأنك تدور كنز .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_006",
+      "sentence_id": null,
+      "subject": "r1_05_search_wifi",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "مشكلة ثانية لحالها .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_007",
+      "sentence_id": null,
+      "subject": "r1_06_outdoor_charge",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "بعدها أول هدف: حمام ومويه .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_008",
+      "sentence_id": null,
+      "subject": "r2_01_goto_bathroom",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "إذا لقيت مكان تقدر تستخدم فيه الحمام، تدخل بسرعة، تغسل وجهك وجسمك بأبسط طريقة ممكنة، وتحاول ترتب نفسك .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_009",
+      "sentence_id": null,
+      "subject": "r2_02_wash_sink",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "الملابس النظيفة عملة نادرة .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_010",
+      "sentence_id": null,
+      "subject": "r2_03_clean_shirt",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "بعدها يجي الأكل .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_011",
+      "sentence_id": null,
+      "subject": "r2_04_charity_food",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "وإذا عندك بطاقة تموين، تشتري مقاضي بسيطة، لكن عندك مشكلة: أنت ما تملك مطبخ .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_012",
+      "sentence_id": null,
+      "subject": "r2_05_eating_sidewalk",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "الجوع دائماً قريب .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_013",
+      "sentence_id": null,
+      "subject": "r2_06_grocery_no_kitchen",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "حتى خطة يومك ما تنبني على الراحة .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_014",
+      "sentence_id": null,
+      "subject": "r3_01_park_bench_think",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "المكتبة العامة بالنسبة لك كنز .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_015",
+      "sentence_id": null,
+      "subject": "r3_02_public_library",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "واي فاي .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_016",
+      "sentence_id": null,
+      "subject": "r3_03_begging_cardboard",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "فيش كهرباء .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_017",
+      "sentence_id": null,
+      "subject": "r3_04_missing_id",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "حتى لو كنت تتسول، تختار زاوية فيها حركة ناس، لكن بعيد عن المشاكل .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_018",
+      "sentence_id": null,
+      "subject": "r3_05_clinic_hospital",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "وأحياناً يمر يوم كامل وما يجيك ولا شيء .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_019",
+      "sentence_id": null,
+      "subject": "r4_01_shelter_line",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "ثم تجي المشكلة الأكبر: الأوراق الرسمية .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_020",
+      "sentence_id": null,
+      "subject": "r4_02_under_bridge",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "يصير الوصول إلى وظيفة أو سكن أو مساعدات أصعب بكثير .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_021",
+      "sentence_id": null,
+      "subject": "r4_03_sleeping_moon",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "تحتاج وقت، ورسوم، وإجراءات، وأحياناً عنوان .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_022",
+      "sentence_id": null,
+      "subject": "r4_04_survival_loop",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "وأنت أصلاً ما عندك عنوان .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_023",
+      "sentence_id": null,
+      "subject": "r4_05_walk_sunrise",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "ممكن تكون زيارتك للطوارئ هي الحل الوحيد، أو تنتظر عيادة مجانية ساعات .",
+      "importance": 0.8
+    }
+  ]
+}

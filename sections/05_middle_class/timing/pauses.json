@@ -1,0 +1,11 @@
+{
+  "pauses": [
+    {
+      "id": "p001",
+      "start": 3.44,
+      "end": 4.44,
+      "duration": 1.0,
+      "type": "long_pause"
+    }
+  ]
+}

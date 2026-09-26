@@ -1,0 +1,112 @@
+{
+  "camera": [
+    {
+      "id": "cam_001",
+      "type": "camera_pan",
+      "start_s": 1.49,
+      "end_s": 2.49,
+      "duration_s": 1.0,
+      "target_asset_id": "r0_00_title_banner",
+      "params": {
+        "to_zone": "zone_1A",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_002",
+      "type": "camera_pan",
+      "start_s": 21.31,
+      "end_s": 22.31,
+      "duration_s": 1.0,
+      "target_asset_id": "r1_03_coffee_official_routine",
+      "params": {
+        "to_zone": "zone_1B",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_003",
+      "type": "camera_pan",
+      "start_s": 31.09,
+      "end_s": 32.09,
+      "duration_s": 1.0,
+      "target_asset_id": "r2_01_clean_car_reliable_train",
+      "params": {
+        "to_zone": "zone_2A",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_004",
+      "type": "camera_pan",
+      "start_s": 36.3,
+      "end_s": 37.3,
+      "duration_s": 1.0,
+      "target_asset_id": "r2_03_meetings_and_projects",
+      "params": {
+        "to_zone": "zone_2B",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_005",
+      "type": "camera_pan",
+      "start_s": 50.05,
+      "end_s": 51.05,
+      "duration_s": 1.0,
+      "target_asset_id": "r3_01_banking_app_lunch_check",
+      "params": {
+        "to_zone": "zone_3A",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_006",
+      "type": "camera_pan",
+      "start_s": 64.29,
+      "end_s": 65.29,
+      "duration_s": 1.0,
+      "target_asset_id": "r3_04_gym_and_friends_sports",
+      "params": {
+        "to_zone": "zone_3B",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_007",
+      "type": "camera_pan",
+      "start_s": 74.88,
+      "end_s": 75.88,
+      "duration_s": 1.0,
+      "target_asset_id": "r4_01_calling_plumber_repair",
+      "params": {
+        "to_zone": "zone_4A",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_008",
+      "type": "camera_pan",
+      "start_s": 83.61,
+      "end_s": 84.61,
+      "duration_s": 1.0,
+      "target_asset_id": "r4_04_birthday_gift_online",
+      "params": {
+        "to_zone": "zone_4B",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_009",
+      "type": "camera_zoom_wide",
+      "start_s": 94.309,
+      "end_s": 96.809,
+      "duration_s": 2.5,
+      "target_asset_id": null,
+      "params": {
+        "scale": 1.0,
+        "description": "Full scene canvas reveal"
+      }
+    }
+  ]
+}

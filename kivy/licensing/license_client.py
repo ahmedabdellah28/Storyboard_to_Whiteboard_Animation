@@ -43,7 +43,7 @@ class LicenseClient:
             "signature": signature,
         }
 
-        json_bytes = json.dumps(request_body).encode('utf-8')
+        json_bytes = json.dumps(request_body, sort_keys=True, separators=(',', ':')).encode('utf-8')
         req = urllib.request.Request(endpoint, data=json_bytes, headers=self.headers, method="POST")
 
         try:

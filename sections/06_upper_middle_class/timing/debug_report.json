@@ -1,0 +1,1111 @@
+{
+  "section_id": "06_upper_middle_class",
+  "duration": 79.231,
+  "words_total": 209,
+  "sentences_total": 35,
+  "pauses_total": 0,
+  "drawings_total": 21,
+  "sfx_total": 16,
+  "camera_total": 9,
+  "sentences": [
+    {
+      "sentence_id": "s001",
+      "text": "الطبقة المتوسطة العليا .",
+      "start": 1.72,
+      "end": 4.87,
+      "duration": 3.15,
+      "words_count": 4,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D001",
+          "type": "reveal",
+          "asset_id": "r0_00_title_banner",
+          "start_s": 1.72,
+          "end_s": 3.994,
+          "duration_s": 2.274,
+          "trigger": "semantic",
+          "anchor_text": "الطبقة المتوسطة العليا .",
+          "confidence": 0.95,
+          "layer_order": 0
+        },
+        {
+          "id": "D002",
+          "type": "draw",
+          "asset_id": "r1_01_peaceful_upscale_home",
+          "start_s": 4.87,
+          "end_s": 7.196,
+          "duration_s": 2.326,
+          "trigger": "semantic",
+          "anchor_text": "تصحى في بيت هادي تملكه في حي م",
+          "confidence": 0.95,
+          "layer_order": 1
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_001",
+          "type": "pop",
+          "start_s": 1.72,
+          "end_s": 2.12,
+          "duration_s": 0.4,
+          "anchor_asset_id": "r0_00_title_banner"
+        },
+        {
+          "id": "sfx_002",
+          "type": "marker_draw",
+          "start_s": 4.87,
+          "end_s": 5.62,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r1_01_peaceful_upscale_home"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s002",
+      "text": "تصحى في بيت هادي تملكه في حي ممتاز، أو في منزل مستقر جداً .",
+      "start": 4.87,
+      "end": 11.0,
+      "duration": 6.13,
+      "words_count": 14,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D002",
+          "type": "draw",
+          "asset_id": "r1_01_peaceful_upscale_home",
+          "start_s": 4.87,
+          "end_s": 7.196,
+          "duration_s": 2.326,
+          "trigger": "semantic",
+          "anchor_text": "تصحى في بيت هادي تملكه في حي م",
+          "confidence": 0.95,
+          "layer_order": 1
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_002",
+          "type": "marker_draw",
+          "start_s": 4.87,
+          "end_s": 5.62,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r1_01_peaceful_upscale_home"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s003",
+      "text": "المكيف ضبط نفسه في الليل .",
+      "start": 11.0,
+      "end": 13.3,
+      "duration": 2.3,
+      "words_count": 6,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D003",
+          "type": "draw",
+          "asset_id": "r1_02_smart_home_appliances",
+          "start_s": 13.3,
+          "end_s": 15.755,
+          "duration_s": 2.455,
+          "trigger": "semantic",
+          "anchor_text": "مكنسة روبوت تتحرك في الممر .",
+          "confidence": 0.95,
+          "layer_order": 2
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_003",
+          "type": "marker_draw",
+          "start_s": 13.3,
+          "end_s": 14.05,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r1_02_smart_home_appliances"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s004",
+      "text": "مكنسة روبوت تتحرك في الممر .",
+      "start": 13.3,
+      "end": 15.77,
+      "duration": 2.47,
+      "words_count": 6,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D003",
+          "type": "draw",
+          "asset_id": "r1_02_smart_home_appliances",
+          "start_s": 13.3,
+          "end_s": 15.755,
+          "duration_s": 2.455,
+          "trigger": "semantic",
+          "anchor_text": "مكنسة روبوت تتحرك في الممر .",
+          "confidence": 0.95,
+          "layer_order": 2
+        },
+        {
+          "id": "D004",
+          "type": "draw",
+          "asset_id": "r1_03_coffee_machine_schedule",
+          "start_s": 16.239,
+          "end_s": 18.513,
+          "duration_s": 2.274,
+          "trigger": "lead_in",
+          "anchor_text": "تفتح جوالك:",
+          "confidence": 0.95,
+          "layer_order": 3
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_003",
+          "type": "marker_draw",
+          "start_s": 13.3,
+          "end_s": 14.05,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r1_02_smart_home_appliances"
+        },
+        {
+          "id": "sfx_004",
+          "type": "marker_draw",
+          "start_s": 16.239,
+          "end_s": 16.989,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r1_03_coffee_machine_schedule"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s005",
+      "text": "ماكينة القهوة شغالة بجدول .",
+      "start": 15.77,
+      "end": 17.76,
+      "duration": 1.99,
+      "words_count": 5,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D004",
+          "type": "draw",
+          "asset_id": "r1_03_coffee_machine_schedule",
+          "start_s": 16.239,
+          "end_s": 18.513,
+          "duration_s": 2.274,
+          "trigger": "lead_in",
+          "anchor_text": "تفتح جوالك:",
+          "confidence": 0.95,
+          "layer_order": 3
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_004",
+          "type": "marker_draw",
+          "start_s": 16.239,
+          "end_s": 16.989,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r1_03_coffee_machine_schedule"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s006",
+      "text": "تفتح جوالك:",
+      "start": 17.76,
+      "end": 18.513,
+      "duration": 0.753,
+      "words_count": 2,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D005",
+          "type": "draw",
+          "asset_id": "r1_04_calendar_and_cleaner",
+          "start_s": 18.263,
+          "end_s": 20.845,
+          "duration_s": 2.582,
+          "trigger": "lead_in",
+          "anchor_text": "تقويم العمل .",
+          "confidence": 0.95,
+          "layer_order": 4
+        }
+      ],
+      "sfx": []
+    },
+    {
+      "sentence_id": "s007",
+      "text": "تقويم العمل .",
+      "start": 18.513,
+      "end": 19.5,
+      "duration": 0.987,
+      "words_count": 3,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D005",
+          "type": "draw",
+          "asset_id": "r1_04_calendar_and_cleaner",
+          "start_s": 18.263,
+          "end_s": 20.845,
+          "duration_s": 2.582,
+          "trigger": "lead_in",
+          "anchor_text": "تقويم العمل .",
+          "confidence": 0.95,
+          "layer_order": 4
+        }
+      ],
+      "sfx": []
+    },
+    {
+      "sentence_id": "s008",
+      "text": "أنشطة الأطفال .",
+      "start": 19.5,
+      "end": 20.6,
+      "duration": 1.1,
+      "words_count": 3,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D006",
+          "type": "draw",
+          "asset_id": "r1_05_automated_bills_savings",
+          "start_s": 20.6,
+          "end_s": 22.926,
+          "duration_s": 2.326,
+          "trigger": "semantic",
+          "anchor_text": "تذكير إن عاملة النظافة بتجي ال",
+          "confidence": 0.95,
+          "layer_order": 5
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_005",
+          "type": "marker_draw",
+          "start_s": 20.6,
+          "end_s": 21.35,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r1_05_automated_bills_savings"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s009",
+      "text": "تذكير إن عاملة النظافة بتجي الجمعة .",
+      "start": 20.6,
+      "end": 23.32,
+      "duration": 2.72,
+      "words_count": 7,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D006",
+          "type": "draw",
+          "asset_id": "r1_05_automated_bills_savings",
+          "start_s": 20.6,
+          "end_s": 22.926,
+          "duration_s": 2.326,
+          "trigger": "semantic",
+          "anchor_text": "تذكير إن عاملة النظافة بتجي ال",
+          "confidence": 0.95,
+          "layer_order": 5
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_005",
+          "type": "marker_draw",
+          "start_s": 20.6,
+          "end_s": 21.35,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r1_05_automated_bills_savings"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s010",
+      "text": "أغلب الفواتير مسددة تلقائياً .",
+      "start": 23.32,
+      "end": 24.9,
+      "duration": 1.58,
+      "words_count": 5,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D007",
+          "type": "draw",
+          "asset_id": "r2_01_varied_fresh_breakfast",
+          "start_s": 24.9,
+          "end_s": 27.456,
+          "duration_s": 2.556,
+          "trigger": "semantic",
+          "anchor_text": "والفلوس تتحول كل شهر للتوفير و",
+          "confidence": 0.95,
+          "layer_order": 6
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_006",
+          "type": "marker_draw",
+          "start_s": 24.9,
+          "end_s": 25.65,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r2_01_varied_fresh_breakfast"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s011",
+      "text": "والفلوس تتحول كل شهر للتوفير والاستثمار بدون ما تحتاج تتذكر .",
+      "start": 24.9,
+      "end": 29.62,
+      "duration": 4.72,
+      "words_count": 11,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D007",
+          "type": "draw",
+          "asset_id": "r2_01_varied_fresh_breakfast",
+          "start_s": 24.9,
+          "end_s": 27.456,
+          "duration_s": 2.556,
+          "trigger": "semantic",
+          "anchor_text": "والفلوس تتحول كل شهر للتوفير و",
+          "confidence": 0.95,
+          "layer_order": 6
+        },
+        {
+          "id": "D008",
+          "type": "draw",
+          "asset_id": "r2_02_modern_paid_off_car",
+          "start_s": 27.94,
+          "end_s": 30.42,
+          "duration_s": 2.48,
+          "trigger": "lead_in",
+          "anchor_text": "الفطور متنوع:",
+          "confidence": 0.95,
+          "layer_order": 7
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_006",
+          "type": "marker_draw",
+          "start_s": 24.9,
+          "end_s": 25.65,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r2_01_varied_fresh_breakfast"
+        },
+        {
+          "id": "sfx_007",
+          "type": "marker_draw",
+          "start_s": 27.94,
+          "end_s": 28.69,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r2_02_modern_paid_off_car"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s012",
+      "text": "الفطور متنوع:",
+      "start": 29.62,
+      "end": 30.42,
+      "duration": 0.8,
+      "words_count": 2,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D009",
+          "type": "draw",
+          "asset_id": "r2_03_expected_costs_insurance",
+          "start_s": 30.328,
+          "end_s": 32.68,
+          "duration_s": 2.352,
+          "trigger": "lead_in",
+          "anchor_text": "بيض .",
+          "confidence": 0.95,
+          "layer_order": 8
+        }
+      ],
+      "sfx": []
+    },
+    {
+      "sentence_id": "s013",
+      "text": "فواكه طازجة .",
+      "start": 30.42,
+      "end": 31.2,
+      "duration": 0.78,
+      "words_count": 3,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D009",
+          "type": "draw",
+          "asset_id": "r2_03_expected_costs_insurance",
+          "start_s": 30.328,
+          "end_s": 32.68,
+          "duration_s": 2.352,
+          "trigger": "lead_in",
+          "anchor_text": "بيض .",
+          "confidence": 0.95,
+          "layer_order": 8
+        }
+      ],
+      "sfx": []
+    },
+    {
+      "sentence_id": "s014",
+      "text": "بيض .",
+      "start": 31.2,
+      "end": 32.68,
+      "duration": 1.48,
+      "words_count": 2,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D010",
+          "type": "draw",
+          "asset_id": "r2_04_professional_career_coding",
+          "start_s": 32.931,
+          "end_s": 35.127,
+          "duration_s": 2.196,
+          "trigger": "lead_in",
+          "anchor_text": "خيارات جاهزة للعيال .",
+          "confidence": 0.95,
+          "layer_order": 9
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_008",
+          "type": "marker_draw",
+          "start_s": 32.931,
+          "end_s": 33.681,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r2_04_professional_career_coding"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s015",
+      "text": "زبادي .",
+      "start": 32.68,
+      "end": 33.6,
+      "duration": 0.92,
+      "words_count": 2,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D010",
+          "type": "draw",
+          "asset_id": "r2_04_professional_career_coding",
+          "start_s": 32.931,
+          "end_s": 35.127,
+          "duration_s": 2.196,
+          "trigger": "lead_in",
+          "anchor_text": "خيارات جاهزة للعيال .",
+          "confidence": 0.95,
+          "layer_order": 9
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_008",
+          "type": "marker_draw",
+          "start_s": 32.931,
+          "end_s": 33.681,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r2_04_professional_career_coding"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s016",
+      "text": "خيارات جاهزة للعيال .",
+      "start": 33.6,
+      "end": 35.127,
+      "duration": 1.527,
+      "words_count": 4,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D011",
+          "type": "draw",
+          "asset_id": "r2_05_complex_projects_remote",
+          "start_s": 35.127,
+          "end_s": 37.479,
+          "duration_s": 2.352,
+          "trigger": "semantic",
+          "anchor_text": "السيارة حديثة ومدفوعة، أو قريب",
+          "confidence": 0.95,
+          "layer_order": 10
+        }
+      ],
+      "sfx": []
+    },
+    {
+      "sentence_id": "s017",
+      "text": "السيارة حديثة ومدفوعة، أو قريب تخلص أقساطها .",
+      "start": 35.127,
+      "end": 38.24,
+      "duration": 3.113,
+      "words_count": 8,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D011",
+          "type": "draw",
+          "asset_id": "r2_05_complex_projects_remote",
+          "start_s": 35.127,
+          "end_s": 37.479,
+          "duration_s": 2.352,
+          "trigger": "semantic",
+          "anchor_text": "السيارة حديثة ومدفوعة، أو قريب",
+          "confidence": 0.95,
+          "layer_order": 10
+        }
+      ],
+      "sfx": []
+    },
+    {
+      "sentence_id": "s018",
+      "text": "التأمين والضرائب والصيانة صارت تكاليف متوقعة، مو أزمات .",
+      "start": 38.24,
+      "end": 41.507,
+      "duration": 3.267,
+      "words_count": 9,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D012",
+          "type": "draw",
+          "asset_id": "r3_01_strong_health_insurance",
+          "start_s": 41.008,
+          "end_s": 43.36,
+          "duration_s": 2.352,
+          "trigger": "lead_in",
+          "anchor_text": "وظيفتك احترافية وفيها مسؤولية ",
+          "confidence": 0.95,
+          "layer_order": 11
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_009",
+          "type": "marker_draw",
+          "start_s": 41.008,
+          "end_s": 41.758,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r3_01_strong_health_insurance"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s019",
+      "text": "وظيفتك احترافية وفيها مسؤولية .",
+      "start": 41.507,
+      "end": 43.36,
+      "duration": 1.853,
+      "words_count": 5,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D012",
+          "type": "draw",
+          "asset_id": "r3_01_strong_health_insurance",
+          "start_s": 41.008,
+          "end_s": 43.36,
+          "duration_s": 2.352,
+          "trigger": "lead_in",
+          "anchor_text": "وظيفتك احترافية وفيها مسؤولية ",
+          "confidence": 0.95,
+          "layer_order": 11
+        },
+        {
+          "id": "D013",
+          "type": "draw",
+          "asset_id": "r3_02_automatic_retirement_rewards",
+          "start_s": 43.606,
+          "end_s": 45.828,
+          "duration_s": 2.222,
+          "trigger": "lead_in",
+          "anchor_text": "يمكن تكتب كود .",
+          "confidence": 0.95,
+          "layer_order": 12
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_009",
+          "type": "marker_draw",
+          "start_s": 41.008,
+          "end_s": 41.758,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r3_01_strong_health_insurance"
+        },
+        {
+          "id": "sfx_010",
+          "type": "marker_draw",
+          "start_s": 43.606,
+          "end_s": 44.356,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r3_02_automatic_retirement_rewards"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s020",
+      "text": "يمكن تدير فريق .",
+      "start": 43.36,
+      "end": 44.4,
+      "duration": 1.04,
+      "words_count": 4,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D013",
+          "type": "draw",
+          "asset_id": "r3_02_automatic_retirement_rewards",
+          "start_s": 43.606,
+          "end_s": 45.828,
+          "duration_s": 2.222,
+          "trigger": "lead_in",
+          "anchor_text": "يمكن تكتب كود .",
+          "confidence": 0.95,
+          "layer_order": 12
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_010",
+          "type": "marker_draw",
+          "start_s": 43.606,
+          "end_s": 44.356,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r3_02_automatic_retirement_rewards"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s021",
+      "text": "يمكن تكتب كود .",
+      "start": 44.4,
+      "end": 45.828,
+      "duration": 1.428,
+      "words_count": 4,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D014",
+          "type": "draw",
+          "asset_id": "r3_03_booking_travel_months_ahead",
+          "start_s": 45.578,
+          "end_s": 48.033,
+          "duration_s": 2.455,
+          "trigger": "lead_in",
+          "anchor_text": "تعالج مرضى .",
+          "confidence": 0.95,
+          "layer_order": 13
+        }
+      ],
+      "sfx": []
+    },
+    {
+      "sentence_id": "s022",
+      "text": "تعالج مرضى .",
+      "start": 45.828,
+      "end": 46.872,
+      "duration": 1.044,
+      "words_count": 3,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D014",
+          "type": "draw",
+          "asset_id": "r3_03_booking_travel_months_ahead",
+          "start_s": 45.578,
+          "end_s": 48.033,
+          "duration_s": 2.455,
+          "trigger": "lead_in",
+          "anchor_text": "تعالج مرضى .",
+          "confidence": 0.95,
+          "layer_order": 13
+        }
+      ],
+      "sfx": []
+    },
+    {
+      "sentence_id": "s023",
+      "text": "أو تمسك مشاريع معقدة .",
+      "start": 46.872,
+      "end": 48.612,
+      "duration": 1.74,
+      "words_count": 5,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D015",
+          "type": "draw",
+          "asset_id": "r3_04_calling_pros_time_value",
+          "start_s": 48.169,
+          "end_s": 50.7,
+          "duration_s": 2.531,
+          "trigger": "lead_in",
+          "anchor_text": "وعندك تحكم أكبر في جدولك .",
+          "confidence": 0.95,
+          "layer_order": 14
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_011",
+          "type": "marker_draw",
+          "start_s": 48.169,
+          "end_s": 48.919,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r3_04_calling_pros_time_value"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s024",
+      "text": "وعندك تحكم أكبر في جدولك .",
+      "start": 48.612,
+      "end": 50.7,
+      "duration": 2.088,
+      "words_count": 6,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D015",
+          "type": "draw",
+          "asset_id": "r3_04_calling_pros_time_value",
+          "start_s": 48.169,
+          "end_s": 50.7,
+          "duration_s": 2.531,
+          "trigger": "lead_in",
+          "anchor_text": "وعندك تحكم أكبر في جدولك .",
+          "confidence": 0.95,
+          "layer_order": 14
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_011",
+          "type": "marker_draw",
+          "start_s": 48.169,
+          "end_s": 48.919,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r3_04_calling_pros_time_value"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s025",
+      "text": "بعض الأيام تشتغل من البيت .",
+      "start": 50.7,
+      "end": 52.84,
+      "duration": 2.14,
+      "words_count": 6,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D016",
+          "type": "draw",
+          "asset_id": "r3_05_lawn_care_regular_cleaning",
+          "start_s": 52.84,
+          "end_s": 55.114,
+          "duration_s": 2.274,
+          "trigger": "semantic",
+          "anchor_text": "والتأمين الصحي قوي، فتروح فحوص",
+          "confidence": 0.95,
+          "layer_order": 15
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_012",
+          "type": "marker_draw",
+          "start_s": 52.84,
+          "end_s": 53.59,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r3_05_lawn_care_regular_cleaning"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s026",
+      "text": "والتأمين الصحي قوي، فتروح فحوصاتك بشكل دوري وما تؤجل الأسنان إلى آخر لحظة .",
+      "start": 52.84,
+      "end": 57.5,
+      "duration": 4.66,
+      "words_count": 14,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D016",
+          "type": "draw",
+          "asset_id": "r3_05_lawn_care_regular_cleaning",
+          "start_s": 52.84,
+          "end_s": 55.114,
+          "duration_s": 2.274,
+          "trigger": "semantic",
+          "anchor_text": "والتأمين الصحي قوي، فتروح فحوص",
+          "confidence": 0.95,
+          "layer_order": 15
+        },
+        {
+          "id": "D017",
+          "type": "draw",
+          "asset_id": "r4_01_personal_trainer_gym",
+          "start_s": 56.4,
+          "end_s": 58.7,
+          "duration_s": 2.3,
+          "trigger": "lead_in",
+          "anchor_text": "مدخرات التقاعد تمشي تلقائياً .",
+          "confidence": 0.95,
+          "layer_order": 16
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_012",
+          "type": "marker_draw",
+          "start_s": 52.84,
+          "end_s": 53.59,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r3_05_lawn_care_regular_cleaning"
+        },
+        {
+          "id": "sfx_013",
+          "type": "marker_draw",
+          "start_s": 56.4,
+          "end_s": 57.15,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r4_01_personal_trainer_gym"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s027",
+      "text": "مدخرات التقاعد تمشي تلقائياً .",
+      "start": 57.5,
+      "end": 58.7,
+      "duration": 1.2,
+      "words_count": 5,
+      "pauses_count": 0,
+      "drawings": [],
+      "sfx": []
+    },
+    {
+      "sentence_id": "s028",
+      "text": "وتحجز رحلة قبلها بشهور، ويمكن تستخدم نقاط المكافآت لتخفف التكلفة .",
+      "start": 58.7,
+      "end": 62.94,
+      "duration": 4.24,
+      "words_count": 11,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D018",
+          "type": "draw",
+          "asset_id": "r4_02_kids_sports_and_lessons",
+          "start_s": 62.94,
+          "end_s": 65.547,
+          "duration_s": 2.607,
+          "trigger": "semantic",
+          "anchor_text": "إذا خرب شيء في البيت، تتصل بمح",
+          "confidence": 0.95,
+          "layer_order": 17
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_014",
+          "type": "marker_draw",
+          "start_s": 62.94,
+          "end_s": 63.69,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r4_02_kids_sports_and_lessons"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s029",
+      "text": "إذا خرب شيء في البيت، تتصل بمحترف .",
+      "start": 62.94,
+      "end": 65.76,
+      "duration": 2.82,
+      "words_count": 8,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D018",
+          "type": "draw",
+          "asset_id": "r4_02_kids_sports_and_lessons",
+          "start_s": 62.94,
+          "end_s": 65.547,
+          "duration_s": 2.607,
+          "trigger": "semantic",
+          "anchor_text": "إذا خرب شيء في البيت، تتصل بمح",
+          "confidence": 0.95,
+          "layer_order": 17
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_014",
+          "type": "marker_draw",
+          "start_s": 62.94,
+          "end_s": 63.69,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r4_02_kids_sports_and_lessons"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s030",
+      "text": "وقتك صار أغلى من إنك تقضيه في تجربة إصلاح كل شيء بنفسك .",
+      "start": 65.76,
+      "end": 69.22,
+      "duration": 3.46,
+      "words_count": 13,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D019",
+          "type": "draw",
+          "asset_id": "r4_03_evening_agenda_signing",
+          "start_s": 68.138,
+          "end_s": 70.49,
+          "duration_s": 2.352,
+          "trigger": "lead_in",
+          "anchor_text": "تدفع للعناية بالحديقة .",
+          "confidence": 0.95,
+          "layer_order": 18
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_015",
+          "type": "marker_draw",
+          "start_s": 68.138,
+          "end_s": 68.888,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r4_03_evening_agenda_signing"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s031",
+      "text": "تدفع للعناية بالحديقة .",
+      "start": 69.22,
+      "end": 70.49,
+      "duration": 1.27,
+      "words_count": 4,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D020",
+          "type": "draw",
+          "asset_id": "r4_04_online_gift_charity",
+          "start_s": 70.24,
+          "end_s": 72.592,
+          "duration_s": 2.352,
+          "trigger": "lead_in",
+          "anchor_text": "وعاملة نظافة تزورك بانتظام .",
+          "confidence": 0.95,
+          "layer_order": 19
+        }
+      ],
+      "sfx": []
+    },
+    {
+      "sentence_id": "s032",
+      "text": "وعاملة نظافة تزورك بانتظام .",
+      "start": 70.49,
+      "end": 72.08,
+      "duration": 1.59,
+      "words_count": 5,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D020",
+          "type": "draw",
+          "asset_id": "r4_04_online_gift_charity",
+          "start_s": 70.24,
+          "end_s": 72.592,
+          "duration_s": 2.352,
+          "trigger": "lead_in",
+          "anchor_text": "وعاملة نظافة تزورك بانتظام .",
+          "confidence": 0.95,
+          "layer_order": 19
+        }
+      ],
+      "sfx": []
+    },
+    {
+      "sentence_id": "s033",
+      "text": "بعد الدوام ممكن تروح جيم مع مدرب، أو تاخذ كلاس .",
+      "start": 72.08,
+      "end": 76.42,
+      "duration": 4.34,
+      "words_count": 11,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D021",
+          "type": "draw",
+          "asset_id": "r4_05_secure_future_thinking",
+          "start_s": 75.734,
+          "end_s": 78.06,
+          "duration_s": 2.326,
+          "trigger": "lead_in",
+          "anchor_text": "العيال عندهم دروس ورياضة .",
+          "confidence": 0.95,
+          "layer_order": 20
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_016",
+          "type": "marker_draw",
+          "start_s": 75.734,
+          "end_s": 76.484,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r4_05_secure_future_thinking"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s034",
+      "text": "العيال عندهم دروس ورياضة .",
+      "start": 76.42,
+      "end": 78.06,
+      "duration": 1.64,
+      "words_count": 5,
+      "pauses_count": 0,
+      "drawings": [],
+      "sfx": []
+    },
+    {
+      "sentence_id": "s035",
+      "text": "وأنت تقدر على الرسوم والمعدات .",
+      "start": 78.06,
+      "end": 79.2,
+      "duration": 1.14,
+      "words_count": 4,
+      "pauses_count": 0,
+      "drawings": [],
+      "sfx": []
+    }
+  ]
+}

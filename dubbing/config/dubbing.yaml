@@ -1,0 +1,44 @@
+# AI Audio Dubbing Engine Configuration
+# ======================================
+
+# ASR (Automatic Speech Recognition)
+asr:
+  model_size: "small"  # tiny, base, small, medium, large-v3
+  compute_type: "int8"  # int8, float16, float32
+  device: "auto"  # auto, cpu, cuda
+
+# Translation
+translation:
+  provider: "gemini"  # gemini, openai, google, local
+  model: "gemini-3.8-flash"
+  batch_size: 40
+
+# TTS (Text-to-Speech)
+tts:
+  provider: "gemini"  # gemini, openai, edge, elevenlabs
+  model: "gemini-3.1-flash-tts-preview"
+  voice: "Fenrir"
+  profile: "YOUTH_CREATOR"
+  director_note: "DYNAMIC_WHITEBOARD_SWEETSPOT"
+
+# Duration Matching
+duration_matching:
+  enabled: true
+  max_speed: 1.15
+  min_speed: 0.90
+  max_duration_error: 0.20  # seconds
+
+# Audio Output
+audio:
+  sample_rate: 48000
+  channels: 2
+
+# Progress
+progress:
+  enabled: true
+  show_percentage: true
+
+# Caching
+caching:
+  enabled: true
+  cache_dir: "dubbing_cache"

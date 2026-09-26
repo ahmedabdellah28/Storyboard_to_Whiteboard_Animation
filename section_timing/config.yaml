@@ -1,0 +1,38 @@
+whisper:
+  model: small
+  language: ar
+  device: auto
+  compute_type: auto
+  word_timestamps: true
+  vad_filter: true
+  temperature: 0.0
+
+pauses:
+  min_pause_s: 0.12
+  short_pause_s: 0.35
+  medium_pause_s: 0.70
+  long_pause_s: 1.20
+
+drawing:
+  min_duration_s: 0.40
+  max_duration_s: 3.20
+  default_demand: 0.50
+  pen_velocity_px_s: 750.0
+
+solver:
+  max_lead_in_s: 0.45
+  max_lag_s: 0.30
+  pause_utilization: 0.85
+  allow_overlap: true
+  max_overlap_s: 0.25
+
+sfx:
+  enabled: true
+  default_draw_sfx: marker_draw
+  reveal_sfx: pop
+  transition_sfx: whoosh
+
+camera:
+  enabled: true
+  default_pan_dur_s: 1.2
+  default_zoom_dur_s: 0.8

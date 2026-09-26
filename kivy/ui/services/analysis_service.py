@@ -4,7 +4,7 @@ Analysis Workflow Service — Orchestrates Background Image Processing & Composi
 import time
 import traceback
 from threading import Thread
-from typing import Callable, Optional
+from typing import Callable, Optional, List, Dict, Any
 import cv2
 import numpy as np
 
@@ -39,15 +39,16 @@ class AnalysisWorkflowService:
         config: SceneConfig,
         progress_callback: Callable[[float, str], None],
         on_success_callback: Callable[[str, np.ndarray, Project], None],
-        on_error_callback: Callable[[str], None]
+        on_error_callback: Callable[[str], None],
+        custom_panels: Optional[List[Dict[str, Any]]] = None
     ):
         """Starts asynchronous composition analysis in a background daemon thread."""
         if self._is_running:
             print("[AnalysisWorkflowService] Job already in progress, skipping duplicate launch.")
             return
 
+        self._is_running = True
         def _worker():
-            self._is_running = True
             try:
                 img = read_image_unicode(image_path)
                 if img is None:
@@ -61,7 +62,7 @@ class AnalysisWorkflowService:
                         last_report[0] = now
                         progress_callback(pct, stage)
 
-                project = ImageProcessor.process(img, config, progress_cb=_throttled_progress)
+                project = ImageProcessor.process(img, config, progress_cb=_throttled_progress, custom_panels=custom_panels)
                 on_success_callback(image_path, img, project)
 
             except Exception as e:

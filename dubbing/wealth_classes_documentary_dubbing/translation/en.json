@@ -1,0 +1,5319 @@
+[
+  {
+    "id": 0,
+    "source": {
+      "id": 0,
+      "start": 0.12,
+      "end": 4.44,
+      "text": "تخيل تصحى قبل الفجر مو عشان دوام ولا عشان رحلة ولا حتى عشان تلحك النادي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Imagine waking up before dawn, not for work, not for a trip, nor even to hit the gym."
+    }
+  },
+  {
+    "id": 1,
+    "source": {
+      "id": 1,
+      "start": 4.44,
+      "end": 8.68,
+      "text": "تصحى لأن الشارع بدأ يصحى وانت لازم تلجى مكان آمن قبل ما تبدى الزحمة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You wake up because the street is starting to wake up, and you need to find a safe place before the rush begins."
+    }
+  },
+  {
+    "id": 2,
+    "source": {
+      "id": 2,
+      "start": 8.68,
+      "end": 11.56,
+      "text": "الآن تخيل نفس الصباح لكن في بيت صغير"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Now imagine the same morning, but in a small house."
+    }
+  },
+  {
+    "id": 3,
+    "source": {
+      "id": 3,
+      "start": 11.56,
+      "end": 17.64,
+      "text": "وبعدها شجم رتبة وبعدها بيت مريح وبعدها فلا وبعدها بيت عندك في فريق كامل يدير تفاصيل يومك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And then a few levels up, a comfortable house, then a villa, and then a house where you have a full team managing the details of your day."
+    }
+  },
+  {
+    "id": 4,
+    "source": {
+      "id": 4,
+      "start": 17.64,
+      "end": 23.86,
+      "text": "نفس اليوم نفس 24 ساعة لكن كل مستوى مادة يغير طريقة استخدامك للوقت والمال والصحى"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The same day, the same 24 hours, but every financial level changes how you use your time, money, and health."
+    }
+  },
+  {
+    "id": 5,
+    "source": {
+      "id": 5,
+      "start": 23.86,
+      "end": 26.34,
+      "text": "وحتى عدد المشاكل اللي تحتاج تفكر فيها بنفسك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And even the number of problems you need to think about yourself."
+    }
+  },
+  {
+    "id": 6,
+    "source": {
+      "id": 6,
+      "start": 26.5,
+      "end": 31.3,
+      "text": "اليوم بنعيش يوم كامل من الشخص اللي ما عندما اقوى الى الشخص اللي يملك ثروة بالمليارات"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Today we will live a full day, from the person who has no shelter to the person who owns a fortune in the billions."
+    }
+  },
+  {
+    "id": 7,
+    "source": {
+      "id": 7,
+      "start": 31.3,
+      "end": 36.82,
+      "text": "والسؤال الحقيقي مو من عنده فلوس أكثر السؤال كيف تتغير الحياة نفسها لما يتغير مستوى المادي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And the real question isn't who has more money. The question is how life itself changes when the financial level changes."
+    }
+  },
+  {
+    "id": 8,
+    "source": {
+      "id": 8,
+      "start": 36.82,
+      "end": 42.49,
+      "text": "بلا مقوى تصحى قبل الفجر لأن الشارع يصير مزعج مع بداية تحركة المدينة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Without shelter: You wake up before dawn because the street gets noisy as the city starts moving."
+    }
+  },
+  {
+    "id": 9,
+    "source": {
+      "id": 9,
+      "start": 42.49,
+      "end": 48.09,
+      "text": "جسمك مكسر ومتصلب من النوم على صبة أو كرسة حديقة أو فرشة في ملجأ"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Your body is aching and stiff from sleeping on concrete, a park bench, or a mattress in a shelter."
+    }
+  },
+  {
+    "id": 10,
+    "source": {
+      "id": 10,
+      "start": 48.09,
+      "end": 53.72,
+      "text": "اول شي تسوي تشيك على اغراضك الجليلة وتتأكد ان ما انصرك منك شي في الليل"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The first thing you do is check your few belongings and make sure nothing was stolen from you in the night."
+    }
+  },
+  {
+    "id": 11,
+    "source": {
+      "id": 11,
+      "start": 53.9,
+      "end": 56.3,
+      "text": "إذا عندك جوال غالبا يكون جديم"
+    },
+    "translation": {
+      "language": "en",
+      "text": "If you have a phone, it's usually old."
+    }
+  },
+  {
+    "id": 12,
+    "source": {
+      "id": 12,
+      "start": 56.3,
+      "end": 58.7,
+      "text": "الشاشة مكسورة والبطارية تفصل بسرعة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The screen is cracked, and the battery dies quickly."
+    }
+  },
+  {
+    "id": 13,
+    "source": {
+      "id": 13,
+      "start": 58.7,
+      "end": 63.66,
+      "text": "فالدور على ويفاي مجاني كأنك الدور كنز والشاحن مشكلة ثانية الحالها"
+    },
+    "translation": {
+      "language": "en",
+      "text": "So you look for free Wi-Fi as if you're looking for treasure, and charging is another problem in itself."
+    }
+  },
+  {
+    "id": 14,
+    "source": {
+      "id": 14,
+      "start": 63.66,
+      "end": 66.3,
+      "text": "بعدها أول هدف حمام وموايا"
+    },
+    "translation": {
+      "language": "en",
+      "text": "After that, the first goal is a bathroom and water."
+    }
+  },
+  {
+    "id": 15,
+    "source": {
+      "id": 15,
+      "start": 66.3,
+      "end": 71.58,
+      "text": "تروح مطعم محطة مكتبة أو حديقة عامة وتتمنى ان الموظفين ما يتردونك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You go to a restaurant, a gas station, a library, or a public park, hoping the staff won't kick you out."
+    }
+  },
+  {
+    "id": 16,
+    "source": {
+      "id": 16,
+      "start": 71.58,
+      "end": 75.18,
+      "text": "إذا لجيت مكان تقدر تستخدم فيها الحمام تدخل بسرعة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "If you find a place where you can use the bathroom, you go in quickly."
+    }
+  },
+  {
+    "id": 17,
+    "source": {
+      "id": 17,
+      "start": 75.18,
+      "end": 79.7,
+      "text": "تغس الوجحك وجسمك بأبسط طريقة ممكنة وتحاول ترتب نفسك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You wash your face and body in the simplest way possible and try to groom yourself."
+    }
+  },
+  {
+    "id": 18,
+    "source": {
+      "id": 18,
+      "start": 79.78,
+      "end": 81.78,
+      "text": "الملابس النظيفة هنا مو شي عادي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Clean clothes here aren't a normal thing."
+    }
+  },
+  {
+    "id": 19,
+    "source": {
+      "id": 19,
+      "start": 81.78,
+      "end": 84.46,
+      "text": "الملابس النظيفة عملا نادرة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Clean clothes are a rare currency."
+    }
+  },
+  {
+    "id": 20,
+    "source": {
+      "id": 20,
+      "start": 84.46,
+      "end": 88.7,
+      "text": "بعدها يجي الأكل تدور على فطور مجاني في جمعية خيرية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Then comes food; you look for a free breakfast at a charity."
+    }
+  },
+  {
+    "id": 21,
+    "source": {
+      "id": 21,
+      "start": 88.7,
+      "end": 92.38,
+      "text": "أو أرخص وجبة تقدر تشتريها بالدولارات القليلة اللي معك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or the cheapest meal you can buy with the few dollars you have."
+    }
+  },
+  {
+    "id": 22,
+    "source": {
+      "id": 22,
+      "start": 92.38,
+      "end": 95.66,
+      "text": "وإذا عندك بطاقة التموين تشتري مجاضي بسيطة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And if you have a food stamp card, you buy simple groceries."
+    }
+  },
+  {
+    "id": 23,
+    "source": {
+      "id": 23,
+      "start": 95.66,
+      "end": 97.02,
+      "text": "لكن عندك مشكلة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "But you have a problem."
+    }
+  },
+  {
+    "id": 24,
+    "source": {
+      "id": 24,
+      "start": 97.02,
+      "end": 98.47,
+      "text": "انت ما تملك مطبخ"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You don't own a kitchen."
+    }
+  },
+  {
+    "id": 25,
+    "source": {
+      "id": 25,
+      "start": 98.47,
+      "end": 100.71,
+      "text": "فتاكل اللي تقدر تشيلة معك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "So you eat what you can carry with you."
+    }
+  },
+  {
+    "id": 26,
+    "source": {
+      "id": 26,
+      "start": 100.71,
+      "end": 103.02,
+      "text": "الجوع دائما قلب"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Hunger is always close by."
+    }
+  },
+  {
+    "id": 27,
+    "source": {
+      "id": 27,
+      "start": 103.02,
+      "end": 105.66,
+      "text": "حتى خطة يومك ما تنبني على الراحة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Even your plan for the day isn't built on rest."
+    }
+  },
+  {
+    "id": 28,
+    "source": {
+      "id": 28,
+      "start": 105.66,
+      "end": 109.66,
+      "text": "تنبني على الأمان والجو والأماكن اللي تقدر تجلس فيها"
+    },
+    "translation": {
+      "language": "en",
+      "text": "It's built on safety, the weather, and places you can sit in."
+    }
+  },
+  {
+    "id": 29,
+    "source": {
+      "id": 29,
+      "start": 109.66,
+      "end": 111.11,
+      "text": "بدون ما أحد يتردك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Without anyone kicking you out."
+    }
+  },
+  {
+    "id": 30,
+    "source": {
+      "id": 30,
+      "start": 111.11,
+      "end": 112.55,
+      "text": "المكتب العامة بالنسبة لك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The public library, for you, is..."
+    }
+  },
+  {
+    "id": 31,
+    "source": {
+      "id": 31,
+      "start": 112.55,
+      "end": 113.27,
+      "text": "كنز"
+    },
+    "translation": {
+      "language": "en",
+      "text": "A treasure."
+    }
+  },
+  {
+    "id": 32,
+    "source": {
+      "id": 32,
+      "start": 113.27,
+      "end": 114.07,
+      "text": "كيرسي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "A chair."
+    }
+  },
+  {
+    "id": 33,
+    "source": {
+      "id": 33,
+      "start": 114.07,
+      "end": 114.95,
+      "text": "ويفاي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Wi-Fi."
+    }
+  },
+  {
+    "id": 34,
+    "source": {
+      "id": 34,
+      "start": 114.95,
+      "end": 115.83,
+      "text": "فيش كهربا"
+    },
+    "translation": {
+      "language": "en",
+      "text": "A power outlet."
+    }
+  },
+  {
+    "id": 35,
+    "source": {
+      "id": 35,
+      "start": 115.83,
+      "end": 117.93,
+      "text": "ومكان تقدر فيه الدور على الشغل"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And a place where you can look for work."
+    }
+  },
+  {
+    "id": 36,
+    "source": {
+      "id": 36,
+      "start": 117.93,
+      "end": 119.21,
+      "text": "حتى لو كنت تسول"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Even if you're begging."
+    }
+  },
+  {
+    "id": 37,
+    "source": {
+      "id": 37,
+      "start": 119.21,
+      "end": 121.29,
+      "text": "تختار زاوية فيها حركة ناس"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You pick a corner with foot traffic."
+    }
+  },
+  {
+    "id": 38,
+    "source": {
+      "id": 38,
+      "start": 121.29,
+      "end": 122.97,
+      "text": "لكن بعيد عن المشاكل"
+    },
+    "translation": {
+      "language": "en",
+      "text": "But far from trouble."
+    }
+  },
+  {
+    "id": 39,
+    "source": {
+      "id": 39,
+      "start": 122.97,
+      "end": 125.05,
+      "text": "الفلوس الجليلة تجمع ببطأ"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The little money accumulates slowly."
+    }
+  },
+  {
+    "id": 40,
+    "source": {
+      "id": 40,
+      "start": 125.05,
+      "end": 126.73,
+      "text": "وأحيانا نيمور يوم كامل"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And sometimes a whole day passes."
+    }
+  },
+  {
+    "id": 41,
+    "source": {
+      "id": 41,
+      "start": 126.73,
+      "end": 128.3,
+      "text": "وما يجيك ولا شي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you get nothing at all."
+    }
+  },
+  {
+    "id": 42,
+    "source": {
+      "id": 42,
+      "start": 128.3,
+      "end": 129.82,
+      "text": "ثم تجي المشكلة الأكبر"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Then comes the biggest problem."
+    }
+  },
+  {
+    "id": 43,
+    "source": {
+      "id": 43,
+      "start": 129.82,
+      "end": 131.27,
+      "text": "الأوراق الرسمية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Official papers."
+    }
+  },
+  {
+    "id": 44,
+    "source": {
+      "id": 44,
+      "start": 131.27,
+      "end": 132.31,
+      "text": "مع عندك هوية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You don't have an ID."
+    }
+  },
+  {
+    "id": 45,
+    "source": {
+      "id": 45,
+      "start": 132.31,
+      "end": 135.11,
+      "text": "يصير الوصول إلى وظيفة أو سكن أو مساعدات"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Accessing a job, housing, or aid becomes..."
+    }
+  },
+  {
+    "id": 46,
+    "source": {
+      "id": 46,
+      "start": 135.11,
+      "end": 136.23,
+      "text": "أصعب بكثير"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Much harder."
+    }
+  },
+  {
+    "id": 47,
+    "source": {
+      "id": 47,
+      "start": 136.23,
+      "end": 137.31,
+      "text": "تبي تطلح هوية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You want to get an ID?"
+    }
+  },
+  {
+    "id": 48,
+    "source": {
+      "id": 48,
+      "start": 137.39,
+      "end": 138.19,
+      "text": "تحتاج وقت"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You need time."
+    }
+  },
+  {
+    "id": 49,
+    "source": {
+      "id": 49,
+      "start": 138.19,
+      "end": 138.83,
+      "text": "ورسوم"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And fees."
+    }
+  },
+  {
+    "id": 50,
+    "source": {
+      "id": 50,
+      "start": 138.83,
+      "end": 139.71,
+      "text": "وإجراءات"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And procedures."
+    }
+  },
+  {
+    "id": 51,
+    "source": {
+      "id": 51,
+      "start": 139.71,
+      "end": 140.95,
+      "text": "وأحيانا عنوان"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And sometimes an address."
+    }
+  },
+  {
+    "id": 52,
+    "source": {
+      "id": 52,
+      "start": 140.95,
+      "end": 142.67,
+      "text": "وانت أصلا ما عندك عنوان"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you don't even have an address."
+    }
+  },
+  {
+    "id": 53,
+    "source": {
+      "id": 53,
+      "start": 142.67,
+      "end": 144.37,
+      "text": "الصحة بعد موضوع ثاني"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Health is another issue entirely."
+    }
+  },
+  {
+    "id": 54,
+    "source": {
+      "id": 54,
+      "start": 144.37,
+      "end": 146.73,
+      "text": "ممكن كن زيارتك للطوارع هي الحل الوحيد"
+    },
+    "translation": {
+      "language": "en",
+      "text": "A visit to the ER might be your only solution."
+    }
+  },
+  {
+    "id": 55,
+    "source": {
+      "id": 55,
+      "start": 146.73,
+      "end": 148.69,
+      "text": "أو تنتظر عيادة مجانية ساعات"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or you wait at a free clinic for hours."
+    }
+  },
+  {
+    "id": 56,
+    "source": {
+      "id": 56,
+      "start": 148.69,
+      "end": 150.25,
+      "text": "حتى الأدوية تحتاج تحفظها"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Even medications, you need to store them."
+    }
+  },
+  {
+    "id": 57,
+    "source": {
+      "id": 57,
+      "start": 150.25,
+      "end": 151.69,
+      "text": "والنوم نفسة صعب تحفظها"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And sleep itself is hard to secure."
+    }
+  },
+  {
+    "id": 58,
+    "source": {
+      "id": 58,
+      "start": 151.69,
+      "end": 153.61,
+      "text": "وبالليل تبدأ نفس الدائرة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And at night, the same cycle begins."
+    }
+  },
+  {
+    "id": 59,
+    "source": {
+      "id": 59,
+      "start": 153.61,
+      "end": 154.73,
+      "text": "وين تنام"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Where to sleep?"
+    }
+  },
+  {
+    "id": 60,
+    "source": {
+      "id": 60,
+      "start": 154.73,
+      "end": 156.73,
+      "text": "الملجأ لها قوانين وطوابير"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Shelters have rules and lines."
+    }
+  },
+  {
+    "id": 61,
+    "source": {
+      "id": 61,
+      "start": 156.73,
+      "end": 158.67,
+      "text": "والشارع فيه ضوضاء وخطر"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And the street is noisy and dangerous."
+    }
+  },
+  {
+    "id": 62,
+    "source": {
+      "id": 62,
+      "start": 158.67,
+      "end": 160.91,
+      "text": "تخبي أغراضك الثمين داخل ملابسك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You hide your valuables inside your clothes."
+    }
+  },
+  {
+    "id": 63,
+    "source": {
+      "id": 63,
+      "start": 160.91,
+      "end": 162.55,
+      "text": "وتنام نوم خفيف"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you sleep lightly."
+    }
+  },
+  {
+    "id": 64,
+    "source": {
+      "id": 64,
+      "start": 162.55,
+      "end": 163.48,
+      "text": "وبكرة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And tomorrow."
+    }
+  },
+  {
+    "id": 65,
+    "source": {
+      "id": 65,
+      "start": 163.48,
+      "end": 164.68,
+      "text": "الصبحي جي بدري"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Morning comes early."
+    }
+  },
+  {
+    "id": 66,
+    "source": {
+      "id": 66,
+      "start": 164.68,
+      "end": 166.2,
+      "text": "وتعيد نفس الدوامة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you repeat the same routine."
+    }
+  },
+  {
+    "id": 67,
+    "source": {
+      "id": 67,
+      "start": 166.2,
+      "end": 166.84,
+      "text": "مويا"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Water."
+    }
+  },
+  {
+    "id": 68,
+    "source": {
+      "id": 68,
+      "start": 166.84,
+      "end": 167.4,
+      "text": "أكل"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Food."
+    }
+  },
+  {
+    "id": 69,
+    "source": {
+      "id": 69,
+      "start": 167.4,
+      "end": 167.84,
+      "text": "أمن"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Safety."
+    }
+  },
+  {
+    "id": 70,
+    "source": {
+      "id": 70,
+      "start": 167.84,
+      "end": 170.83,
+      "text": "وخطت كمل فيها يوم واحد زيادة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And a plan to survive just one more day."
+    }
+  },
+  {
+    "id": 71,
+    "source": {
+      "id": 71,
+      "start": 170.83,
+      "end": 172.4,
+      "text": "الطبقة الثانية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The Second Class."
+    }
+  },
+  {
+    "id": 72,
+    "source": {
+      "id": 72,
+      "start": 172.4,
+      "end": 175.29,
+      "text": "الفقر المدقعة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Extreme Poverty."
+    }
+  },
+  {
+    "id": 73,
+    "source": {
+      "id": 73,
+      "start": 175.29,
+      "end": 176.65,
+      "text": "هنا عندك سقف"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Here, you have a roof."
+    }
+  },
+  {
+    "id": 74,
+    "source": {
+      "id": 74,
+      "start": 176.65,
+      "end": 179.17,
+      "text": "لكنه بالكادي يعتبر أمانا"
+    },
+    "translation": {
+      "language": "en",
+      "text": "But it barely counts as safety."
+    }
+  },
+  {
+    "id": 75,
+    "source": {
+      "id": 75,
+      "start": 179.17,
+      "end": 180.89,
+      "text": "ممكن تصح في غرفة صغيرة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You might wake up in a small room."
+    }
+  },
+  {
+    "id": 76,
+    "source": {
+      "id": 76,
+      "start": 180.89,
+      "end": 182.49,
+      "text": "مستأجرة بالأسبوع"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Rented by the week."
+    }
+  },
+  {
+    "id": 77,
+    "source": {
+      "id": 77,
+      "start": 182.49,
+      "end": 183.89,
+      "text": "أو شقة زحمات شاركها"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or a crowded apartment you share."
+    }
+  },
+  {
+    "id": 78,
+    "source": {
+      "id": 78,
+      "start": 183.89,
+      "end": 185.01,
+      "text": "مع أكثر من شخص"
+    },
+    "translation": {
+      "language": "en",
+      "text": "With more than one person."
+    }
+  },
+  {
+    "id": 79,
+    "source": {
+      "id": 79,
+      "start": 185.01,
+      "end": 186.71,
+      "text": "عشان تأسم الإجار"
+    },
+    "translation": {
+      "language": "en",
+      "text": "To split the rent."
+    }
+  },
+  {
+    "id": 80,
+    "source": {
+      "id": 80,
+      "start": 186.71,
+      "end": 188.31,
+      "text": "من اتبع الأرض وأحيانا المكيف"
+    },
+    "translation": {
+      "language": "en",
+      "text": "A mattress on the floor, and sometimes the AC."
+    }
+  },
+  {
+    "id": 81,
+    "source": {
+      "id": 81,
+      "start": 188.31,
+      "end": 189.47,
+      "text": "أو الدفرية خربانة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or the heater is broken."
+    }
+  },
+  {
+    "id": 82,
+    "source": {
+      "id": 82,
+      "start": 189.47,
+      "end": 191.27,
+      "text": "أول شيئك على جوالك مسبق الدفع"
+    },
+    "translation": {
+      "language": "en",
+      "text": "First, you check your prepaid phone."
+    }
+  },
+  {
+    "id": 83,
+    "source": {
+      "id": 83,
+      "start": 191.27,
+      "end": 192.51,
+      "text": "هل الخدمة لسا شغالة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Is the service still active?"
+    }
+  },
+  {
+    "id": 84,
+    "source": {
+      "id": 84,
+      "start": 192.59,
+      "end": 194.83,
+      "text": "بعدها تتذكر الباصة اللي باقي في محفظتك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Then you remember the transit pass left in your wallet."
+    }
+  },
+  {
+    "id": 85,
+    "source": {
+      "id": 85,
+      "start": 194.83,
+      "end": 196.59,
+      "text": "وتبدأ تخطط يومك حول الفلوس"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you start planning your day around money."
+    }
+  },
+  {
+    "id": 86,
+    "source": {
+      "id": 86,
+      "start": 196.59,
+      "end": 197.47,
+      "text": "الفطور أساسي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Breakfast is basic."
+    }
+  },
+  {
+    "id": 87,
+    "source": {
+      "id": 87,
+      "start": 197.47,
+      "end": 198.03,
+      "text": "شوفان"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Oats."
+    }
+  },
+  {
+    "id": 88,
+    "source": {
+      "id": 88,
+      "start": 198.03,
+      "end": 198.43,
+      "text": "بيت"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Eggs."
+    }
+  },
+  {
+    "id": 89,
+    "source": {
+      "id": 89,
+      "start": 198.43,
+      "end": 198.75,
+      "text": "توس"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Toast."
+    }
+  },
+  {
+    "id": 90,
+    "source": {
+      "id": 90,
+      "start": 198.75,
+      "end": 199.67,
+      "text": "مقار بسيطة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Simple groceries."
+    }
+  },
+  {
+    "id": 91,
+    "source": {
+      "id": 91,
+      "start": 199.67,
+      "end": 200.59,
+      "text": "تستفلم كوبونات"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You use coupons."
+    }
+  },
+  {
+    "id": 92,
+    "source": {
+      "id": 92,
+      "start": 200.59,
+      "end": 201.47,
+      "text": "وبطاقات التموين"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And food stamps."
+    }
+  },
+  {
+    "id": 93,
+    "source": {
+      "id": 93,
+      "start": 201.47,
+      "end": 202.91,
+      "text": "وموعيد الجمعيات الخيرية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And charity schedules."
+    }
+  },
+  {
+    "id": 94,
+    "source": {
+      "id": 94,
+      "start": 202.91,
+      "end": 203.87,
+      "text": "كل شيء محسوب"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Everything is calculated."
+    }
+  },
+  {
+    "id": 95,
+    "source": {
+      "id": 95,
+      "start": 203.87,
+      "end": 205.25,
+      "text": "وإذا عندك أطفال"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And if you have kids."
+    }
+  },
+  {
+    "id": 96,
+    "source": {
+      "id": 96,
+      "start": 205.25,
+      "end": 207.45,
+      "text": "ممكن يهتمت جزء من أكلهم على وجبات المدرسة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "A part of their diet might rely on school meals."
+    }
+  },
+  {
+    "id": 97,
+    "source": {
+      "id": 97,
+      "start": 207.45,
+      "end": 208.89,
+      "text": "وانت جهز لهموا سناك من البيت"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you prepare a snack for them from home."
+    }
+  },
+  {
+    "id": 98,
+    "source": {
+      "id": 98,
+      "start": 208.89,
+      "end": 210.17,
+      "text": "لأن كل ريال يفرج"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Because every riyal makes a difference."
+    }
+  },
+  {
+    "id": 99,
+    "source": {
+      "id": 99,
+      "start": 210.17,
+      "end": 211.57,
+      "text": "المشوار للدوام ياخد وقت"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The commute to work takes time."
+    }
+  },
+  {
+    "id": 100,
+    "source": {
+      "id": 100,
+      "start": 211.57,
+      "end": 213.38,
+      "text": "تنتظر باصي تأخر"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You wait for a bus that's late."
+    }
+  },
+  {
+    "id": 101,
+    "source": {
+      "id": 101,
+      "start": 213.38,
+      "end": 214.62,
+      "text": "أو تسوق سيارة متهالكة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or you drive a beat-up car."
+    }
+  },
+  {
+    "id": 102,
+    "source": {
+      "id": 102,
+      "start": 214.62,
+      "end": 215.78,
+      "text": "ولمبة المكينة فيها شغالة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "With the check engine light on."
+    }
+  },
+  {
+    "id": 103,
+    "source": {
+      "id": 103,
+      "start": 215.78,
+      "end": 217.42,
+      "text": "وانت تقول بعدينة صلحة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you say, \"I'll fix it later.\""
+    }
+  },
+  {
+    "id": 104,
+    "source": {
+      "id": 104,
+      "start": 217.42,
+      "end": 218.62,
+      "text": "ساعد دوامك ممكن تدغير"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Your work hours might change."
+    }
+  },
+  {
+    "id": 105,
+    "source": {
+      "id": 105,
+      "start": 218.62,
+      "end": 220.02,
+      "text": "كل أسبوع يوم يطلبونك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Every week, one day they call you in."
+    }
+  },
+  {
+    "id": 106,
+    "source": {
+      "id": 106,
+      "start": 220.02,
+      "end": 221.51,
+      "text": "ويوم ما يطلبونك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And another day they don't."
+    }
+  },
+  {
+    "id": 107,
+    "source": {
+      "id": 107,
+      "start": 221.51,
+      "end": 223.11,
+      "text": "ولهذا تقول نعم لأي شفة إضافة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "That's why you say yes to any extra shift."
+    }
+  },
+  {
+    "id": 108,
+    "source": {
+      "id": 108,
+      "start": 223.11,
+      "end": 224.35,
+      "text": "أو شغل يوم يتقدر عليه"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or a day job you can manage."
+    }
+  },
+  {
+    "id": 109,
+    "source": {
+      "id": 109,
+      "start": 224.35,
+      "end": 225.87,
+      "text": "ما تقدر تخاطر وتقول لأ"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You can't risk saying no."
+    }
+  },
+  {
+    "id": 110,
+    "source": {
+      "id": 110,
+      "start": 225.87,
+      "end": 227.15,
+      "text": "الإكراميات والأورتايم"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Tips and overtime."
+    }
+  },
+  {
+    "id": 111,
+    "source": {
+      "id": 111,
+      "start": 227.15,
+      "end": 228.27,
+      "text": "هنا مورفا هي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Here, they aren't a luxury."
+    }
+  },
+  {
+    "id": 112,
+    "source": {
+      "id": 112,
+      "start": 228.27,
+      "end": 230.46,
+      "text": "أحيانا هيل يتخلي الكارب شغال"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Sometimes they are what keeps the electricity on."
+    }
+  },
+  {
+    "id": 113,
+    "source": {
+      "id": 113,
+      "start": 230.46,
+      "end": 231.26,
+      "text": "الفواتير نفسها"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The bills themselves."
+    }
+  },
+  {
+    "id": 114,
+    "source": {
+      "id": 114,
+      "start": 231.26,
+      "end": 232.58,
+      "text": "سارت لوظة حلك الشهر"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Have become a puzzle to solve every month."
+    }
+  },
+  {
+    "id": 115,
+    "source": {
+      "id": 115,
+      "start": 232.58,
+      "end": 233.1,
+      "text": "الإجار لها"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Rent is due."
+    }
+  },
+  {
+    "id": 116,
+    "source": {
+      "id": 116,
+      "start": 233.1,
+      "end": 234.22,
+      "text": "مععد الكهربا متأخر"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The electric bill is past due."
+    }
+  },
+  {
+    "id": 117,
+    "source": {
+      "id": 117,
+      "start": 234.22,
+      "end": 235.62,
+      "text": "والفتورة الثانية تنتظر"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And the other bill is waiting."
+    }
+  },
+  {
+    "id": 118,
+    "source": {
+      "id": 118,
+      "start": 235.62,
+      "end": 237.14,
+      "text": "تختار أي غرامة وجه عقل"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You choose which late fee is less painful."
+    }
+  },
+  {
+    "id": 119,
+    "source": {
+      "id": 119,
+      "start": 237.14,
+      "end": 239.18,
+      "text": "تطريق تدفع تفكر فيها"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The way you pay is something you think about."
+    }
+  },
+  {
+    "id": 120,
+    "source": {
+      "id": 120,
+      "start": 239.18,
+      "end": 240.14,
+      "text": "تشتري حوالة مالية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You buy a money order."
+    }
+  },
+  {
+    "id": 121,
+    "source": {
+      "id": 121,
+      "start": 240.14,
+      "end": 241.82,
+      "text": "لأنك تتجنب رسوم البنك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Because you're avoiding bank fees."
+    }
+  },
+  {
+    "id": 122,
+    "source": {
+      "id": 122,
+      "start": 241.82,
+      "end": 243.71,
+      "text": "ولو راقما تخلص الصحة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And the paperwork never ends. Health."
+    }
+  },
+  {
+    "id": 123,
+    "source": {
+      "id": 123,
+      "start": 243.71,
+      "end": 245.15,
+      "text": "ما وعد عيادة بعد سبيع"
+    },
+    "translation": {
+      "language": "en",
+      "text": "A clinic appointment is weeks away."
+    }
+  },
+  {
+    "id": 124,
+    "source": {
+      "id": 124,
+      "start": 245.15,
+      "end": 247.7,
+      "text": "أو طوارق لما الألم يصير أقوة من الانتظار"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or the ER when the pain gets stronger than the wait."
+    }
+  },
+  {
+    "id": 125,
+    "source": {
+      "id": 125,
+      "start": 247.7,
+      "end": 249.98,
+      "text": "والتأمين إذا موجود"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And insurance, if it exists..."
+    }
+  },
+  {
+    "id": 126,
+    "source": {
+      "id": 126,
+      "start": 249.98,
+      "end": 252.06,
+      "text": "ممكن يكون محدود أو عالي التحمل"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Might be limited or have a high deductible."
+    }
+  },
+  {
+    "id": 127,
+    "source": {
+      "id": 127,
+      "start": 252.06,
+      "end": 253.78,
+      "text": "حتى إصلاح الأسنان يتأجل"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Even fixing your teeth gets postponed."
+    }
+  },
+  {
+    "id": 128,
+    "source": {
+      "id": 128,
+      "start": 253.78,
+      "end": 255.14,
+      "text": "لأن عندك أشياء أهم"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Because you have more important things."
+    }
+  },
+  {
+    "id": 129,
+    "source": {
+      "id": 129,
+      "start": 255.14,
+      "end": 256.7,
+      "text": "الغسيل يحتاج فلوس ووقت"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Laundry takes money and time."
+    }
+  },
+  {
+    "id": 130,
+    "source": {
+      "id": 130,
+      "start": 256.7,
+      "end": 258.54,
+      "text": "فتجمعوا مع مشوار المرسلة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "So you combine it with the laundromat trip."
+    }
+  },
+  {
+    "id": 131,
+    "source": {
+      "id": 131,
+      "start": 258.54,
+      "end": 260.14,
+      "text": "وتستفيد من الواي فاية المجانية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And take advantage of the free Wi-Fi."
+    }
+  },
+  {
+    "id": 132,
+    "source": {
+      "id": 132,
+      "start": 260.14,
+      "end": 261.18,
+      "text": "عشان تدور وضايف"
+    },
+    "translation": {
+      "language": "en",
+      "text": "To look for jobs."
+    }
+  },
+  {
+    "id": 133,
+    "source": {
+      "id": 133,
+      "start": 261.18,
+      "end": 262.1,
+      "text": "وتتعلم من يوتيوب"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And learn from YouTube."
+    }
+  },
+  {
+    "id": 134,
+    "source": {
+      "id": 134,
+      "start": 262.1,
+      "end": 264.34,
+      "text": "كيف تصلح أغراضك بشطرطون وصمغ"
+    },
+    "translation": {
+      "language": "en",
+      "text": "How to fix your things with tape and glue."
+    }
+  },
+  {
+    "id": 135,
+    "source": {
+      "id": 135,
+      "start": 264.34,
+      "end": 266.62,
+      "text": "هنا كل شيء لها عمر أطول من ما يستحق"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Here, everything has a longer lifespan than it should."
+    }
+  },
+  {
+    "id": 136,
+    "source": {
+      "id": 136,
+      "start": 266.62,
+      "end": 268.9,
+      "text": "الصبون البنزين بينات الجوال"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Soap, gas, mobile data."
+    }
+  },
+  {
+    "id": 137,
+    "source": {
+      "id": 137,
+      "start": 269.3,
+      "end": 270.1,
+      "text": "حتى الصبر"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Even patience."
+    }
+  },
+  {
+    "id": 138,
+    "source": {
+      "id": 138,
+      "start": 270.1,
+      "end": 271.58,
+      "text": "وبالليلة شيء جدوة البكرة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And at night, you prepare for tomorrow's schedule."
+    }
+  },
+  {
+    "id": 139,
+    "source": {
+      "id": 139,
+      "start": 271.58,
+      "end": 273.82,
+      "text": "تضبض منابهين وتسوي قائمة بسيطة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You set two alarms and make a simple list."
+    }
+  },
+  {
+    "id": 140,
+    "source": {
+      "id": 140,
+      "start": 273.82,
+      "end": 274.46,
+      "text": "اتصال"
+    },
+    "translation": {
+      "language": "en",
+      "text": "A call."
+    }
+  },
+  {
+    "id": 141,
+    "source": {
+      "id": 141,
+      "start": 274.46,
+      "end": 275.02,
+      "text": "مععد"
+    },
+    "translation": {
+      "language": "en",
+      "text": "An appointment."
+    }
+  },
+  {
+    "id": 142,
+    "source": {
+      "id": 142,
+      "start": 275.02,
+      "end": 275.62,
+      "text": "جمعية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Charity."
+    }
+  },
+  {
+    "id": 143,
+    "source": {
+      "id": 143,
+      "start": 275.62,
+      "end": 276.1,
+      "text": "شغل"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Work."
+    }
+  },
+  {
+    "id": 144,
+    "source": {
+      "id": 144,
+      "start": 276.1,
+      "end": 277.02,
+      "text": "وبعدها تنام"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And then you sleep."
+    }
+  },
+  {
+    "id": 145,
+    "source": {
+      "id": 145,
+      "start": 277.02,
+      "end": 279.56,
+      "text": "لأن بكرة عندك نفس السباك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Because tomorrow you have the same race."
+    }
+  },
+  {
+    "id": 146,
+    "source": {
+      "id": 146,
+      "start": 279.56,
+      "end": 281.2,
+      "text": "الطبقة الثالثة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The Third Class."
+    }
+  },
+  {
+    "id": 147,
+    "source": {
+      "id": 147,
+      "start": 281.2,
+      "end": 282.6,
+      "text": "الفقر العامل"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The Working Poor."
+    }
+  },
+  {
+    "id": 148,
+    "source": {
+      "id": 148,
+      "start": 282.6,
+      "end": 285.64,
+      "text": "هنا عندك وظيفة ودخل"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Here you have a job and an income."
+    }
+  },
+  {
+    "id": 149,
+    "source": {
+      "id": 149,
+      "start": 285.72,
+      "end": 288.08,
+      "text": "لكنك لسة قريب جداً من الحافة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "But you are still very close to the edge."
+    }
+  },
+  {
+    "id": 150,
+    "source": {
+      "id": 150,
+      "start": 288.08,
+      "end": 290.6,
+      "text": "تصحى قبل الشمس على منابه جوالك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You wake up before the sun to your phone alarm."
+    }
+  },
+  {
+    "id": 151,
+    "source": {
+      "id": 151,
+      "start": 290.6,
+      "end": 293.56,
+      "text": "تسكن في شقة صغيرة بعقد شهري أو سنويل"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You live in a small apartment on a monthly or yearly lease."
+    }
+  },
+  {
+    "id": 152,
+    "source": {
+      "id": 152,
+      "start": 293.56,
+      "end": 296.2,
+      "text": "ويمكن تشاركها مع شريك سكعين عشان تكسم التكلفة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you might share it with roommates to split the cost."
+    }
+  },
+  {
+    "id": 153,
+    "source": {
+      "id": 153,
+      "start": 296.2,
+      "end": 297.16,
+      "text": "أول شيء تسوي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The first thing you do."
+    }
+  },
+  {
+    "id": 154,
+    "source": {
+      "id": 154,
+      "start": 297.16,
+      "end": 298.32,
+      "text": "تشيك تطيق البنك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You check your banking app."
+    }
+  },
+  {
+    "id": 155,
+    "source": {
+      "id": 155,
+      "start": 298.32,
+      "end": 299.64,
+      "text": "نزل الراتب ولللحين"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Did the salary drop yet or not?"
+    }
+  },
+  {
+    "id": 156,
+    "source": {
+      "id": 156,
+      "start": 299.64,
+      "end": 301.04,
+      "text": "تتسوي جهوتك في البيت"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You make your coffee at home."
+    }
+  },
+  {
+    "id": 157,
+    "source": {
+      "id": 157,
+      "start": 301.04,
+      "end": 302.2,
+      "text": "وتجهز غذاك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And prepare your lunch."
+    }
+  },
+  {
+    "id": 158,
+    "source": {
+      "id": 158,
+      "start": 302.2,
+      "end": 304.48,
+      "text": "لانشراء الأكل في الدوام يضغط الميزانية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Because buying food at work strains the budget."
+    }
+  },
+  {
+    "id": 159,
+    "source": {
+      "id": 159,
+      "start": 304.48,
+      "end": 306.48,
+      "text": "تروح الدوام باص أو سيارة جديمة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You go to work by bus or an old car."
+    }
+  },
+  {
+    "id": 160,
+    "source": {
+      "id": 160,
+      "start": 306.48,
+      "end": 307.92,
+      "text": "البنزين محسوب بريال"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Gas is calculated to the riyal."
+    }
+  },
+  {
+    "id": 161,
+    "source": {
+      "id": 161,
+      "start": 307.92,
+      "end": 309.16,
+      "text": "والمواقف محسوبة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And parking is calculated."
+    }
+  },
+  {
+    "id": 162,
+    "source": {
+      "id": 162,
+      "start": 309.2,
+      "end": 311.77,
+      "text": "وظيفتك ممكن تكون في محل أو مستودع"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Your job might be in a store or a warehouse."
+    }
+  },
+  {
+    "id": 163,
+    "source": {
+      "id": 163,
+      "start": 311.77,
+      "end": 312.89,
+      "text": "أو مطعم أو رعاية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or a restaurant, or caregiving."
+    }
+  },
+  {
+    "id": 164,
+    "source": {
+      "id": 164,
+      "start": 312.89,
+      "end": 314.45,
+      "text": "واجف أغلب الشفت تتحرك بسرعة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Standing most of the shift, moving fast."
+    }
+  },
+  {
+    "id": 165,
+    "source": {
+      "id": 165,
+      "start": 314.45,
+      "end": 315.69,
+      "text": "وتتبع تعليمات المدير"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And following the manager's instructions."
+    }
+  },
+  {
+    "id": 166,
+    "source": {
+      "id": 166,
+      "start": 315.69,
+      "end": 317.25,
+      "text": "الوقت محسوب والبريك قصير"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Time is tracked, and breaks are short."
+    }
+  },
+  {
+    "id": 167,
+    "source": {
+      "id": 167,
+      "start": 317.25,
+      "end": 319.58,
+      "text": "وإذا في أورتايم تقول نعم إذا قدرت"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And if there's overtime, you say yes if you can."
+    }
+  },
+  {
+    "id": 168,
+    "source": {
+      "id": 168,
+      "start": 319.58,
+      "end": 322.5,
+      "text": "مولا أنك تحب الشغل الإضافي لأنك تحتاجة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Not because you love the extra work, but because you need it."
+    }
+  },
+  {
+    "id": 169,
+    "source": {
+      "id": 169,
+      "start": 322.5,
+      "end": 324.46,
+      "text": "في الغدة تاكل اللي جبت معك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "On your lunch break, you eat what you brought with you."
+    }
+  },
+  {
+    "id": 170,
+    "source": {
+      "id": 170,
+      "start": 324.46,
+      "end": 326.06,
+      "text": "ثم تشيك تقديق الجدول"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Then you check the schedule app."
+    }
+  },
+  {
+    "id": 171,
+    "source": {
+      "id": 171,
+      "start": 326.06,
+      "end": 327.78,
+      "text": "وتشوف شفترات الأسبوع الجاي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And see next week's shifts."
+    }
+  },
+  {
+    "id": 172,
+    "source": {
+      "id": 172,
+      "start": 327.78,
+      "end": 330.57,
+      "text": "تحاول تبد اليوم إذا عندك موع الدكتور"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You try to swap a day if you have a doctor's appointment."
+    }
+  },
+  {
+    "id": 173,
+    "source": {
+      "id": 173,
+      "start": 330.57,
+      "end": 332.49,
+      "text": "أو اجتمع مدرسة أو شيء مهم للعالة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or a school meeting, or something important for the family."
+    }
+  },
+  {
+    "id": 174,
+    "source": {
+      "id": 174,
+      "start": 332.57,
+      "end": 333.77,
+      "text": "التأمين الصحي موجود"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Health insurance is there."
+    }
+  },
+  {
+    "id": 175,
+    "source": {
+      "id": 175,
+      "start": 333.77,
+      "end": 335.17,
+      "text": "لكن مبلغ التحمل علي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "But the deductible is high."
+    }
+  },
+  {
+    "id": 176,
+    "source": {
+      "id": 176,
+      "start": 335.17,
+      "end": 338.17,
+      "text": "فتجنب المستشفى إلا إذا صار الموضوع ضروري فعلا"
+    },
+    "translation": {
+      "language": "en",
+      "text": "So you avoid the hospital unless it becomes absolutely necessary."
+    }
+  },
+  {
+    "id": 177,
+    "source": {
+      "id": 177,
+      "start": 338.17,
+      "end": 340.49,
+      "text": "وتحسب الساعة لأن كل ساعة إضافية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you count the hours, because every extra hour..."
+    }
+  },
+  {
+    "id": 178,
+    "source": {
+      "id": 178,
+      "start": 340.49,
+      "end": 341.73,
+      "text": "ممكن تفرق في الراتب"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Can make a difference in the paycheck."
+    }
+  },
+  {
+    "id": 179,
+    "source": {
+      "id": 179,
+      "start": 341.73,
+      "end": 344.05,
+      "text": "وفي الطريق للبيت توقف عند محل في عروض"
+    },
+    "translation": {
+      "language": "en",
+      "text": "On the way home, you stop at a store with sales."
+    }
+  },
+  {
+    "id": 180,
+    "source": {
+      "id": 180,
+      "start": 344.05,
+      "end": 346.09,
+      "text": "فاستخدم بطاقة الولا وكوبونات الخسم"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You use your loyalty card and discount coupons."
+    }
+  },
+  {
+    "id": 181,
+    "source": {
+      "id": 181,
+      "start": 346.09,
+      "end": 347.33,
+      "text": "تدفع فاتورة اليوم"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You pay today's bill."
+    }
+  },
+  {
+    "id": 182,
+    "source": {
+      "id": 182,
+      "start": 347.33,
+      "end": 349.17,
+      "text": "ودأجل الثانية للأسبوع الجاي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And postpone the other one to next week."
+    }
+  },
+  {
+    "id": 183,
+    "source": {
+      "id": 183,
+      "start": 349.17,
+      "end": 351.61,
+      "text": "وتحاول تحاول حتى 20 دولار للتوفير"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you try to put away even $20 into savings."
+    }
+  },
+  {
+    "id": 184,
+    "source": {
+      "id": 184,
+      "start": 351.61,
+      "end": 352.85,
+      "text": "ولأن المبلغ كبير"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Not because the amount is large."
+    }
+  },
+  {
+    "id": 185,
+    "source": {
+      "id": 185,
+      "start": 352.85,
+      "end": 354.81,
+      "text": "لكن لأنك تعرف أن الصندوق الطوارة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "But because you know an emergency fund..."
+    }
+  },
+  {
+    "id": 186,
+    "source": {
+      "id": 186,
+      "start": 354.81,
+      "end": 356.51,
+      "text": "يبدأ من مبلغ صغير"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Starts from a small amount."
+    }
+  },
+  {
+    "id": 187,
+    "source": {
+      "id": 187,
+      "start": 356.51,
+      "end": 358.59,
+      "text": "في البيت تطبق عشرة صيد تغسل الملابس"
+    },
+    "translation": {
+      "language": "en",
+      "text": "At home, you do chores, wash clothes."
+    }
+  },
+  {
+    "id": 188,
+    "source": {
+      "id": 188,
+      "start": 358.59,
+      "end": 360.51,
+      "text": "وتنشر الزير رسمي عشان يكون جاهز"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And hang up your uniform so it's ready."
+    }
+  },
+  {
+    "id": 189,
+    "source": {
+      "id": 189,
+      "start": 360.51,
+      "end": 361.31,
+      "text": "تفتح البريد"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You open the mail."
+    }
+  },
+  {
+    "id": 190,
+    "source": {
+      "id": 190,
+      "start": 361.31,
+      "end": 362.19,
+      "text": "فاتورة خدمات"
+    },
+    "translation": {
+      "language": "en",
+      "text": "A utility bill."
+    }
+  },
+  {
+    "id": 191,
+    "source": {
+      "id": 191,
+      "start": 362.19,
+      "end": 363.11,
+      "text": "رصيد فيزا صغير"
+    },
+    "translation": {
+      "language": "en",
+      "text": "A small credit card balance."
+    }
+  },
+  {
+    "id": 192,
+    "source": {
+      "id": 192,
+      "start": 363.11,
+      "end": 364.19,
+      "text": "اشعار إجار"
+    },
+    "translation": {
+      "language": "en",
+      "text": "A rent notice."
+    }
+  },
+  {
+    "id": 193,
+    "source": {
+      "id": 193,
+      "start": 364.19,
+      "end": 366.71,
+      "text": "وبينك هذا ترس الرسال عن شغل جانبي في الويكند"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And amidst this, you send a message about a side gig on the weekend."
+    }
+  },
+  {
+    "id": 194,
+    "source": {
+      "id": 194,
+      "start": 366.71,
+      "end": 368.43,
+      "text": "يمكن تتابع مسلسل على حساب مشترك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You might watch a series on a shared account."
+    }
+  },
+  {
+    "id": 195,
+    "source": {
+      "id": 195,
+      "start": 368.43,
+      "end": 371.23,
+      "text": "ويمكن تبدأ كورس اونلين لشهادة ساعدك تطلح خطوة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or you might start an online course for a certificate to help you step up."
+    }
+  },
+  {
+    "id": 196,
+    "source": {
+      "id": 196,
+      "start": 371.23,
+      "end": 372.44,
+      "text": "وبعدها تنام"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And then you sleep."
+    }
+  },
+  {
+    "id": 197,
+    "source": {
+      "id": 197,
+      "start": 372.44,
+      "end": 374.97,
+      "text": "ست ساعة إذا مشت الأمور وبكرة نفس الموان"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Six hours if things go well, and tomorrow is the same routine."
+    }
+  },
+  {
+    "id": 198,
+    "source": {
+      "id": 198,
+      "start": 374.97,
+      "end": 376.49,
+      "text": "الطبقة الرابعة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The Fourth Class."
+    }
+  },
+  {
+    "id": 199,
+    "source": {
+      "id": 199,
+      "start": 376.49,
+      "end": 380.14,
+      "text": "الطبقة المتوسطة الدنيا"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The Lower Middle Class."
+    }
+  },
+  {
+    "id": 200,
+    "source": {
+      "id": 200,
+      "start": 380.14,
+      "end": 382.95,
+      "text": "هنا تبدأ الحياة صير أهدا شوي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Here life starts to get a little calmer."
+    }
+  },
+  {
+    "id": 201,
+    "source": {
+      "id": 201,
+      "start": 382.95,
+      "end": 385.27,
+      "text": "تصحف شققا غرفتين وصالا"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You wake up in a two-bedroom apartment with a living room."
+    }
+  },
+  {
+    "id": 202,
+    "source": {
+      "id": 202,
+      "start": 385.27,
+      "end": 386.87,
+      "text": "أو بيت صغير متواضع"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or a modest small house."
+    }
+  },
+  {
+    "id": 203,
+    "source": {
+      "id": 203,
+      "start": 386.87,
+      "end": 389.08,
+      "text": "المكان نظيف وبسيط"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The place is clean and simple."
+    }
+  },
+  {
+    "id": 204,
+    "source": {
+      "id": 204,
+      "start": 389.08,
+      "end": 392.31,
+      "text": "وعلى الثلاجة قائمة للفواتير وموعدها"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And on the fridge is a list of bills and their due dates."
+    }
+  },
+  {
+    "id": 205,
+    "source": {
+      "id": 205,
+      "start": 392.31,
+      "end": 394.31,
+      "text": "الجاوة تجهز وانتشيك التقيم عندك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The coffee is brewing while you check your calendar."
+    }
+  },
+  {
+    "id": 206,
+    "source": {
+      "id": 206,
+      "start": 394.31,
+      "end": 395.79,
+      "text": "رضيفة ثابتة بساعات واضحة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "A stable job with clear hours."
+    }
+  },
+  {
+    "id": 207,
+    "source": {
+      "id": 207,
+      "start": 395.79,
+      "end": 397.03,
+      "text": "الراتب ينزل كل سبوعين"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The salary drops every two weeks."
+    }
+  },
+  {
+    "id": 208,
+    "source": {
+      "id": 208,
+      "start": 397.03,
+      "end": 399.87,
+      "text": "وعندك تأمين ونسبة بسيطة للتقاعد تنخص من الراتب"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you have insurance, and a small percentage for retirement is deducted from the salary."
+    }
+  },
+  {
+    "id": 209,
+    "source": {
+      "id": 209,
+      "start": 399.87,
+      "end": 401.39,
+      "text": "تستخدم تطبيق الميزانية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You use a budget app."
+    }
+  },
+  {
+    "id": 210,
+    "source": {
+      "id": 210,
+      "start": 401.39,
+      "end": 403.39,
+      "text": "وتحضل الأساسيات في خصمت القائي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And put the basics on auto-deduct."
+    }
+  },
+  {
+    "id": 211,
+    "source": {
+      "id": 211,
+      "start": 403.39,
+      "end": 404.43,
+      "text": "الفطور بسيط"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Breakfast is simple."
+    }
+  },
+  {
+    "id": 212,
+    "source": {
+      "id": 212,
+      "start": 405.95,
+      "end": 406.99,
+      "text": "وإذا عندك أطفال"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And if you have kids."
+    }
+  },
+  {
+    "id": 213,
+    "source": {
+      "id": 213,
+      "start": 406.99,
+      "end": 408.99,
+      "text": "تجهز غداهم وتشيك وجباتهم"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You prep their lunch and check their homework."
+    }
+  },
+  {
+    "id": 214,
+    "source": {
+      "id": 214,
+      "start": 408.99,
+      "end": 410.83,
+      "text": "وإذا ما عندك تجهز غداك إن"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And if you don't, you prep your own lunch."
+    }
+  },
+  {
+    "id": 215,
+    "source": {
+      "id": 215,
+      "start": 410.83,
+      "end": 412.47,
+      "text": "عشان توفر فلوس كافترية دواء"
+    },
+    "translation": {
+      "language": "en",
+      "text": "To save money on the cafeteria at work."
+    }
+  },
+  {
+    "id": 216,
+    "source": {
+      "id": 216,
+      "start": 412.47,
+      "end": 414.43,
+      "text": "سيارة مستعملة ونظيفة عليها أكسات"
+    },
+    "translation": {
+      "language": "en",
+      "text": "A clean used car that you're paying off in installments."
+    }
+  },
+  {
+    "id": 217,
+    "source": {
+      "id": 217,
+      "start": 414.43,
+      "end": 416.03,
+      "text": "أو تستخدم قطار باشتراك شهري"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or you use a train with a monthly pass."
+    }
+  },
+  {
+    "id": 218,
+    "source": {
+      "id": 218,
+      "start": 416.03,
+      "end": 417.63,
+      "text": "والبنزين والتأمين والصيانة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And gas, insurance, and maintenance."
+    }
+  },
+  {
+    "id": 219,
+    "source": {
+      "id": 219,
+      "start": 417.63,
+      "end": 419.79,
+      "text": "كلها مصاريف تعرف مكانها قبل ما تدفعها"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Are all expenses you anticipate before you pay them."
+    }
+  },
+  {
+    "id": 220,
+    "source": {
+      "id": 220,
+      "start": 419.79,
+      "end": 420.95,
+      "text": "في الدوام دورك واضح"
+    },
+    "translation": {
+      "language": "en",
+      "text": "At work, your role is clear."
+    }
+  },
+  {
+    "id": 221,
+    "source": {
+      "id": 221,
+      "start": 420.95,
+      "end": 422.63,
+      "text": "ترد إيميلا تدير طلبات"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You reply to emails, manage orders."
+    }
+  },
+  {
+    "id": 222,
+    "source": {
+      "id": 222,
+      "start": 422.63,
+      "end": 424.99,
+      "text": "تمسك عملاء أو تطلع تقارير لك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Handle clients or pull reports."
+    }
+  },
+  {
+    "id": 223,
+    "source": {
+      "id": 223,
+      "start": 424.99,
+      "end": 426.63,
+      "text": "بريك متفوع ووقت غدا"
+    },
+    "translation": {
+      "language": "en",
+      "text": "A paid break and lunchtime."
+    }
+  },
+  {
+    "id": 224,
+    "source": {
+      "id": 224,
+      "start": 426.63,
+      "end": 429.03,
+      "text": "وغالبا تعرف جدولك لأسابيع جدام"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you generally know your schedule weeks in advance."
+    }
+  },
+  {
+    "id": 225,
+    "source": {
+      "id": 225,
+      "start": 429.03,
+      "end": 431.19,
+      "text": "تحاول تحفظ جزء بسيط للتقاعد"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You try to save a small portion for retirement."
+    }
+  },
+  {
+    "id": 226,
+    "source": {
+      "id": 226,
+      "start": 431.19,
+      "end": 433.67,
+      "text": "وما تلمس صدوق الطوارة إلا إذا تطريت"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you don't touch the emergency fund unless you have to."
+    }
+  },
+  {
+    "id": 227,
+    "source": {
+      "id": 227,
+      "start": 433.67,
+      "end": 435.35,
+      "text": "في الغدا تفتح تقليق البنك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "At lunch, you open the banking app."
+    }
+  },
+  {
+    "id": 228,
+    "source": {
+      "id": 228,
+      "start": 435.35,
+      "end": 437.07,
+      "text": "قصة قرد الدراسة بينسحب بكرة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Your student loan installment is withdrawing tomorrow."
+    }
+  },
+  {
+    "id": 229,
+    "source": {
+      "id": 229,
+      "start": 437.07,
+      "end": 438.27,
+      "text": "فتحول شوي للتوفير"
+    },
+    "translation": {
+      "language": "en",
+      "text": "So you transfer a little into savings."
+    }
+  },
+  {
+    "id": 230,
+    "source": {
+      "id": 230,
+      "start": 438.27,
+      "end": 440.19,
+      "text": "وتخلي احتياط للبنزين والمقادي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And leave a buffer for gas and groceries."
+    }
+  },
+  {
+    "id": 231,
+    "source": {
+      "id": 231,
+      "start": 440.19,
+      "end": 442.71,
+      "text": "بعد الدوام تمر نادير خيس أو تمشي في الحارة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "After work, you hit a cheap gym or walk around the neighborhood."
+    }
+  },
+  {
+    "id": 232,
+    "source": {
+      "id": 232,
+      "start": 442.71,
+      "end": 444.03,
+      "text": "العشا غالبا نطبخ بيت"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Dinner is mostly home-cooked."
+    }
+  },
+  {
+    "id": 233,
+    "source": {
+      "id": 233,
+      "start": 444.03,
+      "end": 445.51,
+      "text": "وترفيه نتفلكس وأخواتها"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And entertainment is Netflix and the like."
+    }
+  },
+  {
+    "id": 234,
+    "source": {
+      "id": 234,
+      "start": 445.51,
+      "end": 447.35,
+      "text": "اشتراك أو اشتراكين وتبديل بينهم"
+    },
+    "translation": {
+      "language": "en",
+      "text": "A subscription or two, and you rotate between them."
+    }
+  },
+  {
+    "id": 235,
+    "source": {
+      "id": 235,
+      "start": 447.35,
+      "end": 449.43,
+      "text": "تخطط لرحلة بغرية قصيرة مرة في السنة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You plan a short road trip once a year."
+    }
+  },
+  {
+    "id": 236,
+    "source": {
+      "id": 236,
+      "start": 449.43,
+      "end": 450.51,
+      "text": "وتجمع لها من بدري"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And save up for it early on."
+    }
+  },
+  {
+    "id": 237,
+    "source": {
+      "id": 237,
+      "start": 460.05,
+      "end": 461.94,
+      "text": "الطبقة الخامسة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The Fifth Class."
+    }
+  },
+  {
+    "id": 238,
+    "source": {
+      "id": 238,
+      "start": 461.94,
+      "end": 465.01,
+      "text": "الطبقة المتوسطة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The Middle Class."
+    }
+  },
+  {
+    "id": 239,
+    "source": {
+      "id": 239,
+      "start": 465.01,
+      "end": 467.77,
+      "text": "هنا تبدأ الحياة تدخل في مرحلة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Here, life begins to enter a phase..."
+    }
+  },
+  {
+    "id": 240,
+    "source": {
+      "id": 240,
+      "start": 467.77,
+      "end": 469.65,
+      "text": "الاستقرار الحقيقي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Of true stability."
+    }
+  },
+  {
+    "id": 241,
+    "source": {
+      "id": 241,
+      "start": 469.65,
+      "end": 471.57,
+      "text": "تصحى في بيت ثلاث غرف"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You wake up in a three-bedroom house."
+    }
+  },
+  {
+    "id": 242,
+    "source": {
+      "id": 242,
+      "start": 471.57,
+      "end": 472.97,
+      "text": "أو شقة مريحة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or a comfortable apartment."
+    }
+  },
+  {
+    "id": 243,
+    "source": {
+      "id": 243,
+      "start": 472.97,
+      "end": 475.56,
+      "text": "وناوي تكمل فيها سنوات"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you plan to stay there for years."
+    }
+  },
+  {
+    "id": 244,
+    "source": {
+      "id": 244,
+      "start": 475.56,
+      "end": 477.8,
+      "text": "عندك رهن عقار أو عقد إجار مستقر"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You have a mortgage or a stable lease."
+    }
+  },
+  {
+    "id": 245,
+    "source": {
+      "id": 245,
+      "start": 477.8,
+      "end": 480.04,
+      "text": "التدفئة والمكيف والأجهزة شغالة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Heating, AC, and appliances are working."
+    }
+  },
+  {
+    "id": 246,
+    "source": {
+      "id": 246,
+      "start": 480.04,
+      "end": 481.48,
+      "text": "والجهوة جاهزة قريبا"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And the coffee is almost ready."
+    }
+  },
+  {
+    "id": 247,
+    "source": {
+      "id": 247,
+      "start": 481.48,
+      "end": 483.28,
+      "text": "كأنها جزء من الروتيين الرسمي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Like it's part of your official routine."
+    }
+  },
+  {
+    "id": 248,
+    "source": {
+      "id": 248,
+      "start": 483.28,
+      "end": 485.44,
+      "text": "اتشاك تقويم مشترك بينك وبين العائلة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You check a shared calendar between you and the family."
+    }
+  },
+  {
+    "id": 249,
+    "source": {
+      "id": 249,
+      "start": 485.44,
+      "end": 486.74,
+      "text": "الرواتب ثابتة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Salaries are fixed."
+    }
+  },
+  {
+    "id": 250,
+    "source": {
+      "id": 250,
+      "start": 486.74,
+      "end": 488.22,
+      "text": "الفواتير تنخص متلقائيا"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Bills are deducted automatically."
+    }
+  },
+  {
+    "id": 251,
+    "source": {
+      "id": 251,
+      "start": 488.22,
+      "end": 489.22,
+      "text": "وعندك صندوق طوارع"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you have an emergency fund."
+    }
+  },
+  {
+    "id": 252,
+    "source": {
+      "id": 252,
+      "start": 489.22,
+      "end": 490.86,
+      "text": "وتساهم في التقاعد من كل راتب"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you contribute to retirement from every paycheck."
+    }
+  },
+  {
+    "id": 253,
+    "source": {
+      "id": 253,
+      "start": 490.86,
+      "end": 492.34,
+      "text": "الفطور بسيط لكن طازج"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Breakfast is simple but fresh."
+    }
+  },
+  {
+    "id": 254,
+    "source": {
+      "id": 254,
+      "start": 492.34,
+      "end": 493.78,
+      "text": "بيض، توست، فاكة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Eggs, toast, fruit."
+    }
+  },
+  {
+    "id": 255,
+    "source": {
+      "id": 255,
+      "start": 493.78,
+      "end": 495.06,
+      "text": "وإذا عندك أطفال"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And if you have kids."
+    }
+  },
+  {
+    "id": 256,
+    "source": {
+      "id": 256,
+      "start": 495.06,
+      "end": 497.86,
+      "text": "تجهز غداهم وتراجع واجباتهم قبل ما تطلع"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You prep their lunch and check their homework before you leave."
+    }
+  },
+  {
+    "id": 257,
+    "source": {
+      "id": 257,
+      "start": 497.86,
+      "end": 498.78,
+      "text": "وإذا ما عندك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And if you don't."
+    }
+  },
+  {
+    "id": 258,
+    "source": {
+      "id": 258,
+      "start": 498.78,
+      "end": 501.18,
+      "text": "تسوي غداك وتوفر تكلفة الكفتيرية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You make your lunch and save the cost of the cafeteria."
+    }
+  },
+  {
+    "id": 259,
+    "source": {
+      "id": 259,
+      "start": 501.18,
+      "end": 502.98,
+      "text": "السيارة مستعملة لكن نظيفة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The car is used but clean."
+    }
+  },
+  {
+    "id": 260,
+    "source": {
+      "id": 260,
+      "start": 502.98,
+      "end": 505.15,
+      "text": "أو عندك جطار موثوق بشترك شخري"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or you have a reliable train with a monthly pass."
+    }
+  },
+  {
+    "id": 261,
+    "source": {
+      "id": 261,
+      "start": 505.15,
+      "end": 506.63,
+      "text": "البنزين والتأمين والصيانة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Gas, insurance, and maintenance."
+    }
+  },
+  {
+    "id": 262,
+    "source": {
+      "id": 262,
+      "start": 506.63,
+      "end": 507.87,
+      "text": "صارت مصريف محسوبة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Have become calculated expenses."
+    }
+  },
+  {
+    "id": 263,
+    "source": {
+      "id": 263,
+      "start": 507.87,
+      "end": 508.87,
+      "text": "مو مفاجعات"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Not surprises."
+    }
+  },
+  {
+    "id": 264,
+    "source": {
+      "id": 264,
+      "start": 508.87,
+      "end": 510.15,
+      "text": "في الدوام عندك دور واضح"
+    },
+    "translation": {
+      "language": "en",
+      "text": "At work, you have a clear role."
+    }
+  },
+  {
+    "id": 265,
+    "source": {
+      "id": 265,
+      "start": 510.15,
+      "end": 512.23,
+      "text": "مع مساحة أكبر للتحكم في يومك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "With more room to control your day."
+    }
+  },
+  {
+    "id": 266,
+    "source": {
+      "id": 266,
+      "start": 512.23,
+      "end": 513.71,
+      "text": "اجتماعات رسائل"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Meetings, emails."
+    }
+  },
+  {
+    "id": 267,
+    "source": {
+      "id": 267,
+      "start": 513.79,
+      "end": 515.61,
+      "text": "مشاريع تمتد لأسابيع"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Projects that span weeks."
+    }
+  },
+  {
+    "id": 268,
+    "source": {
+      "id": 268,
+      "start": 515.61,
+      "end": 518.21,
+      "text": "وعندك جازات مدفوعة تعرف متى تستخدمها"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you have paid time off and you know when to use it."
+    }
+  },
+  {
+    "id": 269,
+    "source": {
+      "id": 269,
+      "start": 518.21,
+      "end": 520.45,
+      "text": "التأمين ومساهمة الشركة في التقاعد"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Insurance and company retirement matching."
+    }
+  },
+  {
+    "id": 270,
+    "source": {
+      "id": 270,
+      "start": 520.45,
+      "end": 521.45,
+      "text": "صاروا شي طبيعي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Have become the norm."
+    }
+  },
+  {
+    "id": 271,
+    "source": {
+      "id": 271,
+      "start": 521.45,
+      "end": 522.81,
+      "text": "تحب جزء من دخلك للتقاعد"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You dedicate a portion of your income to retirement."
+    }
+  },
+  {
+    "id": 272,
+    "source": {
+      "id": 272,
+      "start": 522.81,
+      "end": 524.93,
+      "text": "مثلا 10 إلى 15%"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Like 10 to 15%."
+    }
+  },
+  {
+    "id": 273,
+    "source": {
+      "id": 273,
+      "start": 524.93,
+      "end": 526.49,
+      "text": "وأحيانا أكثر إذا فيه بونوس"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And sometimes more if there's a bonus."
+    }
+  },
+  {
+    "id": 274,
+    "source": {
+      "id": 274,
+      "start": 526.49,
+      "end": 528.69,
+      "text": "وبرضو عندك مدخرات لأهداف ثانية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you also have savings for other goals."
+    }
+  },
+  {
+    "id": 275,
+    "source": {
+      "id": 275,
+      "start": 528.69,
+      "end": 530.05,
+      "text": "في الغداء تفتح تطبيق البنك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "At lunch, you open the banking app."
+    }
+  },
+  {
+    "id": 276,
+    "source": {
+      "id": 276,
+      "start": 530.05,
+      "end": 531.01,
+      "text": "تنظر للرصيد"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You look at the balance."
+    }
+  },
+  {
+    "id": 277,
+    "source": {
+      "id": 277,
+      "start": 531.01,
+      "end": 533.61,
+      "text": "تشيك قصة الشهر وتحول جزء للتوفير"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Check the monthly installment and transfer a portion to savings."
+    }
+  },
+  {
+    "id": 278,
+    "source": {
+      "id": 278,
+      "start": 533.61,
+      "end": 535.85,
+      "text": "وإذا احتج تصليح بيت أو كفرات سيارة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And if a home repair or new tires are needed."
+    }
+  },
+  {
+    "id": 279,
+    "source": {
+      "id": 279,
+      "start": 535.85,
+      "end": 537.81,
+      "text": "عندك سندوق مخصص لها بعد الدوام"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You have a dedicated fund for it. After work,"
+    }
+  },
+  {
+    "id": 280,
+    "source": {
+      "id": 280,
+      "start": 537.81,
+      "end": 539.25,
+      "text": "تروح نادي تلعب كورة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You go to the gym, play soccer."
+    }
+  },
+  {
+    "id": 281,
+    "source": {
+      "id": 281,
+      "start": 539.25,
+      "end": 541.45,
+      "text": "أو تطلع مع الشباب تطبخ أغلب اللياري"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or go out with friends. You cook most nights."
+    }
+  },
+  {
+    "id": 282,
+    "source": {
+      "id": 282,
+      "start": 541.45,
+      "end": 543.41,
+      "text": "وتطلب من بره مرة أو مرتين في الأسبوع"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And order takeout once or twice a week."
+    }
+  },
+  {
+    "id": 283,
+    "source": {
+      "id": 283,
+      "start": 543.41,
+      "end": 544.61,
+      "text": "بدون ما تحسب كل ريال"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Without counting every riyal."
+    }
+  },
+  {
+    "id": 284,
+    "source": {
+      "id": 284,
+      "start": 544.61,
+      "end": 545.77,
+      "text": "إذا صار تسريب في البيت"
+    },
+    "translation": {
+      "language": "en",
+      "text": "If there's a leak in the house."
+    }
+  },
+  {
+    "id": 285,
+    "source": {
+      "id": 285,
+      "start": 545.77,
+      "end": 548.37,
+      "text": "ممكن تجيب سباك بدأ المتقضي ثلاث ساعات في يوتيوب"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You can hire a plumber instead of spending three hours on YouTube."
+    }
+  },
+  {
+    "id": 286,
+    "source": {
+      "id": 286,
+      "start": 548.37,
+      "end": 550.65,
+      "text": "وتحجز فحص الأسنان قبل الألم في المساء"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you book a dental checkup before it hurts. In the evening,"
+    }
+  },
+  {
+    "id": 287,
+    "source": {
+      "id": 287,
+      "start": 550.65,
+      "end": 552.37,
+      "text": "تساعد العيال في واجباتهم"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You help the kids with their homework."
+    }
+  },
+  {
+    "id": 288,
+    "source": {
+      "id": 288,
+      "start": 552.37,
+      "end": 553.77,
+      "text": "تشوف مسلسل أو تقرأ"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Watch a series or read."
+    }
+  },
+  {
+    "id": 289,
+    "source": {
+      "id": 289,
+      "start": 553.77,
+      "end": 555.73,
+      "text": "وتقدر تطلب هدية إدميلاد online"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you can order a birthday gift online."
+    }
+  },
+  {
+    "id": 290,
+    "source": {
+      "id": 290,
+      "start": 555.73,
+      "end": 557.45,
+      "text": "بدون ما تفتح تطبيق البنك أول"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Without opening the banking app first."
+    }
+  },
+  {
+    "id": 291,
+    "source": {
+      "id": 291,
+      "start": 557.45,
+      "end": 559.05,
+      "text": "إهين الاستقرار صاحادة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Here, stability is happiness."
+    }
+  },
+  {
+    "id": 292,
+    "source": {
+      "id": 292,
+      "start": 559.05,
+      "end": 560.74,
+      "text": "الطبقة الساجسة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The Sixth Class."
+    }
+  },
+  {
+    "id": 293,
+    "source": {
+      "id": 293,
+      "start": 560.9,
+      "end": 564.4,
+      "text": "الطبقة المتوسطة العليا"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The Upper Middle Class."
+    }
+  },
+  {
+    "id": 294,
+    "source": {
+      "id": 294,
+      "start": 564.4,
+      "end": 567.28,
+      "text": "تصحف بيت هادي تملك في حياة ممتاز"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You wake up in a quiet house you own in an excellent neighborhood."
+    }
+  },
+  {
+    "id": 295,
+    "source": {
+      "id": 295,
+      "start": 567.28,
+      "end": 569.1,
+      "text": "أو في منزل مستقر جدا"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or in a very stable home."
+    }
+  },
+  {
+    "id": 296,
+    "source": {
+      "id": 296,
+      "start": 569.1,
+      "end": 571.02,
+      "text": "المكيف ضبط نفسه في الليل"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The AC adjusted itself at night."
+    }
+  },
+  {
+    "id": 297,
+    "source": {
+      "id": 297,
+      "start": 571.02,
+      "end": 573.37,
+      "text": "مكناسة ربوت تتحرك في الممار"
+    },
+    "translation": {
+      "language": "en",
+      "text": "A robot vacuum roams the hallway."
+    }
+  },
+  {
+    "id": 298,
+    "source": {
+      "id": 298,
+      "start": 573.37,
+      "end": 575.77,
+      "text": "مكينة الجهوة شغالة بجدول تفتح جوالك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The coffee machine runs on a schedule. You open your phone."
+    }
+  },
+  {
+    "id": 299,
+    "source": {
+      "id": 299,
+      "start": 575.77,
+      "end": 577.49,
+      "text": "تقويم العمل أنشطة الأطفال"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The work calendar, the kids' activities."
+    }
+  },
+  {
+    "id": 300,
+    "source": {
+      "id": 300,
+      "start": 577.49,
+      "end": 579.57,
+      "text": "تفكير عاملة النظافة بتيجي الجمعة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "A reminder that the cleaner is coming on Friday."
+    }
+  },
+  {
+    "id": 301,
+    "source": {
+      "id": 301,
+      "start": 579.57,
+      "end": 581.53,
+      "text": "أغلب الفواتير مسددة تقائية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Most bills are paid automatically."
+    }
+  },
+  {
+    "id": 302,
+    "source": {
+      "id": 302,
+      "start": 581.53,
+      "end": 583.01,
+      "text": "والفلوس تتحول كل شعر للتوفير"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And money is transferred every month to savings."
+    }
+  },
+  {
+    "id": 303,
+    "source": {
+      "id": 303,
+      "start": 583.01,
+      "end": 584.93,
+      "text": "والاستفمار بدون ما تحتاج تذكر"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And investments, without you needing to remember."
+    }
+  },
+  {
+    "id": 304,
+    "source": {
+      "id": 304,
+      "start": 584.93,
+      "end": 585.81,
+      "text": "الفطور متنوعة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Breakfast is varied."
+    }
+  },
+  {
+    "id": 305,
+    "source": {
+      "id": 305,
+      "start": 585.81,
+      "end": 586.89,
+      "text": "فوكة طاز جابية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Fresh fruit."
+    }
+  },
+  {
+    "id": 306,
+    "source": {
+      "id": 306,
+      "start": 586.89,
+      "end": 588.65,
+      "text": "يضباتي خيارة جهزة للعيال"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And lunch boxes ready for the kids."
+    }
+  },
+  {
+    "id": 307,
+    "source": {
+      "id": 307,
+      "start": 588.65,
+      "end": 590.05,
+      "text": "السيارة حديتة ومتفوعة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The car is modern and paid off."
+    }
+  },
+  {
+    "id": 308,
+    "source": {
+      "id": 308,
+      "start": 590.05,
+      "end": 591.79,
+      "text": "أو جريب تخلصك صاطها"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or close to finishing its installments."
+    }
+  },
+  {
+    "id": 309,
+    "source": {
+      "id": 309,
+      "start": 591.79,
+      "end": 593.15,
+      "text": "التأمين والضرايب والصيانة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Insurance, taxes, and maintenance."
+    }
+  },
+  {
+    "id": 310,
+    "source": {
+      "id": 310,
+      "start": 593.15,
+      "end": 594.43,
+      "text": "صارت تكاليف متوقعة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Have become expected costs."
+    }
+  },
+  {
+    "id": 311,
+    "source": {
+      "id": 311,
+      "start": 594.43,
+      "end": 595.11,
+      "text": "مؤذمات"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Not crises."
+    }
+  },
+  {
+    "id": 312,
+    "source": {
+      "id": 312,
+      "start": 595.11,
+      "end": 597.03,
+      "text": "وظيفتك احترافية وفيها مسؤولية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Your job is professional and holds responsibility."
+    }
+  },
+  {
+    "id": 313,
+    "source": {
+      "id": 313,
+      "start": 597.03,
+      "end": 597.99,
+      "text": "يمكن تدير فريق"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You might manage a team."
+    }
+  },
+  {
+    "id": 314,
+    "source": {
+      "id": 314,
+      "start": 597.99,
+      "end": 599.03,
+      "text": "يمكن تكتب كود"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You might write code."
+    }
+  },
+  {
+    "id": 315,
+    "source": {
+      "id": 315,
+      "start": 599.03,
+      "end": 599.87,
+      "text": "تعالج مرضا"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Treat patients."
+    }
+  },
+  {
+    "id": 316,
+    "source": {
+      "id": 316,
+      "start": 599.87,
+      "end": 601.75,
+      "text": "أو تمسك مشاريع معاقدة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or handle complex projects."
+    }
+  },
+  {
+    "id": 317,
+    "source": {
+      "id": 317,
+      "start": 601.75,
+      "end": 603.31,
+      "text": "وعند التحكم أكبر في جدولك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you have greater control over your schedule."
+    }
+  },
+  {
+    "id": 318,
+    "source": {
+      "id": 318,
+      "start": 603.31,
+      "end": 604.63,
+      "text": "بعض الأيام تشتغل من البيت"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Some days you work from home."
+    }
+  },
+  {
+    "id": 319,
+    "source": {
+      "id": 319,
+      "start": 604.63,
+      "end": 605.59,
+      "text": "والتأمين الصحيي جوي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And health insurance is strong."
+    }
+  },
+  {
+    "id": 320,
+    "source": {
+      "id": 320,
+      "start": 605.59,
+      "end": 606.95,
+      "text": "فتوحف حصراتك بشكل دوري"
+    },
+    "translation": {
+      "language": "en",
+      "text": "So you do your checkups regularly."
+    }
+  },
+  {
+    "id": 321,
+    "source": {
+      "id": 321,
+      "start": 606.95,
+      "end": 608.79,
+      "text": "وما تأجل الأسناني لآخر لحظة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you don't delay the dentist to the last minute."
+    }
+  },
+  {
+    "id": 322,
+    "source": {
+      "id": 322,
+      "start": 608.79,
+      "end": 610.43,
+      "text": "والدخرات التقاعة تمشي تلقائية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And retirement savings run automatically."
+    }
+  },
+  {
+    "id": 323,
+    "source": {
+      "id": 323,
+      "start": 610.75,
+      "end": 612.11,
+      "text": "وتحجز رحلة قبلها بشهور"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you book a trip months in advance."
+    }
+  },
+  {
+    "id": 324,
+    "source": {
+      "id": 324,
+      "start": 612.11,
+      "end": 613.63,
+      "text": "ويمكن تستخدم لقات المكافات"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you might use reward points."
+    }
+  },
+  {
+    "id": 325,
+    "source": {
+      "id": 325,
+      "start": 613.63,
+      "end": 614.79,
+      "text": "لتخفف في التكلفة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "To lighten the cost."
+    }
+  },
+  {
+    "id": 326,
+    "source": {
+      "id": 326,
+      "start": 614.79,
+      "end": 616.75,
+      "text": "إذا خرب شي في البيت تتصل بمحترف"
+    },
+    "translation": {
+      "language": "en",
+      "text": "If something breaks in the house, you call a professional."
+    }
+  },
+  {
+    "id": 327,
+    "source": {
+      "id": 327,
+      "start": 616.75,
+      "end": 618.31,
+      "text": "وقتك صار أغلا من أنك تجظيف"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Your time has become more valuable than spending it..."
+    }
+  },
+  {
+    "id": 328,
+    "source": {
+      "id": 328,
+      "start": 618.31,
+      "end": 620.27,
+      "text": "يتجربت أصلاح كل شي بنفسك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "...trying to fix everything yourself."
+    }
+  },
+  {
+    "id": 329,
+    "source": {
+      "id": 329,
+      "start": 620.27,
+      "end": 621.75,
+      "text": "تدفع للعناية بالحديقة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You pay for landscaping."
+    }
+  },
+  {
+    "id": 330,
+    "source": {
+      "id": 330,
+      "start": 621.75,
+      "end": 623.91,
+      "text": "وعملت نظافة زورك من تظام بعد الدوام"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And a cleaner visits you regularly. After work,"
+    }
+  },
+  {
+    "id": 331,
+    "source": {
+      "id": 331,
+      "start": 623.91,
+      "end": 625.82,
+      "text": "وممكن تروح جم مع مدرب"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You might go to the gym with a trainer."
+    }
+  },
+  {
+    "id": 332,
+    "source": {
+      "id": 332,
+      "start": 625.82,
+      "end": 627.82,
+      "text": "أو تاخذ كلاس العيال عندهم دروس ورياضة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or take a class. The kids have lessons and sports."
+    }
+  },
+  {
+    "id": 333,
+    "source": {
+      "id": 333,
+      "start": 627.82,
+      "end": 629.18,
+      "text": "ونتقدر على الرسم والمعدات"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you can afford the fees and equipment."
+    }
+  },
+  {
+    "id": 334,
+    "source": {
+      "id": 334,
+      "start": 629.18,
+      "end": 631.62,
+      "text": "في الليل تعجع أجندة بكرة واجع ورجة المدرسة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "At night, you review tomorrow's agenda and sign school papers."
+    }
+  },
+  {
+    "id": 335,
+    "source": {
+      "id": 335,
+      "start": 631.62,
+      "end": 633.78,
+      "text": "تطلب حدية online بدون متشيك الرصيد"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You order a gift online without checking your balance."
+    }
+  },
+  {
+    "id": 336,
+    "source": {
+      "id": 336,
+      "start": 633.78,
+      "end": 635.62,
+      "text": "ويمكن تتبرع لقضية همك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you might donate to a cause you care about."
+    }
+  },
+  {
+    "id": 337,
+    "source": {
+      "id": 337,
+      "start": 635.62,
+      "end": 636.98,
+      "text": "تحسب الأمان والأهم"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You feel secure, and most importantly."
+    }
+  },
+  {
+    "id": 338,
+    "source": {
+      "id": 338,
+      "start": 636.98,
+      "end": 638.3,
+      "text": "تقدر تفكر في المستقبل"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You can think about the future."
+    }
+  },
+  {
+    "id": 339,
+    "source": {
+      "id": 339,
+      "start": 638.3,
+      "end": 639.98,
+      "text": "وانت مرتاح من ضغط اليوم"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Without the stress of today weighing you down."
+    }
+  },
+  {
+    "id": 340,
+    "source": {
+      "id": 340,
+      "start": 639.98,
+      "end": 641.62,
+      "text": "الطبقة السابعة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The Seventh Class."
+    }
+  },
+  {
+    "id": 341,
+    "source": {
+      "id": 341,
+      "start": 641.62,
+      "end": 644.62,
+      "text": "الغني والمرتاح"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The Wealthy and Comfortable."
+    }
+  },
+  {
+    "id": 342,
+    "source": {
+      "id": 342,
+      "start": 644.62,
+      "end": 645.46,
+      "text": "مليونير"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Millionaire."
+    }
+  },
+  {
+    "id": 343,
+    "source": {
+      "id": 343,
+      "start": 645.46,
+      "end": 648.26,
+      "text": "لكن حياته مو بالضرور استعراض"
+    },
+    "translation": {
+      "language": "en",
+      "text": "But their life isn't necessarily a show-off."
+    }
+  },
+  {
+    "id": 344,
+    "source": {
+      "id": 344,
+      "start": 648.26,
+      "end": 650.34,
+      "text": "تصحف ببيت هادي تملكة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You wake up in a quiet house you own."
+    }
+  },
+  {
+    "id": 345,
+    "source": {
+      "id": 345,
+      "start": 650.34,
+      "end": 651.62,
+      "text": "في حي مرهوب"
+    },
+    "translation": {
+      "language": "en",
+      "text": "In a highly desired neighborhood."
+    }
+  },
+  {
+    "id": 346,
+    "source": {
+      "id": 346,
+      "start": 651.62,
+      "end": 653.94,
+      "text": "الرهن بسيط أو شربه متفوع"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The mortgage is small, or almost fully paid."
+    }
+  },
+  {
+    "id": 347,
+    "source": {
+      "id": 347,
+      "start": 653.94,
+      "end": 655.42,
+      "text": "عندك مكتب منزلي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You have a home office."
+    }
+  },
+  {
+    "id": 348,
+    "source": {
+      "id": 348,
+      "start": 655.42,
+      "end": 656.66,
+      "text": "غرفة ضيوف"
+    },
+    "translation": {
+      "language": "en",
+      "text": "A guest room."
+    }
+  },
+  {
+    "id": 349,
+    "source": {
+      "id": 349,
+      "start": 656.66,
+      "end": 657.58,
+      "text": "وحوش"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And a backyard."
+    }
+  },
+  {
+    "id": 350,
+    "source": {
+      "id": 350,
+      "start": 657.58,
+      "end": 659.1,
+      "text": "والإضاءة والحرارة والأمان"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And lighting, temperature, and security."
+    }
+  },
+  {
+    "id": 351,
+    "source": {
+      "id": 351,
+      "start": 659.1,
+      "end": 660.42,
+      "text": "كلها تعمل بشكل ذكي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "All operate smartly."
+    }
+  },
+  {
+    "id": 352,
+    "source": {
+      "id": 352,
+      "start": 660.42,
+      "end": 662.42,
+      "text": "أعملت نظافة تجيك كل إسبوع أو إسبوعين"
+    },
+    "translation": {
+      "language": "en",
+      "text": "A cleaner comes every week or two."
+    }
+  },
+  {
+    "id": 353,
+    "source": {
+      "id": 353,
+      "start": 662.42,
+      "end": 663.9,
+      "text": "والحديقة لها شركة صيانة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And the garden is managed by a maintenance company."
+    }
+  },
+  {
+    "id": 354,
+    "source": {
+      "id": 354,
+      "start": 663.9,
+      "end": 665.14,
+      "text": "أنت هنا تشتري وقتك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Here, you are buying your time."
+    }
+  },
+  {
+    "id": 355,
+    "source": {
+      "id": 355,
+      "start": 665.14,
+      "end": 666.94,
+      "text": "ثروتك موزع بين قيمة البيت"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Your wealth is distributed among your home's value."
+    }
+  },
+  {
+    "id": 356,
+    "source": {
+      "id": 356,
+      "start": 666.94,
+      "end": 668.86,
+      "text": "وحسبات التقاعد ومحفظة استثمارية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Retirement accounts and an investment portfolio."
+    }
+  },
+  {
+    "id": 357,
+    "source": {
+      "id": 357,
+      "start": 668.86,
+      "end": 670.42,
+      "text": "ويمكن عقار أو بزنس صغير"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And maybe real estate or a small business."
+    }
+  },
+  {
+    "id": 358,
+    "source": {
+      "id": 358,
+      "start": 670.42,
+      "end": 672.42,
+      "text": "وعندك صندوق طوارق كبير وتعمين قوي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You have a large emergency fund and strong insurance."
+    }
+  },
+  {
+    "id": 359,
+    "source": {
+      "id": 359,
+      "start": 672.42,
+      "end": 673.7,
+      "text": "ومحاس بيضبط الضرائب"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And an accountant sorting out taxes."
+    }
+  },
+  {
+    "id": 360,
+    "source": {
+      "id": 360,
+      "start": 673.7,
+      "end": 675.06,
+      "text": "ويمكن تستخدموا استشار مالي"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you might use a financial advisor."
+    }
+  },
+  {
+    "id": 361,
+    "source": {
+      "id": 361,
+      "start": 675.06,
+      "end": 676.66,
+      "text": "أو تتبع خطة استثمار وارحة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or follow a clear investment plan."
+    }
+  },
+  {
+    "id": 362,
+    "source": {
+      "id": 362,
+      "start": 676.66,
+      "end": 678.26,
+      "text": "والفلوس نفسها تتحرك تقائياً"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And the money itself moves automatically."
+    }
+  },
+  {
+    "id": 363,
+    "source": {
+      "id": 363,
+      "start": 678.26,
+      "end": 679.82,
+      "text": "ويمكن الشهر جزء يروح للاستثمار"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And every month a portion goes to investments."
+    }
+  },
+  {
+    "id": 364,
+    "source": {
+      "id": 364,
+      "start": 679.82,
+      "end": 681.62,
+      "text": "السيارة فخمة وحديثة ومدفوعة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The car is luxury, modern, and paid off."
+    }
+  },
+  {
+    "id": 365,
+    "source": {
+      "id": 365,
+      "start": 681.62,
+      "end": 683.42,
+      "text": "أو عليها قرد صغير بفائدة من خفضة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or has a small loan with low interest."
+    }
+  },
+  {
+    "id": 366,
+    "source": {
+      "id": 366,
+      "start": 683.42,
+      "end": 685.22,
+      "text": "جوالك ينكسر تبدل نفس اليوم"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Your phone breaks, you replace it the same day."
+    }
+  },
+  {
+    "id": 367,
+    "source": {
+      "id": 367,
+      "start": 685.22,
+      "end": 687.62,
+      "text": "ما عندك حاجة تمسك شي خربان سبوعين"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You don't need to hold onto something broken for two weeks."
+    }
+  },
+  {
+    "id": 368,
+    "source": {
+      "id": 368,
+      "start": 687.62,
+      "end": 689.98,
+      "text": "لأنسعر تصليحة يضغط ميزانيتك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Because the cost of fixing it strains your budget."
+    }
+  },
+  {
+    "id": 369,
+    "source": {
+      "id": 369,
+      "start": 689.98,
+      "end": 690.58,
+      "text": "في الشغل"
+    },
+    "translation": {
+      "language": "en",
+      "text": "At work."
+    }
+  },
+  {
+    "id": 370,
+    "source": {
+      "id": 370,
+      "start": 690.58,
+      "end": 691.94,
+      "text": "أنت في مستوى عالة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You are at a high level."
+    }
+  },
+  {
+    "id": 371,
+    "source": {
+      "id": 371,
+      "start": 691.94,
+      "end": 693.66,
+      "text": "تدير فريق تدير عيادة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Managing a team, managing a clinic."
+    }
+  },
+  {
+    "id": 372,
+    "source": {
+      "id": 372,
+      "start": 693.66,
+      "end": 695.18,
+      "text": "أو عندك شركتك الخاصة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or you own your own company."
+    }
+  },
+  {
+    "id": 373,
+    "source": {
+      "id": 373,
+      "start": 695.18,
+      "end": 696.46,
+      "text": "وجدولك في إجتماعات"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And your schedule is full of meetings."
+    }
+  },
+  {
+    "id": 374,
+    "source": {
+      "id": 374,
+      "start": 696.46,
+      "end": 698.9,
+      "text": "أنت أصلاً تملك جزء كبير من التحكم فيها"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You inherently own a large part of the control over it."
+    }
+  },
+  {
+    "id": 375,
+    "source": {
+      "id": 375,
+      "start": 698.9,
+      "end": 700.46,
+      "text": "تقدر تاخذ إجازة حقيقية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You can take a real vacation."
+    }
+  },
+  {
+    "id": 376,
+    "source": {
+      "id": 376,
+      "start": 700.46,
+      "end": 703.34,
+      "text": "ودخلك ما يختفي بمجرد ما توقف عن العمل يومين"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And your income doesn't disappear just because you stop working for two days."
+    }
+  },
+  {
+    "id": 377,
+    "source": {
+      "id": 377,
+      "start": 703.34,
+      "end": 704.38,
+      "text": "الصحة وقائية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Healthcare is preventive."
+    }
+  },
+  {
+    "id": 378,
+    "source": {
+      "id": 378,
+      "start": 704.38,
+      "end": 705.26,
+      "text": "فحوصات"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Checkups."
+    }
+  },
+  {
+    "id": 379,
+    "source": {
+      "id": 379,
+      "start": 705.26,
+      "end": 706.38,
+      "text": "الطباء متخصصون"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Specialist doctors."
+    }
+  },
+  {
+    "id": 380,
+    "source": {
+      "id": 380,
+      "start": 706.38,
+      "end": 707.34,
+      "text": "ولا تنتظر الألم"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And you don't wait for the pain."
+    }
+  },
+  {
+    "id": 381,
+    "source": {
+      "id": 381,
+      "start": 707.34,
+      "end": 709.06,
+      "text": "عشان تبدأ تتحرك خلال اليوم"
+    },
+    "translation": {
+      "language": "en",
+      "text": "To start taking action. During the day,"
+    }
+  },
+  {
+    "id": 382,
+    "source": {
+      "id": 382,
+      "start": 709.06,
+      "end": 710.22,
+      "text": "توافق على أصلح في البيت"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You approve a home repair."
+    }
+  },
+  {
+    "id": 383,
+    "source": {
+      "id": 383,
+      "start": 710.22,
+      "end": 711.98,
+      "text": "بدون مقارن عشرين عارت سعر"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Without comparing twenty price quotes."
+    }
+  },
+  {
+    "id": 384,
+    "source": {
+      "id": 384,
+      "start": 711.98,
+      "end": 713.46,
+      "text": "وتحجز رحلة قبلها بوقت"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And book a trip well in advance."
+    }
+  },
+  {
+    "id": 385,
+    "source": {
+      "id": 385,
+      "start": 713.46,
+      "end": 714.82,
+      "text": "تختار مقعد مريح"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You choose a comfortable seat."
+    }
+  },
+  {
+    "id": 386,
+    "source": {
+      "id": 386,
+      "start": 714.82,
+      "end": 717.38,
+      "text": "وتقدر تتبرع لمدرسة أو قضية همك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And can donate to a school or a cause you care about."
+    }
+  },
+  {
+    "id": 387,
+    "source": {
+      "id": 387,
+      "start": 717.38,
+      "end": 718.22,
+      "text": "إذا عندك أطفال"
+    },
+    "translation": {
+      "language": "en",
+      "text": "If you have kids."
+    }
+  },
+  {
+    "id": 388,
+    "source": {
+      "id": 388,
+      "start": 718.22,
+      "end": 720.18,
+      "text": "تقدر تتابع على أنشطتهم ودروسهم"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You can keep up with their activities and lessons."
+    }
+  },
+  {
+    "id": 389,
+    "source": {
+      "id": 389,
+      "start": 720.18,
+      "end": 721.78,
+      "text": "وحتى مدرسة خاصة إذا اخترت"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And even a private school if you choose."
+    }
+  },
+  {
+    "id": 390,
+    "source": {
+      "id": 390,
+      "start": 721.78,
+      "end": 723.34,
+      "text": "أو بالليل ترجع استثماراتك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or at night, you review your investments."
+    }
+  },
+  {
+    "id": 392,
+    "source": {
+      "id": 392,
+      "start": 726.94,
+      "end": 728.48,
+      "text": "تخطط للسنة الجاية"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And order a gift without checking your balance."
+    }
+  },
+  {
+    "id": 393,
+    "source": {
+      "id": 393,
+      "start": 728.48,
+      "end": 730.92,
+      "text": "سفار تجديد للبيت أو استثمار جديد"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You plan for next year."
+    }
+  },
+  {
+    "id": 394,
+    "source": {
+      "id": 394,
+      "start": 730.92,
+      "end": 732.44,
+      "text": "تحس أنك جاهز ليوم"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Travel, a home renovation, or a new investment."
+    }
+  },
+  {
+    "id": 395,
+    "source": {
+      "id": 395,
+      "start": 732.44,
+      "end": 733.32,
+      "text": "لكن الأهم"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You feel ready for today."
+    }
+  },
+  {
+    "id": 396,
+    "source": {
+      "id": 396,
+      "start": 733.32,
+      "end": 735.6,
+      "text": "إن عندك مساحة تخطط للمستقبل"
+    },
+    "translation": {
+      "language": "en",
+      "text": "But more importantly."
+    }
+  },
+  {
+    "id": 397,
+    "source": {
+      "id": 397,
+      "start": 735.6,
+      "end": 736.6,
+      "text": "الخاتمة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "You have the space to plan for the future."
+    }
+  },
+  {
+    "id": 398,
+    "source": {
+      "id": 398,
+      "start": 736.6,
+      "end": 737.48,
+      "text": "والدعاء"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Conclusion."
+    }
+  },
+  {
+    "id": 399,
+    "source": {
+      "id": 399,
+      "start": 737.48,
+      "end": 741.04,
+      "text": "وفي النهاية سواء نمت على رصيف بارد"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And a prayer."
+    }
+  },
+  {
+    "id": 400,
+    "source": {
+      "id": 400,
+      "start": 741.04,
+      "end": 742.24,
+      "text": "أو على سرير من حرير"
+    },
+    "translation": {
+      "language": "en",
+      "text": "In the end, whether you slept on a cold sidewalk."
+    }
+  },
+  {
+    "id": 401,
+    "source": {
+      "id": 401,
+      "start": 742.24,
+      "end": 743.2,
+      "text": "النتيجة وحدة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Or a silk bed."
+    }
+  },
+  {
+    "id": 402,
+    "source": {
+      "id": 402,
+      "start": 743.2,
+      "end": 744.72,
+      "text": "الكفن ما فيه جيوب"
+    },
+    "translation": {
+      "language": "en",
+      "text": "The result is the same."
+    }
+  },
+  {
+    "id": 403,
+    "source": {
+      "id": 403,
+      "start": 744.72,
+      "end": 746.72,
+      "text": "كلنا منطلع من الدنيا مثل ماجينة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "Shrouds have no pockets."
+    }
+  },
+  {
+    "id": 404,
+    "source": {
+      "id": 404,
+      "start": 746.72,
+      "end": 748.55,
+      "text": "وكل اللي نملك اليوم مؤقت"
+    },
+    "translation": {
+      "language": "en",
+      "text": "We all leave this world the way we came."
+    }
+  },
+  {
+    "id": 405,
+    "source": {
+      "id": 405,
+      "start": 748.55,
+      "end": 749.95,
+      "text": "الله يرزق نوياكم القناعة"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And everything we own today is temporary."
+    }
+  },
+  {
+    "id": 406,
+    "source": {
+      "id": 406,
+      "start": 749.95,
+      "end": 751.19,
+      "text": "والرزق الحلال المبارك"
+    },
+    "translation": {
+      "language": "en",
+      "text": "May God bless us and you with contentment."
+    }
+  },
+  {
+    "id": 407,
+    "source": {
+      "id": 407,
+      "start": 751.27,
+      "end": 752.91,
+      "text": "ويغنينا بفضله عم من سواء"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And blessed, lawful provision."
+    }
+  },
+  {
+    "id": 408,
+    "source": {
+      "id": 408,
+      "start": 752.91,
+      "end": 755.11,
+      "text": "ويجعل الدنيا في أي دينة لا في قلوبنا"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And enrich us with His grace above all others."
+    }
+  },
+  {
+    "id": 409,
+    "source": {
+      "id": 409,
+      "start": 755.11,
+      "end": 756.75,
+      "text": "والآن شاركنه الكومنتات"
+    },
+    "translation": {
+      "language": "en",
+      "text": "And place the world in our hands, not in our hearts."
+    }
+  }
+]

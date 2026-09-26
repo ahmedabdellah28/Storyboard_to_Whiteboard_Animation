@@ -1,0 +1,4663 @@
+{
+  "section_id": "05_middle_class",
+  "duration": 96.809,
+  "audio_file": "section.wav",
+  "script_file": "script.txt",
+  "hashes": {
+    "audio_sha256": "f46e6dc6110cbeb080b3171dcb9eb85a7162cfa8a049629084f0f627ae31480e",
+    "script_sha256": "5fac358640088ccfee8ea77374a90c63629e785e32c0b5c238ce7841c89f7783",
+    "config_sha256": "0c9b1e4734b4725e63925318b6278f9a53f6778b2d0857827c6e05a2a0130111"
+  },
+  "whisper_model": "small",
+  "words": [
+    {
+      "id": "w0001",
+      "text": "الطبقة",
+      "start": 1.74,
+      "end": 2.32,
+      "duration": 0.58,
+      "probability": 0.806,
+      "sentence_id": "s001",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0002",
+      "text": "المتوسطة.",
+      "start": 2.32,
+      "end": 3.44,
+      "duration": 1.12,
+      "probability": 0.98,
+      "sentence_id": "s001",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0003",
+      "text": "هنا",
+      "start": 4.44,
+      "end": 4.98,
+      "duration": 0.54,
+      "probability": 0.819,
+      "sentence_id": "s001",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0004",
+      "text": "تبدأ",
+      "start": 4.98,
+      "end": 5.6,
+      "duration": 0.62,
+      "probability": 0.978,
+      "sentence_id": "s002",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0005",
+      "text": "الحياة",
+      "start": 5.6,
+      "end": 6.14,
+      "duration": 0.54,
+      "probability": 0.913,
+      "sentence_id": "s002",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0006",
+      "text": "تدخل",
+      "start": 6.14,
+      "end": 6.64,
+      "duration": 0.5,
+      "probability": 0.963,
+      "sentence_id": "s002",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0007",
+      "text": "في",
+      "start": 6.64,
+      "end": 6.86,
+      "duration": 0.22,
+      "probability": 0.99,
+      "sentence_id": "s002",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0008",
+      "text": "مرحلة",
+      "start": 6.86,
+      "end": 7.36,
+      "duration": 0.5,
+      "probability": 0.985,
+      "sentence_id": "s002",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0009",
+      "text": "الاستقرار",
+      "start": 7.36,
+      "end": 8.12,
+      "duration": 0.76,
+      "probability": 0.958,
+      "sentence_id": "s002",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0010",
+      "text": "الحقيقي.",
+      "start": 8.12,
+      "end": 8.74,
+      "duration": 0.62,
+      "probability": 0.992,
+      "sentence_id": "s002",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0011",
+      "text": "تصحى",
+      "start": 8.74,
+      "end": 9.7,
+      "duration": 0.96,
+      "probability": 0.956,
+      "sentence_id": "s002",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0012",
+      "text": "في",
+      "start": 9.7,
+      "end": 9.84,
+      "duration": 0.14,
+      "probability": 0.99,
+      "sentence_id": "s002",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0013",
+      "text": "بيت",
+      "start": 9.84,
+      "end": 10.12,
+      "duration": 0.28,
+      "probability": 0.975,
+      "sentence_id": "s003",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0014",
+      "text": "ثلاث",
+      "start": 10.12,
+      "end": 10.52,
+      "duration": 0.4,
+      "probability": 0.97,
+      "sentence_id": "s003",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0015",
+      "text": "غرف،",
+      "start": 10.52,
+      "end": 10.9,
+      "duration": 0.38,
+      "probability": 0.947,
+      "sentence_id": "s003",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0016",
+      "text": "أو",
+      "start": 10.9,
+      "end": 11.36,
+      "duration": 0.46,
+      "probability": 0.862,
+      "sentence_id": "s003",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0017",
+      "text": "شقة",
+      "start": 11.36,
+      "end": 11.68,
+      "duration": 0.32,
+      "probability": 0.924,
+      "sentence_id": "s003",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0018",
+      "text": "مريحة،",
+      "start": 11.68,
+      "end": 12.56,
+      "duration": 0.88,
+      "probability": 0.977,
+      "sentence_id": "s003",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0019",
+      "text": "وناوي",
+      "start": 12.56,
+      "end": 13.0,
+      "duration": 0.44,
+      "probability": 0.693,
+      "sentence_id": "s003",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0020",
+      "text": "تكمل",
+      "start": 13.0,
+      "end": 13.56,
+      "duration": 0.56,
+      "probability": 0.973,
+      "sentence_id": "s003",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0021",
+      "text": "فيها",
+      "start": 13.56,
+      "end": 14.0,
+      "duration": 0.44,
+      "probability": 0.997,
+      "sentence_id": "s003",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0022",
+      "text": "سنوات.",
+      "start": 14.0,
+      "end": 14.6,
+      "duration": 0.6,
+      "probability": 0.987,
+      "sentence_id": "s003",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0023",
+      "text": "عندك",
+      "start": 14.6,
+      "end": 15.48,
+      "duration": 0.88,
+      "probability": 0.924,
+      "sentence_id": "s003",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0024",
+      "text": "رهن",
+      "start": 15.48,
+      "end": 15.7,
+      "duration": 0.22,
+      "probability": 0.802,
+      "sentence_id": "s003",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0025",
+      "text": "عقاري",
+      "start": 15.7,
+      "end": 16.02,
+      "duration": 0.32,
+      "probability": 0.6,
+      "sentence_id": "s003",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0026",
+      "text": "أو",
+      "start": 16.02,
+      "end": 16.18,
+      "duration": 0.16,
+      "probability": 0.693,
+      "sentence_id": "s004",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0027",
+      "text": "عقد",
+      "start": 16.18,
+      "end": 16.42,
+      "duration": 0.24,
+      "probability": 0.829,
+      "sentence_id": "s004",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0028",
+      "text": "إيجار",
+      "start": 16.42,
+      "end": 16.68,
+      "duration": 0.26,
+      "probability": 0.6,
+      "sentence_id": "s004",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0029",
+      "text": "مستقر.",
+      "start": 16.68,
+      "end": 17.14,
+      "duration": 0.46,
+      "probability": 0.987,
+      "sentence_id": "s004",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0030",
+      "text": "التدفئة",
+      "start": 17.14,
+      "end": 17.88,
+      "duration": 0.74,
+      "probability": 0.733,
+      "sentence_id": "s004",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0031",
+      "text": "والمكيف",
+      "start": 17.88,
+      "end": 18.34,
+      "duration": 0.46,
+      "probability": 0.864,
+      "sentence_id": "s004",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0032",
+      "text": "والأجهزة",
+      "start": 18.34,
+      "end": 18.88,
+      "duration": 0.54,
+      "probability": 0.969,
+      "sentence_id": "s004",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0033",
+      "text": "شغالة.",
+      "start": 18.88,
+      "end": 19.48,
+      "duration": 0.6,
+      "probability": 0.974,
+      "sentence_id": "s004",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0034",
+      "text": "والقهوة",
+      "start": 19.48,
+      "end": 19.94,
+      "duration": 0.46,
+      "probability": 0.6,
+      "sentence_id": "s005",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0035",
+      "text": "جاهزة",
+      "start": 19.94,
+      "end": 20.28,
+      "duration": 0.34,
+      "probability": 0.937,
+      "sentence_id": "s005",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0036",
+      "text": "تقريباً",
+      "start": 20.28,
+      "end": 20.66,
+      "duration": 0.38,
+      "probability": 0.6,
+      "sentence_id": "s005",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0037",
+      "text": "كأنها",
+      "start": 20.66,
+      "end": 21.26,
+      "duration": 0.6,
+      "probability": 0.877,
+      "sentence_id": "s005",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0038",
+      "text": "جزء",
+      "start": 21.26,
+      "end": 21.56,
+      "duration": 0.3,
+      "probability": 0.987,
+      "sentence_id": "s005",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0039",
+      "text": "من",
+      "start": 21.56,
+      "end": 21.68,
+      "duration": 0.12,
+      "probability": 0.991,
+      "sentence_id": "s006",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0040",
+      "text": "الروتين",
+      "start": 21.68,
+      "end": 22.04,
+      "duration": 0.36,
+      "probability": 0.6,
+      "sentence_id": "s006",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0041",
+      "text": "الرسمي.",
+      "start": 22.04,
+      "end": 22.7,
+      "duration": 0.66,
+      "probability": 0.979,
+      "sentence_id": "s006",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0042",
+      "text": "تشيك",
+      "start": 22.7,
+      "end": 23.08,
+      "duration": 0.38,
+      "probability": 0.481,
+      "sentence_id": "s006",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0043",
+      "text": "تقويم",
+      "start": 23.08,
+      "end": 23.38,
+      "duration": 0.3,
+      "probability": 0.777,
+      "sentence_id": "s006",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0044",
+      "text": "مشترك",
+      "start": 23.38,
+      "end": 23.72,
+      "duration": 0.34,
+      "probability": 0.968,
+      "sentence_id": "s006",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0045",
+      "text": "بينك",
+      "start": 23.72,
+      "end": 24.06,
+      "duration": 0.34,
+      "probability": 0.978,
+      "sentence_id": "s006",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0046",
+      "text": "وبين",
+      "start": 24.06,
+      "end": 24.2,
+      "duration": 0.14,
+      "probability": 0.6,
+      "sentence_id": "s006",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0047",
+      "text": "العائلة.",
+      "start": 24.2,
+      "end": 24.64,
+      "duration": 0.44,
+      "probability": 0.905,
+      "sentence_id": "s006",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0048",
+      "text": "الرواتب",
+      "start": 24.64,
+      "end": 25.26,
+      "duration": 0.62,
+      "probability": 0.861,
+      "sentence_id": "s007",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0049",
+      "text": "ثابتة.",
+      "start": 25.26,
+      "end": 25.96,
+      "duration": 0.7,
+      "probability": 0.915,
+      "sentence_id": "s007",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0050",
+      "text": "الفواتير",
+      "start": 25.96,
+      "end": 26.54,
+      "duration": 0.58,
+      "probability": 0.849,
+      "sentence_id": "s007",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0051",
+      "text": "تنخصم",
+      "start": 26.54,
+      "end": 26.97,
+      "duration": 0.43,
+      "probability": 0.6,
+      "sentence_id": "s007",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0052",
+      "text": "تلقائياً.",
+      "start": 26.97,
+      "end": 27.4,
+      "duration": 0.43,
+      "probability": 0.6,
+      "sentence_id": "s007",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0053",
+      "text": "وعندك",
+      "start": 27.4,
+      "end": 27.9,
+      "duration": 0.5,
+      "probability": 0.925,
+      "sentence_id": "s007",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0054",
+      "text": "صندوق",
+      "start": 27.9,
+      "end": 28.12,
+      "duration": 0.22,
+      "probability": 0.947,
+      "sentence_id": "s007",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0055",
+      "text": "طوارئ.",
+      "start": 28.12,
+      "end": 28.48,
+      "duration": 0.36,
+      "probability": 0.6,
+      "sentence_id": "s008",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0056",
+      "text": "وتساهم",
+      "start": 28.48,
+      "end": 28.82,
+      "duration": 0.34,
+      "probability": 0.723,
+      "sentence_id": "s008",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0057",
+      "text": "في",
+      "start": 28.82,
+      "end": 28.92,
+      "duration": 0.1,
+      "probability": 0.936,
+      "sentence_id": "s008",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0058",
+      "text": "التقاعد",
+      "start": 28.92,
+      "end": 29.24,
+      "duration": 0.32,
+      "probability": 0.96,
+      "sentence_id": "s009",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0059",
+      "text": "من",
+      "start": 29.24,
+      "end": 29.36,
+      "duration": 0.12,
+      "probability": 0.989,
+      "sentence_id": "s009",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0060",
+      "text": "كل",
+      "start": 29.36,
+      "end": 29.5,
+      "duration": 0.14,
+      "probability": 0.862,
+      "sentence_id": "s009",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0061",
+      "text": "راتب.",
+      "start": 29.5,
+      "end": 29.88,
+      "duration": 0.38,
+      "probability": 0.962,
+      "sentence_id": "s009",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0062",
+      "text": "الفطور",
+      "start": 29.88,
+      "end": 30.44,
+      "duration": 0.56,
+      "probability": 0.896,
+      "sentence_id": "s010",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0063",
+      "text": "بسيط",
+      "start": 30.44,
+      "end": 30.78,
+      "duration": 0.34,
+      "probability": 0.94,
+      "sentence_id": "s010",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0064",
+      "text": "لكن",
+      "start": 30.78,
+      "end": 30.94,
+      "duration": 0.16,
+      "probability": 0.836,
+      "sentence_id": "s010",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0065",
+      "text": "طازج:",
+      "start": 30.94,
+      "end": 31.34,
+      "duration": 0.4,
+      "probability": 0.868,
+      "sentence_id": "s010",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0066",
+      "text": "بيض.",
+      "start": 31.34,
+      "end": 31.84,
+      "duration": 0.5,
+      "probability": 0.683,
+      "sentence_id": "s011",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0067",
+      "text": "توست.",
+      "start": 31.84,
+      "end": 32.28,
+      "duration": 0.44,
+      "probability": 0.491,
+      "sentence_id": "s011",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0068",
+      "text": "فاكهة.",
+      "start": 32.28,
+      "end": 32.86,
+      "duration": 0.58,
+      "probability": 0.6,
+      "sentence_id": "s011",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0069",
+      "text": "وإذا",
+      "start": 32.86,
+      "end": 33.14,
+      "duration": 0.28,
+      "probability": 0.823,
+      "sentence_id": "s011",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0070",
+      "text": "عندك",
+      "start": 33.14,
+      "end": 33.36,
+      "duration": 0.22,
+      "probability": 0.965,
+      "sentence_id": "s011",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0071",
+      "text": "أطفال،",
+      "start": 33.36,
+      "end": 33.72,
+      "duration": 0.36,
+      "probability": 0.978,
+      "sentence_id": "s011",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0072",
+      "text": "تجهز",
+      "start": 33.72,
+      "end": 34.58,
+      "duration": 0.86,
+      "probability": 0.875,
+      "sentence_id": "s011",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0073",
+      "text": "غداهم",
+      "start": 34.58,
+      "end": 35.04,
+      "duration": 0.46,
+      "probability": 0.921,
+      "sentence_id": "s012",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0074",
+      "text": "وتراجع",
+      "start": 35.04,
+      "end": 35.48,
+      "duration": 0.44,
+      "probability": 0.888,
+      "sentence_id": "s012",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0075",
+      "text": "واجباتهم",
+      "start": 35.48,
+      "end": 36.04,
+      "duration": 0.56,
+      "probability": 0.6,
+      "sentence_id": "s012",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0076",
+      "text": "قبل",
+      "start": 36.04,
+      "end": 36.3,
+      "duration": 0.26,
+      "probability": 0.987,
+      "sentence_id": "s012",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0077",
+      "text": "ما",
+      "start": 36.3,
+      "end": 36.46,
+      "duration": 0.16,
+      "probability": 0.967,
+      "sentence_id": "s013",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0078",
+      "text": "تطلع.",
+      "start": 36.46,
+      "end": 36.8,
+      "duration": 0.34,
+      "probability": 0.978,
+      "sentence_id": "s013",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0079",
+      "text": "وإذا",
+      "start": 36.8,
+      "end": 37.2,
+      "duration": 0.4,
+      "probability": 0.975,
+      "sentence_id": "s014",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0080",
+      "text": "ما",
+      "start": 37.2,
+      "end": 37.32,
+      "duration": 0.12,
+      "probability": 0.928,
+      "sentence_id": "s014",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0081",
+      "text": "عندك،",
+      "start": 37.32,
+      "end": 37.7,
+      "duration": 0.38,
+      "probability": 0.969,
+      "sentence_id": "s015",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0082",
+      "text": "تسوي",
+      "start": 37.7,
+      "end": 38.1,
+      "duration": 0.4,
+      "probability": 0.926,
+      "sentence_id": "s015",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0083",
+      "text": "غداك",
+      "start": 38.1,
+      "end": 38.52,
+      "duration": 0.42,
+      "probability": 0.995,
+      "sentence_id": "s016",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0084",
+      "text": "وتوفر",
+      "start": 38.52,
+      "end": 38.92,
+      "duration": 0.4,
+      "probability": 0.948,
+      "sentence_id": "s016",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0085",
+      "text": "تكلفة",
+      "start": 38.92,
+      "end": 39.3,
+      "duration": 0.38,
+      "probability": 0.772,
+      "sentence_id": "s016",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0086",
+      "text": "الكافتيريا.",
+      "start": 39.3,
+      "end": 40.06,
+      "duration": 0.76,
+      "probability": 0.6,
+      "sentence_id": "s016",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0087",
+      "text": "السيارة",
+      "start": 40.06,
+      "end": 40.66,
+      "duration": 0.6,
+      "probability": 0.977,
+      "sentence_id": "s016",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0088",
+      "text": "مستعملة",
+      "start": 40.66,
+      "end": 41.08,
+      "duration": 0.42,
+      "probability": 0.872,
+      "sentence_id": "s016",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0089",
+      "text": "لكن",
+      "start": 41.08,
+      "end": 41.32,
+      "duration": 0.24,
+      "probability": 0.93,
+      "sentence_id": "s016",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0090",
+      "text": "نظيفة،",
+      "start": 41.32,
+      "end": 41.94,
+      "duration": 0.62,
+      "probability": 0.946,
+      "sentence_id": "s016",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0091",
+      "text": "أو",
+      "start": 41.94,
+      "end": 42.14,
+      "duration": 0.2,
+      "probability": 0.867,
+      "sentence_id": "s016",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0092",
+      "text": "عندك",
+      "start": 42.14,
+      "end": 42.4,
+      "duration": 0.26,
+      "probability": 0.992,
+      "sentence_id": "s016",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0093",
+      "text": "قطار",
+      "start": 42.4,
+      "end": 42.66,
+      "duration": 0.26,
+      "probability": 0.6,
+      "sentence_id": "s016",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0094",
+      "text": "موثوق",
+      "start": 42.66,
+      "end": 43.06,
+      "duration": 0.4,
+      "probability": 0.85,
+      "sentence_id": "s017",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0095",
+      "text": "باشتراك",
+      "start": 43.06,
+      "end": 43.42,
+      "duration": 0.36,
+      "probability": 0.84,
+      "sentence_id": "s017",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0096",
+      "text": "شهري.",
+      "start": 43.42,
+      "end": 43.7,
+      "duration": 0.28,
+      "probability": 0.6,
+      "sentence_id": "s017",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0097",
+      "text": "البنزين",
+      "start": 43.7,
+      "end": 44.6,
+      "duration": 0.9,
+      "probability": 0.87,
+      "sentence_id": "s017",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0098",
+      "text": "والتأمين",
+      "start": 44.6,
+      "end": 45.06,
+      "duration": 0.46,
+      "probability": 0.954,
+      "sentence_id": "s017",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0099",
+      "text": "والصيانة",
+      "start": 45.06,
+      "end": 45.6,
+      "duration": 0.54,
+      "probability": 0.93,
+      "sentence_id": "s017",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0100",
+      "text": "صارت",
+      "start": 45.6,
+      "end": 45.88,
+      "duration": 0.28,
+      "probability": 0.95,
+      "sentence_id": "s017",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0101",
+      "text": "مصاريف",
+      "start": 45.88,
+      "end": 46.26,
+      "duration": 0.38,
+      "probability": 0.6,
+      "sentence_id": "s017",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0102",
+      "text": "محسوبة،",
+      "start": 46.26,
+      "end": 46.74,
+      "duration": 0.48,
+      "probability": 0.934,
+      "sentence_id": "s017",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0103",
+      "text": "مو",
+      "start": 46.74,
+      "end": 46.94,
+      "duration": 0.2,
+      "probability": 0.505,
+      "sentence_id": "s018",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0104",
+      "text": "مفاجآت.",
+      "start": 46.94,
+      "end": 47.5,
+      "duration": 0.56,
+      "probability": 0.6,
+      "sentence_id": "s018",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0105",
+      "text": "في",
+      "start": 47.5,
+      "end": 47.86,
+      "duration": 0.36,
+      "probability": 0.507,
+      "sentence_id": "s018",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0106",
+      "text": "الدوام،",
+      "start": 47.86,
+      "end": 48.1,
+      "duration": 0.24,
+      "probability": 0.856,
+      "sentence_id": "s018",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0107",
+      "text": "عندك",
+      "start": 48.1,
+      "end": 48.4,
+      "duration": 0.3,
+      "probability": 0.99,
+      "sentence_id": "s018",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0108",
+      "text": "دور",
+      "start": 48.4,
+      "end": 48.58,
+      "duration": 0.18,
+      "probability": 0.985,
+      "sentence_id": "s018",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0109",
+      "text": "واضح",
+      "start": 48.58,
+      "end": 48.98,
+      "duration": 0.4,
+      "probability": 0.956,
+      "sentence_id": "s018",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0110",
+      "text": "مع",
+      "start": 48.98,
+      "end": 49.14,
+      "duration": 0.16,
+      "probability": 0.979,
+      "sentence_id": "s018",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0111",
+      "text": "مساحة",
+      "start": 49.14,
+      "end": 49.6,
+      "duration": 0.46,
+      "probability": 0.968,
+      "sentence_id": "s018",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0112",
+      "text": "أكبر",
+      "start": 49.6,
+      "end": 49.86,
+      "duration": 0.26,
+      "probability": 0.986,
+      "sentence_id": "s018",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0113",
+      "text": "للتحكم",
+      "start": 49.86,
+      "end": 50.3,
+      "duration": 0.44,
+      "probability": 0.86,
+      "sentence_id": "s018",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0114",
+      "text": "في",
+      "start": 50.3,
+      "end": 50.5,
+      "duration": 0.2,
+      "probability": 0.996,
+      "sentence_id": "s019",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0115",
+      "text": "يومك.",
+      "start": 50.5,
+      "end": 50.8,
+      "duration": 0.3,
+      "probability": 0.956,
+      "sentence_id": "s019",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0116",
+      "text": "اجتماعات.",
+      "start": 50.8,
+      "end": 51.76,
+      "duration": 0.96,
+      "probability": 0.6,
+      "sentence_id": "s019",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0117",
+      "text": "رسائل.",
+      "start": 51.76,
+      "end": 52.34,
+      "duration": 0.58,
+      "probability": 0.957,
+      "sentence_id": "s019",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0118",
+      "text": "مشاريع",
+      "start": 52.34,
+      "end": 52.92,
+      "duration": 0.58,
+      "probability": 0.71,
+      "sentence_id": "s019",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0119",
+      "text": "تمتد",
+      "start": 52.92,
+      "end": 53.63,
+      "duration": 0.71,
+      "probability": 0.6,
+      "sentence_id": "s019",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0120",
+      "text": "لأسابيع.",
+      "start": 53.63,
+      "end": 54.34,
+      "duration": 0.71,
+      "probability": 0.6,
+      "sentence_id": "s019",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0121",
+      "text": "وعندك",
+      "start": 54.34,
+      "end": 54.72,
+      "duration": 0.38,
+      "probability": 0.843,
+      "sentence_id": "s019",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0122",
+      "text": "إجازات",
+      "start": 54.72,
+      "end": 55.11,
+      "duration": 0.39,
+      "probability": 0.6,
+      "sentence_id": "s019",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0123",
+      "text": "مدفوعة",
+      "start": 55.11,
+      "end": 55.5,
+      "duration": 0.39,
+      "probability": 0.6,
+      "sentence_id": "s020",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0124",
+      "text": "تعرف",
+      "start": 55.5,
+      "end": 55.82,
+      "duration": 0.32,
+      "probability": 0.911,
+      "sentence_id": "s020",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0125",
+      "text": "متى",
+      "start": 55.82,
+      "end": 56.08,
+      "duration": 0.26,
+      "probability": 0.802,
+      "sentence_id": "s020",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0126",
+      "text": "تستخدمها.",
+      "start": 56.08,
+      "end": 56.64,
+      "duration": 0.56,
+      "probability": 0.993,
+      "sentence_id": "s020",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0127",
+      "text": "التأمين",
+      "start": 56.64,
+      "end": 57.4,
+      "duration": 0.76,
+      "probability": 0.947,
+      "sentence_id": "s020",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0128",
+      "text": "ومساهمة",
+      "start": 57.4,
+      "end": 57.92,
+      "duration": 0.52,
+      "probability": 0.949,
+      "sentence_id": "s020",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0129",
+      "text": "الشركة",
+      "start": 57.92,
+      "end": 58.3,
+      "duration": 0.38,
+      "probability": 0.933,
+      "sentence_id": "s020",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0130",
+      "text": "في",
+      "start": 58.3,
+      "end": 58.38,
+      "duration": 0.08,
+      "probability": 0.936,
+      "sentence_id": "s020",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0131",
+      "text": "التقاعد",
+      "start": 58.38,
+      "end": 58.82,
+      "duration": 0.44,
+      "probability": 0.961,
+      "sentence_id": "s020",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0132",
+      "text": "صاروا",
+      "start": 58.82,
+      "end": 59.32,
+      "duration": 0.5,
+      "probability": 0.81,
+      "sentence_id": "s020",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0133",
+      "text": "شيء",
+      "start": 59.32,
+      "end": 59.4,
+      "duration": 0.08,
+      "probability": 0.6,
+      "sentence_id": "s020",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0134",
+      "text": "طبيعي.",
+      "start": 59.4,
+      "end": 60.0,
+      "duration": 0.6,
+      "probability": 0.91,
+      "sentence_id": "s020",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0135",
+      "text": "تحط",
+      "start": 60.0,
+      "end": 60.26,
+      "duration": 0.26,
+      "probability": 0.6,
+      "sentence_id": "s021",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0136",
+      "text": "جزء",
+      "start": 60.26,
+      "end": 60.44,
+      "duration": 0.18,
+      "probability": 0.764,
+      "sentence_id": "s021",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0137",
+      "text": "من",
+      "start": 60.44,
+      "end": 60.56,
+      "duration": 0.12,
+      "probability": 0.995,
+      "sentence_id": "s022",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0138",
+      "text": "دخلك",
+      "start": 60.56,
+      "end": 60.8,
+      "duration": 0.24,
+      "probability": 0.85,
+      "sentence_id": "s022",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0139",
+      "text": "للتقاعد،",
+      "start": 60.8,
+      "end": 61.32,
+      "duration": 0.52,
+      "probability": 0.979,
+      "sentence_id": "s023",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0140",
+      "text": "مثلاً",
+      "start": 61.32,
+      "end": 61.66,
+      "duration": 0.34,
+      "probability": 0.885,
+      "sentence_id": "s023",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0141",
+      "text": "عشرة",
+      "start": 61.66,
+      "end": 61.9,
+      "duration": 0.24,
+      "probability": 0.6,
+      "sentence_id": "s023",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0142",
+      "text": "إلى",
+      "start": 61.9,
+      "end": 62.12,
+      "duration": 0.22,
+      "probability": 0.654,
+      "sentence_id": "s023",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0143",
+      "text": "خمسة",
+      "start": 62.12,
+      "end": 62.367,
+      "duration": 0.247,
+      "probability": 0.6,
+      "sentence_id": "s024",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0144",
+      "text": "عشر",
+      "start": 62.367,
+      "end": 62.614,
+      "duration": 0.247,
+      "probability": 0.6,
+      "sentence_id": "s024",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0145",
+      "text": "بالمئة،",
+      "start": 62.614,
+      "end": 62.86,
+      "duration": 0.246,
+      "probability": 0.6,
+      "sentence_id": "s024",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0146",
+      "text": "وأحياناً",
+      "start": 62.86,
+      "end": 63.88,
+      "duration": 1.02,
+      "probability": 0.82,
+      "sentence_id": "s024",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0147",
+      "text": "أكثر",
+      "start": 63.88,
+      "end": 64.18,
+      "duration": 0.3,
+      "probability": 0.875,
+      "sentence_id": "s024",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0148",
+      "text": "إذا",
+      "start": 64.18,
+      "end": 64.32,
+      "duration": 0.14,
+      "probability": 0.981,
+      "sentence_id": "s024",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0149",
+      "text": "فيه",
+      "start": 64.32,
+      "end": 64.54,
+      "duration": 0.22,
+      "probability": 0.977,
+      "sentence_id": "s024",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0150",
+      "text": "بونص.",
+      "start": 64.54,
+      "end": 64.94,
+      "duration": 0.4,
+      "probability": 0.6,
+      "sentence_id": "s025",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0151",
+      "text": "وبرضه",
+      "start": 64.94,
+      "end": 65.34,
+      "duration": 0.4,
+      "probability": 0.6,
+      "sentence_id": "s025",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0152",
+      "text": "عندك",
+      "start": 65.34,
+      "end": 65.62,
+      "duration": 0.28,
+      "probability": 0.865,
+      "sentence_id": "s025",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0153",
+      "text": "مدخرات",
+      "start": 65.62,
+      "end": 66.1,
+      "duration": 0.48,
+      "probability": 0.878,
+      "sentence_id": "s025",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0154",
+      "text": "لأهداف",
+      "start": 66.1,
+      "end": 66.46,
+      "duration": 0.36,
+      "probability": 0.884,
+      "sentence_id": "s025",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0155",
+      "text": "ثانية.",
+      "start": 66.46,
+      "end": 66.92,
+      "duration": 0.46,
+      "probability": 0.984,
+      "sentence_id": "s025",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0156",
+      "text": "في",
+      "start": 66.92,
+      "end": 67.24,
+      "duration": 0.32,
+      "probability": 0.822,
+      "sentence_id": "s025",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0157",
+      "text": "الغداء",
+      "start": 67.24,
+      "end": 67.56,
+      "duration": 0.32,
+      "probability": 0.6,
+      "sentence_id": "s025",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0158",
+      "text": "تفتح",
+      "start": 67.56,
+      "end": 67.78,
+      "duration": 0.22,
+      "probability": 0.847,
+      "sentence_id": "s025",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0159",
+      "text": "تطبيق",
+      "start": 67.78,
+      "end": 68.1,
+      "duration": 0.32,
+      "probability": 0.953,
+      "sentence_id": "s026",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0160",
+      "text": "البنك.",
+      "start": 68.1,
+      "end": 68.46,
+      "duration": 0.36,
+      "probability": 0.649,
+      "sentence_id": "s026",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0161",
+      "text": "تنظر",
+      "start": 68.46,
+      "end": 68.8,
+      "duration": 0.34,
+      "probability": 0.945,
+      "sentence_id": "s026",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0162",
+      "text": "للرصيد.",
+      "start": 68.8,
+      "end": 69.3,
+      "duration": 0.5,
+      "probability": 0.932,
+      "sentence_id": "s026",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0163",
+      "text": "تشيك",
+      "start": 69.3,
+      "end": 69.92,
+      "duration": 0.62,
+      "probability": 0.79,
+      "sentence_id": "s026",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0164",
+      "text": "قسط",
+      "start": 69.92,
+      "end": 70.14,
+      "duration": 0.22,
+      "probability": 0.6,
+      "sentence_id": "s026",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0165",
+      "text": "الشهر.",
+      "start": 70.14,
+      "end": 70.44,
+      "duration": 0.3,
+      "probability": 0.959,
+      "sentence_id": "s026",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0166",
+      "text": "وتحول",
+      "start": 70.44,
+      "end": 70.84,
+      "duration": 0.4,
+      "probability": 0.954,
+      "sentence_id": "s026",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0167",
+      "text": "جزء",
+      "start": 70.84,
+      "end": 71.1,
+      "duration": 0.26,
+      "probability": 0.98,
+      "sentence_id": "s026",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0168",
+      "text": "للتوفير.",
+      "start": 71.1,
+      "end": 71.6,
+      "duration": 0.5,
+      "probability": 0.938,
+      "sentence_id": "s026",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0169",
+      "text": "وإذا",
+      "start": 71.6,
+      "end": 72.2,
+      "duration": 0.6,
+      "probability": 0.924,
+      "sentence_id": "s026",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0170",
+      "text": "احتجت",
+      "start": 72.2,
+      "end": 72.46,
+      "duration": 0.26,
+      "probability": 0.6,
+      "sentence_id": "s026",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0171",
+      "text": "تصليح",
+      "start": 72.46,
+      "end": 72.82,
+      "duration": 0.36,
+      "probability": 0.727,
+      "sentence_id": "s026",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0172",
+      "text": "بيت",
+      "start": 72.82,
+      "end": 73.1,
+      "duration": 0.28,
+      "probability": 0.979,
+      "sentence_id": "s026",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0173",
+      "text": "أو",
+      "start": 73.1,
+      "end": 73.24,
+      "duration": 0.14,
+      "probability": 0.914,
+      "sentence_id": "s026",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0174",
+      "text": "كفرات",
+      "start": 73.24,
+      "end": 73.6,
+      "duration": 0.36,
+      "probability": 0.974,
+      "sentence_id": "s026",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0175",
+      "text": "سيارة،",
+      "start": 73.6,
+      "end": 74.1,
+      "duration": 0.5,
+      "probability": 0.971,
+      "sentence_id": "s026",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0176",
+      "text": "عندك",
+      "start": 74.1,
+      "end": 74.52,
+      "duration": 0.42,
+      "probability": 0.956,
+      "sentence_id": "s027",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0177",
+      "text": "صندوق",
+      "start": 74.52,
+      "end": 74.78,
+      "duration": 0.26,
+      "probability": 0.6,
+      "sentence_id": "s027",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0178",
+      "text": "مخصص",
+      "start": 74.78,
+      "end": 75.24,
+      "duration": 0.46,
+      "probability": 0.988,
+      "sentence_id": "s027",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0179",
+      "text": "له.",
+      "start": 75.24,
+      "end": 75.4,
+      "duration": 0.16,
+      "probability": 0.6,
+      "sentence_id": "s027",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0180",
+      "text": "بعد",
+      "start": 75.4,
+      "end": 75.52,
+      "duration": 0.12,
+      "probability": 0.967,
+      "sentence_id": "s027",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0181",
+      "text": "الدوام",
+      "start": 75.52,
+      "end": 75.9,
+      "duration": 0.38,
+      "probability": 0.955,
+      "sentence_id": "s027",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0182",
+      "text": "تروح",
+      "start": 75.9,
+      "end": 76.168,
+      "duration": 0.268,
+      "probability": 0.6,
+      "sentence_id": "s028",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0183",
+      "text": "نادي،",
+      "start": 76.168,
+      "end": 76.436,
+      "duration": 0.268,
+      "probability": 0.6,
+      "sentence_id": "s028",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0184",
+      "text": "تلعب",
+      "start": 76.436,
+      "end": 76.704,
+      "duration": 0.268,
+      "probability": 0.6,
+      "sentence_id": "s028",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0185",
+      "text": "كورة،",
+      "start": 76.704,
+      "end": 76.972,
+      "duration": 0.268,
+      "probability": 0.6,
+      "sentence_id": "s028",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0186",
+      "text": "أو",
+      "start": 76.972,
+      "end": 77.24,
+      "duration": 0.268,
+      "probability": 0.6,
+      "sentence_id": "s028",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0187",
+      "text": "تطلع",
+      "start": 77.24,
+      "end": 77.508,
+      "duration": 0.268,
+      "probability": 0.6,
+      "sentence_id": "s028",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0188",
+      "text": "مع",
+      "start": 77.508,
+      "end": 77.776,
+      "duration": 0.268,
+      "probability": 0.6,
+      "sentence_id": "s029",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0189",
+      "text": "الشباب.",
+      "start": 77.776,
+      "end": 78.044,
+      "duration": 0.268,
+      "probability": 0.6,
+      "sentence_id": "s029",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0190",
+      "text": "تطبخ",
+      "start": 78.044,
+      "end": 78.312,
+      "duration": 0.268,
+      "probability": 0.6,
+      "sentence_id": "s029",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0191",
+      "text": "أغلب",
+      "start": 78.312,
+      "end": 78.581,
+      "duration": 0.269,
+      "probability": 0.6,
+      "sentence_id": "s030",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0192",
+      "text": "الليالي.",
+      "start": 78.581,
+      "end": 78.85,
+      "duration": 0.269,
+      "probability": 0.6,
+      "sentence_id": "s030",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0193",
+      "text": "وتطلب",
+      "start": 78.85,
+      "end": 79.118,
+      "duration": 0.268,
+      "probability": 0.6,
+      "sentence_id": "s030",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0194",
+      "text": "من",
+      "start": 79.118,
+      "end": 79.386,
+      "duration": 0.268,
+      "probability": 0.6,
+      "sentence_id": "s030",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0195",
+      "text": "برا",
+      "start": 79.386,
+      "end": 79.655,
+      "duration": 0.269,
+      "probability": 0.6,
+      "sentence_id": "s031",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0196",
+      "text": "مرة",
+      "start": 79.655,
+      "end": 79.924,
+      "duration": 0.269,
+      "probability": 0.6,
+      "sentence_id": "s031",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0197",
+      "text": "أو",
+      "start": 79.924,
+      "end": 80.192,
+      "duration": 0.268,
+      "probability": 0.6,
+      "sentence_id": "s031",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0198",
+      "text": "مرتين",
+      "start": 80.192,
+      "end": 80.46,
+      "duration": 0.268,
+      "probability": 0.6,
+      "sentence_id": "s031",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0199",
+      "text": "في",
+      "start": 80.46,
+      "end": 80.729,
+      "duration": 0.269,
+      "probability": 0.6,
+      "sentence_id": "s032",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0200",
+      "text": "الأسبوع",
+      "start": 80.729,
+      "end": 80.998,
+      "duration": 0.269,
+      "probability": 0.6,
+      "sentence_id": "s032",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0201",
+      "text": "بدون",
+      "start": 80.998,
+      "end": 81.266,
+      "duration": 0.268,
+      "probability": 0.6,
+      "sentence_id": "s032",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0202",
+      "text": "ما",
+      "start": 81.266,
+      "end": 81.535,
+      "duration": 0.269,
+      "probability": 0.6,
+      "sentence_id": "s032",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0203",
+      "text": "تحسب",
+      "start": 81.535,
+      "end": 81.803,
+      "duration": 0.268,
+      "probability": 0.6,
+      "sentence_id": "s032",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0204",
+      "text": "كل",
+      "start": 81.803,
+      "end": 82.072,
+      "duration": 0.269,
+      "probability": 0.6,
+      "sentence_id": "s032",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0205",
+      "text": "ريال.",
+      "start": 82.072,
+      "end": 82.34,
+      "duration": 0.268,
+      "probability": 0.6,
+      "sentence_id": "s032",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0206",
+      "text": "إذا",
+      "start": 82.34,
+      "end": 82.94,
+      "duration": 0.6,
+      "probability": 0.68,
+      "sentence_id": "s032",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0207",
+      "text": "صار",
+      "start": 82.94,
+      "end": 83.14,
+      "duration": 0.2,
+      "probability": 0.584,
+      "sentence_id": "s032",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0208",
+      "text": "تسريب",
+      "start": 83.14,
+      "end": 83.5,
+      "duration": 0.36,
+      "probability": 0.875,
+      "sentence_id": "s032",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0209",
+      "text": "في",
+      "start": 83.5,
+      "end": 83.58,
+      "duration": 0.08,
+      "probability": 0.944,
+      "sentence_id": "s032",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0210",
+      "text": "البيت،",
+      "start": 83.58,
+      "end": 83.86,
+      "duration": 0.28,
+      "probability": 0.939,
+      "sentence_id": "s032",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0211",
+      "text": "ممكن",
+      "start": 83.86,
+      "end": 84.14,
+      "duration": 0.28,
+      "probability": 0.735,
+      "sentence_id": "s033",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0212",
+      "text": "تجيب",
+      "start": 84.14,
+      "end": 84.34,
+      "duration": 0.2,
+      "probability": 0.734,
+      "sentence_id": "s033",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0213",
+      "text": "سباك",
+      "start": 84.34,
+      "end": 84.7,
+      "duration": 0.36,
+      "probability": 0.843,
+      "sentence_id": "s033",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0214",
+      "text": "بدال",
+      "start": 84.7,
+      "end": 84.88,
+      "duration": 0.18,
+      "probability": 0.6,
+      "sentence_id": "s033",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0215",
+      "text": "ما",
+      "start": 84.88,
+      "end": 85.06,
+      "duration": 0.18,
+      "probability": 0.6,
+      "sentence_id": "s033",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0216",
+      "text": "تقضي",
+      "start": 85.06,
+      "end": 85.24,
+      "duration": 0.18,
+      "probability": 0.6,
+      "sentence_id": "s033",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0217",
+      "text": "ثلاث",
+      "start": 85.24,
+      "end": 85.48,
+      "duration": 0.24,
+      "probability": 0.935,
+      "sentence_id": "s033",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0218",
+      "text": "ساعات",
+      "start": 85.48,
+      "end": 85.8,
+      "duration": 0.32,
+      "probability": 0.841,
+      "sentence_id": "s033",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0219",
+      "text": "في",
+      "start": 85.8,
+      "end": 85.9,
+      "duration": 0.1,
+      "probability": 0.994,
+      "sentence_id": "s033",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0220",
+      "text": "يوتيوب.",
+      "start": 85.9,
+      "end": 86.32,
+      "duration": 0.42,
+      "probability": 0.882,
+      "sentence_id": "s033",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0221",
+      "text": "وتحجز",
+      "start": 86.32,
+      "end": 86.9,
+      "duration": 0.58,
+      "probability": 0.881,
+      "sentence_id": "s033",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0222",
+      "text": "فحص",
+      "start": 86.9,
+      "end": 87.16,
+      "duration": 0.26,
+      "probability": 0.883,
+      "sentence_id": "s034",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0223",
+      "text": "الأسنان",
+      "start": 87.16,
+      "end": 87.54,
+      "duration": 0.38,
+      "probability": 0.8,
+      "sentence_id": "s034",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0224",
+      "text": "قبل",
+      "start": 87.54,
+      "end": 87.74,
+      "duration": 0.2,
+      "probability": 0.92,
+      "sentence_id": "s034",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0225",
+      "text": "الألم.",
+      "start": 87.74,
+      "end": 88.0,
+      "duration": 0.26,
+      "probability": 0.794,
+      "sentence_id": "s034",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0226",
+      "text": "في",
+      "start": 88.0,
+      "end": 88.12,
+      "duration": 0.12,
+      "probability": 0.981,
+      "sentence_id": "s035",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0227",
+      "text": "المساء",
+      "start": 88.12,
+      "end": 88.5,
+      "duration": 0.38,
+      "probability": 0.979,
+      "sentence_id": "s035",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0228",
+      "text": "تساعد",
+      "start": 88.5,
+      "end": 89.12,
+      "duration": 0.62,
+      "probability": 0.985,
+      "sentence_id": "s035",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0229",
+      "text": "العيال",
+      "start": 89.12,
+      "end": 89.42,
+      "duration": 0.3,
+      "probability": 0.926,
+      "sentence_id": "s035",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0230",
+      "text": "في",
+      "start": 89.42,
+      "end": 89.54,
+      "duration": 0.12,
+      "probability": 0.975,
+      "sentence_id": "s035",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0231",
+      "text": "واجباتهم،",
+      "start": 89.54,
+      "end": 90.12,
+      "duration": 0.58,
+      "probability": 0.955,
+      "sentence_id": "s035",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0232",
+      "text": "تشوف",
+      "start": 90.12,
+      "end": 90.62,
+      "duration": 0.5,
+      "probability": 0.974,
+      "sentence_id": "s035",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0233",
+      "text": "مسلسل،",
+      "start": 90.62,
+      "end": 91.1,
+      "duration": 0.48,
+      "probability": 0.978,
+      "sentence_id": "s035",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0234",
+      "text": "أو",
+      "start": 91.1,
+      "end": 91.22,
+      "duration": 0.12,
+      "probability": 0.966,
+      "sentence_id": "s035",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0235",
+      "text": "تقرأ.",
+      "start": 91.22,
+      "end": 91.68,
+      "duration": 0.46,
+      "probability": 0.958,
+      "sentence_id": "s035",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0236",
+      "text": "وتقدر",
+      "start": 91.68,
+      "end": 92.2,
+      "duration": 0.52,
+      "probability": 0.966,
+      "sentence_id": "s035",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0237",
+      "text": "تطلب",
+      "start": 92.2,
+      "end": 92.44,
+      "duration": 0.24,
+      "probability": 0.955,
+      "sentence_id": "s035",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0238",
+      "text": "هدية",
+      "start": 92.44,
+      "end": 92.78,
+      "duration": 0.34,
+      "probability": 0.757,
+      "sentence_id": "s035",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0239",
+      "text": "عيد",
+      "start": 92.78,
+      "end": 92.92,
+      "duration": 0.14,
+      "probability": 0.506,
+      "sentence_id": "s035",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0240",
+      "text": "ميلاد",
+      "start": 92.92,
+      "end": 93.2,
+      "duration": 0.28,
+      "probability": 0.904,
+      "sentence_id": "s036",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0241",
+      "text": "أونلاين",
+      "start": 93.2,
+      "end": 93.48,
+      "duration": 0.28,
+      "probability": 0.6,
+      "sentence_id": "s036",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0242",
+      "text": "بدون",
+      "start": 93.48,
+      "end": 93.94,
+      "duration": 0.46,
+      "probability": 0.968,
+      "sentence_id": "s036",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0243",
+      "text": "ما",
+      "start": 93.94,
+      "end": 94.06,
+      "duration": 0.12,
+      "probability": 0.885,
+      "sentence_id": "s036",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0244",
+      "text": "تفتح",
+      "start": 94.06,
+      "end": 94.36,
+      "duration": 0.3,
+      "probability": 0.94,
+      "sentence_id": "s036",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0245",
+      "text": "تطبيق",
+      "start": 94.36,
+      "end": 94.62,
+      "duration": 0.26,
+      "probability": 0.966,
+      "sentence_id": "s036",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0246",
+      "text": "البنك",
+      "start": 94.62,
+      "end": 94.92,
+      "duration": 0.3,
+      "probability": 0.819,
+      "sentence_id": "s036",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0247",
+      "text": "أول.",
+      "start": 94.92,
+      "end": 95.18,
+      "duration": 0.26,
+      "probability": 0.939,
+      "sentence_id": "s036",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0248",
+      "text": "هنا",
+      "start": 95.18,
+      "end": 95.68,
+      "duration": 0.5,
+      "probability": 0.6,
+      "sentence_id": "s036",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0249",
+      "text": "الاستقرار",
+      "start": 95.68,
+      "end": 96.16,
+      "duration": 0.48,
+      "probability": 0.967,
+      "sentence_id": "s036",
+      "semantic_span_id": null,
+      "needs_review": false
+    },
+    {
+      "id": "w0250",
+      "text": "صار",
+      "start": 96.16,
+      "end": 96.51,
+      "duration": 0.35,
+      "probability": 0.6,
+      "sentence_id": "s036",
+      "semantic_span_id": null,
+      "needs_review": true
+    },
+    {
+      "id": "w0251",
+      "text": "عادة.",
+      "start": 96.51,
+      "end": 96.86,
+      "duration": 0.35,
+      "probability": 0.6,
+      "sentence_id": "s036",
+      "semantic_span_id": null,
+      "needs_review": true
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s001",
+      "text": "الطبقة المتوسطة .",
+      "start": 1.74,
+      "end": 4.98,
+      "duration": 3.24,
+      "word_ids": [
+        "w0001",
+        "w0002",
+        "w0003"
+      ],
+      "confidence": 0.87
+    },
+    {
+      "id": "s002",
+      "text": "هنا تبدأ الحياة تدخل في مرحلة الاستقرار الحقيقي .",
+      "start": 4.98,
+      "end": 9.84,
+      "duration": 4.86,
+      "word_ids": [
+        "w0004",
+        "w0005",
+        "w0006",
+        "w0007",
+        "w0008",
+        "w0009",
+        "w0010",
+        "w0011",
+        "w0012"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "s003",
+      "text": "تصحى في بيت ثلاث غرف، أو شقة مريحة، وناوي تكمل فيها سنوات .",
+      "start": 9.84,
+      "end": 16.02,
+      "duration": 6.18,
+      "word_ids": [
+        "w0013",
+        "w0014",
+        "w0015",
+        "w0016",
+        "w0017",
+        "w0018",
+        "w0019",
+        "w0020",
+        "w0021",
+        "w0022",
+        "w0023",
+        "w0024",
+        "w0025"
+      ],
+      "confidence": 0.89
+    },
+    {
+      "id": "s004",
+      "text": "عندك رهن عقاري أو عقد إيجار مستقر .",
+      "start": 16.02,
+      "end": 19.48,
+      "duration": 3.46,
+      "word_ids": [
+        "w0026",
+        "w0027",
+        "w0028",
+        "w0029",
+        "w0030",
+        "w0031",
+        "w0032",
+        "w0033"
+      ],
+      "confidence": 0.83
+    },
+    {
+      "id": "s005",
+      "text": "التدفئة والمكيف والأجهزة شغالة .",
+      "start": 19.48,
+      "end": 21.56,
+      "duration": 2.08,
+      "word_ids": [
+        "w0034",
+        "w0035",
+        "w0036",
+        "w0037",
+        "w0038"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "s006",
+      "text": "والقهوة جاهزة تقريباً كأنها جزء من الروتين الرسمي .",
+      "start": 21.56,
+      "end": 24.64,
+      "duration": 3.08,
+      "word_ids": [
+        "w0039",
+        "w0040",
+        "w0041",
+        "w0042",
+        "w0043",
+        "w0044",
+        "w0045",
+        "w0046",
+        "w0047"
+      ],
+      "confidence": 0.81
+    },
+    {
+      "id": "s007",
+      "text": "تشيك تقويم مشترك بينك وبين العائلة .",
+      "start": 24.64,
+      "end": 28.12,
+      "duration": 3.48,
+      "word_ids": [
+        "w0048",
+        "w0049",
+        "w0050",
+        "w0051",
+        "w0052",
+        "w0053",
+        "w0054"
+      ],
+      "confidence": 0.81
+    },
+    {
+      "id": "s008",
+      "text": "الرواتب ثابتة .",
+      "start": 28.12,
+      "end": 28.92,
+      "duration": 0.8,
+      "word_ids": [
+        "w0055",
+        "w0056",
+        "w0057"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "s009",
+      "text": "الفواتير تنخصم تلقائياً .",
+      "start": 28.92,
+      "end": 29.88,
+      "duration": 0.96,
+      "word_ids": [
+        "w0058",
+        "w0059",
+        "w0060",
+        "w0061"
+      ],
+      "confidence": 0.94
+    },
+    {
+      "id": "s010",
+      "text": "وعندك صندوق طوارئ .",
+      "start": 29.88,
+      "end": 31.34,
+      "duration": 1.46,
+      "word_ids": [
+        "w0062",
+        "w0063",
+        "w0064",
+        "w0065"
+      ],
+      "confidence": 0.89
+    },
+    {
+      "id": "s011",
+      "text": "وتساهم في التقاعد من كل راتب .",
+      "start": 31.34,
+      "end": 34.58,
+      "duration": 3.24,
+      "word_ids": [
+        "w0066",
+        "w0067",
+        "w0068",
+        "w0069",
+        "w0070",
+        "w0071",
+        "w0072"
+      ],
+      "confidence": 0.77
+    },
+    {
+      "id": "s012",
+      "text": "الفطور بسيط لكن طازج:",
+      "start": 34.58,
+      "end": 36.3,
+      "duration": 1.72,
+      "word_ids": [
+        "w0073",
+        "w0074",
+        "w0075",
+        "w0076"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "s013",
+      "text": "بيض .",
+      "start": 36.3,
+      "end": 36.8,
+      "duration": 0.5,
+      "word_ids": [
+        "w0077",
+        "w0078"
+      ],
+      "confidence": 0.97
+    },
+    {
+      "id": "s014",
+      "text": "توست .",
+      "start": 36.8,
+      "end": 37.32,
+      "duration": 0.52,
+      "word_ids": [
+        "w0079",
+        "w0080"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "s015",
+      "text": "فاكهة .",
+      "start": 37.32,
+      "end": 38.1,
+      "duration": 0.78,
+      "word_ids": [
+        "w0081",
+        "w0082"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "s016",
+      "text": "وإذا عندك أطفال، تجهز غداهم وتراجع واجباتهم قبل ما تطلع .",
+      "start": 38.1,
+      "end": 42.66,
+      "duration": 4.56,
+      "word_ids": [
+        "w0083",
+        "w0084",
+        "w0085",
+        "w0086",
+        "w0087",
+        "w0088",
+        "w0089",
+        "w0090",
+        "w0091",
+        "w0092",
+        "w0093"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "id": "s017",
+      "text": "وإذا ما عندك، تسوي غداك وتوفر تكلفة الكافتيريا .",
+      "start": 42.66,
+      "end": 46.74,
+      "duration": 4.08,
+      "word_ids": [
+        "w0094",
+        "w0095",
+        "w0096",
+        "w0097",
+        "w0098",
+        "w0099",
+        "w0100",
+        "w0101",
+        "w0102"
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "s018",
+      "text": "السيارة مستعملة لكن نظيفة، أو عندك قطار موثوق باشتراك شهري .",
+      "start": 46.74,
+      "end": 50.3,
+      "duration": 3.56,
+      "word_ids": [
+        "w0103",
+        "w0104",
+        "w0105",
+        "w0106",
+        "w0107",
+        "w0108",
+        "w0109",
+        "w0110",
+        "w0111",
+        "w0112",
+        "w0113"
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "s019",
+      "text": "البنزين والتأمين والصيانة صارت مصاريف محسوبة، مو مفاجآت .",
+      "start": 50.3,
+      "end": 55.11,
+      "duration": 4.81,
+      "word_ids": [
+        "w0114",
+        "w0115",
+        "w0116",
+        "w0117",
+        "w0118",
+        "w0119",
+        "w0120",
+        "w0121",
+        "w0122"
+      ],
+      "confidence": 0.76
+    },
+    {
+      "id": "s020",
+      "text": "في الدوام، عندك دور واضح مع مساحة أكبر للتحكم في يومك .",
+      "start": 55.11,
+      "end": 60.0,
+      "duration": 4.89,
+      "word_ids": [
+        "w0123",
+        "w0124",
+        "w0125",
+        "w0126",
+        "w0127",
+        "w0128",
+        "w0129",
+        "w0130",
+        "w0131",
+        "w0132",
+        "w0133",
+        "w0134"
+      ],
+      "confidence": 0.86
+    },
+    {
+      "id": "s021",
+      "text": "اجتماعات .",
+      "start": 60.0,
+      "end": 60.44,
+      "duration": 0.44,
+      "word_ids": [
+        "w0135",
+        "w0136"
+      ],
+      "confidence": 0.68
+    },
+    {
+      "id": "s022",
+      "text": "رسائل .",
+      "start": 60.44,
+      "end": 60.8,
+      "duration": 0.36,
+      "word_ids": [
+        "w0137",
+        "w0138"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "id": "s023",
+      "text": "مشاريع تمتد لأسابيع .",
+      "start": 60.8,
+      "end": 62.12,
+      "duration": 1.32,
+      "word_ids": [
+        "w0139",
+        "w0140",
+        "w0141",
+        "w0142"
+      ],
+      "confidence": 0.78
+    },
+    {
+      "id": "s024",
+      "text": "وعندك إجازات مدفوعة تعرف متى تستخدمها .",
+      "start": 62.12,
+      "end": 64.54,
+      "duration": 2.42,
+      "word_ids": [
+        "w0143",
+        "w0144",
+        "w0145",
+        "w0146",
+        "w0147",
+        "w0148",
+        "w0149"
+      ],
+      "confidence": 0.78
+    },
+    {
+      "id": "s025",
+      "text": "التأمين ومساهمة الشركة في التقاعد صاروا شيء طبيعي .",
+      "start": 64.54,
+      "end": 67.78,
+      "duration": 3.24,
+      "word_ids": [
+        "w0150",
+        "w0151",
+        "w0152",
+        "w0153",
+        "w0154",
+        "w0155",
+        "w0156",
+        "w0157",
+        "w0158"
+      ],
+      "confidence": 0.79
+    },
+    {
+      "id": "s026",
+      "text": "تحط جزء من دخلك للتقاعد، مثلاً عشرة إلى خمسة عشر بالمئة، وأحياناً أكثر إذا فيه بونص .",
+      "start": 67.78,
+      "end": 74.1,
+      "duration": 6.32,
+      "word_ids": [
+        "w0159",
+        "w0160",
+        "w0161",
+        "w0162",
+        "w0163",
+        "w0164",
+        "w0165",
+        "w0166",
+        "w0167",
+        "w0168",
+        "w0169",
+        "w0170",
+        "w0171",
+        "w0172",
+        "w0173",
+        "w0174",
+        "w0175"
+      ],
+      "confidence": 0.87
+    },
+    {
+      "id": "s027",
+      "text": "وبرضه عندك مدخرات لأهداف ثانية .",
+      "start": 74.1,
+      "end": 75.9,
+      "duration": 1.8,
+      "word_ids": [
+        "w0176",
+        "w0177",
+        "w0178",
+        "w0179",
+        "w0180",
+        "w0181"
+      ],
+      "confidence": 0.84
+    },
+    {
+      "id": "s028",
+      "text": "في الغداء تفتح تطبيق البنك .",
+      "start": 75.9,
+      "end": 77.508,
+      "duration": 1.608,
+      "word_ids": [
+        "w0182",
+        "w0183",
+        "w0184",
+        "w0185",
+        "w0186",
+        "w0187"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "id": "s029",
+      "text": "تنظر للرصيد .",
+      "start": 77.508,
+      "end": 78.312,
+      "duration": 0.804,
+      "word_ids": [
+        "w0188",
+        "w0189",
+        "w0190"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "id": "s030",
+      "text": "تشيك قسط الشهر .",
+      "start": 78.312,
+      "end": 79.386,
+      "duration": 1.074,
+      "word_ids": [
+        "w0191",
+        "w0192",
+        "w0193",
+        "w0194"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "id": "s031",
+      "text": "وتحول جزء للتوفير .",
+      "start": 79.386,
+      "end": 80.46,
+      "duration": 1.074,
+      "word_ids": [
+        "w0195",
+        "w0196",
+        "w0197",
+        "w0198"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "id": "s032",
+      "text": "وإذا احتجت تصليح بيت أو كفرات سيارة، عندك صندوق مخصص له .",
+      "start": 80.46,
+      "end": 83.86,
+      "duration": 3.4,
+      "word_ids": [
+        "w0199",
+        "w0200",
+        "w0201",
+        "w0202",
+        "w0203",
+        "w0204",
+        "w0205",
+        "w0206",
+        "w0207",
+        "w0208",
+        "w0209",
+        "w0210"
+      ],
+      "confidence": 0.69
+    },
+    {
+      "id": "s033",
+      "text": "بعد الدوام تروح نادي، تلعب كورة، أو تطلع مع الشباب .",
+      "start": 83.86,
+      "end": 86.9,
+      "duration": 3.04,
+      "word_ids": [
+        "w0211",
+        "w0212",
+        "w0213",
+        "w0214",
+        "w0215",
+        "w0216",
+        "w0217",
+        "w0218",
+        "w0219",
+        "w0220",
+        "w0221"
+      ],
+      "confidence": 0.79
+    },
+    {
+      "id": "s034",
+      "text": "تطبخ أغلب الليالي .",
+      "start": 86.9,
+      "end": 88.0,
+      "duration": 1.1,
+      "word_ids": [
+        "w0222",
+        "w0223",
+        "w0224",
+        "w0225"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "s035",
+      "text": "وتطلب من برا مرة أو مرتين في الأسبوع بدون ما تحسب كل ريال .",
+      "start": 88.0,
+      "end": 92.92,
+      "duration": 4.92,
+      "word_ids": [
+        "w0226",
+        "w0227",
+        "w0228",
+        "w0229",
+        "w0230",
+        "w0231",
+        "w0232",
+        "w0233",
+        "w0234",
+        "w0235",
+        "w0236",
+        "w0237",
+        "w0238",
+        "w0239"
+      ],
+      "confidence": 0.92
+    },
+    {
+      "id": "s036",
+      "text": "إذا صار تسريب في البيت، ممكن تجيب سباك بدال ما تقضي ثلاث ساعات في يوتيوب .",
+      "start": 92.92,
+      "end": 96.86,
+      "duration": 3.94,
+      "word_ids": [
+        "w0240",
+        "w0241",
+        "w0242",
+        "w0243",
+        "w0244",
+        "w0245",
+        "w0246",
+        "w0247",
+        "w0248",
+        "w0249",
+        "w0250",
+        "w0251"
+      ],
+      "confidence": 0.82
+    }
+  ],
+  "pauses": [
+    {
+      "id": "p001",
+      "start": 3.44,
+      "end": 4.44,
+      "duration": 1.0,
+      "type": "long_pause"
+    }
+  ],
+  "speech_beats": [
+    {
+      "id": "sb001",
+      "start": 1.74,
+      "end": 4.98,
+      "type": "hook",
+      "importance": 1.0,
+      "sentence_id": "s001"
+    },
+    {
+      "id": "sb002",
+      "start": 4.98,
+      "end": 9.84,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s002"
+    },
+    {
+      "id": "sb003",
+      "start": 9.84,
+      "end": 16.02,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s003"
+    },
+    {
+      "id": "sb004",
+      "start": 16.02,
+      "end": 19.48,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s004"
+    },
+    {
+      "id": "sb005",
+      "start": 19.48,
+      "end": 21.56,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s005"
+    },
+    {
+      "id": "sb006",
+      "start": 21.56,
+      "end": 24.64,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s006"
+    },
+    {
+      "id": "sb007",
+      "start": 24.64,
+      "end": 28.12,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s007"
+    },
+    {
+      "id": "sb008",
+      "start": 28.12,
+      "end": 28.92,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s008"
+    },
+    {
+      "id": "sb009",
+      "start": 28.92,
+      "end": 29.88,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s009"
+    },
+    {
+      "id": "sb010",
+      "start": 29.88,
+      "end": 31.34,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s010"
+    },
+    {
+      "id": "sb011",
+      "start": 31.34,
+      "end": 34.58,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s011"
+    },
+    {
+      "id": "sb012",
+      "start": 34.58,
+      "end": 36.3,
+      "type": "important_fact",
+      "importance": 0.95,
+      "sentence_id": "s012"
+    },
+    {
+      "id": "sb013",
+      "start": 36.3,
+      "end": 36.8,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s013"
+    },
+    {
+      "id": "sb014",
+      "start": 36.8,
+      "end": 37.32,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s014"
+    },
+    {
+      "id": "sb015",
+      "start": 37.32,
+      "end": 38.1,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s015"
+    },
+    {
+      "id": "sb016",
+      "start": 38.1,
+      "end": 42.66,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s016"
+    },
+    {
+      "id": "sb017",
+      "start": 42.66,
+      "end": 46.74,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s017"
+    },
+    {
+      "id": "sb018",
+      "start": 46.74,
+      "end": 50.3,
+      "type": "important_fact",
+      "importance": 0.95,
+      "sentence_id": "s018"
+    },
+    {
+      "id": "sb019",
+      "start": 50.3,
+      "end": 55.11,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s019"
+    },
+    {
+      "id": "sb020",
+      "start": 55.11,
+      "end": 60.0,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s020"
+    },
+    {
+      "id": "sb021",
+      "start": 60.0,
+      "end": 60.44,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s021"
+    },
+    {
+      "id": "sb022",
+      "start": 60.44,
+      "end": 60.8,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s022"
+    },
+    {
+      "id": "sb023",
+      "start": 60.8,
+      "end": 62.12,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s023"
+    },
+    {
+      "id": "sb024",
+      "start": 62.12,
+      "end": 64.54,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s024"
+    },
+    {
+      "id": "sb025",
+      "start": 64.54,
+      "end": 67.78,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s025"
+    },
+    {
+      "id": "sb026",
+      "start": 67.78,
+      "end": 74.1,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s026"
+    },
+    {
+      "id": "sb027",
+      "start": 74.1,
+      "end": 75.9,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s027"
+    },
+    {
+      "id": "sb028",
+      "start": 75.9,
+      "end": 77.508,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s028"
+    },
+    {
+      "id": "sb029",
+      "start": 77.508,
+      "end": 78.312,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s029"
+    },
+    {
+      "id": "sb030",
+      "start": 78.312,
+      "end": 79.386,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s030"
+    },
+    {
+      "id": "sb031",
+      "start": 79.386,
+      "end": 80.46,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s031"
+    },
+    {
+      "id": "sb032",
+      "start": 80.46,
+      "end": 83.86,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s032"
+    },
+    {
+      "id": "sb033",
+      "start": 83.86,
+      "end": 86.9,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s033"
+    },
+    {
+      "id": "sb034",
+      "start": 86.9,
+      "end": 88.0,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s034"
+    },
+    {
+      "id": "sb035",
+      "start": 88.0,
+      "end": 92.92,
+      "type": "new_idea",
+      "importance": 0.7,
+      "sentence_id": "s035"
+    },
+    {
+      "id": "sb036",
+      "start": 92.92,
+      "end": 96.86,
+      "type": "outro",
+      "importance": 0.9,
+      "sentence_id": "s036"
+    }
+  ],
+  "semantic_beats": [
+    {
+      "id": "sb_001",
+      "sentence_id": null,
+      "subject": "r0_00_title_banner",
+      "action": "reveal",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "الطبقة المتوسطة .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_002",
+      "sentence_id": null,
+      "subject": "r1_01_three_bedroom_home",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "هنا تبدأ الحياة تدخل في مرحلة الاستقرار الحقيقي .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_003",
+      "sentence_id": null,
+      "subject": "r1_02_stable_mortgage_lease",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "عندك رهن عقاري أو عقد إيجار مستقر .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_004",
+      "sentence_id": null,
+      "subject": "r1_03_coffee_official_routine",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "والقهوة جاهزة تقريباً كأنها جزء من الروتين الرسمي .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_005",
+      "sentence_id": null,
+      "subject": "r1_04_shared_family_calendar",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "تشيك تقويم مشترك بينك وبين العائلة .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_006",
+      "sentence_id": null,
+      "subject": "r1_05_fresh_healthy_breakfast",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "الفواتير تنخصم تلقائياً .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_007",
+      "sentence_id": null,
+      "subject": "r2_01_clean_car_reliable_train",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "وتساهم في التقاعد من كل راتب .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_008",
+      "sentence_id": null,
+      "subject": "r2_02_flexible_office_control",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "بيض .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_009",
+      "sentence_id": null,
+      "subject": "r2_03_meetings_and_projects",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "توست .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_010",
+      "sentence_id": null,
+      "subject": "r2_04_paid_vacations_pension",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "وإذا عندك أطفال، تجهز غداهم وتراجع واجباتهم قبل ما تطلع .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_011",
+      "sentence_id": null,
+      "subject": "r2_05_long_term_savings_goals",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "السيارة مستعملة لكن نظيفة، أو عندك قطار موثوق باشتراك شهري .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_012",
+      "sentence_id": null,
+      "subject": "r3_01_banking_app_lunch_check",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "البنزين والتأمين والصيانة صارت مصاريف محسوبة، مو مفاجآت .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_013",
+      "sentence_id": null,
+      "subject": "r3_02_monthly_installment_check",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "اجتماعات .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_014",
+      "sentence_id": null,
+      "subject": "r3_03_home_repair_car_tire_fund",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "مشاريع تمتد لأسابيع .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_015",
+      "sentence_id": null,
+      "subject": "r3_04_gym_and_friends_sports",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "التأمين ومساهمة الشركة في التقاعد صاروا شيء طبيعي .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_016",
+      "sentence_id": null,
+      "subject": "r3_05_home_cooking_and_takeout",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "تحط جزء من دخلك للتقاعد، مثلاً عشرة إلى خمسة عشر بالمئة، وأحياناً أكثر إذا فيه بونص .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_017",
+      "sentence_id": null,
+      "subject": "r4_01_calling_plumber_repair",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "في الغداء تفتح تطبيق البنك .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_018",
+      "sentence_id": null,
+      "subject": "r4_02_routine_dentist_visit",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "تشيك قسط الشهر .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_019",
+      "sentence_id": null,
+      "subject": "r4_03_helping_kids_homework",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "وتحول جزء للتوفير .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_020",
+      "sentence_id": null,
+      "subject": "r4_04_birthday_gift_online",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "بعد الدوام تروح نادي، تلعب كورة، أو تطلع مع الشباب .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_021",
+      "sentence_id": null,
+      "subject": "r4_05_established_habit_stability",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "وتطلب من برا مرة أو مرتين في الأسبوع بدون ما تحسب كل ريال .",
+      "importance": 0.8
+    }
+  ],
+  "visual_beats": [
+    {
+      "id": "vb_001",
+      "asset_id": "r0_00_title_banner",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "الطبقة المتوسطة .",
+        "start": 1.74,
+        "end": 4.98
+      },
+      "importance": 0.8,
+      "action": "reveal"
+    },
+    {
+      "id": "vb_002",
+      "asset_id": "r1_01_three_bedroom_home",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "هنا تبدأ الحياة تدخل في مرحلة الاستقرار الحقيقي .",
+        "start": 4.98,
+        "end": 9.84
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_003",
+      "asset_id": "r1_02_stable_mortgage_lease",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "عندك رهن عقاري أو عقد إيجار مستقر .",
+        "start": 16.02,
+        "end": 19.48
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_004",
+      "asset_id": "r1_03_coffee_official_routine",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "والقهوة جاهزة تقريباً كأنها جزء من الروتين الرسمي .",
+        "start": 21.56,
+        "end": 24.64
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_005",
+      "asset_id": "r1_04_shared_family_calendar",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "تشيك تقويم مشترك بينك وبين العائلة .",
+        "start": 24.64,
+        "end": 28.12
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_006",
+      "asset_id": "r1_05_fresh_healthy_breakfast",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "الفواتير تنخصم تلقائياً .",
+        "start": 28.92,
+        "end": 29.88
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_007",
+      "asset_id": "r2_01_clean_car_reliable_train",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "وتساهم في التقاعد من كل راتب .",
+        "start": 31.34,
+        "end": 34.58
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_008",
+      "asset_id": "r2_02_flexible_office_control",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "بيض .",
+        "start": 36.3,
+        "end": 36.8
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_009",
+      "asset_id": "r2_03_meetings_and_projects",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "توست .",
+        "start": 36.8,
+        "end": 37.32
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_010",
+      "asset_id": "r2_04_paid_vacations_pension",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "وإذا عندك أطفال، تجهز غداهم وتراجع واجباتهم قبل ما تطلع .",
+        "start": 38.1,
+        "end": 42.66
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_011",
+      "asset_id": "r2_05_long_term_savings_goals",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "السيارة مستعملة لكن نظيفة، أو عندك قطار موثوق باشتراك شهري .",
+        "start": 46.74,
+        "end": 50.3
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_012",
+      "asset_id": "r3_01_banking_app_lunch_check",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "البنزين والتأمين والصيانة صارت مصاريف محسوبة، مو مفاجآت .",
+        "start": 50.3,
+        "end": 55.11
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_013",
+      "asset_id": "r3_02_monthly_installment_check",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "اجتماعات .",
+        "start": 60.0,
+        "end": 60.44
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_014",
+      "asset_id": "r3_03_home_repair_car_tire_fund",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "مشاريع تمتد لأسابيع .",
+        "start": 60.8,
+        "end": 62.12
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_015",
+      "asset_id": "r3_04_gym_and_friends_sports",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "التأمين ومساهمة الشركة في التقاعد صاروا شيء طبيعي .",
+        "start": 64.54,
+        "end": 67.78
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_016",
+      "asset_id": "r3_05_home_cooking_and_takeout",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "تحط جزء من دخلك للتقاعد، مثلاً عشرة إلى خمسة عشر بالمئة، وأحياناً أكثر إذا فيه بونص .",
+        "start": 67.78,
+        "end": 74.1
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_017",
+      "asset_id": "r4_01_calling_plumber_repair",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "في الغداء تفتح تطبيق البنك .",
+        "start": 75.9,
+        "end": 77.508
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_018",
+      "asset_id": "r4_02_routine_dentist_visit",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "تشيك قسط الشهر .",
+        "start": 78.312,
+        "end": 79.386
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_019",
+      "asset_id": "r4_03_helping_kids_homework",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "وتحول جزء للتوفير .",
+        "start": 79.386,
+        "end": 80.46
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_020",
+      "asset_id": "r4_04_birthday_gift_online",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "بعد الدوام تروح نادي، تلعب كورة، أو تطلع مع الشباب .",
+        "start": 83.86,
+        "end": 86.9
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_021",
+      "asset_id": "r4_05_established_habit_stability",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "وتطلب من برا مرة أو مرتين في الأسبوع بدون ما تحسب كل ريال .",
+        "start": 88.0,
+        "end": 92.92
+      },
+      "importance": 0.8,
+      "action": "draw"
+    }
+  ],
+  "drawings": [
+    {
+      "id": "D001",
+      "type": "reveal",
+      "asset_id": "r0_00_title_banner",
+      "start_s": 1.74,
+      "end_s": 4.014,
+      "duration_s": 2.274,
+      "trigger": "semantic",
+      "anchor_text": "الطبقة المتوسطة .",
+      "confidence": 0.95,
+      "layer_order": 0
+    },
+    {
+      "id": "D002",
+      "type": "draw",
+      "asset_id": "r1_01_three_bedroom_home",
+      "start_s": 4.98,
+      "end_s": 7.28,
+      "duration_s": 2.3,
+      "trigger": "semantic",
+      "anchor_text": "هنا تبدأ الحياة تدخل في مرحلة ",
+      "confidence": 0.95,
+      "layer_order": 1
+    },
+    {
+      "id": "D003",
+      "type": "draw",
+      "asset_id": "r1_02_stable_mortgage_lease",
+      "start_s": 16.02,
+      "end_s": 18.475,
+      "duration_s": 2.455,
+      "trigger": "semantic",
+      "anchor_text": "عندك رهن عقاري أو عقد إيجار مس",
+      "confidence": 0.95,
+      "layer_order": 2
+    },
+    {
+      "id": "D004",
+      "type": "draw",
+      "asset_id": "r1_03_coffee_official_routine",
+      "start_s": 21.56,
+      "end_s": 24.04,
+      "duration_s": 2.48,
+      "trigger": "semantic",
+      "anchor_text": "والقهوة جاهزة تقريباً كأنها جز",
+      "confidence": 0.95,
+      "layer_order": 3
+    },
+    {
+      "id": "D005",
+      "type": "draw",
+      "asset_id": "r1_04_shared_family_calendar",
+      "start_s": 24.64,
+      "end_s": 26.966,
+      "duration_s": 2.326,
+      "trigger": "semantic",
+      "anchor_text": "تشيك تقويم مشترك بينك وبين الع",
+      "confidence": 0.95,
+      "layer_order": 4
+    },
+    {
+      "id": "D006",
+      "type": "draw",
+      "asset_id": "r1_05_fresh_healthy_breakfast",
+      "start_s": 27.528,
+      "end_s": 29.88,
+      "duration_s": 2.352,
+      "trigger": "lead_in",
+      "anchor_text": "الفواتير تنخصم تلقائياً .",
+      "confidence": 0.95,
+      "layer_order": 5
+    },
+    {
+      "id": "D007",
+      "type": "draw",
+      "asset_id": "r2_01_clean_car_reliable_train",
+      "start_s": 31.34,
+      "end_s": 33.614,
+      "duration_s": 2.274,
+      "trigger": "semantic",
+      "anchor_text": "وتساهم في التقاعد من كل راتب .",
+      "confidence": 0.95,
+      "layer_order": 6
+    },
+    {
+      "id": "D008",
+      "type": "draw",
+      "asset_id": "r2_02_flexible_office_control",
+      "start_s": 34.5,
+      "end_s": 36.8,
+      "duration_s": 2.3,
+      "trigger": "lead_in",
+      "anchor_text": "بيض .",
+      "confidence": 0.95,
+      "layer_order": 7
+    },
+    {
+      "id": "D009",
+      "type": "draw",
+      "asset_id": "r2_03_meetings_and_projects",
+      "start_s": 36.55,
+      "end_s": 38.85,
+      "duration_s": 2.3,
+      "trigger": "lead_in",
+      "anchor_text": "توست .",
+      "confidence": 0.95,
+      "layer_order": 8
+    },
+    {
+      "id": "D010",
+      "type": "draw",
+      "asset_id": "r2_04_paid_vacations_pension",
+      "start_s": 38.6,
+      "end_s": 41.029,
+      "duration_s": 2.429,
+      "trigger": "semantic",
+      "anchor_text": "وإذا عندك أطفال، تجهز غداهم وت",
+      "confidence": 0.95,
+      "layer_order": 9
+    },
+    {
+      "id": "D011",
+      "type": "draw",
+      "asset_id": "r2_05_long_term_savings_goals",
+      "start_s": 46.74,
+      "end_s": 49.066,
+      "duration_s": 2.326,
+      "trigger": "semantic",
+      "anchor_text": "السيارة مستعملة لكن نظيفة، أو ",
+      "confidence": 0.95,
+      "layer_order": 10
+    },
+    {
+      "id": "D012",
+      "type": "draw",
+      "asset_id": "r3_01_banking_app_lunch_check",
+      "start_s": 50.3,
+      "end_s": 52.548,
+      "duration_s": 2.248,
+      "trigger": "semantic",
+      "anchor_text": "البنزين والتأمين والصيانة صارت",
+      "confidence": 0.95,
+      "layer_order": 11
+    },
+    {
+      "id": "D013",
+      "type": "draw",
+      "asset_id": "r3_02_monthly_installment_check",
+      "start_s": 58.218,
+      "end_s": 60.44,
+      "duration_s": 2.222,
+      "trigger": "lead_in",
+      "anchor_text": "اجتماعات .",
+      "confidence": 0.95,
+      "layer_order": 12
+    },
+    {
+      "id": "D014",
+      "type": "draw",
+      "asset_id": "r3_03_home_repair_car_tire_fund",
+      "start_s": 60.19,
+      "end_s": 62.593,
+      "duration_s": 2.403,
+      "trigger": "lead_in",
+      "anchor_text": "مشاريع تمتد لأسابيع .",
+      "confidence": 0.95,
+      "layer_order": 13
+    },
+    {
+      "id": "D015",
+      "type": "draw",
+      "asset_id": "r3_04_gym_and_friends_sports",
+      "start_s": 64.54,
+      "end_s": 67.147,
+      "duration_s": 2.607,
+      "trigger": "semantic",
+      "anchor_text": "التأمين ومساهمة الشركة في التق",
+      "confidence": 0.95,
+      "layer_order": 14
+    },
+    {
+      "id": "D016",
+      "type": "draw",
+      "asset_id": "r3_05_home_cooking_and_takeout",
+      "start_s": 67.78,
+      "end_s": 70.054,
+      "duration_s": 2.274,
+      "trigger": "semantic",
+      "anchor_text": "تحط جزء من دخلك للتقاعد، مثلاً",
+      "confidence": 0.95,
+      "layer_order": 15
+    },
+    {
+      "id": "D017",
+      "type": "draw",
+      "asset_id": "r4_01_calling_plumber_repair",
+      "start_s": 75.13,
+      "end_s": 77.508,
+      "duration_s": 2.378,
+      "trigger": "lead_in",
+      "anchor_text": "في الغداء تفتح تطبيق البنك .",
+      "confidence": 0.95,
+      "layer_order": 16
+    },
+    {
+      "id": "D018",
+      "type": "draw",
+      "asset_id": "r4_02_routine_dentist_visit",
+      "start_s": 77.258,
+      "end_s": 79.48,
+      "duration_s": 2.222,
+      "trigger": "lead_in",
+      "anchor_text": "تشيك قسط الشهر .",
+      "confidence": 0.95,
+      "layer_order": 17
+    },
+    {
+      "id": "D019",
+      "type": "draw",
+      "asset_id": "r4_03_helping_kids_homework",
+      "start_s": 79.23,
+      "end_s": 81.53,
+      "duration_s": 2.3,
+      "trigger": "lead_in",
+      "anchor_text": "وتحول جزء للتوفير .",
+      "confidence": 0.95,
+      "layer_order": 18
+    },
+    {
+      "id": "D020",
+      "type": "draw",
+      "asset_id": "r4_04_birthday_gift_online",
+      "start_s": 83.86,
+      "end_s": 86.442,
+      "duration_s": 2.582,
+      "trigger": "semantic",
+      "anchor_text": "بعد الدوام تروح نادي، تلعب كور",
+      "confidence": 0.95,
+      "layer_order": 19
+    },
+    {
+      "id": "D021",
+      "type": "draw",
+      "asset_id": "r4_05_established_habit_stability",
+      "start_s": 88.0,
+      "end_s": 90.274,
+      "duration_s": 2.274,
+      "trigger": "semantic",
+      "anchor_text": "وتطلب من برا مرة أو مرتين في ا",
+      "confidence": 0.95,
+      "layer_order": 20
+    }
+  ],
+  "sfx": [
+    {
+      "id": "sfx_001",
+      "type": "pop",
+      "start_s": 1.74,
+      "end_s": 2.14,
+      "duration_s": 0.4,
+      "anchor_asset_id": "r0_00_title_banner"
+    },
+    {
+      "id": "sfx_002",
+      "type": "marker_draw",
+      "start_s": 4.98,
+      "end_s": 5.73,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r1_01_three_bedroom_home"
+    },
+    {
+      "id": "sfx_003",
+      "type": "marker_draw",
+      "start_s": 16.02,
+      "end_s": 16.77,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r1_02_stable_mortgage_lease"
+    },
+    {
+      "id": "sfx_004",
+      "type": "marker_draw",
+      "start_s": 21.56,
+      "end_s": 22.31,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r1_03_coffee_official_routine"
+    },
+    {
+      "id": "sfx_005",
+      "type": "marker_draw",
+      "start_s": 24.64,
+      "end_s": 25.39,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r1_04_shared_family_calendar"
+    },
+    {
+      "id": "sfx_006",
+      "type": "marker_draw",
+      "start_s": 27.528,
+      "end_s": 28.278,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r1_05_fresh_healthy_breakfast"
+    },
+    {
+      "id": "sfx_007",
+      "type": "marker_draw",
+      "start_s": 31.34,
+      "end_s": 32.09,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r2_01_clean_car_reliable_train"
+    },
+    {
+      "id": "sfx_008",
+      "type": "marker_draw",
+      "start_s": 34.5,
+      "end_s": 35.25,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r2_02_flexible_office_control"
+    },
+    {
+      "id": "sfx_009",
+      "type": "marker_draw",
+      "start_s": 38.6,
+      "end_s": 39.35,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r2_04_paid_vacations_pension"
+    },
+    {
+      "id": "sfx_010",
+      "type": "marker_draw",
+      "start_s": 46.74,
+      "end_s": 47.49,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r2_05_long_term_savings_goals"
+    },
+    {
+      "id": "sfx_011",
+      "type": "marker_draw",
+      "start_s": 50.3,
+      "end_s": 51.05,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r3_01_banking_app_lunch_check"
+    },
+    {
+      "id": "sfx_012",
+      "type": "marker_draw",
+      "start_s": 58.218,
+      "end_s": 58.968,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r3_02_monthly_installment_check"
+    },
+    {
+      "id": "sfx_013",
+      "type": "marker_draw",
+      "start_s": 64.54,
+      "end_s": 65.29,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r3_04_gym_and_friends_sports"
+    },
+    {
+      "id": "sfx_014",
+      "type": "marker_draw",
+      "start_s": 67.78,
+      "end_s": 68.53,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r3_05_home_cooking_and_takeout"
+    },
+    {
+      "id": "sfx_015",
+      "type": "marker_draw",
+      "start_s": 75.13,
+      "end_s": 75.88,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r4_01_calling_plumber_repair"
+    },
+    {
+      "id": "sfx_016",
+      "type": "marker_draw",
+      "start_s": 79.23,
+      "end_s": 79.98,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r4_03_helping_kids_homework"
+    },
+    {
+      "id": "sfx_017",
+      "type": "marker_draw",
+      "start_s": 83.86,
+      "end_s": 84.61,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r4_04_birthday_gift_online"
+    },
+    {
+      "id": "sfx_018",
+      "type": "marker_draw",
+      "start_s": 88.0,
+      "end_s": 88.75,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r4_05_established_habit_stability"
+    }
+  ],
+  "camera": [
+    {
+      "id": "cam_001",
+      "type": "camera_pan",
+      "start_s": 1.49,
+      "end_s": 2.49,
+      "duration_s": 1.0,
+      "target_asset_id": "r0_00_title_banner",
+      "params": {
+        "to_zone": "zone_1A",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_002",
+      "type": "camera_pan",
+      "start_s": 21.31,
+      "end_s": 22.31,
+      "duration_s": 1.0,
+      "target_asset_id": "r1_03_coffee_official_routine",
+      "params": {
+        "to_zone": "zone_1B",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_003",
+      "type": "camera_pan",
+      "start_s": 31.09,
+      "end_s": 32.09,
+      "duration_s": 1.0,
+      "target_asset_id": "r2_01_clean_car_reliable_train",
+      "params": {
+        "to_zone": "zone_2A",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_004",
+      "type": "camera_pan",
+      "start_s": 36.3,
+      "end_s": 37.3,
+      "duration_s": 1.0,
+      "target_asset_id": "r2_03_meetings_and_projects",
+      "params": {
+        "to_zone": "zone_2B",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_005",
+      "type": "camera_pan",
+      "start_s": 50.05,
+      "end_s": 51.05,
+      "duration_s": 1.0,
+      "target_asset_id": "r3_01_banking_app_lunch_check",
+      "params": {
+        "to_zone": "zone_3A",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_006",
+      "type": "camera_pan",
+      "start_s": 64.29,
+      "end_s": 65.29,
+      "duration_s": 1.0,
+      "target_asset_id": "r3_04_gym_and_friends_sports",
+      "params": {
+        "to_zone": "zone_3B",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_007",
+      "type": "camera_pan",
+      "start_s": 74.88,
+      "end_s": 75.88,
+      "duration_s": 1.0,
+      "target_asset_id": "r4_01_calling_plumber_repair",
+      "params": {
+        "to_zone": "zone_4A",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_008",
+      "type": "camera_pan",
+      "start_s": 83.61,
+      "end_s": 84.61,
+      "duration_s": 1.0,
+      "target_asset_id": "r4_04_birthday_gift_online",
+      "params": {
+        "to_zone": "zone_4B",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_009",
+      "type": "camera_zoom_wide",
+      "start_s": 94.309,
+      "end_s": 96.809,
+      "duration_s": 2.5,
+      "target_asset_id": null,
+      "params": {
+        "scale": 1.0,
+        "description": "Full scene canvas reveal"
+      }
+    }
+  ]
+}

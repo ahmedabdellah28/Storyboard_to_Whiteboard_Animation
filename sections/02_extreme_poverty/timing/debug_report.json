@@ -1,0 +1,1268 @@
+{
+  "section_id": "02_extreme_poverty",
+  "duration": 106.565,
+  "words_total": 279,
+  "sentences_total": 40,
+  "pauses_total": 5,
+  "drawings_total": 21,
+  "sfx_total": 19,
+  "camera_total": 9,
+  "sentences": [
+    {
+      "sentence_id": "s001",
+      "text": "الفقر المتقع .",
+      "start": 1.36,
+      "end": 4.74,
+      "duration": 3.38,
+      "words_count": 3,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D001",
+          "type": "reveal",
+          "asset_id": "r0_00_title_banner",
+          "start_s": 1.36,
+          "end_s": 3.634,
+          "duration_s": 2.274,
+          "trigger": "semantic",
+          "anchor_text": "الفقر المتقع .",
+          "confidence": 0.95,
+          "layer_order": 0
+        },
+        {
+          "id": "D002",
+          "type": "draw",
+          "asset_id": "r1_01_waking_up",
+          "start_s": 4.74,
+          "end_s": 7.143,
+          "duration_s": 2.403,
+          "trigger": "semantic",
+          "anchor_text": "هنا عندك سقف، لكنه بالكاد يعتب",
+          "confidence": 0.95,
+          "layer_order": 1
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_001",
+          "type": "pop",
+          "start_s": 1.36,
+          "end_s": 1.76,
+          "duration_s": 0.4,
+          "anchor_asset_id": "r0_00_title_banner"
+        },
+        {
+          "id": "sfx_002",
+          "type": "marker_draw",
+          "start_s": 4.74,
+          "end_s": 5.49,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r1_01_waking_up"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s002",
+      "text": "هنا عندك سقف، لكنه بالكاد يعتبر أمان .",
+      "start": 4.74,
+      "end": 9.02,
+      "duration": 4.28,
+      "words_count": 8,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D002",
+          "type": "draw",
+          "asset_id": "r1_01_waking_up",
+          "start_s": 4.74,
+          "end_s": 7.143,
+          "duration_s": 2.403,
+          "trigger": "semantic",
+          "anchor_text": "هنا عندك سقف، لكنه بالكاد يعتب",
+          "confidence": 0.95,
+          "layer_order": 1
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_002",
+          "type": "marker_draw",
+          "start_s": 4.74,
+          "end_s": 5.49,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r1_01_waking_up"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s003",
+      "text": "ممكن تصحى في غرفة صغيرة مستأجرة بالأسبوع، أو شقة زحمة تشاركها مع أكثر من شخص عشان تقسم الإيجار .",
+      "start": 9.02,
+      "end": 16.46,
+      "duration": 7.44,
+      "words_count": 19,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D003",
+          "type": "draw",
+          "asset_id": "r1_02_crowded_room",
+          "start_s": 15.397,
+          "end_s": 17.8,
+          "duration_s": 2.403,
+          "trigger": "lead_in",
+          "anchor_text": "مرتبة على الأرض .",
+          "confidence": 0.95,
+          "layer_order": 2
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_003",
+          "type": "marker_draw",
+          "start_s": 15.397,
+          "end_s": 16.147,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r1_02_crowded_room"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s004",
+      "text": "مرتبة على الأرض .",
+      "start": 16.46,
+      "end": 17.8,
+      "duration": 1.34,
+      "words_count": 4,
+      "pauses_count": 0,
+      "drawings": [],
+      "sfx": []
+    },
+    {
+      "sentence_id": "s005",
+      "text": "وأحياناً المكيف أو الدفاية خربانة .",
+      "start": 17.8,
+      "end": 19.56,
+      "duration": 1.76,
+      "words_count": 6,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D004",
+          "type": "draw",
+          "asset_id": "r1_03_broken_ac",
+          "start_s": 19.56,
+          "end_s": 21.886,
+          "duration_s": 2.326,
+          "trigger": "semantic",
+          "anchor_text": "أول شيء تشيك على جوالك مسبق ال",
+          "confidence": 0.95,
+          "layer_order": 3
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_004",
+          "type": "marker_draw",
+          "start_s": 19.56,
+          "end_s": 20.31,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r1_03_broken_ac"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s006",
+      "text": "أول شيء تشيك على جوالك مسبق الدفع: هل الخدمة لسه شغالة ؟",
+      "start": 19.56,
+      "end": 22.76,
+      "duration": 3.2,
+      "words_count": 12,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D004",
+          "type": "draw",
+          "asset_id": "r1_03_broken_ac",
+          "start_s": 19.56,
+          "end_s": 21.886,
+          "duration_s": 2.326,
+          "trigger": "semantic",
+          "anchor_text": "أول شيء تشيك على جوالك مسبق ال",
+          "confidence": 0.95,
+          "layer_order": 3
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_004",
+          "type": "marker_draw",
+          "start_s": 19.56,
+          "end_s": 20.31,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r1_03_broken_ac"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s007",
+      "text": "بعدها تعد تذاكر الباص اللي باقي في محفظتك .",
+      "start": 22.76,
+      "end": 26.3,
+      "duration": 3.54,
+      "words_count": 9,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D005",
+          "type": "draw",
+          "asset_id": "r1_04_prepaid_phone",
+          "start_s": 26.3,
+          "end_s": 28.626,
+          "duration_s": 2.326,
+          "trigger": "semantic",
+          "anchor_text": "وتبدأ تخطط يومك حول الفلوس .",
+          "confidence": 0.95,
+          "layer_order": 4
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_005",
+          "type": "marker_draw",
+          "start_s": 26.3,
+          "end_s": 27.05,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r1_04_prepaid_phone"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s008",
+      "text": "وتبدأ تخطط يومك حول الفلوس .",
+      "start": 26.3,
+      "end": 28.84,
+      "duration": 2.54,
+      "words_count": 6,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D005",
+          "type": "draw",
+          "asset_id": "r1_04_prepaid_phone",
+          "start_s": 26.3,
+          "end_s": 28.626,
+          "duration_s": 2.326,
+          "trigger": "semantic",
+          "anchor_text": "وتبدأ تخطط يومك حول الفلوس .",
+          "confidence": 0.95,
+          "layer_order": 4
+        },
+        {
+          "id": "D006",
+          "type": "draw",
+          "asset_id": "r1_05_counting_tickets",
+          "start_s": 28.376,
+          "end_s": 30.728,
+          "duration_s": 2.352,
+          "trigger": "lead_in",
+          "anchor_text": "شوفان .",
+          "confidence": 0.95,
+          "layer_order": 5
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_005",
+          "type": "marker_draw",
+          "start_s": 26.3,
+          "end_s": 27.05,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r1_04_prepaid_phone"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s009",
+      "text": "الفطور أساسي:",
+      "start": 28.84,
+      "end": 29.82,
+      "duration": 0.98,
+      "words_count": 2,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D006",
+          "type": "draw",
+          "asset_id": "r1_05_counting_tickets",
+          "start_s": 28.376,
+          "end_s": 30.728,
+          "duration_s": 2.352,
+          "trigger": "lead_in",
+          "anchor_text": "شوفان .",
+          "confidence": 0.95,
+          "layer_order": 5
+        }
+      ],
+      "sfx": []
+    },
+    {
+      "sentence_id": "s010",
+      "text": "شوفان .",
+      "start": 29.82,
+      "end": 30.61,
+      "duration": 0.79,
+      "words_count": 2,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D007",
+          "type": "draw",
+          "asset_id": "r2_01_basic_breakfast",
+          "start_s": 30.478,
+          "end_s": 32.752,
+          "duration_s": 2.274,
+          "trigger": "lead_in",
+          "anchor_text": "توست .",
+          "confidence": 0.95,
+          "layer_order": 6
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_006",
+          "type": "marker_draw",
+          "start_s": 30.478,
+          "end_s": 31.228,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r2_01_basic_breakfast"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s011",
+      "text": "بيض .",
+      "start": 30.61,
+      "end": 31.48,
+      "duration": 0.87,
+      "words_count": 2,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D007",
+          "type": "draw",
+          "asset_id": "r2_01_basic_breakfast",
+          "start_s": 30.478,
+          "end_s": 32.752,
+          "duration_s": 2.274,
+          "trigger": "lead_in",
+          "anchor_text": "توست .",
+          "confidence": 0.95,
+          "layer_order": 6
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_006",
+          "type": "marker_draw",
+          "start_s": 30.478,
+          "end_s": 31.228,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r2_01_basic_breakfast"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s012",
+      "text": "توست .",
+      "start": 31.48,
+      "end": 32.1,
+      "duration": 0.62,
+      "words_count": 2,
+      "pauses_count": 0,
+      "drawings": [],
+      "sfx": []
+    },
+    {
+      "sentence_id": "s013",
+      "text": "مقاضي بسيطة .",
+      "start": 32.1,
+      "end": 33.02,
+      "duration": 0.92,
+      "words_count": 3,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D008",
+          "type": "draw",
+          "asset_id": "r2_02_shopping_coupons",
+          "start_s": 33.02,
+          "end_s": 35.346,
+          "duration_s": 2.326,
+          "trigger": "semantic",
+          "anchor_text": "تستخدم كوبونات، وبطاقات التموي",
+          "confidence": 0.95,
+          "layer_order": 7
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_007",
+          "type": "marker_draw",
+          "start_s": 33.02,
+          "end_s": 33.77,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r2_02_shopping_coupons"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s014",
+      "text": "تستخدم كوبونات، وبطاقات التموين، ومواعيد الجمعيات الخيرية .",
+      "start": 33.02,
+      "end": 35.56,
+      "duration": 2.54,
+      "words_count": 8,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D008",
+          "type": "draw",
+          "asset_id": "r2_02_shopping_coupons",
+          "start_s": 33.02,
+          "end_s": 35.346,
+          "duration_s": 2.326,
+          "trigger": "semantic",
+          "anchor_text": "تستخدم كوبونات، وبطاقات التموي",
+          "confidence": 0.95,
+          "layer_order": 7
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_007",
+          "type": "marker_draw",
+          "start_s": 33.02,
+          "end_s": 33.77,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r2_02_shopping_coupons"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s015",
+      "text": "كل شيء محسوب .",
+      "start": 35.56,
+      "end": 36.8,
+      "duration": 1.24,
+      "words_count": 4,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D009",
+          "type": "draw",
+          "asset_id": "r2_03_kids_snacks",
+          "start_s": 36.8,
+          "end_s": 39.126,
+          "duration_s": 2.326,
+          "trigger": "semantic",
+          "anchor_text": "وإذا عندك أطفال، ممكن يعتمد جز",
+          "confidence": 0.95,
+          "layer_order": 8
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_008",
+          "type": "marker_draw",
+          "start_s": 36.8,
+          "end_s": 37.55,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r2_03_kids_snacks"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s016",
+      "text": "وإذا عندك أطفال، ممكن يعتمد جزء من أكلهم على وجبات المدرسة، وأنت تجهز لهم سناك من البيت لأن كل ريال يفرق .",
+      "start": 36.8,
+      "end": 44.34,
+      "duration": 7.54,
+      "words_count": 22,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D009",
+          "type": "draw",
+          "asset_id": "r2_03_kids_snacks",
+          "start_s": 36.8,
+          "end_s": 39.126,
+          "duration_s": 2.326,
+          "trigger": "semantic",
+          "anchor_text": "وإذا عندك أطفال، ممكن يعتمد جز",
+          "confidence": 0.95,
+          "layer_order": 8
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_008",
+          "type": "marker_draw",
+          "start_s": 36.8,
+          "end_s": 37.55,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r2_03_kids_snacks"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s017",
+      "text": "المشوار للدوام ياخذ وقت .",
+      "start": 44.34,
+      "end": 46.16,
+      "duration": 1.82,
+      "words_count": 5,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D010",
+          "type": "draw",
+          "asset_id": "r2_04_waiting_bus",
+          "start_s": 46.16,
+          "end_s": 48.512,
+          "duration_s": 2.352,
+          "trigger": "semantic",
+          "anchor_text": "تنتظر باص يتأخر، أو تسوق سيارة",
+          "confidence": 0.95,
+          "layer_order": 9
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_009",
+          "type": "marker_draw",
+          "start_s": 46.16,
+          "end_s": 46.91,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r2_04_waiting_bus"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s018",
+      "text": "تنتظر باص يتأخر، أو تسوق سيارة متهالكة ولمبة المكينة فيها شغالة وأنت تقول: بعدين أصلحها .",
+      "start": 46.16,
+      "end": 51.46,
+      "duration": 5.3,
+      "words_count": 16,
+      "pauses_count": 1,
+      "drawings": [
+        {
+          "id": "D010",
+          "type": "draw",
+          "asset_id": "r2_04_waiting_bus",
+          "start_s": 46.16,
+          "end_s": 48.512,
+          "duration_s": 2.352,
+          "trigger": "semantic",
+          "anchor_text": "تنتظر باص يتأخر، أو تسوق سيارة",
+          "confidence": 0.95,
+          "layer_order": 9
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_009",
+          "type": "marker_draw",
+          "start_s": 46.16,
+          "end_s": 46.91,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r2_04_waiting_bus"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s019",
+      "text": "ساعات دوامك ممكن تتغير كل أسبوع .",
+      "start": 51.46,
+      "end": 53.1,
+      "duration": 1.64,
+      "words_count": 7,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D011",
+          "type": "draw",
+          "asset_id": "r2_05_broken_car",
+          "start_s": 52.997,
+          "end_s": 55.4,
+          "duration_s": 2.403,
+          "trigger": "lead_in",
+          "anchor_text": "يوم يطلبونك، ويوم ما يطلبونك .",
+          "confidence": 0.95,
+          "layer_order": 10
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_010",
+          "type": "marker_draw",
+          "start_s": 52.997,
+          "end_s": 53.747,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r2_05_broken_car"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s020",
+      "text": "يوم يطلبونك، ويوم ما يطلبونك .",
+      "start": 53.1,
+      "end": 55.4,
+      "duration": 2.3,
+      "words_count": 6,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D011",
+          "type": "draw",
+          "asset_id": "r2_05_broken_car",
+          "start_s": 52.997,
+          "end_s": 55.4,
+          "duration_s": 2.403,
+          "trigger": "lead_in",
+          "anchor_text": "يوم يطلبونك، ويوم ما يطلبونك .",
+          "confidence": 0.95,
+          "layer_order": 10
+        },
+        {
+          "id": "D012",
+          "type": "draw",
+          "asset_id": "r3_01_work_schedule",
+          "start_s": 55.4,
+          "end_s": 57.726,
+          "duration_s": 2.326,
+          "trigger": "semantic",
+          "anchor_text": "ولهذا تقول نعم لأي شفت إضافي أ",
+          "confidence": 0.95,
+          "layer_order": 11
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_010",
+          "type": "marker_draw",
+          "start_s": 52.997,
+          "end_s": 53.747,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r2_05_broken_car"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s021",
+      "text": "ولهذا تقول نعم لأي شفت إضافي أو شغل يومي تقدر عليه .",
+      "start": 55.4,
+      "end": 59.7,
+      "duration": 4.3,
+      "words_count": 12,
+      "pauses_count": 1,
+      "drawings": [
+        {
+          "id": "D012",
+          "type": "draw",
+          "asset_id": "r3_01_work_schedule",
+          "start_s": 55.4,
+          "end_s": 57.726,
+          "duration_s": 2.326,
+          "trigger": "semantic",
+          "anchor_text": "ولهذا تقول نعم لأي شفت إضافي أ",
+          "confidence": 0.95,
+          "layer_order": 11
+        }
+      ],
+      "sfx": []
+    },
+    {
+      "sentence_id": "s022",
+      "text": "ما تقدر تخاطر وتقول لا .",
+      "start": 59.7,
+      "end": 61.26,
+      "duration": 1.56,
+      "words_count": 6,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D013",
+          "type": "draw",
+          "asset_id": "r3_02_overtime_work",
+          "start_s": 61.26,
+          "end_s": 63.586,
+          "duration_s": 2.326,
+          "trigger": "semantic",
+          "anchor_text": "الإكراميات والأوفر تايم هنا مو",
+          "confidence": 0.95,
+          "layer_order": 12
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_011",
+          "type": "marker_draw",
+          "start_s": 61.26,
+          "end_s": 62.01,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r3_02_overtime_work"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s023",
+      "text": "الإكراميات والأوفر تايم هنا مو رفاهية .",
+      "start": 61.26,
+      "end": 64.04,
+      "duration": 2.78,
+      "words_count": 7,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D013",
+          "type": "draw",
+          "asset_id": "r3_02_overtime_work",
+          "start_s": 61.26,
+          "end_s": 63.586,
+          "duration_s": 2.326,
+          "trigger": "semantic",
+          "anchor_text": "الإكراميات والأوفر تايم هنا مو",
+          "confidence": 0.95,
+          "layer_order": 12
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_011",
+          "type": "marker_draw",
+          "start_s": 61.26,
+          "end_s": 62.01,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r3_02_overtime_work"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s024",
+      "text": "أحياناً هي اللي تخلي الكهرب شغال .",
+      "start": 64.04,
+      "end": 66.04,
+      "duration": 2.0,
+      "words_count": 7,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D014",
+          "type": "draw",
+          "asset_id": "r3_03_overdue_bills",
+          "start_s": 66.04,
+          "end_s": 68.392,
+          "duration_s": 2.352,
+          "trigger": "semantic",
+          "anchor_text": "الفواتير نفسها صارت لغز تحله ك",
+          "confidence": 0.95,
+          "layer_order": 13
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_012",
+          "type": "marker_draw",
+          "start_s": 66.04,
+          "end_s": 66.79,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r3_03_overdue_bills"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s025",
+      "text": "الفواتير نفسها صارت لغز تحله كل شهر .",
+      "start": 66.04,
+      "end": 68.947,
+      "duration": 2.907,
+      "words_count": 8,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D014",
+          "type": "draw",
+          "asset_id": "r3_03_overdue_bills",
+          "start_s": 66.04,
+          "end_s": 68.392,
+          "duration_s": 2.352,
+          "trigger": "semantic",
+          "anchor_text": "الفواتير نفسها صارت لغز تحله ك",
+          "confidence": 0.95,
+          "layer_order": 13
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_012",
+          "type": "marker_draw",
+          "start_s": 66.04,
+          "end_s": 66.79,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r3_03_overdue_bills"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s026",
+      "text": "الإيجار له موعد .",
+      "start": 68.947,
+      "end": 70.24,
+      "duration": 1.293,
+      "words_count": 4,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D015",
+          "type": "draw",
+          "asset_id": "r3_04_money_transfer",
+          "start_s": 69.562,
+          "end_s": 71.94,
+          "duration_s": 2.378,
+          "trigger": "lead_in",
+          "anchor_text": "الكهرباء متأخرة .",
+          "confidence": 0.95,
+          "layer_order": 14
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_013",
+          "type": "marker_draw",
+          "start_s": 69.562,
+          "end_s": 70.312,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r3_04_money_transfer"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s027",
+      "text": "الكهرباء متأخرة .",
+      "start": 70.24,
+      "end": 71.94,
+      "duration": 1.7,
+      "words_count": 3,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D016",
+          "type": "draw",
+          "asset_id": "r3_05_clinic_wait",
+          "start_s": 72.262,
+          "end_s": 74.64,
+          "duration_s": 2.378,
+          "trigger": "lead_in",
+          "anchor_text": "تختار أي غرامة توجع أقل .",
+          "confidence": 0.95,
+          "layer_order": 15
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_014",
+          "type": "marker_draw",
+          "start_s": 72.262,
+          "end_s": 73.012,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r3_05_clinic_wait"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s028",
+      "text": "والفاتورة الثانية تنتظر .",
+      "start": 71.94,
+      "end": 73.186,
+      "duration": 1.246,
+      "words_count": 4,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D016",
+          "type": "draw",
+          "asset_id": "r3_05_clinic_wait",
+          "start_s": 72.262,
+          "end_s": 74.64,
+          "duration_s": 2.378,
+          "trigger": "lead_in",
+          "anchor_text": "تختار أي غرامة توجع أقل .",
+          "confidence": 0.95,
+          "layer_order": 15
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_014",
+          "type": "marker_draw",
+          "start_s": 72.262,
+          "end_s": 73.012,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r3_05_clinic_wait"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s029",
+      "text": "تختار أي غرامة توجع أقل .",
+      "start": 73.186,
+      "end": 74.64,
+      "duration": 1.454,
+      "words_count": 6,
+      "pauses_count": 0,
+      "drawings": [],
+      "sfx": []
+    },
+    {
+      "sentence_id": "s030",
+      "text": "حتى طريقة الدفع تفكر فيها .",
+      "start": 74.64,
+      "end": 78.26,
+      "duration": 3.62,
+      "words_count": 6,
+      "pauses_count": 1,
+      "drawings": [
+        {
+          "id": "D017",
+          "type": "draw",
+          "asset_id": "r4_01_laundry_mat",
+          "start_s": 78.26,
+          "end_s": 80.612,
+          "duration_s": 2.352,
+          "trigger": "semantic",
+          "anchor_text": "تشتري حوالة مالية لأنك تبي تتج",
+          "confidence": 0.95,
+          "layer_order": 16
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_015",
+          "type": "marker_draw",
+          "start_s": 78.26,
+          "end_s": 79.01,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r4_01_laundry_mat"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s031",
+      "text": "تشتري حوالة مالية لأنك تبي تتجنب رسوم البنك .",
+      "start": 78.26,
+      "end": 81.74,
+      "duration": 3.48,
+      "words_count": 9,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D017",
+          "type": "draw",
+          "asset_id": "r4_01_laundry_mat",
+          "start_s": 78.26,
+          "end_s": 80.612,
+          "duration_s": 2.352,
+          "trigger": "semantic",
+          "anchor_text": "تشتري حوالة مالية لأنك تبي تتج",
+          "confidence": 0.95,
+          "layer_order": 16
+        },
+        {
+          "id": "D018",
+          "type": "draw",
+          "asset_id": "r4_02_diy_repair",
+          "start_s": 81.58,
+          "end_s": 83.88,
+          "duration_s": 2.3,
+          "trigger": "lead_in",
+          "anchor_text": "الصحة ؟",
+          "confidence": 0.95,
+          "layer_order": 17
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_015",
+          "type": "marker_draw",
+          "start_s": 78.26,
+          "end_s": 79.01,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r4_01_laundry_mat"
+        },
+        {
+          "id": "sfx_016",
+          "type": "marker_draw",
+          "start_s": 81.58,
+          "end_s": 82.33,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r4_02_diy_repair"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s032",
+      "text": "والأوراق ما تخلص .",
+      "start": 81.74,
+      "end": 83.24,
+      "duration": 1.5,
+      "words_count": 4,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D018",
+          "type": "draw",
+          "asset_id": "r4_02_diy_repair",
+          "start_s": 81.58,
+          "end_s": 83.88,
+          "duration_s": 2.3,
+          "trigger": "lead_in",
+          "anchor_text": "الصحة ؟",
+          "confidence": 0.95,
+          "layer_order": 17
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_016",
+          "type": "marker_draw",
+          "start_s": 81.58,
+          "end_s": 82.33,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r4_02_diy_repair"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s033",
+      "text": "الصحة ؟",
+      "start": 83.24,
+      "end": 83.88,
+      "duration": 0.64,
+      "words_count": 2,
+      "pauses_count": 0,
+      "drawings": [],
+      "sfx": []
+    },
+    {
+      "sentence_id": "s034",
+      "text": "موعد عيادة بعد أسابيع .",
+      "start": 83.88,
+      "end": 85.62,
+      "duration": 1.74,
+      "words_count": 5,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D019",
+          "type": "draw",
+          "asset_id": "r4_03_stretching_resources",
+          "start_s": 85.73,
+          "end_s": 88.108,
+          "duration_s": 2.378,
+          "trigger": "lead_in",
+          "anchor_text": "أو طوارئ لما الألم يصير أقوى م",
+          "confidence": 0.95,
+          "layer_order": 18
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_017",
+          "type": "marker_draw",
+          "start_s": 85.73,
+          "end_s": 86.48,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r4_03_stretching_resources"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s035",
+      "text": "أو طوارئ لما الألم يصير أقوى من الانتظار .",
+      "start": 86.18,
+      "end": 89.14,
+      "duration": 2.96,
+      "words_count": 9,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D019",
+          "type": "draw",
+          "asset_id": "r4_03_stretching_resources",
+          "start_s": 85.73,
+          "end_s": 88.108,
+          "duration_s": 2.378,
+          "trigger": "lead_in",
+          "anchor_text": "أو طوارئ لما الألم يصير أقوى م",
+          "confidence": 0.95,
+          "layer_order": 18
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_017",
+          "type": "marker_draw",
+          "start_s": 85.73,
+          "end_s": 86.48,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r4_03_stretching_resources"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s036",
+      "text": "والتأمين، إذا موجود، ممكن يكون محدود أو عالي التحمل .",
+      "start": 89.14,
+      "end": 92.62,
+      "duration": 3.48,
+      "words_count": 10,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D020",
+          "type": "draw",
+          "asset_id": "r4_04_night_planning",
+          "start_s": 92.62,
+          "end_s": 95.049,
+          "duration_s": 2.429,
+          "trigger": "semantic",
+          "anchor_text": "حتى إصلاح الأسنان يتأجل لأن عن",
+          "confidence": 0.95,
+          "layer_order": 19
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_018",
+          "type": "marker_draw",
+          "start_s": 92.62,
+          "end_s": 93.37,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r4_04_night_planning"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s037",
+      "text": "حتى إصلاح الأسنان يتأجل لأن عندك أشياء أهم .",
+      "start": 92.62,
+      "end": 96.04,
+      "duration": 3.42,
+      "words_count": 9,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D020",
+          "type": "draw",
+          "asset_id": "r4_04_night_planning",
+          "start_s": 92.62,
+          "end_s": 95.049,
+          "duration_s": 2.429,
+          "trigger": "semantic",
+          "anchor_text": "حتى إصلاح الأسنان يتأجل لأن عن",
+          "confidence": 0.95,
+          "layer_order": 19
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_018",
+          "type": "marker_draw",
+          "start_s": 92.62,
+          "end_s": 93.37,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r4_04_night_planning"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s038",
+      "text": "الغسيل يحتاج فلوس ووقت .",
+      "start": 96.57,
+      "end": 98.465,
+      "duration": 1.895,
+      "words_count": 5,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D021",
+          "type": "draw",
+          "asset_id": "r4_05_sleeping_night",
+          "start_s": 98.465,
+          "end_s": 100.868,
+          "duration_s": 2.403,
+          "trigger": "semantic",
+          "anchor_text": "فتجمعه مع مشوار المرسلة، وتستف",
+          "confidence": 0.95,
+          "layer_order": 20
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_019",
+          "type": "marker_draw",
+          "start_s": 98.465,
+          "end_s": 99.215,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r4_05_sleeping_night"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s039",
+      "text": "فتجمعه مع مشوار المرسلة، وتستفيد من الواي فاي المجاني عشان تدور وظائف .",
+      "start": 98.465,
+      "end": 104.64,
+      "duration": 6.175,
+      "words_count": 13,
+      "pauses_count": 0,
+      "drawings": [
+        {
+          "id": "D021",
+          "type": "draw",
+          "asset_id": "r4_05_sleeping_night",
+          "start_s": 98.465,
+          "end_s": 100.868,
+          "duration_s": 2.403,
+          "trigger": "semantic",
+          "anchor_text": "فتجمعه مع مشوار المرسلة، وتستف",
+          "confidence": 0.95,
+          "layer_order": 20
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sfx_019",
+          "type": "marker_draw",
+          "start_s": 98.465,
+          "end_s": 99.215,
+          "duration_s": 0.75,
+          "anchor_asset_id": "r4_05_sleeping_night"
+        }
+      ]
+    },
+    {
+      "sentence_id": "s040",
+      "text": "وتتعلم من يوتيوب كيف تصلح أغراضك بشطرطون وصامغ .",
+      "start": 104.64,
+      "end": 106.09,
+      "duration": 1.45,
+      "words_count": 4,
+      "pauses_count": 0,
+      "drawings": [],
+      "sfx": []
+    }
+  ]
+}

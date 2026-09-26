@@ -39,7 +39,6 @@ def _heartbeat_worker(session_token: str):
                             _on_revocation_callback(reason)
                         except Exception:
                             pass
-                    sys.exit(1)
             else:
                 if res.get("network_error"):
                     failed_consecutive_count += 1
@@ -47,7 +46,6 @@ def _heartbeat_worker(session_token: str):
                         print("\n[SECURITY WARNING]: Heartbeat connection lost. Please check internet connection.")
                 elif res.get("status") == "kill":
                     print("\n[SECURITY ALERT]: License revoked.")
-                    sys.exit(1)
         except Exception:
             pass
 

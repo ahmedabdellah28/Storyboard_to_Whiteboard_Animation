@@ -1,0 +1,47 @@
+# AI Pre-Render Visual Director Configuration
+
+director:
+  name: "Senior Whiteboard Animation Director"
+  max_iterations: 3
+  confidence_threshold: 0.65
+  deterministic_fallback: true
+
+timing:
+  default_strategy: "COMPLETE_ON_ANCHOR"
+  min_drawing_duration: 0.8
+  max_drawing_duration: 4.5
+  lead_in_ratio: 0.7
+  lead_in_max_s: 1.5
+  min_event_gap_s: 0.05
+  allow_parallel_drawing: true
+  max_parallel_draws: 2
+
+visual_state:
+  max_concurrent_density: 12
+  density_cleanup_action: "fade_oldest"
+  retention_mode: "continuous" # keep previous elements visible until erased or section boundary
+  canvas_width: 1920
+  canvas_height: 1080
+  default_fps: 30
+
+validation:
+  strict_mode: true
+  block_on_contradiction: true
+  block_on_missing_asset: false # warn and flag rather than block render
+  allow_partial_matches: true
+
+sfx:
+  align_with_drawing_start: true
+  default_draw_sfx: "marker_draw"
+  min_sfx_interval_s: 0.8
+  auto_generate_for_drawings: true
+
+camera:
+  require_target_visible: true
+  default_zoom: 1.15
+  auto_focus_current_drawing: true
+
+ai:
+  model: "gemini-3.5-flash-lite"
+  temperature: 0.1
+  max_retries: 2

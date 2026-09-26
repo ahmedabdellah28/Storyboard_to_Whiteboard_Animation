@@ -1,0 +1,2751 @@
+{
+  "contract_version": "1.0.0",
+  "section_id": "03_working_poor",
+  "audio_file": "E:\\image_to_animate\\sections\\03_working_poor\\voice\\section.wav",
+  "audio_duration": 93.509,
+  "fps": 30,
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "validation": {
+    "status": "PASS_WITH_WARNINGS",
+    "overall_score": 0.0,
+    "checks": [
+      {
+        "check_id": "CHECK_01",
+        "name": "Every event references valid asset",
+        "passed": true,
+        "severity": "ERROR",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_02",
+        "name": "Every asset exists",
+        "passed": true,
+        "severity": "ERROR",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_03",
+        "name": "Every asset semantically matches",
+        "passed": true,
+        "severity": "WARNING",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_04",
+        "name": "No contradictory asset",
+        "passed": true,
+        "severity": "ERROR",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_05",
+        "name": "Dependencies are valid",
+        "passed": true,
+        "severity": "ERROR",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_06",
+        "name": "Drawing duration is feasible",
+        "passed": true,
+        "severity": "WARNING",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_07",
+        "name": "No impossible timing",
+        "passed": true,
+        "severity": "ERROR",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_08",
+        "name": "No invalid overlaps",
+        "passed": true,
+        "severity": "WARNING",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_09",
+        "name": "SFX has valid anchor",
+        "passed": true,
+        "severity": "WARNING",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_10",
+        "name": "Camera target exists",
+        "passed": true,
+        "severity": "WARNING",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_11",
+        "name": "Visual state transitions are valid",
+        "passed": true,
+        "severity": "ERROR",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_12",
+        "name": "No excessive visual density",
+        "passed": false,
+        "severity": "WARNING",
+        "details": [
+          "Canvas density 13 exceeds max allowed 12 at t=44.00s.",
+          "Canvas density 13 exceeds max allowed 12 at t=44.15s.",
+          "Canvas density 14 exceeds max allowed 12 at t=46.50s.",
+          "Canvas density 14 exceeds max allowed 12 at t=47.00s.",
+          "Canvas density 15 exceeds max allowed 12 at t=50.00s.",
+          "Canvas density 15 exceeds max allowed 12 at t=57.10s.",
+          "Canvas density 16 exceeds max allowed 12 at t=59.50s.",
+          "Canvas density 16 exceeds max allowed 12 at t=60.90s.",
+          "Canvas density 17 exceeds max allowed 12 at t=63.20s.",
+          "Canvas density 17 exceeds max allowed 12 at t=63.30s.",
+          "Canvas density 18 exceeds max allowed 12 at t=65.10s.",
+          "Canvas density 18 exceeds max allowed 12 at t=65.30s.",
+          "Canvas density 19 exceeds max allowed 12 at t=67.50s.",
+          "Canvas density 19 exceeds max allowed 12 at t=68.20s.",
+          "Canvas density 20 exceeds max allowed 12 at t=71.00s.",
+          "Canvas density 20 exceeds max allowed 12 at t=75.00s.",
+          "Canvas density 21 exceeds max allowed 12 at t=77.00s.",
+          "Canvas density 22 exceeds max allowed 12 at t=79.20s.",
+          "Canvas density 22 exceeds max allowed 12 at t=79.30s.",
+          "Canvas density 23 exceeds max allowed 12 at t=82.00s.",
+          "Canvas density 23 exceeds max allowed 12 at t=82.80s.",
+          "Canvas density 24 exceeds max allowed 12 at t=85.00s.",
+          "Canvas density 24 exceeds max allowed 12 at t=85.40s.",
+          "Canvas density 25 exceeds max allowed 12 at t=87.10s.",
+          "Canvas density 25 exceeds max allowed 12 at t=87.20s.",
+          "Canvas density 26 exceeds max allowed 12 at t=89.40s.",
+          "Canvas density 26 exceeds max allowed 12 at t=90.00s.",
+          "Canvas density 27 exceeds max allowed 12 at t=92.50s.",
+          "Canvas density 27 exceeds max allowed 12 at t=93.51s."
+        ]
+      }
+    ],
+    "unresolved_issues": [
+      "Canvas density 13 exceeds max allowed 12 at t=44.00s.",
+      "Canvas density 13 exceeds max allowed 12 at t=44.15s.",
+      "Canvas density 14 exceeds max allowed 12 at t=46.50s.",
+      "Canvas density 14 exceeds max allowed 12 at t=47.00s.",
+      "Canvas density 15 exceeds max allowed 12 at t=50.00s.",
+      "Canvas density 15 exceeds max allowed 12 at t=57.10s.",
+      "Canvas density 16 exceeds max allowed 12 at t=59.50s.",
+      "Canvas density 16 exceeds max allowed 12 at t=60.90s.",
+      "Canvas density 17 exceeds max allowed 12 at t=63.20s.",
+      "Canvas density 17 exceeds max allowed 12 at t=63.30s.",
+      "Canvas density 18 exceeds max allowed 12 at t=65.10s.",
+      "Canvas density 18 exceeds max allowed 12 at t=65.30s.",
+      "Canvas density 19 exceeds max allowed 12 at t=67.50s.",
+      "Canvas density 19 exceeds max allowed 12 at t=68.20s.",
+      "Canvas density 20 exceeds max allowed 12 at t=71.00s.",
+      "Canvas density 20 exceeds max allowed 12 at t=75.00s.",
+      "Canvas density 21 exceeds max allowed 12 at t=77.00s.",
+      "Canvas density 22 exceeds max allowed 12 at t=79.20s.",
+      "Canvas density 22 exceeds max allowed 12 at t=79.30s.",
+      "Canvas density 23 exceeds max allowed 12 at t=82.00s.",
+      "Canvas density 23 exceeds max allowed 12 at t=82.80s.",
+      "Canvas density 24 exceeds max allowed 12 at t=85.00s.",
+      "Canvas density 24 exceeds max allowed 12 at t=85.40s.",
+      "Canvas density 25 exceeds max allowed 12 at t=87.10s.",
+      "Canvas density 25 exceeds max allowed 12 at t=87.20s.",
+      "Canvas density 26 exceeds max allowed 12 at t=89.40s.",
+      "Canvas density 26 exceeds max allowed 12 at t=90.00s.",
+      "Canvas density 27 exceeds max allowed 12 at t=92.50s.",
+      "Canvas density 27 exceeds max allowed 12 at t=93.51s."
+    ],
+    "missing_assets": [],
+    "review_required": true,
+    "review_items": []
+  },
+  "applied_patches": [],
+  "render_events": [
+    {
+      "event_id": "D001",
+      "type": "reveal",
+      "asset_id": "r0_00_title_banner",
+      "start_s": 0.0,
+      "end_s": 2.7,
+      "duration_s": 2.7,
+      "action": "draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "CAM_001",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 0.0,
+      "end_s": 2.7,
+      "duration_s": 2.7,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r0_00_title_banner",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D002",
+      "type": "draw",
+      "asset_id": "r1_01_alarm_wake",
+      "start_s": 4.8,
+      "end_s": 8.2,
+      "duration_s": 3.4,
+      "action": "draw",
+      "layer_order": 1,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_001",
+      "type": "sfx",
+      "asset_id": "r1_01_alarm_wake",
+      "start_s": 4.8,
+      "end_s": 6.0,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D002"
+      }
+    },
+    {
+      "event_id": "CAM_002",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 4.8,
+      "end_s": 8.2,
+      "duration_s": 3.4,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r1_01_alarm_wake",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D003",
+      "type": "draw",
+      "asset_id": "r1_02_small_apartment",
+      "start_s": 11.3,
+      "end_s": 13.9,
+      "duration_s": 2.6,
+      "action": "draw",
+      "layer_order": 2,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_002",
+      "type": "sfx",
+      "asset_id": "r1_02_small_apartment",
+      "start_s": 11.3,
+      "end_s": 12.5,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D003"
+      }
+    },
+    {
+      "event_id": "CAM_003",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 11.3,
+      "end_s": 13.9,
+      "duration_s": 2.6,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r1_02_small_apartment",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D004",
+      "type": "draw",
+      "asset_id": "r1_03_check_bank_app",
+      "start_s": 16.6,
+      "end_s": 18.5,
+      "duration_s": 1.9,
+      "action": "draw",
+      "layer_order": 3,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_003",
+      "type": "sfx",
+      "asset_id": "r1_03_check_bank_app",
+      "start_s": 16.6,
+      "end_s": 17.8,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D004"
+      }
+    },
+    {
+      "event_id": "CAM_004",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 16.6,
+      "end_s": 18.5,
+      "duration_s": 1.9,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r1_03_check_bank_app",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D005",
+      "type": "draw",
+      "asset_id": "r1_04_coffee_meal_prep",
+      "start_s": 19.55,
+      "end_s": 22.0,
+      "duration_s": 2.45,
+      "action": "draw",
+      "layer_order": 4,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_004",
+      "type": "sfx",
+      "asset_id": "r1_04_coffee_meal_prep",
+      "start_s": 19.55,
+      "end_s": 20.75,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D005"
+      }
+    },
+    {
+      "event_id": "CAM_005",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 19.55,
+      "end_s": 22.0,
+      "duration_s": 2.45,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r1_04_coffee_meal_prep",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D006",
+      "type": "draw",
+      "asset_id": "r1_05_bus_commute",
+      "start_s": 24.2,
+      "end_s": 25.5,
+      "duration_s": 1.3,
+      "action": "draw",
+      "layer_order": 5,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_005",
+      "type": "sfx",
+      "asset_id": "r1_05_bus_commute",
+      "start_s": 24.2,
+      "end_s": 25.4,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D006"
+      }
+    },
+    {
+      "event_id": "CAM_006",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 24.2,
+      "end_s": 25.5,
+      "duration_s": 1.3,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r1_05_bus_commute",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D007",
+      "type": "draw",
+      "asset_id": "r1_06_old_car_fuel",
+      "start_s": 25.55,
+      "end_s": 27.75,
+      "duration_s": 2.2,
+      "action": "draw",
+      "layer_order": 6,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_006",
+      "type": "sfx",
+      "asset_id": "r1_06_old_car_fuel",
+      "start_s": 25.55,
+      "end_s": 26.75,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D007"
+      }
+    },
+    {
+      "event_id": "CAM_007",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 25.55,
+      "end_s": 27.75,
+      "duration_s": 2.2,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r1_06_old_car_fuel",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D008",
+      "type": "draw",
+      "asset_id": "r2_01_cashier_job",
+      "start_s": 29.5,
+      "end_s": 30.7,
+      "duration_s": 1.2,
+      "action": "draw",
+      "layer_order": 7,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_007",
+      "type": "sfx",
+      "asset_id": "r2_01_cashier_job",
+      "start_s": 29.5,
+      "end_s": 30.7,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D008"
+      }
+    },
+    {
+      "event_id": "CAM_008",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 29.5,
+      "end_s": 30.7,
+      "duration_s": 1.2,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r2_01_cashier_job",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D009",
+      "type": "draw",
+      "asset_id": "r2_02_warehouse_job",
+      "start_s": 30.75,
+      "end_s": 31.7,
+      "duration_s": 0.95,
+      "action": "draw",
+      "layer_order": 8,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_008",
+      "type": "sfx",
+      "asset_id": "r2_02_warehouse_job",
+      "start_s": 30.75,
+      "end_s": 31.95,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D009"
+      }
+    },
+    {
+      "event_id": "CAM_009",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 30.75,
+      "end_s": 31.7,
+      "duration_s": 0.95,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r2_02_warehouse_job",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D010",
+      "type": "draw",
+      "asset_id": "r2_03_restaurant_job",
+      "start_s": 31.75,
+      "end_s": 32.35,
+      "duration_s": 0.6,
+      "action": "draw",
+      "layer_order": 9,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_009",
+      "type": "sfx",
+      "asset_id": "r2_03_restaurant_job",
+      "start_s": 31.75,
+      "end_s": 32.95,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D010"
+      }
+    },
+    {
+      "event_id": "CAM_010",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 31.75,
+      "end_s": 32.35,
+      "duration_s": 0.6,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r2_03_restaurant_job",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D011",
+      "type": "draw",
+      "asset_id": "r2_04_caregiver_job",
+      "start_s": 32.38,
+      "end_s": 33.65,
+      "duration_s": 1.27,
+      "action": "draw",
+      "layer_order": 10,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_010",
+      "type": "sfx",
+      "asset_id": "r2_04_caregiver_job",
+      "start_s": 32.38,
+      "end_s": 33.58,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D011"
+      }
+    },
+    {
+      "event_id": "CAM_011",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 32.38,
+      "end_s": 33.65,
+      "duration_s": 1.27,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r2_04_caregiver_job",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D012",
+      "type": "draw",
+      "asset_id": "r2_05_shift_checklist",
+      "start_s": 34.0,
+      "end_s": 37.5,
+      "duration_s": 3.5,
+      "action": "draw",
+      "layer_order": 11,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_011",
+      "type": "sfx",
+      "asset_id": "r2_05_shift_checklist",
+      "start_s": 34.0,
+      "end_s": 35.2,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D012"
+      }
+    },
+    {
+      "event_id": "CAM_012",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 34.0,
+      "end_s": 37.5,
+      "duration_s": 3.5,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r2_05_shift_checklist",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D013",
+      "type": "draw",
+      "asset_id": "r2_06_eating_lunchbox",
+      "start_s": 42.0,
+      "end_s": 44.0,
+      "duration_s": 2.0,
+      "action": "draw",
+      "layer_order": 12,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_012",
+      "type": "sfx",
+      "asset_id": "r2_06_eating_lunchbox",
+      "start_s": 42.0,
+      "end_s": 43.2,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D013"
+      }
+    },
+    {
+      "event_id": "CAM_013",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 42.0,
+      "end_s": 44.0,
+      "duration_s": 2.0,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r2_06_eating_lunchbox",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D014",
+      "type": "draw",
+      "asset_id": "r2_07_shifts_schedule",
+      "start_s": 44.15,
+      "end_s": 46.5,
+      "duration_s": 2.35,
+      "action": "draw",
+      "layer_order": 13,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_013",
+      "type": "sfx",
+      "asset_id": "r2_07_shifts_schedule",
+      "start_s": 44.15,
+      "end_s": 45.35,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D014"
+      }
+    },
+    {
+      "event_id": "CAM_014",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 44.15,
+      "end_s": 46.5,
+      "duration_s": 2.35,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r2_07_shifts_schedule",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D015",
+      "type": "draw",
+      "asset_id": "r3_01_doctor_visit",
+      "start_s": 47.0,
+      "end_s": 50.0,
+      "duration_s": 3.0,
+      "action": "draw",
+      "layer_order": 14,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_014",
+      "type": "sfx",
+      "asset_id": "r3_01_doctor_visit",
+      "start_s": 47.0,
+      "end_s": 48.2,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D015"
+      }
+    },
+    {
+      "event_id": "CAM_015",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 47.0,
+      "end_s": 50.0,
+      "duration_s": 3.0,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r3_01_doctor_visit",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D016",
+      "type": "draw",
+      "asset_id": "r3_02_family_thinking",
+      "start_s": 57.1,
+      "end_s": 59.5,
+      "duration_s": 2.4,
+      "action": "draw",
+      "layer_order": 15,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_015",
+      "type": "sfx",
+      "asset_id": "r3_02_family_thinking",
+      "start_s": 57.1,
+      "end_s": 58.3,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D016"
+      }
+    },
+    {
+      "event_id": "CAM_016",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 57.1,
+      "end_s": 59.5,
+      "duration_s": 2.4,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r3_02_family_thinking",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D017",
+      "type": "draw",
+      "asset_id": "r3_03_shopping_discounts",
+      "start_s": 60.9,
+      "end_s": 63.2,
+      "duration_s": 2.3,
+      "action": "draw",
+      "layer_order": 16,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_016",
+      "type": "sfx",
+      "asset_id": "r3_03_shopping_discounts",
+      "start_s": 60.9,
+      "end_s": 62.1,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D017"
+      }
+    },
+    {
+      "event_id": "CAM_017",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 60.9,
+      "end_s": 63.2,
+      "duration_s": 2.3,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r3_03_shopping_discounts",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D018",
+      "type": "draw",
+      "asset_id": "r3_04_loyalty_card",
+      "start_s": 63.3,
+      "end_s": 65.1,
+      "duration_s": 1.8,
+      "action": "draw",
+      "layer_order": 17,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_017",
+      "type": "sfx",
+      "asset_id": "r3_04_loyalty_card",
+      "start_s": 63.3,
+      "end_s": 64.5,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D018"
+      }
+    },
+    {
+      "event_id": "CAM_018",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 63.3,
+      "end_s": 65.1,
+      "duration_s": 1.8,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r3_04_loyalty_card",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D019",
+      "type": "draw",
+      "asset_id": "r3_05_utility_bills",
+      "start_s": 65.3,
+      "end_s": 67.5,
+      "duration_s": 2.2,
+      "action": "draw",
+      "layer_order": 18,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_018",
+      "type": "sfx",
+      "asset_id": "r3_05_utility_bills",
+      "start_s": 65.3,
+      "end_s": 66.5,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D019"
+      }
+    },
+    {
+      "event_id": "CAM_019",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 65.3,
+      "end_s": 67.5,
+      "duration_s": 2.2,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r3_05_utility_bills",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D020",
+      "type": "draw",
+      "asset_id": "r3_06_savings_jar",
+      "start_s": 68.2,
+      "end_s": 71.0,
+      "duration_s": 2.8,
+      "action": "draw",
+      "layer_order": 19,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_019",
+      "type": "sfx",
+      "asset_id": "r3_06_savings_jar",
+      "start_s": 68.2,
+      "end_s": 69.4,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D020"
+      }
+    },
+    {
+      "event_id": "CAM_020",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 68.2,
+      "end_s": 71.0,
+      "duration_s": 2.8,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r3_06_savings_jar",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D021",
+      "type": "draw",
+      "asset_id": "r4_01_cooking_dinner",
+      "start_s": 75.0,
+      "end_s": 77.0,
+      "duration_s": 2.0,
+      "action": "draw",
+      "layer_order": 20,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_020",
+      "type": "sfx",
+      "asset_id": "r4_01_cooking_dinner",
+      "start_s": 75.0,
+      "end_s": 76.2,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D021"
+      }
+    },
+    {
+      "event_id": "CAM_021",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 75.0,
+      "end_s": 77.0,
+      "duration_s": 2.0,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r4_01_cooking_dinner",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D022",
+      "type": "draw",
+      "asset_id": "r4_02_laundry_hanging",
+      "start_s": 77.0,
+      "end_s": 79.2,
+      "duration_s": 2.2,
+      "action": "draw",
+      "layer_order": 21,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_021",
+      "type": "sfx",
+      "asset_id": "r4_02_laundry_hanging",
+      "start_s": 77.0,
+      "end_s": 78.2,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D022"
+      }
+    },
+    {
+      "event_id": "CAM_022",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 77.0,
+      "end_s": 79.2,
+      "duration_s": 2.2,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r4_02_laundry_hanging",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D023",
+      "type": "draw",
+      "asset_id": "r4_03_mail_notices",
+      "start_s": 79.3,
+      "end_s": 82.0,
+      "duration_s": 2.7,
+      "action": "draw",
+      "layer_order": 22,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_022",
+      "type": "sfx",
+      "asset_id": "r4_03_mail_notices",
+      "start_s": 79.3,
+      "end_s": 80.5,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D023"
+      }
+    },
+    {
+      "event_id": "CAM_023",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 79.3,
+      "end_s": 82.0,
+      "duration_s": 2.7,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r4_03_mail_notices",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D024",
+      "type": "draw",
+      "asset_id": "r4_04_side_job_msg",
+      "start_s": 82.8,
+      "end_s": 85.0,
+      "duration_s": 2.2,
+      "action": "draw",
+      "layer_order": 23,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_023",
+      "type": "sfx",
+      "asset_id": "r4_04_side_job_msg",
+      "start_s": 82.8,
+      "end_s": 84.0,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D024"
+      }
+    },
+    {
+      "event_id": "CAM_024",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 82.8,
+      "end_s": 85.0,
+      "duration_s": 2.2,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r4_04_side_job_msg",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D025",
+      "type": "draw",
+      "asset_id": "r4_05a_watch_series",
+      "start_s": 85.4,
+      "end_s": 87.1,
+      "duration_s": 1.7,
+      "action": "draw",
+      "layer_order": 24,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_024",
+      "type": "sfx",
+      "asset_id": "r4_05a_watch_series",
+      "start_s": 85.4,
+      "end_s": 86.6,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D025"
+      }
+    },
+    {
+      "event_id": "CAM_025",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 85.4,
+      "end_s": 87.1,
+      "duration_s": 1.7,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r4_05a_watch_series",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D026",
+      "type": "draw",
+      "asset_id": "r4_05b_online_course",
+      "start_s": 87.2,
+      "end_s": 89.4,
+      "duration_s": 2.2,
+      "action": "draw",
+      "layer_order": 25,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_025",
+      "type": "sfx",
+      "asset_id": "r4_05b_online_course",
+      "start_s": 87.2,
+      "end_s": 88.4,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D026"
+      }
+    },
+    {
+      "event_id": "CAM_026",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 87.2,
+      "end_s": 89.4,
+      "duration_s": 2.2,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r4_05b_online_course",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D027",
+      "type": "draw",
+      "asset_id": "r4_06_sleep_night",
+      "start_s": 90.0,
+      "end_s": 92.5,
+      "duration_s": 2.5,
+      "action": "draw",
+      "layer_order": 26,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_026",
+      "type": "sfx",
+      "asset_id": "r4_06_sleep_night",
+      "start_s": 90.0,
+      "end_s": 91.2,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D027"
+      }
+    },
+    {
+      "event_id": "CAM_027",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 90.0,
+      "end_s": 92.5,
+      "duration_s": 2.5,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r4_06_sleep_night",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    }
+  ],
+  "visual_states": [
+    {
+      "time_s": 0.0,
+      "visible_assets": [],
+      "drawing": [
+        "r0_00_title_banner"
+      ],
+      "highlighted": [],
+      "camera_focus": "r0_00_title_banner",
+      "density": 0
+    },
+    {
+      "time_s": 2.7,
+      "visible_assets": [
+        "r0_00_title_banner"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 1
+    },
+    {
+      "time_s": 4.8,
+      "visible_assets": [
+        "r0_00_title_banner"
+      ],
+      "drawing": [
+        "r1_01_alarm_wake"
+      ],
+      "highlighted": [],
+      "camera_focus": "r1_01_alarm_wake",
+      "density": 1
+    },
+    {
+      "time_s": 8.2,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 2
+    },
+    {
+      "time_s": 11.3,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake"
+      ],
+      "drawing": [
+        "r1_02_small_apartment"
+      ],
+      "highlighted": [],
+      "camera_focus": "r1_02_small_apartment",
+      "density": 2
+    },
+    {
+      "time_s": 13.9,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 3
+    },
+    {
+      "time_s": 16.6,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment"
+      ],
+      "drawing": [
+        "r1_03_check_bank_app"
+      ],
+      "highlighted": [],
+      "camera_focus": "r1_03_check_bank_app",
+      "density": 3
+    },
+    {
+      "time_s": 18.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 4
+    },
+    {
+      "time_s": 19.55,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app"
+      ],
+      "drawing": [
+        "r1_04_coffee_meal_prep"
+      ],
+      "highlighted": [],
+      "camera_focus": "r1_04_coffee_meal_prep",
+      "density": 4
+    },
+    {
+      "time_s": 22.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 5
+    },
+    {
+      "time_s": 24.2,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep"
+      ],
+      "drawing": [
+        "r1_05_bus_commute"
+      ],
+      "highlighted": [],
+      "camera_focus": "r1_05_bus_commute",
+      "density": 5
+    },
+    {
+      "time_s": 25.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 6
+    },
+    {
+      "time_s": 25.55,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute"
+      ],
+      "drawing": [
+        "r1_06_old_car_fuel"
+      ],
+      "highlighted": [],
+      "camera_focus": "r1_06_old_car_fuel",
+      "density": 6
+    },
+    {
+      "time_s": 27.75,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 7
+    },
+    {
+      "time_s": 29.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel"
+      ],
+      "drawing": [
+        "r2_01_cashier_job"
+      ],
+      "highlighted": [],
+      "camera_focus": "r2_01_cashier_job",
+      "density": 7
+    },
+    {
+      "time_s": 30.7,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 8
+    },
+    {
+      "time_s": 30.75,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job"
+      ],
+      "drawing": [
+        "r2_02_warehouse_job"
+      ],
+      "highlighted": [],
+      "camera_focus": "r2_02_warehouse_job",
+      "density": 8
+    },
+    {
+      "time_s": 31.7,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 9
+    },
+    {
+      "time_s": 31.75,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job"
+      ],
+      "drawing": [
+        "r2_03_restaurant_job"
+      ],
+      "highlighted": [],
+      "camera_focus": "r2_03_restaurant_job",
+      "density": 9
+    },
+    {
+      "time_s": 32.35,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 10
+    },
+    {
+      "time_s": 32.38,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job"
+      ],
+      "drawing": [
+        "r2_04_caregiver_job"
+      ],
+      "highlighted": [],
+      "camera_focus": "r2_04_caregiver_job",
+      "density": 10
+    },
+    {
+      "time_s": 33.65,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 11
+    },
+    {
+      "time_s": 34.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job"
+      ],
+      "drawing": [
+        "r2_05_shift_checklist"
+      ],
+      "highlighted": [],
+      "camera_focus": "r2_05_shift_checklist",
+      "density": 11
+    },
+    {
+      "time_s": 37.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 12
+    },
+    {
+      "time_s": 42.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist"
+      ],
+      "drawing": [
+        "r2_06_eating_lunchbox"
+      ],
+      "highlighted": [],
+      "camera_focus": "r2_06_eating_lunchbox",
+      "density": 12
+    },
+    {
+      "time_s": 44.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 13
+    },
+    {
+      "time_s": 44.15,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox"
+      ],
+      "drawing": [
+        "r2_07_shifts_schedule"
+      ],
+      "highlighted": [],
+      "camera_focus": "r2_07_shifts_schedule",
+      "density": 13
+    },
+    {
+      "time_s": 46.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 14
+    },
+    {
+      "time_s": 47.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule"
+      ],
+      "drawing": [
+        "r3_01_doctor_visit"
+      ],
+      "highlighted": [],
+      "camera_focus": "r3_01_doctor_visit",
+      "density": 14
+    },
+    {
+      "time_s": 50.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 15
+    },
+    {
+      "time_s": 57.1,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit"
+      ],
+      "drawing": [
+        "r3_02_family_thinking"
+      ],
+      "highlighted": [],
+      "camera_focus": "r3_02_family_thinking",
+      "density": 15
+    },
+    {
+      "time_s": 59.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 16
+    },
+    {
+      "time_s": 60.9,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking"
+      ],
+      "drawing": [
+        "r3_03_shopping_discounts"
+      ],
+      "highlighted": [],
+      "camera_focus": "r3_03_shopping_discounts",
+      "density": 16
+    },
+    {
+      "time_s": 63.2,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 17
+    },
+    {
+      "time_s": 63.3,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts"
+      ],
+      "drawing": [
+        "r3_04_loyalty_card"
+      ],
+      "highlighted": [],
+      "camera_focus": "r3_04_loyalty_card",
+      "density": 17
+    },
+    {
+      "time_s": 65.1,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts",
+        "r3_04_loyalty_card"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 18
+    },
+    {
+      "time_s": 65.3,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts",
+        "r3_04_loyalty_card"
+      ],
+      "drawing": [
+        "r3_05_utility_bills"
+      ],
+      "highlighted": [],
+      "camera_focus": "r3_05_utility_bills",
+      "density": 18
+    },
+    {
+      "time_s": 67.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts",
+        "r3_04_loyalty_card",
+        "r3_05_utility_bills"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 19
+    },
+    {
+      "time_s": 68.2,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts",
+        "r3_04_loyalty_card",
+        "r3_05_utility_bills"
+      ],
+      "drawing": [
+        "r3_06_savings_jar"
+      ],
+      "highlighted": [],
+      "camera_focus": "r3_06_savings_jar",
+      "density": 19
+    },
+    {
+      "time_s": 71.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts",
+        "r3_04_loyalty_card",
+        "r3_05_utility_bills",
+        "r3_06_savings_jar"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 20
+    },
+    {
+      "time_s": 75.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts",
+        "r3_04_loyalty_card",
+        "r3_05_utility_bills",
+        "r3_06_savings_jar"
+      ],
+      "drawing": [
+        "r4_01_cooking_dinner"
+      ],
+      "highlighted": [],
+      "camera_focus": "r4_01_cooking_dinner",
+      "density": 20
+    },
+    {
+      "time_s": 77.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts",
+        "r3_04_loyalty_card",
+        "r3_05_utility_bills",
+        "r3_06_savings_jar",
+        "r4_01_cooking_dinner"
+      ],
+      "drawing": [
+        "r4_02_laundry_hanging"
+      ],
+      "highlighted": [],
+      "camera_focus": "r4_02_laundry_hanging",
+      "density": 21
+    },
+    {
+      "time_s": 79.2,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts",
+        "r3_04_loyalty_card",
+        "r3_05_utility_bills",
+        "r3_06_savings_jar",
+        "r4_01_cooking_dinner",
+        "r4_02_laundry_hanging"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 22
+    },
+    {
+      "time_s": 79.3,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts",
+        "r3_04_loyalty_card",
+        "r3_05_utility_bills",
+        "r3_06_savings_jar",
+        "r4_01_cooking_dinner",
+        "r4_02_laundry_hanging"
+      ],
+      "drawing": [
+        "r4_03_mail_notices"
+      ],
+      "highlighted": [],
+      "camera_focus": "r4_03_mail_notices",
+      "density": 22
+    },
+    {
+      "time_s": 82.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts",
+        "r3_04_loyalty_card",
+        "r3_05_utility_bills",
+        "r3_06_savings_jar",
+        "r4_01_cooking_dinner",
+        "r4_02_laundry_hanging",
+        "r4_03_mail_notices"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 23
+    },
+    {
+      "time_s": 82.8,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts",
+        "r3_04_loyalty_card",
+        "r3_05_utility_bills",
+        "r3_06_savings_jar",
+        "r4_01_cooking_dinner",
+        "r4_02_laundry_hanging",
+        "r4_03_mail_notices"
+      ],
+      "drawing": [
+        "r4_04_side_job_msg"
+      ],
+      "highlighted": [],
+      "camera_focus": "r4_04_side_job_msg",
+      "density": 23
+    },
+    {
+      "time_s": 85.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts",
+        "r3_04_loyalty_card",
+        "r3_05_utility_bills",
+        "r3_06_savings_jar",
+        "r4_01_cooking_dinner",
+        "r4_02_laundry_hanging",
+        "r4_03_mail_notices",
+        "r4_04_side_job_msg"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 24
+    },
+    {
+      "time_s": 85.4,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts",
+        "r3_04_loyalty_card",
+        "r3_05_utility_bills",
+        "r3_06_savings_jar",
+        "r4_01_cooking_dinner",
+        "r4_02_laundry_hanging",
+        "r4_03_mail_notices",
+        "r4_04_side_job_msg"
+      ],
+      "drawing": [
+        "r4_05a_watch_series"
+      ],
+      "highlighted": [],
+      "camera_focus": "r4_05a_watch_series",
+      "density": 24
+    },
+    {
+      "time_s": 87.1,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts",
+        "r3_04_loyalty_card",
+        "r3_05_utility_bills",
+        "r3_06_savings_jar",
+        "r4_01_cooking_dinner",
+        "r4_02_laundry_hanging",
+        "r4_03_mail_notices",
+        "r4_04_side_job_msg",
+        "r4_05a_watch_series"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 25
+    },
+    {
+      "time_s": 87.2,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts",
+        "r3_04_loyalty_card",
+        "r3_05_utility_bills",
+        "r3_06_savings_jar",
+        "r4_01_cooking_dinner",
+        "r4_02_laundry_hanging",
+        "r4_03_mail_notices",
+        "r4_04_side_job_msg",
+        "r4_05a_watch_series"
+      ],
+      "drawing": [
+        "r4_05b_online_course"
+      ],
+      "highlighted": [],
+      "camera_focus": "r4_05b_online_course",
+      "density": 25
+    },
+    {
+      "time_s": 89.4,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts",
+        "r3_04_loyalty_card",
+        "r3_05_utility_bills",
+        "r3_06_savings_jar",
+        "r4_01_cooking_dinner",
+        "r4_02_laundry_hanging",
+        "r4_03_mail_notices",
+        "r4_04_side_job_msg",
+        "r4_05a_watch_series",
+        "r4_05b_online_course"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 26
+    },
+    {
+      "time_s": 90.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts",
+        "r3_04_loyalty_card",
+        "r3_05_utility_bills",
+        "r3_06_savings_jar",
+        "r4_01_cooking_dinner",
+        "r4_02_laundry_hanging",
+        "r4_03_mail_notices",
+        "r4_04_side_job_msg",
+        "r4_05a_watch_series",
+        "r4_05b_online_course"
+      ],
+      "drawing": [
+        "r4_06_sleep_night"
+      ],
+      "highlighted": [],
+      "camera_focus": "r4_06_sleep_night",
+      "density": 26
+    },
+    {
+      "time_s": 92.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts",
+        "r3_04_loyalty_card",
+        "r3_05_utility_bills",
+        "r3_06_savings_jar",
+        "r4_01_cooking_dinner",
+        "r4_02_laundry_hanging",
+        "r4_03_mail_notices",
+        "r4_04_side_job_msg",
+        "r4_05a_watch_series",
+        "r4_05b_online_course",
+        "r4_06_sleep_night"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 27
+    },
+    {
+      "time_s": 93.509,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_alarm_wake",
+        "r1_02_small_apartment",
+        "r1_03_check_bank_app",
+        "r1_04_coffee_meal_prep",
+        "r1_05_bus_commute",
+        "r1_06_old_car_fuel",
+        "r2_01_cashier_job",
+        "r2_02_warehouse_job",
+        "r2_03_restaurant_job",
+        "r2_04_caregiver_job",
+        "r2_05_shift_checklist",
+        "r2_06_eating_lunchbox",
+        "r2_07_shifts_schedule",
+        "r3_01_doctor_visit",
+        "r3_02_family_thinking",
+        "r3_03_shopping_discounts",
+        "r3_04_loyalty_card",
+        "r3_05_utility_bills",
+        "r3_06_savings_jar",
+        "r4_01_cooking_dinner",
+        "r4_02_laundry_hanging",
+        "r4_03_mail_notices",
+        "r4_04_side_job_msg",
+        "r4_05a_watch_series",
+        "r4_05b_online_course",
+        "r4_06_sleep_night"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 27
+    }
+  ],
+  "review_required": true
+}

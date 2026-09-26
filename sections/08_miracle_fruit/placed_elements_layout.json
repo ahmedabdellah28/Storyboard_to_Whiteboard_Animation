@@ -1,0 +1,302 @@
+{
+  "scale": 2.6,
+  "zoom": 0.58,
+  "world_half": 1655.1724137931035,
+  "elements": {
+    "1": [
+      {
+        "aid": "r1_01_miracle_fruit_berries_hero",
+        "file": "r1_01_miracle_fruit_berries_hero.png",
+        "x": 200.0,
+        "y": 402.5,
+        "w": 936,
+        "h": 795,
+        "cx": 668.0,
+        "cy": 800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r1_02_miracle_plant_branch",
+        "file": "r1_02_miracle_plant_branch.png",
+        "x": 1296.0,
+        "y": 427.0,
+        "w": 730,
+        "h": 746,
+        "cx": 1661.0,
+        "cy": 800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r1_03_africa_west_map",
+        "file": "r1_03_africa_west_map.png",
+        "x": 4600.0,
+        "y": 499.0,
+        "w": 542,
+        "h": 602,
+        "cx": 4871.0,
+        "cy": 800.0,
+        "zone": "B"
+      },
+      {
+        "aid": "r1_04_miraculin_protein_molecule",
+        "file": "r1_04_miraculin_protein_molecule.png",
+        "x": 5282.0,
+        "y": 504.5,
+        "w": 534,
+        "h": 591,
+        "cx": 5549.0,
+        "cy": 800.0,
+        "zone": "B"
+      },
+      {
+        "aid": "r1_05_taste_receptors_tongue_loupe",
+        "file": "r1_05_taste_receptors_tongue_loupe.png",
+        "x": 5956.0,
+        "y": 462.5,
+        "w": 1142,
+        "h": 675,
+        "cx": 6527.0,
+        "cy": 800.0,
+        "zone": "B"
+      }
+    ],
+    "2": [
+      {
+        "aid": "r2_01_man_eating_berry",
+        "file": "r2_01_man_eating_berry.png",
+        "x": 300.0,
+        "y": 2472.0,
+        "w": 704,
+        "h": 656,
+        "cx": 652.0,
+        "cy": 2800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r2_02_man_amazed_sweet_taste",
+        "file": "r2_02_man_amazed_sweet_taste.png",
+        "x": 1164.0,
+        "y": 2480.5,
+        "w": 680,
+        "h": 639,
+        "cx": 1504.0,
+        "cy": 2800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r2_03_lemon_sugar_transformation",
+        "file": "r2_03_lemon_sugar_transformation.png",
+        "x": 4600.0,
+        "y": 2600.0,
+        "w": 748,
+        "h": 400,
+        "cx": 4974.0,
+        "cy": 2800.0,
+        "zone": "B"
+      },
+      {
+        "aid": "r2_04_lime_sugar_transformation",
+        "file": "r2_04_lime_sugar_transformation.png",
+        "x": 5488.0,
+        "y": 2585.5,
+        "w": 821,
+        "h": 429,
+        "cx": 5898.5,
+        "cy": 2800.0,
+        "zone": "B"
+      },
+      {
+        "aid": "r2_05_vinegar_to_apple_juice",
+        "file": "r2_05_vinegar_to_apple_juice.png",
+        "x": 6449.0,
+        "y": 2544.0,
+        "w": 824,
+        "h": 512,
+        "cx": 6861.0,
+        "cy": 2800.0,
+        "zone": "B"
+      }
+    ],
+    "3": [
+      {
+        "aid": "r3_01_gooseberry_fruit_salad",
+        "file": "r3_01_gooseberry_fruit_salad.png",
+        "x": 200.0,
+        "y": 4617.0,
+        "w": 967,
+        "h": 366,
+        "cx": 683.5,
+        "cy": 4800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r3_02_coffee_to_sweet_latte",
+        "file": "r3_02_coffee_to_sweet_latte.png",
+        "x": 1327.0,
+        "y": 4630.0,
+        "w": 928,
+        "h": 340,
+        "cx": 1791.0,
+        "cy": 4800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r3_03_grapefruit_sugar_shift",
+        "file": "r3_03_grapefruit_sugar_shift.png",
+        "x": 4600.0,
+        "y": 4602.5,
+        "w": 873,
+        "h": 395,
+        "cx": 5036.5,
+        "cy": 4800.0,
+        "zone": "B"
+      },
+      {
+        "aid": "r3_04_pickles_sweet_transformation",
+        "file": "r3_04_pickles_sweet_transformation.png",
+        "x": 5633.0,
+        "y": 4621.0,
+        "w": 925,
+        "h": 358,
+        "cx": 6095.5,
+        "cy": 4800.0,
+        "zone": "B"
+      }
+    ],
+    "4": [
+      {
+        "aid": "r4_01_african_harvester_basket",
+        "file": "r4_01_african_harvester_basket.png",
+        "x": 100.0,
+        "y": 6483.0,
+        "w": 876,
+        "h": 634,
+        "cx": 538.0,
+        "cy": 6800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r4_02_hands_cupping_berries",
+        "file": "r4_02_hands_cupping_berries.png",
+        "x": 1116.0,
+        "y": 6516.5,
+        "w": 656,
+        "h": 567,
+        "cx": 1444.0,
+        "cy": 6800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r4_03_blooming_miracle_shrub",
+        "file": "r4_03_blooming_miracle_shrub.png",
+        "x": 1912.0,
+        "y": 6488.0,
+        "w": 741,
+        "h": 624,
+        "cx": 2282.5,
+        "cy": 6800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r4_04_glass_bowl_berries_cross_section",
+        "file": "r4_04_glass_bowl_berries_cross_section.png",
+        "x": 4600.0,
+        "y": 6518.0,
+        "w": 920,
+        "h": 564,
+        "cx": 5060.0,
+        "cy": 6800.0,
+        "zone": "B"
+      },
+      {
+        "aid": "r4_05_smoothie_tall_glass_straw",
+        "file": "r4_05_smoothie_tall_glass_straw.png",
+        "x": 5680.0,
+        "y": 6456.0,
+        "w": 648,
+        "h": 688,
+        "cx": 6004.0,
+        "cy": 6800.0,
+        "zone": "B"
+      }
+    ]
+  },
+  "zones": {
+    "1": {
+      "row_y": 800.0,
+      "zone_A": [
+        1113.0,
+        800.0
+      ],
+      "zone_B": [
+        5849.0,
+        800.0
+      ],
+      "za_span": [
+        200.0,
+        2026.0
+      ],
+      "zb_span": [
+        4600.0,
+        7098.0
+      ]
+    },
+    "2": {
+      "row_y": 2800.0,
+      "zone_A": [
+        1072.0,
+        2800.0
+      ],
+      "zone_B": [
+        5936.5,
+        2800.0
+      ],
+      "za_span": [
+        300.0,
+        1844.0
+      ],
+      "zb_span": [
+        4600.0,
+        7273.0
+      ]
+    },
+    "3": {
+      "row_y": 4800.0,
+      "zone_A": [
+        1227.5,
+        4800.0
+      ],
+      "zone_B": [
+        5579.0,
+        4800.0
+      ],
+      "za_span": [
+        200.0,
+        2255.0
+      ],
+      "zb_span": [
+        4600.0,
+        6558.0
+      ]
+    },
+    "4": {
+      "row_y": 6800.0,
+      "zone_A": [
+        1376.5,
+        6800.0
+      ],
+      "zone_B": [
+        5464.0,
+        6800.0
+      ],
+      "za_span": [
+        100.0,
+        2653.0
+      ],
+      "zb_span": [
+        4600.0,
+        6328.0
+      ]
+    }
+  }
+}

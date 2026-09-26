@@ -1,0 +1,370 @@
+{
+  "elements": {
+    "zone_1A": [
+      {
+        "aid": "r1_01_waking_bed",
+        "file": "r1_01_waking_bed.png",
+        "x": 500.0,
+        "y": 499.0,
+        "w": 742.0,
+        "h": 602.0,
+        "cx": 871.0,
+        "cy": 800.0,
+        "zone": "zone_1A"
+      },
+      {
+        "aid": "r1_02_sad_sitting",
+        "file": "r1_02_sad_sitting.png",
+        "x": 1402.0,
+        "y": 514.4,
+        "w": 697.2,
+        "h": 571.2,
+        "cx": 1750.6,
+        "cy": 800.0,
+        "zone": "zone_1A"
+      },
+      {
+        "aid": "r1_03_no_job_fly_gym",
+        "file": "r1_03_no_job_fly_gym.png",
+        "x": 2259.2,
+        "y": 489.2,
+        "w": 632.8,
+        "h": 621.6,
+        "cx": 2575.6,
+        "cy": 800.0,
+        "zone": "zone_1A"
+      }
+    ],
+    "zone_1B": [
+      {
+        "aid": "r1_04_city_dawn",
+        "file": "r1_04_city_dawn.png",
+        "x": 5200.0,
+        "y": 511.6,
+        "w": 764.4,
+        "h": 576.8,
+        "cx": 5582.2,
+        "cy": 800.0,
+        "zone": "zone_1B"
+      },
+      {
+        "aid": "r1_05_crowd_safety",
+        "file": "r1_05_crowd_safety.png",
+        "x": 6144.4,
+        "y": 478.0,
+        "w": 809.2,
+        "h": 644.0,
+        "cx": 6549.0,
+        "cy": 800.0,
+        "zone": "zone_1B"
+      }
+    ],
+    "zone_2A": [
+      {
+        "aid": "r2_01_homeless_sidewalk",
+        "file": "r2_01_homeless_sidewalk.png",
+        "x": 9800.0,
+        "y": 517.2,
+        "w": 498.4,
+        "h": 565.6,
+        "cx": 10049.2,
+        "cy": 800.0,
+        "zone": "zone_2A"
+      },
+      {
+        "aid": "r2_02_small_room",
+        "file": "r2_02_small_room.png",
+        "x": 10438.4,
+        "y": 529.8,
+        "w": 520.8,
+        "h": 540.4,
+        "cx": 10698.8,
+        "cy": 800.0,
+        "zone": "zone_2A"
+      },
+      {
+        "aid": "r2_03_neat_apartment",
+        "file": "r2_03_neat_apartment.png",
+        "x": 11099.2,
+        "y": 525.6,
+        "w": 562.8,
+        "h": 548.8,
+        "cx": 11380.6,
+        "cy": 800.0,
+        "zone": "zone_2A"
+      }
+    ],
+    "zone_2B": [
+      {
+        "aid": "r2_04_comfortable_room",
+        "file": "r2_04_comfortable_room.png",
+        "x": 14200.0,
+        "y": 531.2,
+        "w": 588.0,
+        "h": 537.6,
+        "cx": 14494.0,
+        "cy": 800.0,
+        "zone": "zone_2B"
+      },
+      {
+        "aid": "r2_05_luxury_suite",
+        "file": "r2_05_luxury_suite.png",
+        "x": 14928.0,
+        "y": 525.6,
+        "w": 599.2,
+        "h": 548.8,
+        "cx": 15227.6,
+        "cy": 800.0,
+        "zone": "zone_2B"
+      },
+      {
+        "aid": "r2_06_mansion_staff",
+        "file": "r2_06_mansion_staff.png",
+        "x": 15667.2,
+        "y": 518.6,
+        "w": 814.8,
+        "h": 562.8,
+        "cx": 16074.6,
+        "cy": 800.0,
+        "zone": "zone_2B"
+      }
+    ],
+    "zone_3A": [
+      {
+        "aid": "r3_01_stretching_man",
+        "file": "r3_01_stretching_man.png",
+        "x": 19200.0,
+        "y": 626.4,
+        "w": 588.0,
+        "h": 347.2,
+        "cx": 19494.0,
+        "cy": 800.0,
+        "zone": "zone_3A"
+      }
+    ],
+    "zone_3B": [
+      {
+        "aid": "r3_02_timeline_24h",
+        "file": "r3_02_timeline_24h.png",
+        "x": 22800.0,
+        "y": 606.8,
+        "w": 2259.6,
+        "h": 386.4,
+        "cx": 23929.8,
+        "cy": 800.0,
+        "zone": "zone_3B"
+      }
+    ],
+    "zone_4A": [
+      {
+        "aid": "r4_01_time_clock",
+        "file": "r4_01_time_clock.png",
+        "x": 27400.0,
+        "y": 569.0,
+        "w": 697.2,
+        "h": 462.0,
+        "cx": 27748.6,
+        "cy": 800.0,
+        "zone": "zone_4A"
+      },
+      {
+        "aid": "r4_02_money_cash",
+        "file": "r4_02_money_cash.png",
+        "x": 28277.2,
+        "y": 566.2,
+        "w": 478.8,
+        "h": 467.6,
+        "cx": 28516.6,
+        "cy": 800.0,
+        "zone": "zone_4A"
+      }
+    ],
+    "zone_4B": [
+      {
+        "aid": "r4_03_health_gym",
+        "file": "r4_03_health_gym.png",
+        "x": 31800.0,
+        "y": 567.6,
+        "w": 638.4,
+        "h": 464.8,
+        "cx": 32119.2,
+        "cy": 800.0,
+        "zone": "zone_4B"
+      },
+      {
+        "aid": "r4_04_problems_mind",
+        "file": "r4_04_problems_mind.png",
+        "x": 32618.4,
+        "y": 546.6,
+        "w": 809.2,
+        "h": 506.8,
+        "cx": 33023.0,
+        "cy": 800.0,
+        "zone": "zone_4B"
+      }
+    ],
+    "zone_5A": [
+      {
+        "aid": "r5_01_homeless_man",
+        "file": "r5_01_homeless_man.png",
+        "x": 36200.0,
+        "y": 602.6,
+        "w": 506.8,
+        "h": 394.8,
+        "cx": 36453.4,
+        "cy": 800.0,
+        "zone": "zone_5A"
+      },
+      {
+        "aid": "r5_02_billionaire_car",
+        "file": "r5_02_billionaire_car.png",
+        "x": 36826.8,
+        "y": 535.4,
+        "w": 1696.8,
+        "h": 529.2,
+        "cx": 37675.2,
+        "cy": 800.0,
+        "zone": "zone_5A"
+      }
+    ],
+    "zone_5B": [
+      {
+        "aid": "r5_03_thinking_question",
+        "file": "r5_03_thinking_question.png",
+        "x": 41200.0,
+        "y": 539.6,
+        "w": 996.8,
+        "h": 520.8,
+        "cx": 41698.4,
+        "cy": 800.0,
+        "zone": "zone_5B"
+      },
+      {
+        "aid": "r5_04_rising_chart",
+        "file": "r5_04_rising_chart.png",
+        "x": 42376.8,
+        "y": 584.4,
+        "w": 733.6,
+        "h": 431.2,
+        "cx": 42743.6,
+        "cy": 800.0,
+        "zone": "zone_5B"
+      }
+    ]
+  },
+  "zones": {
+    "zone_1A": {
+      "row_y": 800.0,
+      "cam_pos": [
+        1696.0,
+        800.0
+      ],
+      "span": [
+        500.0,
+        2892.0
+      ]
+    },
+    "zone_1B": {
+      "row_y": 800.0,
+      "cam_pos": [
+        6076.8,
+        800.0
+      ],
+      "span": [
+        5200.0,
+        6953.6
+      ]
+    },
+    "zone_2A": {
+      "row_y": 800.0,
+      "cam_pos": [
+        10731.0,
+        800.0
+      ],
+      "span": [
+        9800.0,
+        11662.0
+      ]
+    },
+    "zone_2B": {
+      "row_y": 800.0,
+      "cam_pos": [
+        15341.0,
+        800.0
+      ],
+      "span": [
+        14200.0,
+        16482.0
+      ]
+    },
+    "zone_3A": {
+      "row_y": 800.0,
+      "cam_pos": [
+        19494.0,
+        800.0
+      ],
+      "span": [
+        19200.0,
+        19788.0
+      ]
+    },
+    "zone_3B": {
+      "row_y": 800.0,
+      "cam_pos": [
+        23929.8,
+        800.0
+      ],
+      "span": [
+        22800.0,
+        25059.6
+      ]
+    },
+    "zone_4A": {
+      "row_y": 800.0,
+      "cam_pos": [
+        28078.0,
+        800.0
+      ],
+      "span": [
+        27400.0,
+        28756.0
+      ]
+    },
+    "zone_4B": {
+      "row_y": 800.0,
+      "cam_pos": [
+        32613.8,
+        800.0
+      ],
+      "span": [
+        31800.0,
+        33427.6
+      ]
+    },
+    "zone_5A": {
+      "row_y": 800.0,
+      "cam_pos": [
+        37361.8,
+        800.0
+      ],
+      "span": [
+        36200.0,
+        38523.6
+      ]
+    },
+    "zone_5B": {
+      "row_y": 800.0,
+      "cam_pos": [
+        42155.2,
+        800.0
+      ],
+      "span": [
+        41200.0,
+        43110.4
+      ]
+    }
+  },
+  "fixed_y": 800.0,
+  "scale": 2.8,
+  "cam_zoom": 0.58
+}

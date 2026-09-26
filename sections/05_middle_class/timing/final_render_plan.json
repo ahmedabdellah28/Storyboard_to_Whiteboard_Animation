@@ -1,0 +1,2346 @@
+{
+  "contract_version": "1.0.0",
+  "section_id": "05_middle_class",
+  "audio_file": "E:\\image_to_animate\\sections\\05_middle_class\\voice\\section.wav",
+  "audio_duration": 96.809,
+  "fps": 30,
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "validation": {
+    "status": "PASS_WITH_WARNINGS",
+    "overall_score": 0.0,
+    "checks": [
+      {
+        "check_id": "CHECK_01",
+        "name": "Every event references valid asset",
+        "passed": true,
+        "severity": "ERROR",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_02",
+        "name": "Every asset exists",
+        "passed": true,
+        "severity": "ERROR",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_03",
+        "name": "Every asset semantically matches",
+        "passed": true,
+        "severity": "WARNING",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_04",
+        "name": "No contradictory asset",
+        "passed": true,
+        "severity": "ERROR",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_05",
+        "name": "Dependencies are valid",
+        "passed": true,
+        "severity": "ERROR",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_06",
+        "name": "Drawing duration is feasible",
+        "passed": true,
+        "severity": "WARNING",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_07",
+        "name": "No impossible timing",
+        "passed": true,
+        "severity": "ERROR",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_08",
+        "name": "No invalid overlaps",
+        "passed": true,
+        "severity": "WARNING",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_09",
+        "name": "SFX has valid anchor",
+        "passed": true,
+        "severity": "WARNING",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_10",
+        "name": "Camera target exists",
+        "passed": true,
+        "severity": "WARNING",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_11",
+        "name": "Visual state transitions are valid",
+        "passed": true,
+        "severity": "ERROR",
+        "details": []
+      },
+      {
+        "check_id": "CHECK_12",
+        "name": "No excessive visual density",
+        "passed": false,
+        "severity": "WARNING",
+        "details": [
+          "Canvas density 13 exceeds max allowed 12 at t=63.50s.",
+          "Canvas density 13 exceeds max allowed 12 at t=64.50s.",
+          "Canvas density 14 exceeds max allowed 12 at t=66.80s.",
+          "Canvas density 14 exceeds max allowed 12 at t=71.50s.",
+          "Canvas density 15 exceeds max allowed 12 at t=74.50s.",
+          "Canvas density 15 exceeds max allowed 12 at t=75.50s.",
+          "Canvas density 16 exceeds max allowed 12 at t=78.00s.",
+          "Canvas density 16 exceeds max allowed 12 at t=78.20s.",
+          "Canvas density 17 exceeds max allowed 12 at t=80.50s.",
+          "Canvas density 17 exceeds max allowed 12 at t=82.30s.",
+          "Canvas density 18 exceeds max allowed 12 at t=85.50s.",
+          "Canvas density 18 exceeds max allowed 12 at t=86.30s.",
+          "Canvas density 19 exceeds max allowed 12 at t=88.00s.",
+          "Canvas density 19 exceeds max allowed 12 at t=88.10s.",
+          "Canvas density 20 exceeds max allowed 12 at t=90.20s.",
+          "Canvas density 20 exceeds max allowed 12 at t=91.80s.",
+          "Canvas density 21 exceeds max allowed 12 at t=94.20s.",
+          "Canvas density 22 exceeds max allowed 12 at t=95.20s.",
+          "Canvas density 22 exceeds max allowed 12 at t=95.60s.",
+          "Canvas density 23 exceeds max allowed 12 at t=96.20s.",
+          "Canvas density 23 exceeds max allowed 12 at t=96.81s.",
+          "Canvas density 24 exceeds max allowed 12 at t=96.81s."
+        ]
+      }
+    ],
+    "unresolved_issues": [
+      "Canvas density 13 exceeds max allowed 12 at t=63.50s.",
+      "Canvas density 13 exceeds max allowed 12 at t=64.50s.",
+      "Canvas density 14 exceeds max allowed 12 at t=66.80s.",
+      "Canvas density 14 exceeds max allowed 12 at t=71.50s.",
+      "Canvas density 15 exceeds max allowed 12 at t=74.50s.",
+      "Canvas density 15 exceeds max allowed 12 at t=75.50s.",
+      "Canvas density 16 exceeds max allowed 12 at t=78.00s.",
+      "Canvas density 16 exceeds max allowed 12 at t=78.20s.",
+      "Canvas density 17 exceeds max allowed 12 at t=80.50s.",
+      "Canvas density 17 exceeds max allowed 12 at t=82.30s.",
+      "Canvas density 18 exceeds max allowed 12 at t=85.50s.",
+      "Canvas density 18 exceeds max allowed 12 at t=86.30s.",
+      "Canvas density 19 exceeds max allowed 12 at t=88.00s.",
+      "Canvas density 19 exceeds max allowed 12 at t=88.10s.",
+      "Canvas density 20 exceeds max allowed 12 at t=90.20s.",
+      "Canvas density 20 exceeds max allowed 12 at t=91.80s.",
+      "Canvas density 21 exceeds max allowed 12 at t=94.20s.",
+      "Canvas density 22 exceeds max allowed 12 at t=95.20s.",
+      "Canvas density 22 exceeds max allowed 12 at t=95.60s.",
+      "Canvas density 23 exceeds max allowed 12 at t=96.20s.",
+      "Canvas density 23 exceeds max allowed 12 at t=96.81s.",
+      "Canvas density 24 exceeds max allowed 12 at t=96.81s."
+    ],
+    "missing_assets": [],
+    "review_required": true,
+    "review_items": []
+  },
+  "applied_patches": [],
+  "render_events": [
+    {
+      "event_id": "D001",
+      "type": "reveal",
+      "asset_id": "r0_00_title_banner",
+      "start_s": 0.0,
+      "end_s": 2.8,
+      "duration_s": 2.8,
+      "action": "draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "CAM_001",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 0.0,
+      "end_s": 2.8,
+      "duration_s": 2.8,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r0_00_title_banner",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D002",
+      "type": "draw",
+      "asset_id": "r1_01_waking_happy",
+      "start_s": 4.8,
+      "end_s": 8.2,
+      "duration_s": 3.4,
+      "action": "draw",
+      "layer_order": 1,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_001",
+      "type": "sfx",
+      "asset_id": "r1_01_waking_happy",
+      "start_s": 4.8,
+      "end_s": 6.0,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D002"
+      }
+    },
+    {
+      "event_id": "CAM_002",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 4.8,
+      "end_s": 8.2,
+      "duration_s": 3.4,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r1_01_waking_happy",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D003",
+      "type": "draw",
+      "asset_id": "r1_02_suburban_house",
+      "start_s": 14.5,
+      "end_s": 16.8,
+      "duration_s": 2.3,
+      "action": "draw",
+      "layer_order": 2,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_002",
+      "type": "sfx",
+      "asset_id": "r1_02_suburban_house",
+      "start_s": 14.5,
+      "end_s": 15.7,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D003"
+      }
+    },
+    {
+      "event_id": "CAM_003",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 14.5,
+      "end_s": 16.8,
+      "duration_s": 2.3,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r1_02_suburban_house",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D004",
+      "type": "draw",
+      "asset_id": "r1_03_robot_vacuum",
+      "start_s": 17.0,
+      "end_s": 19.2,
+      "duration_s": 2.2,
+      "action": "draw",
+      "layer_order": 3,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_003",
+      "type": "sfx",
+      "asset_id": "r1_03_robot_vacuum",
+      "start_s": 17.0,
+      "end_s": 18.2,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D004"
+      }
+    },
+    {
+      "event_id": "CAM_004",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 17.0,
+      "end_s": 19.2,
+      "duration_s": 2.2,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r1_03_robot_vacuum",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D005",
+      "type": "draw",
+      "asset_id": "r1_04_espresso_machine",
+      "start_s": 19.4,
+      "end_s": 22.2,
+      "duration_s": 2.8,
+      "action": "draw",
+      "layer_order": 4,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_004",
+      "type": "sfx",
+      "asset_id": "r1_04_espresso_machine",
+      "start_s": 19.4,
+      "end_s": 20.6,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D005"
+      }
+    },
+    {
+      "event_id": "CAM_005",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 19.4,
+      "end_s": 22.2,
+      "duration_s": 2.8,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r1_04_espresso_machine",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D006",
+      "type": "draw",
+      "asset_id": "r1_05_shared_calendar",
+      "start_s": 22.5,
+      "end_s": 24.5,
+      "duration_s": 2.0,
+      "action": "draw",
+      "layer_order": 5,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_005",
+      "type": "sfx",
+      "asset_id": "r1_05_shared_calendar",
+      "start_s": 22.5,
+      "end_s": 23.7,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D006"
+      }
+    },
+    {
+      "event_id": "CAM_006",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 22.5,
+      "end_s": 24.5,
+      "duration_s": 2.0,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r1_05_shared_calendar",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D007",
+      "type": "draw",
+      "asset_id": "r1_06_autopay_bills",
+      "start_s": 24.6,
+      "end_s": 27.5,
+      "duration_s": 2.9,
+      "action": "draw",
+      "layer_order": 6,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_006",
+      "type": "sfx",
+      "asset_id": "r1_06_autopay_bills",
+      "start_s": 24.6,
+      "end_s": 25.8,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D007"
+      }
+    },
+    {
+      "event_id": "CAM_007",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 24.6,
+      "end_s": 27.5,
+      "duration_s": 2.9,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r1_06_autopay_bills",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D008",
+      "type": "draw",
+      "asset_id": "r2_01_fresh_breakfast",
+      "start_s": 29.8,
+      "end_s": 32.5,
+      "duration_s": 2.7,
+      "action": "draw",
+      "layer_order": 7,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_007",
+      "type": "sfx",
+      "asset_id": "r2_01_fresh_breakfast",
+      "start_s": 29.8,
+      "end_s": 31.0,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D008"
+      }
+    },
+    {
+      "event_id": "CAM_008",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 29.8,
+      "end_s": 32.5,
+      "duration_s": 2.7,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r2_01_fresh_breakfast",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D009",
+      "type": "draw",
+      "asset_id": "r2_02_kids_lunch_prep",
+      "start_s": 33.0,
+      "end_s": 36.0,
+      "duration_s": 3.0,
+      "action": "draw",
+      "layer_order": 8,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_008",
+      "type": "sfx",
+      "asset_id": "r2_02_kids_lunch_prep",
+      "start_s": 33.0,
+      "end_s": 34.2,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D009"
+      }
+    },
+    {
+      "event_id": "CAM_009",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 33.0,
+      "end_s": 36.0,
+      "duration_s": 3.0,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r2_02_kids_lunch_prep",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D010",
+      "type": "draw",
+      "asset_id": "r2_03_luxury_suv",
+      "start_s": 40.0,
+      "end_s": 43.5,
+      "duration_s": 3.5,
+      "action": "draw",
+      "layer_order": 9,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_009",
+      "type": "sfx",
+      "asset_id": "r2_03_luxury_suv",
+      "start_s": 40.0,
+      "end_s": 41.2,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D010"
+      }
+    },
+    {
+      "event_id": "CAM_010",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 40.0,
+      "end_s": 43.5,
+      "duration_s": 3.5,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r2_03_luxury_suv",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D011",
+      "type": "draw",
+      "asset_id": "r2_04_team_management",
+      "start_s": 47.5,
+      "end_s": 51.0,
+      "duration_s": 3.5,
+      "action": "draw",
+      "layer_order": 10,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_010",
+      "type": "sfx",
+      "asset_id": "r2_04_team_management",
+      "start_s": 47.5,
+      "end_s": 48.7,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D011"
+      }
+    },
+    {
+      "event_id": "CAM_011",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 47.5,
+      "end_s": 51.0,
+      "duration_s": 3.5,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r2_04_team_management",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D012",
+      "type": "draw",
+      "asset_id": "r2_05_corner_office",
+      "start_s": 54.3,
+      "end_s": 58.0,
+      "duration_s": 3.7,
+      "action": "draw",
+      "layer_order": 11,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_011",
+      "type": "sfx",
+      "asset_id": "r2_05_corner_office",
+      "start_s": 54.3,
+      "end_s": 55.5,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D012"
+      }
+    },
+    {
+      "event_id": "CAM_012",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 54.3,
+      "end_s": 58.0,
+      "duration_s": 3.7,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r2_05_corner_office",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D013",
+      "type": "draw",
+      "asset_id": "r3_04_investment_app",
+      "start_s": 60.0,
+      "end_s": 63.5,
+      "duration_s": 3.5,
+      "action": "draw",
+      "layer_order": 12,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_012",
+      "type": "sfx",
+      "asset_id": "r3_04_investment_app",
+      "start_s": 60.0,
+      "end_s": 61.2,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D013"
+      }
+    },
+    {
+      "event_id": "CAM_013",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 60.0,
+      "end_s": 63.5,
+      "duration_s": 3.5,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r3_04_investment_app",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D014",
+      "type": "draw",
+      "asset_id": "r3_03_vacation_dream",
+      "start_s": 64.5,
+      "end_s": 66.8,
+      "duration_s": 2.3,
+      "action": "draw",
+      "layer_order": 13,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_013",
+      "type": "sfx",
+      "asset_id": "r3_03_vacation_dream",
+      "start_s": 64.5,
+      "end_s": 65.7,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D014"
+      }
+    },
+    {
+      "event_id": "CAM_014",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 64.5,
+      "end_s": 66.8,
+      "duration_s": 2.3,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r3_03_vacation_dream",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D015",
+      "type": "draw",
+      "asset_id": "r3_06_gardener_hedge",
+      "start_s": 71.5,
+      "end_s": 74.5,
+      "duration_s": 3.0,
+      "action": "draw",
+      "layer_order": 14,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_014",
+      "type": "sfx",
+      "asset_id": "r3_06_gardener_hedge",
+      "start_s": 71.5,
+      "end_s": 72.7,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D015"
+      }
+    },
+    {
+      "event_id": "CAM_015",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 71.5,
+      "end_s": 74.5,
+      "duration_s": 3.0,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r3_06_gardener_hedge",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D016",
+      "type": "draw",
+      "asset_id": "r3_02_gym_weights",
+      "start_s": 75.5,
+      "end_s": 78.0,
+      "duration_s": 2.5,
+      "action": "draw",
+      "layer_order": 15,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_015",
+      "type": "sfx",
+      "asset_id": "r3_02_gym_weights",
+      "start_s": 75.5,
+      "end_s": 76.7,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D016"
+      }
+    },
+    {
+      "event_id": "CAM_016",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 75.5,
+      "end_s": 78.0,
+      "duration_s": 2.5,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r3_02_gym_weights",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D017",
+      "type": "draw",
+      "asset_id": "r4_01_housekeeper",
+      "start_s": 78.2,
+      "end_s": 80.5,
+      "duration_s": 2.3,
+      "action": "draw",
+      "layer_order": 16,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_016",
+      "type": "sfx",
+      "asset_id": "r4_01_housekeeper",
+      "start_s": 78.2,
+      "end_s": 79.4,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D017"
+      }
+    },
+    {
+      "event_id": "CAM_017",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 78.2,
+      "end_s": 80.5,
+      "duration_s": 2.3,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r4_01_housekeeper",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D018",
+      "type": "draw",
+      "asset_id": "r3_05_plumber_repair",
+      "start_s": 82.3,
+      "end_s": 85.5,
+      "duration_s": 3.2,
+      "action": "draw",
+      "layer_order": 17,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_017",
+      "type": "sfx",
+      "asset_id": "r3_05_plumber_repair",
+      "start_s": 82.3,
+      "end_s": 83.5,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D018"
+      }
+    },
+    {
+      "event_id": "CAM_018",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 82.3,
+      "end_s": 85.5,
+      "duration_s": 3.2,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r3_05_plumber_repair",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D019",
+      "type": "draw",
+      "asset_id": "r3_01_doctor_checkup",
+      "start_s": 86.3,
+      "end_s": 88.0,
+      "duration_s": 1.7,
+      "action": "draw",
+      "layer_order": 18,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_018",
+      "type": "sfx",
+      "asset_id": "r3_01_doctor_checkup",
+      "start_s": 86.3,
+      "end_s": 87.5,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D019"
+      }
+    },
+    {
+      "event_id": "CAM_019",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 86.3,
+      "end_s": 88.0,
+      "duration_s": 1.7,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r3_01_doctor_checkup",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D020",
+      "type": "draw",
+      "asset_id": "r4_02_kids_activities",
+      "start_s": 88.1,
+      "end_s": 90.2,
+      "duration_s": 2.1,
+      "action": "draw",
+      "layer_order": 19,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_019",
+      "type": "sfx",
+      "asset_id": "r4_02_kids_activities",
+      "start_s": 88.1,
+      "end_s": 89.3,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D020"
+      }
+    },
+    {
+      "event_id": "CAM_020",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 88.1,
+      "end_s": 90.2,
+      "duration_s": 2.1,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r4_02_kids_activities",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D021",
+      "type": "draw",
+      "asset_id": "r4_03_online_gift",
+      "start_s": 91.8,
+      "end_s": 94.2,
+      "duration_s": 2.4,
+      "action": "draw",
+      "layer_order": 20,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_020",
+      "type": "sfx",
+      "asset_id": "r4_03_online_gift",
+      "start_s": 91.8,
+      "end_s": 93.0,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D021"
+      }
+    },
+    {
+      "event_id": "CAM_021",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 91.8,
+      "end_s": 94.2,
+      "duration_s": 2.4,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r4_03_online_gift",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D022",
+      "type": "draw",
+      "asset_id": "r4_04_charity_donation",
+      "start_s": 94.2,
+      "end_s": 95.2,
+      "duration_s": 1.0,
+      "action": "draw",
+      "layer_order": 21,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_021",
+      "type": "sfx",
+      "asset_id": "r4_04_charity_donation",
+      "start_s": 94.2,
+      "end_s": 95.4,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D022"
+      }
+    },
+    {
+      "event_id": "CAM_022",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 94.2,
+      "end_s": 95.2,
+      "duration_s": 1.0,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r4_04_charity_donation",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D023",
+      "type": "draw",
+      "asset_id": "r4_05_tomorrow_agenda",
+      "start_s": 95.2,
+      "end_s": 96.2,
+      "duration_s": 1.0,
+      "action": "draw",
+      "layer_order": 22,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_022",
+      "type": "sfx",
+      "asset_id": "r4_05_tomorrow_agenda",
+      "start_s": 95.2,
+      "end_s": 96.4,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D023"
+      }
+    },
+    {
+      "event_id": "CAM_023",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 95.2,
+      "end_s": 96.2,
+      "duration_s": 1.0,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r4_05_tomorrow_agenda",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    },
+    {
+      "event_id": "D024",
+      "type": "draw",
+      "asset_id": "r4_06_peaceful_sleep",
+      "start_s": 95.6,
+      "end_s": 96.81,
+      "duration_s": 1.21,
+      "action": "draw",
+      "layer_order": 23,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {}
+    },
+    {
+      "event_id": "SFX_023",
+      "type": "sfx",
+      "asset_id": "r4_06_peaceful_sleep",
+      "start_s": 95.6,
+      "end_s": 96.8,
+      "duration_s": 1.2,
+      "action": "marker_draw",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": null,
+      "params": {
+        "volume": 0.65,
+        "anchor_event_id": "D024"
+      }
+    },
+    {
+      "event_id": "CAM_024",
+      "type": "camera",
+      "asset_id": null,
+      "start_s": 95.6,
+      "end_s": 96.81,
+      "duration_s": 1.21,
+      "action": "focus",
+      "layer_order": 0,
+      "keep_visible": true,
+      "fade_out_at": null,
+      "target_asset_id": "r4_06_peaceful_sleep",
+      "params": {
+        "zoom": 1.12,
+        "pan_x": 0.0,
+        "pan_y": 0.0
+      }
+    }
+  ],
+  "visual_states": [
+    {
+      "time_s": 0.0,
+      "visible_assets": [],
+      "drawing": [
+        "r0_00_title_banner"
+      ],
+      "highlighted": [],
+      "camera_focus": "r0_00_title_banner",
+      "density": 0
+    },
+    {
+      "time_s": 2.8,
+      "visible_assets": [
+        "r0_00_title_banner"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 1
+    },
+    {
+      "time_s": 4.8,
+      "visible_assets": [
+        "r0_00_title_banner"
+      ],
+      "drawing": [
+        "r1_01_waking_happy"
+      ],
+      "highlighted": [],
+      "camera_focus": "r1_01_waking_happy",
+      "density": 1
+    },
+    {
+      "time_s": 8.2,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 2
+    },
+    {
+      "time_s": 14.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy"
+      ],
+      "drawing": [
+        "r1_02_suburban_house"
+      ],
+      "highlighted": [],
+      "camera_focus": "r1_02_suburban_house",
+      "density": 2
+    },
+    {
+      "time_s": 16.8,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 3
+    },
+    {
+      "time_s": 17.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house"
+      ],
+      "drawing": [
+        "r1_03_robot_vacuum"
+      ],
+      "highlighted": [],
+      "camera_focus": "r1_03_robot_vacuum",
+      "density": 3
+    },
+    {
+      "time_s": 19.2,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 4
+    },
+    {
+      "time_s": 19.4,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum"
+      ],
+      "drawing": [
+        "r1_04_espresso_machine"
+      ],
+      "highlighted": [],
+      "camera_focus": "r1_04_espresso_machine",
+      "density": 4
+    },
+    {
+      "time_s": 22.2,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 5
+    },
+    {
+      "time_s": 22.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine"
+      ],
+      "drawing": [
+        "r1_05_shared_calendar"
+      ],
+      "highlighted": [],
+      "camera_focus": "r1_05_shared_calendar",
+      "density": 5
+    },
+    {
+      "time_s": 24.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 6
+    },
+    {
+      "time_s": 24.6,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar"
+      ],
+      "drawing": [
+        "r1_06_autopay_bills"
+      ],
+      "highlighted": [],
+      "camera_focus": "r1_06_autopay_bills",
+      "density": 6
+    },
+    {
+      "time_s": 27.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 7
+    },
+    {
+      "time_s": 29.8,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills"
+      ],
+      "drawing": [
+        "r2_01_fresh_breakfast"
+      ],
+      "highlighted": [],
+      "camera_focus": "r2_01_fresh_breakfast",
+      "density": 7
+    },
+    {
+      "time_s": 32.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 8
+    },
+    {
+      "time_s": 33.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast"
+      ],
+      "drawing": [
+        "r2_02_kids_lunch_prep"
+      ],
+      "highlighted": [],
+      "camera_focus": "r2_02_kids_lunch_prep",
+      "density": 8
+    },
+    {
+      "time_s": 36.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 9
+    },
+    {
+      "time_s": 40.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep"
+      ],
+      "drawing": [
+        "r2_03_luxury_suv"
+      ],
+      "highlighted": [],
+      "camera_focus": "r2_03_luxury_suv",
+      "density": 9
+    },
+    {
+      "time_s": 43.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 10
+    },
+    {
+      "time_s": 47.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv"
+      ],
+      "drawing": [
+        "r2_04_team_management"
+      ],
+      "highlighted": [],
+      "camera_focus": "r2_04_team_management",
+      "density": 10
+    },
+    {
+      "time_s": 51.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 11
+    },
+    {
+      "time_s": 54.3,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management"
+      ],
+      "drawing": [
+        "r2_05_corner_office"
+      ],
+      "highlighted": [],
+      "camera_focus": "r2_05_corner_office",
+      "density": 11
+    },
+    {
+      "time_s": 58.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 12
+    },
+    {
+      "time_s": 60.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office"
+      ],
+      "drawing": [
+        "r3_04_investment_app"
+      ],
+      "highlighted": [],
+      "camera_focus": "r3_04_investment_app",
+      "density": 12
+    },
+    {
+      "time_s": 63.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_04_investment_app"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 13
+    },
+    {
+      "time_s": 64.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_04_investment_app"
+      ],
+      "drawing": [
+        "r3_03_vacation_dream"
+      ],
+      "highlighted": [],
+      "camera_focus": "r3_03_vacation_dream",
+      "density": 13
+    },
+    {
+      "time_s": 66.8,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_03_vacation_dream",
+        "r3_04_investment_app"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 14
+    },
+    {
+      "time_s": 71.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_03_vacation_dream",
+        "r3_04_investment_app"
+      ],
+      "drawing": [
+        "r3_06_gardener_hedge"
+      ],
+      "highlighted": [],
+      "camera_focus": "r3_06_gardener_hedge",
+      "density": 14
+    },
+    {
+      "time_s": 74.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_03_vacation_dream",
+        "r3_04_investment_app",
+        "r3_06_gardener_hedge"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 15
+    },
+    {
+      "time_s": 75.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_03_vacation_dream",
+        "r3_04_investment_app",
+        "r3_06_gardener_hedge"
+      ],
+      "drawing": [
+        "r3_02_gym_weights"
+      ],
+      "highlighted": [],
+      "camera_focus": "r3_02_gym_weights",
+      "density": 15
+    },
+    {
+      "time_s": 78.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_02_gym_weights",
+        "r3_03_vacation_dream",
+        "r3_04_investment_app",
+        "r3_06_gardener_hedge"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 16
+    },
+    {
+      "time_s": 78.2,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_02_gym_weights",
+        "r3_03_vacation_dream",
+        "r3_04_investment_app",
+        "r3_06_gardener_hedge"
+      ],
+      "drawing": [
+        "r4_01_housekeeper"
+      ],
+      "highlighted": [],
+      "camera_focus": "r4_01_housekeeper",
+      "density": 16
+    },
+    {
+      "time_s": 80.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_02_gym_weights",
+        "r3_03_vacation_dream",
+        "r3_04_investment_app",
+        "r3_06_gardener_hedge",
+        "r4_01_housekeeper"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 17
+    },
+    {
+      "time_s": 82.3,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_02_gym_weights",
+        "r3_03_vacation_dream",
+        "r3_04_investment_app",
+        "r3_06_gardener_hedge",
+        "r4_01_housekeeper"
+      ],
+      "drawing": [
+        "r3_05_plumber_repair"
+      ],
+      "highlighted": [],
+      "camera_focus": "r3_05_plumber_repair",
+      "density": 17
+    },
+    {
+      "time_s": 85.5,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_02_gym_weights",
+        "r3_03_vacation_dream",
+        "r3_04_investment_app",
+        "r3_05_plumber_repair",
+        "r3_06_gardener_hedge",
+        "r4_01_housekeeper"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 18
+    },
+    {
+      "time_s": 86.3,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_02_gym_weights",
+        "r3_03_vacation_dream",
+        "r3_04_investment_app",
+        "r3_05_plumber_repair",
+        "r3_06_gardener_hedge",
+        "r4_01_housekeeper"
+      ],
+      "drawing": [
+        "r3_01_doctor_checkup"
+      ],
+      "highlighted": [],
+      "camera_focus": "r3_01_doctor_checkup",
+      "density": 18
+    },
+    {
+      "time_s": 88.0,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_01_doctor_checkup",
+        "r3_02_gym_weights",
+        "r3_03_vacation_dream",
+        "r3_04_investment_app",
+        "r3_05_plumber_repair",
+        "r3_06_gardener_hedge",
+        "r4_01_housekeeper"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 19
+    },
+    {
+      "time_s": 88.1,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_01_doctor_checkup",
+        "r3_02_gym_weights",
+        "r3_03_vacation_dream",
+        "r3_04_investment_app",
+        "r3_05_plumber_repair",
+        "r3_06_gardener_hedge",
+        "r4_01_housekeeper"
+      ],
+      "drawing": [
+        "r4_02_kids_activities"
+      ],
+      "highlighted": [],
+      "camera_focus": "r4_02_kids_activities",
+      "density": 19
+    },
+    {
+      "time_s": 90.2,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_01_doctor_checkup",
+        "r3_02_gym_weights",
+        "r3_03_vacation_dream",
+        "r3_04_investment_app",
+        "r3_05_plumber_repair",
+        "r3_06_gardener_hedge",
+        "r4_01_housekeeper",
+        "r4_02_kids_activities"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 20
+    },
+    {
+      "time_s": 91.8,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_01_doctor_checkup",
+        "r3_02_gym_weights",
+        "r3_03_vacation_dream",
+        "r3_04_investment_app",
+        "r3_05_plumber_repair",
+        "r3_06_gardener_hedge",
+        "r4_01_housekeeper",
+        "r4_02_kids_activities"
+      ],
+      "drawing": [
+        "r4_03_online_gift"
+      ],
+      "highlighted": [],
+      "camera_focus": "r4_03_online_gift",
+      "density": 20
+    },
+    {
+      "time_s": 94.2,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_01_doctor_checkup",
+        "r3_02_gym_weights",
+        "r3_03_vacation_dream",
+        "r3_04_investment_app",
+        "r3_05_plumber_repair",
+        "r3_06_gardener_hedge",
+        "r4_01_housekeeper",
+        "r4_02_kids_activities",
+        "r4_03_online_gift"
+      ],
+      "drawing": [
+        "r4_04_charity_donation"
+      ],
+      "highlighted": [],
+      "camera_focus": "r4_04_charity_donation",
+      "density": 21
+    },
+    {
+      "time_s": 95.2,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_01_doctor_checkup",
+        "r3_02_gym_weights",
+        "r3_03_vacation_dream",
+        "r3_04_investment_app",
+        "r3_05_plumber_repair",
+        "r3_06_gardener_hedge",
+        "r4_01_housekeeper",
+        "r4_02_kids_activities",
+        "r4_03_online_gift",
+        "r4_04_charity_donation"
+      ],
+      "drawing": [
+        "r4_05_tomorrow_agenda"
+      ],
+      "highlighted": [],
+      "camera_focus": "r4_05_tomorrow_agenda",
+      "density": 22
+    },
+    {
+      "time_s": 95.6,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_01_doctor_checkup",
+        "r3_02_gym_weights",
+        "r3_03_vacation_dream",
+        "r3_04_investment_app",
+        "r3_05_plumber_repair",
+        "r3_06_gardener_hedge",
+        "r4_01_housekeeper",
+        "r4_02_kids_activities",
+        "r4_03_online_gift",
+        "r4_04_charity_donation"
+      ],
+      "drawing": [
+        "r4_05_tomorrow_agenda",
+        "r4_06_peaceful_sleep"
+      ],
+      "highlighted": [],
+      "camera_focus": "r4_06_peaceful_sleep",
+      "density": 22
+    },
+    {
+      "time_s": 96.2,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_01_doctor_checkup",
+        "r3_02_gym_weights",
+        "r3_03_vacation_dream",
+        "r3_04_investment_app",
+        "r3_05_plumber_repair",
+        "r3_06_gardener_hedge",
+        "r4_01_housekeeper",
+        "r4_02_kids_activities",
+        "r4_03_online_gift",
+        "r4_04_charity_donation",
+        "r4_05_tomorrow_agenda"
+      ],
+      "drawing": [
+        "r4_06_peaceful_sleep"
+      ],
+      "highlighted": [],
+      "camera_focus": "r4_06_peaceful_sleep",
+      "density": 23
+    },
+    {
+      "time_s": 96.809,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_01_doctor_checkup",
+        "r3_02_gym_weights",
+        "r3_03_vacation_dream",
+        "r3_04_investment_app",
+        "r3_05_plumber_repair",
+        "r3_06_gardener_hedge",
+        "r4_01_housekeeper",
+        "r4_02_kids_activities",
+        "r4_03_online_gift",
+        "r4_04_charity_donation",
+        "r4_05_tomorrow_agenda"
+      ],
+      "drawing": [
+        "r4_06_peaceful_sleep"
+      ],
+      "highlighted": [],
+      "camera_focus": "r4_06_peaceful_sleep",
+      "density": 23
+    },
+    {
+      "time_s": 96.81,
+      "visible_assets": [
+        "r0_00_title_banner",
+        "r1_01_waking_happy",
+        "r1_02_suburban_house",
+        "r1_03_robot_vacuum",
+        "r1_04_espresso_machine",
+        "r1_05_shared_calendar",
+        "r1_06_autopay_bills",
+        "r2_01_fresh_breakfast",
+        "r2_02_kids_lunch_prep",
+        "r2_03_luxury_suv",
+        "r2_04_team_management",
+        "r2_05_corner_office",
+        "r3_01_doctor_checkup",
+        "r3_02_gym_weights",
+        "r3_03_vacation_dream",
+        "r3_04_investment_app",
+        "r3_05_plumber_repair",
+        "r3_06_gardener_hedge",
+        "r4_01_housekeeper",
+        "r4_02_kids_activities",
+        "r4_03_online_gift",
+        "r4_04_charity_donation",
+        "r4_05_tomorrow_agenda",
+        "r4_06_peaceful_sleep"
+      ],
+      "drawing": [],
+      "highlighted": [],
+      "camera_focus": null,
+      "density": 24
+    }
+  ],
+  "review_required": true
+}

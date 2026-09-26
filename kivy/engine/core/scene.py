@@ -8,8 +8,8 @@ from .region import ColorRegion
 
 @dataclass
 class SceneConfig:
-    width: int = 1920
-    height: int = 1080
+    width: int = 1280
+    height: int = 720
     fps: int = 30
     detail_level: str = "MEDIUM"               # "LOW", "MEDIUM", "HIGH"
     color_palette_size: int = 28               # Palette size for K-Means quantization (rich colors)
@@ -19,14 +19,16 @@ class SceneConfig:
     drawing_order: str = "AUTO"                # "AUTO", "TOP_TO_BOTTOM", "LEFT_TO_RIGHT", "CENTER_OUT", "SPATIAL"
     camera_preset: str = "SEQUENTIAL_OBJECT_FOCUS"  # "SEQUENTIAL_OBJECT_FOCUS", "STATIC", "SLOW_ZOOM"
     camera_intensity: float = 0.65             # 0.0 (static) to 1.0 (deep focus)
-    camera_zoom_scale: float = 2.0             # 1.0 (No Zoom) to 3.5 (Deep Close-up)
+    camera_zoom_scale: float = 1.40            # Default 1.40x balanced whiteboard focus zoom
     fill_mode: str = "FOLLOW_OUTLINE"          # Default fill reveal strategy
     establishing_duration: float = 0.7         # Initial wide shot duration (seconds)
-    transition_duration: float = 1.0           # Camera transition between objects (seconds)
-    drawing_speed: float = 1.0                 # Multiplier for drawing animation speed
+    transition_duration: float = 0.5           # Camera transition between objects (seconds)
+    drawing_speed: float = 1.5                 # Multiplier for drawing animation speed
+    character_drawing_speed: float = 1.5       # Multiplier for character/artwork drawing speed
+    text_drawing_speed: float = 1.5            # Multiplier for text/typography handwriting speed
     show_hand: bool = True                     # Visual drawing hand & pencil overlay toggle
-    hand_scale: float = 0.75                   # Scale factor for drawing hand sprite
-    hand_target_h: int = 300                   # Target hand sprite height in pixels
+    hand_scale: float = 0.95                   # Scale factor for drawing hand sprite
+    hand_target_h: int = 340                   # Target hand sprite height in pixels
     hand_opacity: float = 1.0                  # Hand overlay opacity
     hand_tilt_enabled: bool = True             # Dynamic pencil angle tilt along stroke paths
     element_spacing: int = 24                  # Spacing between storyboard panels (px)
@@ -34,6 +36,10 @@ class SceneConfig:
     ring_step: int = 5                         # Distance between concentric orbital rings (px)
     brush_radius: int = 8                      # Pencil/Marker reveal brush radius (px)
     sample_interval: float = 3.0               # Path sampling distance (px)
+    deep_mode: bool = True                     # Deep Dynamic Organic 6-Stage Pipeline Engine Toggle
+    deep_min_parts: int = 4                    # Minimum dynamic anatomical organic parts per subject
+    deep_max_parts: int = 6                    # Maximum dynamic anatomical organic parts per subject
+    suppress_borders: bool = True              # Automatically suppress outer rectangular panel borders
 
 
 @dataclass
@@ -51,6 +57,7 @@ class SceneObject:
     height: int = 0
     area: int = 0
     z_index: int = 0
+    priority_order: int = 1                    # Execution priority (1, 2, 3...)
     visibility: bool = True
     speed_multiplier: float = 1.0
     camera_zoom_override: Optional[float] = None
@@ -60,7 +67,11 @@ class SceneObject:
     animation_end: float = 0.0
     duration: float = 0.0
     crop: Optional[np.ndarray] = None
+    mask: Optional[np.ndarray] = None
     sub_elements: List[Dict[str, Any]] = field(default_factory=list)
+    direction: str = "RTL"                     # "RTL" (Arabic ⬅), "LTR" (English ➡), "CIRCUIT" (Geometry)
+    element_type: str = "TEXT"                 # "CHARACTER", "TEXT", "MATH", "DIAGRAM", "EMOJI", "ICON", "UNDERLINE"
+    comp_ids: List[int] = field(default_factory=list)
 
     def compute_bounds_and_importance(self, scene_width: int, scene_height: int):
         all_pts = []

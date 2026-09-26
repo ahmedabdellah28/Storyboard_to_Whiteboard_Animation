@@ -3,6 +3,7 @@ Canvas Video Player — Manages In-App Video Playback Texture Stream via OpenCV.
 """
 import os
 import cv2
+import numpy as np
 from typing import Callable, Optional
 from kivy.clock import Clock
 # pyrefly: ignore [missing-import]
@@ -19,6 +20,7 @@ class CanvasVideoPlayer:
         self._total_frames = 0
         self._current_frame_idx = 0
         self._fps = 30.0
+        self._persistent_texture: Optional[Texture] = None
         self.on_progress_cb: Optional[Callable[[float, int, int], None]] = None
 
     @property
@@ -46,6 +48,7 @@ class CanvasVideoPlayer:
         self._fps = float(self._cap.get(cv2.CAP_PROP_FPS)) or 30.0
         self._current_frame_idx = 0
         self._is_playing = True
+        self._persistent_texture = None
 
         self._video_clock = Clock.schedule_interval(self._tick_video_frame, 1.0 / self._fps)
 
@@ -62,12 +65,16 @@ class CanvasVideoPlayer:
 
         self._current_frame_idx += 1
         h, w = frame.shape[:2]
-        buf = cv2.flip(frame, 0).tobytes()
-        tex = Texture.create(size=(w, h), colorfmt='bgr')
-        tex.blit_buffer(buf, colorfmt='bgr', bufferfmt='ubyte')
+
+        if self._persistent_texture is None or self._persistent_texture.size != (w, h):
+            self._persistent_texture = Texture.create(size=(w, h), colorfmt='rgba')
+
+        frame_rgba = cv2.cvtColor(frame, cv2.COLOR_BGR2RGBA)
+        buf = np.ascontiguousarray(cv2.flip(frame_rgba, 0)).tobytes()
+        self._persistent_texture.blit_buffer(buf, colorfmt='rgba', bufferfmt='ubyte')
 
         if self._on_frame_update_cb:
-            self._on_frame_update_cb(tex)
+            self._on_frame_update_cb(self._persistent_texture)
 
         if self.on_progress_cb:
             pct = (self._current_frame_idx / float(max(1, self._total_frames)))
@@ -90,3 +97,4 @@ class CanvasVideoPlayer:
             self._cap.release()
             self._cap = None
         self._is_playing = False
+        self._persistent_texture = None

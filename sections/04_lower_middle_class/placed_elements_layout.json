@@ -1,0 +1,394 @@
+{
+  "section_id": "04_lower_middle_class",
+  "fixed_y": 800.0,
+  "cam_zoom": 0.68,
+  "zones": {
+    "zone_01": {
+      "cam_pos": [
+        1173.7,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_02": {
+      "cam_pos": [
+        5170.4,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_03": {
+      "cam_pos": [
+        9104.3,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_04": {
+      "cam_pos": [
+        13417.8,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_05": {
+      "cam_pos": [
+        18108.7,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_06": {
+      "cam_pos": [
+        22438.2,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_07": {
+      "cam_pos": [
+        26506.8,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_08": {
+      "cam_pos": [
+        30474.6,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_09": {
+      "cam_pos": [
+        33867.3,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_10": {
+      "cam_pos": [
+        37953.9,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_11": {
+      "cam_pos": [
+        41802.8,
+        800.0
+      ],
+      "zoom": 0.68
+    }
+  },
+  "elements": {
+    "zone_01": [
+      {
+        "aid": "r0_00_title_banner",
+        "file": "r0_00_title_banner.png",
+        "x": 623.7,
+        "y": 180.0,
+        "w": 1100.0,
+        "h": 242.0,
+        "cx": 1173.7,
+        "cy": 301.0,
+        "zone": "zone_01"
+      },
+      {
+        "aid": "r1_01_waking_happy",
+        "file": "r1_01_waking_happy.png",
+        "x": 750.0,
+        "y": 528.5,
+        "w": 847.4,
+        "h": 703.0,
+        "cx": 1173.7,
+        "cy": 880.0,
+        "zone": "zone_01"
+      }
+    ],
+    "zone_02": [
+      {
+        "aid": "r1_05_modest_house",
+        "file": "r1_05_modest_house.png",
+        "x": 3973.7,
+        "y": 418.1,
+        "w": 1181.8,
+        "h": 763.8,
+        "cx": 4564.6,
+        "cy": 800.0,
+        "zone": "zone_02"
+      },
+      {
+        "aid": "r1_02_modest_bedroom",
+        "file": "r1_02_modest_bedroom.png",
+        "x": 5295.5,
+        "y": 406.7,
+        "w": 1071.6,
+        "h": 786.6,
+        "cx": 5831.3,
+        "cy": 800.0,
+        "zone": "zone_02"
+      }
+    ],
+    "zone_03": [
+      {
+        "aid": "r1_04_calendar_bills",
+        "file": "r1_04_calendar_bills.png",
+        "x": 8107.1,
+        "y": 414.3,
+        "w": 855.0,
+        "h": 771.4,
+        "cx": 8534.6,
+        "cy": 800.0,
+        "zone": "zone_03"
+      },
+      {
+        "aid": "r1_03_coffee_morning",
+        "file": "r1_03_coffee_morning.png",
+        "x": 9102.1,
+        "y": 448.5,
+        "w": 999.4,
+        "h": 703.0,
+        "cx": 9601.8,
+        "cy": 800.0,
+        "zone": "zone_03"
+      }
+    ],
+    "zone_04": [
+      {
+        "aid": "r2_01_stable_job_checklist",
+        "file": "r2_01_stable_job_checklist.png",
+        "x": 11904.3,
+        "y": 483.5,
+        "w": 927.0,
+        "h": 633.0,
+        "cx": 12367.8,
+        "cy": 800.0,
+        "zone": "zone_04"
+      },
+      {
+        "aid": "r4_03_dental_checkup",
+        "file": "r4_03_dental_checkup.png",
+        "x": 12911.3,
+        "y": 557.0,
+        "w": 510.0,
+        "h": 486.0,
+        "cx": 13166.3,
+        "cy": 800.0,
+        "zone": "zone_04"
+      },
+      {
+        "aid": "r4_05_online_shopping",
+        "file": "r4_05_online_shopping.png",
+        "x": 13501.3,
+        "y": 560.0,
+        "w": 717.0,
+        "h": 480.0,
+        "cx": 13859.8,
+        "cy": 800.0,
+        "zone": "zone_04"
+      },
+      {
+        "aid": "r2_02_healthy_breakfast",
+        "file": "r2_02_healthy_breakfast.png",
+        "x": 14298.3,
+        "y": 582.5,
+        "w": 633.0,
+        "h": 435.0,
+        "cx": 14614.8,
+        "cy": 800.0,
+        "zone": "zone_04"
+      }
+    ],
+    "zone_05": [
+      {
+        "aid": "r2_03_kids_lunch_prep",
+        "file": "r2_03_kids_lunch_prep.png",
+        "x": 16611.3,
+        "y": 477.0,
+        "w": 975.8,
+        "h": 646.0,
+        "cx": 17099.2,
+        "cy": 800.0,
+        "zone": "zone_05"
+      },
+      {
+        "aid": "r2_04_used_clean_car",
+        "file": "r2_04_used_clean_car.png",
+        "x": 17687.1,
+        "y": 577.3,
+        "w": 962.2,
+        "h": 445.4,
+        "cx": 18168.2,
+        "cy": 800.0,
+        "zone": "zone_05"
+      },
+      {
+        "aid": "r2_05_commuter_train",
+        "file": "r2_05_commuter_train.png",
+        "x": 18749.3,
+        "y": 471.9,
+        "w": 856.8,
+        "h": 656.2,
+        "cx": 19177.7,
+        "cy": 800.0,
+        "zone": "zone_05"
+      }
+    ],
+    "zone_06": [
+      {
+        "aid": "r3_01_office_desk_tasks",
+        "file": "r3_01_office_desk_tasks.png",
+        "x": 21306.1,
+        "y": 452.3,
+        "w": 1166.6,
+        "h": 695.4,
+        "cx": 21889.4,
+        "cy": 800.0,
+        "zone": "zone_06"
+      },
+      {
+        "aid": "r3_02_paid_break_dream",
+        "file": "r3_02_paid_break_dream.png",
+        "x": 22612.7,
+        "y": 387.7,
+        "w": 957.6,
+        "h": 824.6,
+        "cx": 23091.5,
+        "cy": 800.0,
+        "zone": "zone_06"
+      }
+    ],
+    "zone_07": [
+      {
+        "aid": "r3_04_retirement_jar",
+        "file": "r3_04_retirement_jar.png",
+        "x": 25310.3,
+        "y": 485.5,
+        "w": 748.0,
+        "h": 629.0,
+        "cx": 25684.3,
+        "cy": 800.0,
+        "zone": "zone_07"
+      },
+      {
+        "aid": "r3_05_home_maintenance",
+        "file": "r3_05_home_maintenance.png",
+        "x": 26158.3,
+        "y": 477.0,
+        "w": 924.8,
+        "h": 646.0,
+        "cx": 26620.7,
+        "cy": 800.0,
+        "zone": "zone_07"
+      },
+      {
+        "aid": "r3_03_banking_app",
+        "file": "r3_03_banking_app.png",
+        "x": 27183.1,
+        "y": 419.2,
+        "w": 520.2,
+        "h": 761.6,
+        "cx": 27443.2,
+        "cy": 800.0,
+        "zone": "zone_07"
+      }
+    ],
+    "zone_08": [
+      {
+        "aid": "r4_01_gym_treadmill",
+        "file": "r4_01_gym_treadmill.png",
+        "x": 29403.3,
+        "y": 446.6,
+        "w": 912.0,
+        "h": 706.8,
+        "cx": 29859.3,
+        "cy": 800.0,
+        "zone": "zone_08"
+      },
+      {
+        "aid": "r4_02_family_dinner",
+        "file": "r4_02_family_dinner.png",
+        "x": 30455.3,
+        "y": 505.5,
+        "w": 1090.6,
+        "h": 589.0,
+        "cx": 31000.6,
+        "cy": 800.0,
+        "zone": "zone_08"
+      }
+    ],
+    "zone_09": [
+      {
+        "aid": "r4_04_streaming_tv",
+        "file": "r4_04_streaming_tv.png",
+        "x": 33285.9,
+        "y": 475.1,
+        "w": 1162.8,
+        "h": 649.8,
+        "cx": 33867.3,
+        "cy": 800.0,
+        "zone": "zone_09"
+      }
+    ],
+    "zone_10": [
+      {
+        "aid": "r5_02_roadtrip_mountains",
+        "file": "r5_02_roadtrip_mountains.png",
+        "x": 36667.3,
+        "y": 567.1,
+        "w": 856.8,
+        "h": 465.8,
+        "cx": 37095.7,
+        "cy": 800.0,
+        "zone": "zone_10"
+      },
+      {
+        "aid": "r5_01_desk_studying",
+        "file": "r5_01_desk_studying.png",
+        "x": 37624.1,
+        "y": 565.4,
+        "w": 751.4,
+        "h": 469.2,
+        "cx": 37999.8,
+        "cy": 800.0,
+        "zone": "zone_10"
+      },
+      {
+        "aid": "r5_03_reading_armchair",
+        "file": "r5_03_reading_armchair.png",
+        "x": 38475.5,
+        "y": 562.0,
+        "w": 765.0,
+        "h": 476.0,
+        "cx": 38858.0,
+        "cy": 800.0,
+        "zone": "zone_10"
+      }
+    ],
+    "zone_11": [
+      {
+        "aid": "r5_04_peaceful_sleep",
+        "file": "r5_04_peaceful_sleep.png",
+        "x": 40940.5,
+        "y": 524.5,
+        "w": 931.0,
+        "h": 551.0,
+        "cx": 41406.0,
+        "cy": 800.0,
+        "zone": "zone_11"
+      },
+      {
+        "aid": "r5_05_safety_checklist",
+        "file": "r5_05_safety_checklist.png",
+        "x": 42011.5,
+        "y": 530.2,
+        "w": 653.6,
+        "h": 539.6,
+        "cx": 42338.3,
+        "cy": 800.0,
+        "zone": "zone_11"
+      }
+    ]
+  }
+}

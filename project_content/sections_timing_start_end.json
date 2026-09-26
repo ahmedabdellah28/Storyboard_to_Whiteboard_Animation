@@ -1,0 +1,1408 @@
+[
+  {
+    "section_id": "01_homeless",
+    "section_num": "01",
+    "section_name": "الطبقة الأولى: بلا مأوى (Homeless)",
+    "total_duration": 110.99720833333333,
+    "title_phrase": "الطبقة الأولى: بلا مأوى.",
+    "scenes": [
+      {
+        "element_id": "r1_01_waking_street",
+        "start_t": 4.16,
+        "end_t": 5.76,
+        "duration": 1.6,
+        "text": "تصحى قبل الفجر"
+      },
+      {
+        "element_id": "r1_02_back_pain",
+        "start_t": 8.13,
+        "end_t": 9.33,
+        "duration": 1.2,
+        "text": "جسمك مكسر ومتصلب"
+      },
+      {
+        "element_id": "r1_03_check_backpack",
+        "start_t": 14.16,
+        "end_t": 15.66,
+        "duration": 1.5,
+        "text": "تشيك على أغراضك القليلة"
+      },
+      {
+        "element_id": "r1_04_broken_phone",
+        "start_t": 18.89,
+        "end_t": 20.69,
+        "duration": 1.8,
+        "text": "الشاشة مكسورة والبطارية تفصل"
+      },
+      {
+        "element_id": "r1_05_search_wifi",
+        "start_t": 22.06,
+        "end_t": 22.86,
+        "duration": 0.8,
+        "text": "واي فاي مجاني"
+      },
+      {
+        "element_id": "r1_06_outdoor_charge",
+        "start_t": 24.16,
+        "end_t": 25.16,
+        "duration": 1.0,
+        "text": "والشاحن مشكلة ثانية"
+      },
+      {
+        "element_id": "r2_01_goto_bathroom",
+        "start_t": 27.02,
+        "end_t": 27.82,
+        "duration": 0.8,
+        "text": "حمام ومويه"
+      },
+      {
+        "element_id": "r2_02_wash_sink",
+        "start_t": 35.13,
+        "end_t": 36.33,
+        "duration": 1.2,
+        "text": "تغسل وجهك وجسمك"
+      },
+      {
+        "element_id": "r2_03_clean_shirt",
+        "start_t": 41.34,
+        "end_t": 42.64,
+        "duration": 1.3,
+        "text": "الملابس النظيفة عملة نادرة"
+      },
+      {
+        "element_id": "r2_04_charity_food",
+        "start_t": 44.38,
+        "end_t": 45.78,
+        "duration": 1.4,
+        "text": "فطور مجاني في جمعية خيرية"
+      },
+      {
+        "element_id": "r2_05_eating_sidewalk",
+        "start_t": 54.02,
+        "end_t": 55.32,
+        "duration": 1.3,
+        "text": "فتاكل اللي تقدر تشيله معك"
+      },
+      {
+        "element_id": "r2_06_grocery_no_kitchen",
+        "start_t": 50.01,
+        "end_t": 50.81,
+        "duration": 0.8,
+        "text": "بطاقة تموين"
+      },
+      {
+        "element_id": "r3_01_park_bench_think",
+        "start_t": 56.9,
+        "end_t": 58.7,
+        "duration": 1.8,
+        "text": "حتى خطة يومك ما تنبني على الراحة"
+      },
+      {
+        "element_id": "r3_02_public_library",
+        "start_t": 102.72,
+        "end_t": 103.52,
+        "duration": 0.8,
+        "text": "المكتبة العامة بالنسبة لك كنز"
+      },
+      {
+        "element_id": "r3_03_begging_cardboard",
+        "start_t": 107.41,
+        "end_t": 108.01,
+        "duration": 0.6,
+        "text": "حتى لو كنت تتسول"
+      },
+      {
+        "element_id": "r3_04_missing_id",
+        "start_t": 117.29,
+        "end_t": 118.09,
+        "duration": 0.8,
+        "text": "الأوراق الرسمية"
+      },
+      {
+        "element_id": "r3_05_clinic_hospital",
+        "start_t": 127.3,
+        "end_t": 128.6,
+        "duration": 1.3,
+        "text": "الصحة بعد موضوع ثاني"
+      },
+      {
+        "element_id": "r4_01_shelter_line",
+        "start_t": 138.25,
+        "end_t": 139.75,
+        "duration": 1.5,
+        "text": "الملجأ له قوانين وطوابير"
+      },
+      {
+        "element_id": "r4_02_under_bridge",
+        "start_t": 142.18,
+        "end_t": 143.18,
+        "duration": 1.0,
+        "text": "تخبي أغراضك الثمينة"
+      },
+      {
+        "element_id": "r4_03_sleeping_moon",
+        "start_t": 143.68,
+        "end_t": 144.38,
+        "duration": 0.7,
+        "text": "وتنام نوم خفيف"
+      },
+      {
+        "element_id": "r4_04_survival_loop",
+        "start_t": 146.12,
+        "end_t": 147.02,
+        "duration": 0.9,
+        "text": "وتعيد نفس الدوامة"
+      },
+      {
+        "element_id": "r4_05_walk_sunrise",
+        "start_t": 149.07,
+        "end_t": 150.57,
+        "duration": 1.5,
+        "text": "وخطة تكمل فيها يوم واحد زيادة"
+      }
+    ]
+  },
+  {
+    "section_id": "02_extreme_poverty",
+    "section_num": "02",
+    "section_name": "الطبقة الثانية: الفقر المدقع (Extreme Poverty)",
+    "total_duration": 106.56479166666666,
+    "title_phrase": "الطبقة الثانية: الفقر المدقع.",
+    "scenes": [
+      {
+        "element_id": "r1_01_waking_up",
+        "start_t": 4.1,
+        "end_t": 15.35,
+        "duration": 11.25,
+        "text": "هنا عندك سقف لكنه بالكاد يعتبر أماناً، ممكن تصحى في غرفة صغيرة مستأجرة بالأسبوع أو شقة زحمة تشاركها مع أكثر من شخص عشان تقسم الإيجار."
+      },
+      {
+        "element_id": "r1_02_crowded_room",
+        "start_t": 15.35,
+        "end_t": 23.33,
+        "duration": 7.98,
+        "text": "مرتب على الأرض أحياناً المكيف أو الدفاية خربانة، أول شيء تشيك على جوالك مسبق الدفع هل الخدمة لسه شغالة؟ بعدها تعد تذاكر الباص اللي باقي في محفظتك."
+      },
+      {
+        "element_id": "r1_03_broken_ac",
+        "start_t": 23.33,
+        "end_t": 33.3,
+        "duration": 9.97,
+        "text": "وتبدأ تخطط يومك حول الفلوس، الفطور أساسي: شوفان، بيض، توست، مقاضي بسيطة، تستخدم كوبونات وبطاقات التموين ومواعيد الجمعيات الخيرية، كل شيء محسوب، واذا عندك أطفال"
+      },
+      {
+        "element_id": "r1_04_prepaid_phone",
+        "start_t": 33.3,
+        "end_t": 41.5,
+        "duration": 8.2,
+        "text": "ممكن يعتمد جزء من أكلهم على وجبات المدرسة وأنت تجهز لهم سناك من البيت لأن كل ريال يفرق، المشوار للدوام ياخد وقت، تنتظر باص يتاخر،"
+      },
+      {
+        "element_id": "r1_05_counting_tickets",
+        "start_t": 41.5,
+        "end_t": 49.5,
+        "duration": 8.0,
+        "text": "أو تسوق سيارة متهالكة ولمبة المكينة فيها شغالة وأنت تقول بعدين اصلحها، ساعات دوامك ممكن تتغير كل أسبوع، يوم يطلبونك ويوم ما يطلبونك."
+      },
+      {
+        "element_id": "r2_01_basic_breakfast",
+        "start_t": 49.5,
+        "end_t": 58.3,
+        "duration": 8.8,
+        "text": "ولهذا تقول نعم لأي شفت إضافي أو شغل يومي تقدر عليه، ما تقدر تخاطر وتقول لا، الإكراميات والأوفرتايم هنا مو رفاهية، أحياناً هي اللي تخلي الكهرب شغال."
+      },
+      {
+        "element_id": "r2_02_shopping_coupons",
+        "start_t": 58.3,
+        "end_t": 66.8,
+        "duration": 8.5,
+        "text": "الفواتير نفسها صارت لغز تحل كل شهر، الإيجار له موعد، الكهرب متاخرة، والفاتورة الثانية تنتظر، تختار أي غرامة توجع أقل، حتى طريقة الدفع تفكر فيها."
+      },
+      {
+        "element_id": "r2_03_kids_snacks",
+        "start_t": 66.8,
+        "end_t": 77.2,
+        "duration": 10.4,
+        "text": "تستريح ولا مالياً لأنك تبي تتجنب رسوم البنك، والأوراق ما تخلص، الصحة، موعد عيادة بعد أسابيع أو طوارئ لما الألم يصير أقوى من الانتظار، والتأمين إذا موجود."
+      },
+      {
+        "element_id": "r2_04_waiting_bus",
+        "start_t": 77.2,
+        "end_t": 86.8,
+        "duration": 9.6,
+        "text": "ممكن يكون محدود أو عالي التحمل، حتى إصلاح الأسنان يتأجل، لأن عندك أشياء أهم، الغسيل يحتاج فلوس ووقت، فتجمعه مع مشوار المرسلة."
+      },
+      {
+        "element_id": "r2_05_broken_car",
+        "start_t": 86.8,
+        "end_t": 96.6,
+        "duration": 9.8,
+        "text": "وتستفيد من الواي فاي المجاني عشان تدور وظايف وتتعلم منوتيوب كيف تصلح أغراضك بشطرطون وصمغ، هنا كل شيء له عمر أطول مما يستحق، الصابون، البنزين، بيانات الجوال."
+      },
+      {
+        "element_id": "r3_01_work_schedule",
+        "start_t": 96.6,
+        "end_t": 106.56,
+        "duration": 9.96,
+        "text": "حتى الصبر، وبالليل تشيك جدول بكره، تضبط منبهين وتسوي قائمة بسيطة: اتصال، موعد، جمعية، شغل، وبعدها تنام لأن بكره عندك نفس السباك."
+      }
+    ]
+  },
+  {
+    "section_id": "03_working_poor",
+    "section_num": "03",
+    "section_name": "الطبقة الثالثة: الفقر العامل (Working Poor)",
+    "total_duration": 93.50879166666667,
+    "title_phrase": "الطبقة الثالثة: الفقر العامل.",
+    "scenes": [
+      {
+        "element_id": "r1_01_alarm_wake",
+        "start_t": 4.14,
+        "end_t": 11.01,
+        "duration": 6.87,
+        "text": "هنا عندك وظيفة ودخل، لكنك لسه قريب جداً من الحافة تصحى قبل الشمس على منبه جوالك تسكن في شقة صغيرة بعقد شهري أو سنوي،"
+      },
+      {
+        "element_id": "r1_02_small_apartment",
+        "start_t": 11.01,
+        "end_t": 13.78,
+        "duration": 2.77,
+        "text": "تسكن في شقة صغيرة بعقد شهري أو سنوي،"
+      },
+      {
+        "element_id": "r1_03_check_bank_app",
+        "start_t": 13.78,
+        "end_t": 18.59,
+        "duration": 4.81,
+        "text": "ويمكن تشاركها مع شريك سكن عشان تكسم التكلفة أول شي تسويه تشيك تطبيق البنك،"
+      },
+      {
+        "element_id": "r1_04_coffee_meal_prep",
+        "start_t": 18.59,
+        "end_t": 24.3,
+        "duration": 5.71,
+        "text": "نزل الراتب ولا للحين؟ تسوي قهوتك في البيت وتجهد غداك، لأن شراء الأكل في الدوام يضغط الميزانية،"
+      },
+      {
+        "element_id": "r1_05_bus_commute",
+        "start_t": 24.3,
+        "end_t": 26.54,
+        "duration": 2.24,
+        "text": "تروح الدوام باص أو سيارة قديمة،"
+      },
+      {
+        "element_id": "r1_06_old_car_fuel",
+        "start_t": 26.54,
+        "end_t": 31.42,
+        "duration": 4.88,
+        "text": "البنزين محسوب بالريال والمواقف محسوبة، وظيفتك ممكن تكون في محل أو مستودع،"
+      },
+      {
+        "element_id": "r2_01_cashier_job",
+        "start_t": 31.42,
+        "end_t": 32.17,
+        "duration": 0.75,
+        "text": "أو مطعم،"
+      },
+      {
+        "element_id": "r2_02_warehouse_job",
+        "start_t": 32.17,
+        "end_t": 35.8,
+        "duration": 3.63,
+        "text": "أو رعاية واقف أغلب الشفت تحرك بسرعة وتتبع تعليمات المدير،"
+      },
+      {
+        "element_id": "r2_03_restaurant_job",
+        "start_t": 35.8,
+        "end_t": 37.38,
+        "duration": 1.58,
+        "text": "الوقت محسوب والبريك قصير،"
+      },
+      {
+        "element_id": "r2_04_caregiver_job",
+        "start_t": 37.38,
+        "end_t": 39.04,
+        "duration": 1.66,
+        "text": "وإذا في أوفر تايم تقول نعم إذا قدرت."
+      },
+      {
+        "element_id": "r2_05_shift_checklist",
+        "start_t": 39.04,
+        "end_t": 41.97,
+        "duration": 2.93,
+        "text": "مو لأنك تحب الشغل الإضافي، لأنك تحتاجه."
+      },
+      {
+        "element_id": "r2_06_eating_lunchbox",
+        "start_t": 41.97,
+        "end_t": 47.41,
+        "duration": 5.44,
+        "text": "في الغداء تاكل اللي جبته معك، ثم تشيك تطبيق الجدول وتشوف شفاتات الأسبوع الجاي،"
+      },
+      {
+        "element_id": "r2_07_shifts_schedule",
+        "start_t": 47.41,
+        "end_t": 51.68,
+        "duration": 4.27,
+        "text": "تحاول تبدل يوم إذا عندك موعد دكتور أو اجتماع مدرسة أو شيء مهم للعائلة."
+      },
+      {
+        "element_id": "r3_01_doctor_visit",
+        "start_t": 51.68,
+        "end_t": 57.34,
+        "duration": 5.66,
+        "text": "التأمين الصحي موجود لكن مبلغ التحمل عالي، فتتجنب المستشفى إلا إذا صار الموضوع ضروري فعلاً."
+      },
+      {
+        "element_id": "r3_02_family_thinking",
+        "start_t": 57.34,
+        "end_t": 61.12,
+        "duration": 3.78,
+        "text": "وتحسب الساعات لأن كل ساعة إضافية ممكن تفرق في الراتب، وفي الطريق للبيت،"
+      },
+      {
+        "element_id": "r3_03_shopping_discounts",
+        "start_t": 61.12,
+        "end_t": 66.07,
+        "duration": 4.95,
+        "text": "توقف عند محل فيه عروض، تستخدم بطاقة الولاء وكوبونات الخصم، تدفع فاتورة اليوم،"
+      },
+      {
+        "element_id": "r3_04_loyalty_card",
+        "start_t": 66.07,
+        "end_t": 72.1,
+        "duration": 6.03,
+        "text": "وتأجل الثانية للأسبوع الجاي، وتحاول تحول حكة 20 دولار للتوفير، ولأن المبلغ كبير،"
+      },
+      {
+        "element_id": "r3_05_utility_bills",
+        "start_t": 72.1,
+        "end_t": 75.32,
+        "duration": 3.22,
+        "text": "لكن لأنك تعرف أن صندوق الطوارئ يبدأ من مبلغ صغير."
+      },
+      {
+        "element_id": "r3_06_savings_jar",
+        "start_t": 75.32,
+        "end_t": 82.25,
+        "duration": 6.93,
+        "text": "في البيت طبخ عشا بسيط، تغسل الملابس وتنشل الزي الرسمي عشان يكون جاهز، تفتح البريد، فاتورة خدمات، رصيد فيزا صغير، إشعار إيجار."
+      },
+      {
+        "element_id": "r4_01_cooking_dinner",
+        "start_t": 82.25,
+        "end_t": 85.99,
+        "duration": 3.74,
+        "text": "وبين كل هذا ترسل رسالة عن شغل جانبي في الويكند، يمكن تتابع مسلسل على حساب مشترك،"
+      },
+      {
+        "element_id": "r4_02_laundry_hanging",
+        "start_t": 85.99,
+        "end_t": 87.72,
+        "duration": 1.73,
+        "text": "ويمكن تبدأ كورس أونلاين لشهادة تساعدك تطلع خطوة،"
+      },
+      {
+        "element_id": "r4_03_mail_notices",
+        "start_t": 87.72,
+        "end_t": 89.2,
+        "duration": 1.48,
+        "text": "وبعدها تنام."
+      },
+      {
+        "element_id": "r4_04_side_job_msg",
+        "start_t": 89.2,
+        "end_t": 93.51,
+        "duration": 4.31,
+        "text": "ست ساعات إذا مشيت الأمور وبكرة نفس الموال."
+      }
+    ]
+  },
+  {
+    "section_id": "04_lower_middle_class",
+    "section_num": "04",
+    "section_name": "الطبقة الرابعة: الطبقة المتوسطة الدنيا (Lower Middle Class)",
+    "total_duration": 83.6475,
+    "title_phrase": "الطبقة الرابعة: الطبقة المتوسطة الدنيا.",
+    "scenes": [
+      {
+        "element_id": "r1_01_modest_apartment",
+        "start_t": 5.17,
+        "end_t": 11.6,
+        "duration": 6.43,
+        "text": "تصحى في شقة غرفتين وصالة أو بيت صغير متواضع نظيف، المكان نظيف وبسيط، وعلى الثلاجة قائمة للفواتير ومواعيدها."
+      },
+      {
+        "element_id": "r1_02_fridge_bills_list",
+        "start_t": 14.34,
+        "end_t": 16.64,
+        "duration": 2.3,
+        "text": "قائمة للفواتير ومواعيدها."
+      },
+      {
+        "element_id": "r1_03_coffee_calendar",
+        "start_t": 17.15,
+        "end_t": 20.21,
+        "duration": 3.06,
+        "text": "القهوة تتجهز وانت تشيك التقويم عندك، وظيفة ثابتة بساعات واضحة،"
+      },
+      {
+        "element_id": "r1_04_budget_app_paycheck",
+        "start_t": 20.21,
+        "end_t": 26.54,
+        "duration": 6.33,
+        "text": "الراتب ينزل كل أسبوعين، وعندك تأمين ونسبة بسيطة للتقاعد تنخصم من الراتب، تستخدم تطبيق للميزانية،"
+      },
+      {
+        "element_id": "r1_05_healthy_breakfast",
+        "start_t": 26.54,
+        "end_t": 36.37,
+        "duration": 9.83,
+        "text": "وتحط الأساسيات في خصم تلقائي، الفطور بسيط، بيض، توست، فاكهة، وإذا عندك أطفال تجهز غداهم وتتشيك واجباتهم، وإذا ما عندك تجهز غداك ان عشان توفر فلوس كافيتريا الدوام."
+      },
+      {
+        "element_id": "r2_01_used_reliable_car",
+        "start_t": 36.7,
+        "end_t": 39.06,
+        "duration": 2.36,
+        "text": "سيارة مستعملة ونظيفة عليها أقساط،"
+      },
+      {
+        "element_id": "r2_02_commuter_train",
+        "start_t": 39.06,
+        "end_t": 42.14,
+        "duration": 3.08,
+        "text": "أو تستخدم قطار باشتراك شهري، والبنزين والتأمين والصيانة،"
+      },
+      {
+        "element_id": "r2_03_office_desk_emails",
+        "start_t": 42.14,
+        "end_t": 46.54,
+        "duration": 4.4,
+        "text": "كلها مصاريف تعرف مكانها قبل ما تدفعها، في الدوام دورك واضح، ترد إيميلات، تدير طلبات،"
+      },
+      {
+        "element_id": "r2_04_meeting_clients",
+        "start_t": 46.68,
+        "end_t": 52.88,
+        "duration": 6.2,
+        "text": "تمسك عملاء أو تطلع تقارير لك، بريك مدفوع وقت غداء، وغالبا تعرف جدولك الأسابيع قدام،"
+      },
+      {
+        "element_id": "r2_05_paid_break_pension",
+        "start_t": 52.88,
+        "end_t": 57.19,
+        "duration": 4.31,
+        "text": "تحاول تحفظ جزء بسيط للتقاعد وما تلمس صندوق الطوارئ إلا إذا اضطريت."
+      },
+      {
+        "element_id": "r3_01_lunch_banking_check",
+        "start_t": 57.51,
+        "end_t": 60.98,
+        "duration": 3.47,
+        "text": "في الغداء تفتح تطبيق البنك، قسط قرض الدراسة بينسحب بكره،"
+      },
+      {
+        "element_id": "r3_02_student_loan_deduct",
+        "start_t": 60.98,
+        "end_t": 63.85,
+        "duration": 2.87,
+        "text": "فتحول شوي للتوفير وتخلي احتياط للبنزين والمقاضي،"
+      },
+      {
+        "element_id": "r3_03_savings_buffer",
+        "start_t": 63.85,
+        "end_t": 66.45,
+        "duration": 2.6,
+        "text": "بعد الدوام تمر نادي رخيص أو تمشي في الحارة."
+      },
+      {
+        "element_id": "r3_04_affordable_gym",
+        "start_t": 66.45,
+        "end_t": 70.83,
+        "duration": 4.38,
+        "text": "العشاء غالبا طبخ بيت والترفيه نتفليكس وأخواتها، اشتراك أو اشتراكيين وتبديل بينهم،"
+      },
+      {
+        "element_id": "r3_05_home_cooked_dinner",
+        "start_t": 70.83,
+        "end_t": 75.83,
+        "duration": 5,
+        "text": "تخطط لرحلة برية قصيرة مرة في السنة وتجمع لها من بدري، وبالليل تجهز ملابس بكره،"
+      },
+      {
+        "element_id": "r4_01_streaming_netflix",
+        "start_t": 75.83,
+        "end_t": 79.54,
+        "duration": 3.71,
+        "text": "وتشحن الجوال وتشيك التقويم مرة ثانيه، تحس أنك منظم وتنام،"
+      },
+      {
+        "element_id": "r4_02_roadtrip_plan",
+        "start_t": 79.54,
+        "end_t": 83.65,
+        "duration": 4.11,
+        "text": "وعندك شيء ما كان موجود في المستويات اللي تحت، هامش بسيط للأمان."
+      }
+    ]
+  },
+  {
+    "section_id": "05_middle_class",
+    "section_num": "05",
+    "section_name": "الطبقة الخامسة: الطبقة المتوسطة (Middle Class)",
+    "total_duration": 96.80929166666667,
+    "title_phrase": "الطبقة الخامسة: الطبقة المتوسطة.",
+    "scenes": [
+      {
+        "element_id": "r1_01_three_bedroom_home",
+        "start_t": 4.22,
+        "end_t": 14.5,
+        "duration": 10.28,
+        "text": "بيت ثلاث غرف | الاستيقاظ في بيت ثلاث غرف مريح ومستقر لسنوات."
+      },
+      {
+        "element_id": "r1_02_stable_mortgage_lease",
+        "start_t": 14.99,
+        "end_t": 22.25,
+        "duration": 7.26,
+        "text": "رهن عقاري | رهن عقاري أو عقد إيجار مستقر مع أجهزة وتدفئة تعمل بانتظام."
+      },
+      {
+        "element_id": "r1_03_coffee_official_routine",
+        "start_t": 22.25,
+        "end_t": 25.13,
+        "duration": 2.88,
+        "text": "والقهوة جاهزة | تحضير القهوة كجزء من روتين صباحي رسمي ومستقر."
+      },
+      {
+        "element_id": "r1_04_shared_family_calendar",
+        "start_t": 25.13,
+        "end_t": 30.04,
+        "duration": 4.91,
+        "text": "تقويم مشترك | مراجعة تقويم عائلي مشترك مع رواتب ثابتة واستقطاع آلي."
+      },
+      {
+        "element_id": "r1_05_fresh_healthy_breakfast",
+        "start_t": 30.04,
+        "end_t": 33.24,
+        "duration": 3.2,
+        "text": "الفطور بسيط لكن طازج | فطور طازج ومراجعة واجبات الأطفال قبل التوجه للعمل."
+      },
+      {
+        "element_id": "r2_01_clean_car_reliable_train",
+        "start_t": 33.24,
+        "end_t": 43.6,
+        "duration": 10.36,
+        "text": "السيارة مستعملة لكن نظيفة | سيارة مستعملة نظيفة أو قطار موثوق مع تكاليف محسوبة وليست مفاجآت."
+      },
+      {
+        "element_id": "r2_02_flexible_office_control",
+        "start_t": 43.6,
+        "end_t": 50.8,
+        "duration": 7.2,
+        "text": "مساحة أكبر للتحكم | دور وظيفي واضح ومساحة استقلالية وتحكم في ساعات العمل."
+      },
+      {
+        "element_id": "r2_03_meetings_and_projects",
+        "start_t": 50.8,
+        "end_t": 53.94,
+        "duration": 3.14,
+        "text": "مشاريع تمتد لأسابيع | اجتماعات وإدارة مشاريع تمتد لأسابيع مع إجازات مدفوعة."
+      },
+      {
+        "element_id": "r2_04_paid_vacations_pension",
+        "start_t": 53.94,
+        "end_t": 59.5,
+        "duration": 5.56,
+        "text": "إجازات مدفوعة | مساهمة الشركة في التقاعد وإجازات سنوية مدفوعة."
+      },
+      {
+        "element_id": "r2_05_long_term_savings_goals",
+        "start_t": 59.5,
+        "end_t": 63.31,
+        "duration": 3.81,
+        "text": "مدخرات لأهداف ثانية | اقتطاع 10-15% للتقاعد ومدخرات إضافية لأهداف مستقبلية."
+      },
+      {
+        "element_id": "r3_01_banking_app_lunch_check",
+        "start_t": 63.31,
+        "end_t": 69.34,
+        "duration": 6.03,
+        "text": "تفتح تطبيق البنك | فتح تطبيق البنك في استراحة الغداء ومتابعة الرصيد بارتياح."
+      },
+      {
+        "element_id": "r3_02_monthly_installment_check",
+        "start_t": 69.34,
+        "end_t": 71.55,
+        "duration": 2.21,
+        "text": "تشيك قسط الشهر | متابعة قسط الشهر وتحويل جزء للتوفير بانتظام."
+      },
+      {
+        "element_id": "r3_03_home_repair_car_tire_fund",
+        "start_t": 71.55,
+        "end_t": 75.87,
+        "duration": 4.32,
+        "text": "صندوق مخصص له | صندوق طوارئ مخصص لتصليح المنزل وصيانة السيارة."
+      },
+      {
+        "element_id": "r3_04_gym_and_friends_sports",
+        "start_t": 75.87,
+        "end_t": 79.23,
+        "duration": 3.36,
+        "text": "تروح نادي | ممارسة الرياضة في النادي أو لعب الكرة والأنشطة الاجتماعية."
+      },
+      {
+        "element_id": "r3_05_home_cooking_and_takeout",
+        "start_t": 79.23,
+        "end_t": 85.91,
+        "duration": 6.68,
+        "text": "تطلب من برا | طبخ منزلي مع طلب طعام خارجي أسبوعياً دون قلق مالي."
+      },
+      {
+        "element_id": "r4_01_calling_plumber_repair",
+        "start_t": 85.91,
+        "end_t": 90.76,
+        "duration": 4.85,
+        "text": "تجيب سباك | استدعاء سباك وفني صيانة محترف بدلاً من البحث المضني في يوتيوب."
+      },
+      {
+        "element_id": "r4_02_routine_dentist_visit",
+        "start_t": 90.76,
+        "end_t": 93.99,
+        "duration": 3.23,
+        "text": "فحص الأسنان قبل الألم | حجز فحص الأسنان الروتيني الدوري قبل حدوث الألم."
+      },
+      {
+        "element_id": "r4_03_helping_kids_homework",
+        "start_t": 93.99,
+        "end_t": 96.81,
+        "duration": 2.82,
+        "text": "تساعد العيال في واجباتهم | مساعدة الأبناء في واجباتهم ومتابعة مسلسل بصفاء ذهن."
+      }
+    ]
+  },
+  {
+    "section_id": "06_upper_middle_class",
+    "section_num": "06",
+    "section_name": "الطبقة السادسة: الطبقة المتوسطة العليا (Upper Middle Class)",
+    "total_duration": 79.23058333333333,
+    "title_phrase": "الطبقة السادسة: الطبقة المتوسطة العليا.",
+    "scenes": [
+      {
+        "element_id": "r1_01_peaceful_upscale_home",
+        "start_t": 5.07,
+        "end_t": 9.39,
+        "duration": 4.32,
+        "text": "الاستيقاظ في بيت هادئ تملكه في حي راقٍ وممتاز."
+      },
+      {
+        "element_id": "r1_02_smart_home_appliances",
+        "start_t": 9.77,
+        "end_t": 13.91,
+        "duration": 4.14,
+        "text": "منزل ذكي: التكييف الذكي والمكنسة الروبوتية في الممر."
+      },
+      {
+        "element_id": "r1_03_coffee_machine_schedule",
+        "start_t": 14.16,
+        "end_t": 17.0,
+        "duration": 2.84,
+        "text": "ماكينة القهوة المبرمجة آلياً تعمل وفق جدول زمني دقيق."
+      },
+      {
+        "element_id": "r1_04_calendar_and_cleaner",
+        "start_t": 17.0,
+        "end_t": 21.22,
+        "duration": 4.22,
+        "text": "متابعة تقويم العمل وأنشطة الأطفال وزيارة عاملة النظافة."
+      },
+      {
+        "element_id": "r1_05_automated_bills_savings",
+        "start_t": 21.63,
+        "end_t": 25.13,
+        "duration": 3.5,
+        "text": "أتمتة الفواتير الشهرية وتحويلات التوفير والاستثمار."
+      },
+      {
+        "element_id": "r2_01_varied_fresh_breakfast",
+        "start_t": 25.13,
+        "end_t": 28.75,
+        "duration": 3.62,
+        "text": "فطور صحي متنوع وغني بالفواكه الطازجة والخيارات الجاهزة."
+      },
+      {
+        "element_id": "r2_02_modern_paid_off_car",
+        "start_t": 28.75,
+        "end_t": 31.64,
+        "duration": 2.89,
+        "text": "سيارة حديثة مدفوعة بالكامل أو على وشك سداد أقساطها."
+      },
+      {
+        "element_id": "r2_03_expected_costs_insurance",
+        "start_t": 31.97,
+        "end_t": 35.15,
+        "duration": 3.18,
+        "text": "التأمين والصيانة والضرائب أصبحت نفقات متوقعة ومخططة."
+      },
+      {
+        "element_id": "r2_04_professional_career_coding",
+        "start_t": 35.15,
+        "end_t": 40.76,
+        "duration": 5.61,
+        "text": "مسيرة مهنية قيادية: إدارة فريق، كتابة كود، أو علاج مرضى."
+      },
+      {
+        "element_id": "r2_05_complex_projects_remote",
+        "start_t": 41.34,
+        "end_t": 44.93,
+        "duration": 3.59,
+        "text": "إدارة مشاريع معقدة مع مرونة العمل عن بُعد من المنزل."
+      },
+      {
+        "element_id": "r3_01_strong_health_insurance",
+        "start_t": 44.93,
+        "end_t": 48.66,
+        "duration": 3.73,
+        "text": "تغطية تأمين صحي شامل وفحوصات دورية وقائية."
+      },
+      {
+        "element_id": "r3_02_automatic_retirement_rewards",
+        "start_t": 48.66,
+        "end_t": 50.81,
+        "duration": 2.15,
+        "text": "استقطاع التقاعد الآلي واستثمار نقاط المكافآت."
+      },
+      {
+        "element_id": "r3_03_booking_travel_months_ahead",
+        "start_t": 50.91,
+        "end_t": 54.34,
+        "duration": 3.43,
+        "text": "حجز رحلات السفر العائلية مسبقاً قبل أشهر بارتياح."
+      },
+      {
+        "element_id": "r3_04_calling_pros_time_value",
+        "start_t": 54.51,
+        "end_t": 59.43,
+        "duration": 4.92,
+        "text": "قيمة الوقت أثمن من إهداره في أعمال الصيانة اليدوية."
+      },
+      {
+        "element_id": "r3_05_lawn_care_regular_cleaning",
+        "start_t": 59.5,
+        "end_t": 64.91,
+        "duration": 5.41,
+        "text": "الاستعانة بخدمات تنسيق الحدائق والنظافة الدورية."
+      },
+      {
+        "element_id": "r4_01_personal_trainer_gym",
+        "start_t": 65.31,
+        "end_t": 67.31,
+        "duration": 2.0,
+        "text": "تمارين رياضية منتظمة مع مدرب شخصي متخصص."
+      },
+      {
+        "element_id": "r4_02_kids_sports_and_lessons",
+        "start_t": 67.31,
+        "end_t": 70.08,
+        "duration": 2.77,
+        "text": "توفير أفضل الدروس والأنشطة الرياضية للأطفال."
+      },
+      {
+        "element_id": "r4_03_evening_agenda_signing",
+        "start_t": 70.08,
+        "end_t": 73.19,
+        "duration": 3.11,
+        "text": "مراجعة أجندة الغد وتوقيع أوراق المدرسة ببال مرتاح."
+      },
+      {
+        "element_id": "r4_04_online_gift_charity",
+        "start_t": 73.19,
+        "end_t": 76.01,
+        "duration": 2.82,
+        "text": "شراء الهدايا أونلاين والمساهمة في المبادرات الخيرية."
+      },
+      {
+        "element_id": "r4_05_secure_future_thinking",
+        "start_t": 76.01,
+        "end_t": 79.23,
+        "duration": 3.22,
+        "text": "التفكير في المستقبل بأمان تام واستقرار مالي راسخ."
+      }
+    ]
+  },
+  {
+    "section_id": "07_comfortable_rich",
+    "section_num": "07",
+    "section_name": "الطبقة السابعة: الغني المرتاح (Comfortable Rich)",
+    "total_duration": 94.09879166666667,
+    "title_phrase": "الطبقة السابعة: الغني المرتاح.",
+    "scenes": [
+      {
+        "element_id": "r1_01_luxury_quiet_home",
+        "start_t": 8.08,
+        "end_t": 13.9,
+        "duration": 5.82,
+        "text": "الاستيقاظ في بيت هادئ تملكه في حي مرغوب فيه ورهن شبه مسدد."
+      },
+      {
+        "element_id": "r1_02_smart_home_courtyard",
+        "start_t": 14.18,
+        "end_t": 19.98,
+        "duration": 5.8,
+        "text": "مكتب منزلي وغرفة ضيوف وفناء خارجي بأنظمة ذكية للحرارة والأمان."
+      },
+      {
+        "element_id": "r1_03_cleaning_gardening_services",
+        "start_t": 20.0,
+        "end_t": 23.9,
+        "duration": 3.9,
+        "text": "خدمات دورية منتظمة للنظافة وتنسيق الحديقة المنزلية."
+      },
+      {
+        "element_id": "r1_04_buying_time_concept",
+        "start_t": 23.9,
+        "end_t": 26.24,
+        "duration": 2.34,
+        "text": "أنت هنا تشتري وقتك وتفويض المهام الروتينية للتركيز على الأهم."
+      },
+      {
+        "element_id": "r1_05_diversified_wealth_portfolio",
+        "start_t": 26.24,
+        "end_t": 29.8,
+        "duration": 3.56,
+        "text": "ثروة متنوعة وموزعة بين العقار والتقاعد ومحفظة استثمارية وبزنس."
+      },
+      {
+        "element_id": "r2_01_emergency_fund_accountant",
+        "start_t": 29.8,
+        "end_t": 35.74,
+        "duration": 5.94,
+        "text": "صندوق طوارئ ضخم وتأمين شامل ومحاسب قانوني لإدارة الضرائب."
+      },
+      {
+        "element_id": "r2_02_automated_investing",
+        "start_t": 35.74,
+        "end_t": 38.9,
+        "duration": 3.16,
+        "text": "استقطاع آلي شهري موجه للاستثمار وإدارة الثروة الذاتية."
+      },
+      {
+        "element_id": "r2_03_luxury_paid_car",
+        "start_t": 38.9,
+        "end_t": 44.42,
+        "duration": 5.52,
+        "text": "سيارة فارهة حديثة مدفوعة بالكامل أو بتمويل ميسر جداً."
+      },
+      {
+        "element_id": "r2_04_instant_phone_replacement",
+        "start_t": 44.42,
+        "end_t": 48.9,
+        "duration": 4.48,
+        "text": "استبدال فوري لأي جهاز يتعطل دون تأثير يذكر على الميزانية."
+      },
+      {
+        "element_id": "r2_05_executive_control_meetings",
+        "start_t": 48.9,
+        "end_t": 57.8,
+        "duration": 8.9,
+        "text": "إدارة شركات أو عيادات مع سيطرة تامة على الجدول الزمني."
+      },
+      {
+        "element_id": "r3_01_real_vacation_passive_income",
+        "start_t": 57.8,
+        "end_t": 62.0,
+        "duration": 4.2,
+        "text": "إجازات سنوية حقيقية دون انقطاع مصادر الدخل المتنوعة."
+      },
+      {
+        "element_id": "r3_02_preventative_specialist_health",
+        "start_t": 62.0,
+        "end_t": 67.8,
+        "duration": 5.8,
+        "text": "رعاية صحية استباقية وفحوصات دورية مع كبار الاستشاريين."
+      },
+      {
+        "element_id": "r3_03_easy_home_repair_approval",
+        "start_t": 67.8,
+        "end_t": 73.0,
+        "duration": 5.2,
+        "text": "اعتماد فوري لأعمال التطوير المنزلي دون الحاجة لمقارنة عروض."
+      },
+      {
+        "element_id": "r3_04_comfortable_seat_travel",
+        "start_t": 73.0,
+        "end_t": 76.8,
+        "duration": 3.8,
+        "text": "السفر في الدرجات المريحة وتخطيط الرحلات بأريحية وسخاء."
+      },
+      {
+        "element_id": "r3_05_private_school_donation",
+        "start_t": 76.8,
+        "end_t": 80.8,
+        "duration": 4.0,
+        "text": "تعليم متميز في أرقى المدارس الخاصة والتبرع للمؤسسات الخيرية."
+      },
+      {
+        "element_id": "r4_01_night_investments_review",
+        "start_t": 80.8,
+        "end_t": 83.6,
+        "duration": 2.8,
+        "text": "متابعة أداء المحفظة الاستثمارية ليلاً في هدوء واطمئنان."
+      },
+      {
+        "element_id": "r4_02_accountant_papers_signing",
+        "start_t": 83.6,
+        "end_t": 88.0,
+        "duration": 4.4,
+        "text": "اعتماد المعاملات والتقارير المالية الجاهزة من المحاسب المالي."
+      },
+      {
+        "element_id": "r4_03_order_gift_no_balance_check",
+        "start_t": 88.0,
+        "end_t": 91.0,
+        "duration": 3.0,
+        "text": "شراء الهدايا الفاخرة أونلاين دون أي حاجة لمراجعة الرصيد."
+      },
+      {
+        "element_id": "r4_04_next_year_travel_renovation",
+        "start_t": 91.0,
+        "end_t": 94.1,
+        "duration": 3.1,
+        "text": "تخطيط استراتيجي للعام القادم: توسع استثماري وسياحة وتطوير."
+      },
+      {
+        "element_id": "r4_05_future_planning_headroom",
+        "start_t": 94.1,
+        "end_t": 94.1,
+        "duration": 0.0,
+        "text": "مساحة رحبة وراحة بال للتخطيط للمستقبل البعيد بأمان وازدهار."
+      }
+    ]
+  },
+  {
+    "section_id": "08_ultra_wealthy",
+    "section_num": "08",
+    "section_name": "الطبقة الثامنة: فاحش الثراء (Ultra Wealthy)",
+    "total_duration": 99.52666666666667,
+    "title_phrase": "الطبقة الثامنة: فاحش الثراء.",
+    "scenes": [
+      {
+        "element_id": "r1_01_penthouse_palace_wake",
+        "start_t": 4.47,
+        "end_t": 8.52,
+        "duration": 4.05,
+        "text": "تصحى في بيتك الرئيسي ممكن بنت هاوس أو قصر"
+      },
+      {
+        "element_id": "r1_02_silent_staff_curtains",
+        "start_t": 8.92,
+        "end_t": 14.53,
+        "duration": 5.61,
+        "text": "موظفون كانوا شغالين قبلك الستائر تفتح بجدول"
+      },
+      {
+        "element_id": "r1_03_morning_briefs_phone",
+        "start_t": 14.86,
+        "end_t": 21.66,
+        "duration": 6.8,
+        "text": "ملخصات قصيرة بدل عشرين رسالة منفصلة"
+      },
+      {
+        "element_id": "r1_04_private_gym_trainer",
+        "start_t": 21.66,
+        "end_t": 24.58,
+        "duration": 2.92,
+        "text": "مدربك يقابلك في جيم خاص والفطور يجهز"
+      },
+      {
+        "element_id": "r1_05_security_route_planning",
+        "start_t": 24.89,
+        "end_t": 25.96,
+        "duration": 1.07,
+        "text": "الأمن يخطط الطريق"
+      },
+      {
+        "element_id": "r2_01_diversified_global_assets",
+        "start_t": 25.96,
+        "end_t": 31.42,
+        "duration": 5.46,
+        "text": "أموالك هنا مو في حساب واحد"
+      },
+      {
+        "element_id": "r2_02_family_office_dashboard",
+        "start_t": 31.42,
+        "end_t": 34.33,
+        "duration": 2.91,
+        "text": "مكتب عائلي تشوف لوحة تحكم مختصرة"
+      },
+      {
+        "element_id": "r2_03_lawyer_tax_signing",
+        "start_t": 34.33,
+        "end_t": 45.96,
+        "duration": 11.63,
+        "text": "المستشار القانوني ينبهك على الأشياء وفريق الضرائب"
+      },
+      {
+        "element_id": "r2_04_boardroom_big_decisions",
+        "start_t": 46.5,
+        "end_t": 57.51,
+        "duration": 11.01,
+        "text": "تجتمع مع مؤسسين ورؤساء تنفيذيين تقرر في تحركات كبيرة"
+      },
+      {
+        "element_id": "r2_05_assistant_pr_delegation",
+        "start_t": 57.94,
+        "end_t": 62.77,
+        "duration": 4.83,
+        "text": "مساعدك يخلص المهام الصغيرة ومسؤول العلاقات العامة"
+      },
+      {
+        "element_id": "r3_01_private_jet_takeoff",
+        "start_t": 62.77,
+        "end_t": 65.04,
+        "duration": 2.27,
+        "text": "السفر مرن ممكن تطير اليوم إذا احتجت"
+      },
+      {
+        "element_id": "r3_02_quick_vip_airport",
+        "start_t": 65.04,
+        "end_t": 67.57,
+        "duration": 2.53,
+        "text": "تهبط قريب من الاجتماع وترجع في نفس اليوم"
+      },
+      {
+        "element_id": "r3_03_philanthropy_lab_school",
+        "start_t": 67.57,
+        "end_t": 76.54,
+        "duration": 8.97,
+        "text": "تمول مختبر تبني برنامجاً مدرسياً أو تدعم"
+      },
+      {
+        "element_id": "r3_04_impact_reports_review",
+        "start_t": 76.54,
+        "end_t": 78.68,
+        "duration": 2.14,
+        "text": "وهنا تتابع تقارير الأثر"
+      },
+      {
+        "element_id": "r3_05_remote_home_director",
+        "start_t": 78.68,
+        "end_t": 80.66,
+        "duration": 1.98,
+        "text": "مدير المنزل يضبط الأمور"
+      },
+      {
+        "element_id": "r4_01_exclusive_events_dinner",
+        "start_t": 81.0,
+        "end_t": 87.89,
+        "duration": 6.89,
+        "text": "تقدر تحضر مباراة أو حفل أو تعزم ناس على عشاء"
+      },
+      {
+        "element_id": "r4_02_family_office_night_update",
+        "start_t": 88.35,
+        "end_t": 92.68,
+        "duration": 4.33,
+        "text": "بالليل يجيك آخر تحديث من المكتب العائلي"
+      },
+      {
+        "element_id": "r4_03_cash_deals_confirmed",
+        "start_t": 92.68,
+        "end_t": 94.61,
+        "duration": 1.93,
+        "text": "الكاش جيد الصفقات ماشية"
+      },
+      {
+        "element_id": "r4_04_security_next_day_clear",
+        "start_t": 94.61,
+        "end_t": 96.65,
+        "duration": 2.04,
+        "text": "والأمن أكد لك طريق بكرة"
+      },
+      {
+        "element_id": "r4_05_time_ultimate_resource",
+        "start_t": 96.65,
+        "end_t": 99.4,
+        "duration": 2.75,
+        "text": "وقتك صار مورد نادر والمنظومة كلها مبنية لحمايته"
+      }
+    ]
+  },
+  {
+    "section_id": "10_islamic_perspective",
+    "section_num": "10",
+    "section_name": "وقفة للتأمل: المنظور الإسلامي (Islamic Perspective)",
+    "total_duration": 49.865375,
+    "title_phrase": "وقفة للتأمل: المنظور الإسلامي.",
+    "scenes": [
+      {
+        "element_id": "r1_01_stopping_reflection",
+        "start_t": 5.09,
+        "end_t": 8.52,
+        "duration": 3.43,
+        "text": "لكن هنا لازم نوقف لحظة | الوقوف للتأمل: الحياة أكبر من مجرد مستويات مادية."
+      },
+      {
+        "element_id": "r1_02_life_beyond_wealth",
+        "start_t": 8.52,
+        "end_t": 11.08,
+        "duration": 2.56,
+        "text": "لو اختصرنا الحياة في مستوى مادي | اختصار الحياة في المال يفقدنا أهم معانيها الجوهرية."
+      },
+      {
+        "element_id": "r1_03_divine_wisdom_provision",
+        "start_t": 11.08,
+        "end_t": 14.99,
+        "duration": 3.91,
+        "text": "الأرزاق مقسمة بحكمة ربانية ما يعلمها إلا الله | الأرزاق مقسومة بحكمة إلهية بالغة لا يعلمها إلا الله."
+      },
+      {
+        "element_id": "r1_04_wealth_not_favor",
+        "start_t": 14.99,
+        "end_t": 17.06,
+        "duration": 2.07,
+        "text": "الغنى مو دليل رضا وتكريم | الغنى ليس دليلاً على الرضا أو المكانة عند الله."
+      },
+      {
+        "element_id": "r1_05_poverty_not_disgrace",
+        "start_t": 17.06,
+        "end_t": 18.57,
+        "duration": 1.51,
+        "text": "والفقر مو دليل غضب وإهانة | الفقر ليس دليلاً على الغضب أو الإهانة في ميزان الحق."
+      },
+      {
+        "element_id": "r2_01_both_are_trials",
+        "start_t": 18.57,
+        "end_t": 19.14,
+        "duration": 0.57,
+        "text": "الاثنين ابتلاء | الغنى والفقر كلاهما اختبار وابتلاء حقيقي للإنسان."
+      },
+      {
+        "element_id": "r2_02_rich_tested_gratitude",
+        "start_t": 19.14,
+        "end_t": 21.03,
+        "duration": 1.89,
+        "text": "الغني مبتلى بالشكر وأداء الحقوق | الغني مبتلى بالشكر وأداء الحقوق ومساعدة المحتاجين."
+      },
+      {
+        "element_id": "r2_03_question_of_wealth",
+        "start_t": 21.03,
+        "end_t": 23.32,
+        "duration": 2.29,
+        "text": "والسؤال عن ماله من أين اكتسبه وفيم أنفقه | السؤال الحسابي عن المال: من أين اكتسبه وفيم أنفقه."
+      },
+      {
+        "element_id": "r2_04_poor_tested_patience",
+        "start_t": 23.32,
+        "end_t": 25.43,
+        "duration": 2.11,
+        "text": "والفقير مبتلى بالصبر والرضا | الفقير مبتلى بالصبر والرضا بقضاء الله وقدره."
+      },
+      {
+        "element_id": "r2_05_glad_tidings_patience",
+        "start_t": 25.43,
+        "end_t": 32.74,
+        "duration": 7.31,
+        "text": "وله بشارة إذا صبر واحتسب | بشارة عظيمة وأجر موفور للصابرين المحتسبين."
+      },
+      {
+        "element_id": "r3_01_prophet_hadith_teaching",
+        "start_t": 32.74,
+        "end_t": 33.32,
+        "duration": 0.58,
+        "text": "والحقيقة قالها نبينا الكريم صلى الله عليه وسلم | الهدي النبوي الشريف وتوجيه المصطفى صلى الله عليه وسلم."
+      },
+      {
+        "element_id": "r3_02_wealth_of_the_soul",
+        "start_t": 33.32,
+        "end_t": 35.15,
+        "duration": 1.83,
+        "text": "ليس الغنى عن كثرة العرض ولكن الغنى غنى النفس | ليس الغنى عن كثرة العرض، ولكن الغنى الحقيقي غنى النفس."
+      },
+      {
+        "element_id": "r3_03_rich_man_poor_heart",
+        "start_t": 35.15,
+        "end_t": 37.76,
+        "duration": 2.61,
+        "text": "يعني ممكن تملك ملايين بل مليارات وقلبك فقير | مفارقة الثروة الظاهرة مع فقر القلب وخلوه من الطمأنينة."
+      },
+      {
+        "element_id": "r3_04_fear_and_anxiety",
+        "start_t": 37.76,
+        "end_t": 40.54,
+        "duration": 2.78,
+        "text": "خايف قلقان وما تشبع مهما زاد عندك | الخوف والقلق المستمر واللهاث وراء المزيد دون شبع."
+      },
+      {
+        "element_id": "r3_05_modest_life_full_peace",
+        "start_t": 40.54,
+        "end_t": 43.68,
+        "duration": 3.14,
+        "text": "وممكن تكون حياتك متواضعة لكن قلبك مليان رضا | حياة بسيطة متواضعة تنبض بالرضا والسكينة وراحة البال."
+      },
+      {
+        "element_id": "r4_01_peaceful_sleep_content",
+        "start_t": 43.68,
+        "end_t": 46.59,
+        "duration": 2.91,
+        "text": "وتنام وأنت مرتاح أكثر من شخص يملك كل شيء | نوم هانئ بضمير مرتاح وقلب عامر بالسلام واليقين."
+      },
+      {
+        "element_id": "r4_02_dont_look_at_numbers",
+        "start_t": 46.59,
+        "end_t": 47.53,
+        "duration": 0.94,
+        "text": "لهذا لا تنظر للرقم وحده | الدعوة لعدم الانخداع بالأرقام والحسابات المادية المجردة."
+      },
+      {
+        "element_id": "r4_03_look_at_human_heart",
+        "start_t": 47.53,
+        "end_t": 49.87,
+        "duration": 2.34,
+        "text": "انظر وش سوا هذا الرقم في قلب الإنسان | النظر إلى عمق أثر المال في قلب الإنسان وأخلاقه وسلوكه."
+      },
+      {
+        "element_id": "r4_04_inner_balance_scales",
+        "start_t": 49.87,
+        "end_t": 49.87,
+        "duration": 0.0,
+        "text": "ميزان القلب والطمأنينة | ميزان النقاء والطمأنينة هو المعيار الحقيقي للفوز والسعادة."
+      },
+      {
+        "element_id": "r4_05_faith_peace_wisdom",
+        "start_t": 49.87,
+        "end_t": 49.87,
+        "duration": 0.0,
+        "text": "راحة البال هي الغنى الحقيقي | راحة البال والرضا بقسمة الله هي الغنى الحقيقي الخالد."
+      }
+    ]
+  },
+  {
+    "section_id": "11_outro",
+    "section_num": "11",
+    "section_name": "الخاتمة والدعاء (Outro)",
+    "total_duration": 34.42270833333333,
+    "title_phrase": "الخاتمة والدعاء.",
+    "scenes": [
+      {
+        "element_id": "r1_01_sidewalk_vs_silk",
+        "start_t": 3.25,
+        "end_t": 7.02,
+        "duration": 3.77,
+        "text": "وفي النهاية سواء نمت على رصيف بارد أو على سرير من حرير"
+      },
+      {
+        "element_id": "r1_02_same_ultimate_result",
+        "start_t": 7.02,
+        "end_t": 7.82,
+        "duration": 0.8,
+        "text": "النتيجة واحدة"
+      },
+      {
+        "element_id": "r1_03_shroud_no_pockets",
+        "start_t": 7.82,
+        "end_t": 8.94,
+        "duration": 1.12,
+        "text": "الكفن ما فيه جيوب"
+      },
+      {
+        "element_id": "r1_04_leaving_as_we_came",
+        "start_t": 8.94,
+        "end_t": 11.08,
+        "duration": 2.14,
+        "text": "كلنا بنطلع من الدنيا مثل ما جينا"
+      },
+      {
+        "element_id": "r1_05_everything_is_temporary",
+        "start_t": 11.1,
+        "end_t": 12.78,
+        "duration": 1.68,
+        "text": "وكل اللي نملكه اليوم مؤقت"
+      },
+      {
+        "element_id": "r2_01_supplication_contentment",
+        "start_t": 12.78,
+        "end_t": 14.12,
+        "duration": 1.34,
+        "text": "الله يرزقنا وياكم القناعة"
+      },
+      {
+        "element_id": "r2_02_blessed_halal_provision",
+        "start_t": 14.12,
+        "end_t": 15.54,
+        "duration": 1.42,
+        "text": "والرزق الحلال المبارك"
+      },
+      {
+        "element_id": "r2_03_independent_by_his_grace",
+        "start_t": 15.54,
+        "end_t": 17.06,
+        "duration": 1.52,
+        "text": "ويغنينا بفضله عمن سواه"
+      },
+      {
+        "element_id": "r2_04_dunya_in_hands_not_hearts",
+        "start_t": 17.06,
+        "end_t": 19.34,
+        "duration": 2.28,
+        "text": "ويجعل الدنيا في أيدينا لا في قلوبنا"
+      },
+      {
+        "element_id": "r2_05_community_question_start",
+        "start_t": 19.34,
+        "end_t": 21.02,
+        "duration": 1.68,
+        "text": "والآن شاركوني في الكومنتات"
+      },
+      {
+        "element_id": "r3_01_which_tier_closest_peace",
+        "start_t": 21.49,
+        "end_t": 23.95,
+        "duration": 2.46,
+        "text": "أي طبقة حسيتوا إنها الأقرب لراحة البال الحقيقية"
+      },
+      {
+        "element_id": "r3_02_not_most_money",
+        "start_t": 23.95,
+        "end_t": 25.13,
+        "duration": 1.18,
+        "text": "مو أكثر طبقة فيها فلوس"
+      },
+      {
+        "element_id": "r3_03_balanced_life_peace",
+        "start_t": 25.13,
+        "end_t": 28.91,
+        "duration": 3.78,
+        "text": "أقصد أكثر طبقة حسيتوا أنها تعطي صاحبها حياة متوازنة وراحة بال"
+      },
+      {
+        "element_id": "r3_04_audience_comments_discussion",
+        "start_t": 28.91,
+        "end_t": 30.01,
+        "duration": 1.1,
+        "text": "ولا تنسون اللايك والاشتراك"
+      },
+      {
+        "element_id": "r3_05_like_channel_support",
+        "start_t": 30.01,
+        "end_t": 30.59,
+        "duration": 0.58,
+        "text": "تراها"
+      },
+      {
+        "element_id": "r4_01_subscription_bell_action",
+        "start_t": 30.59,
+        "end_t": 31.95,
+        "duration": 1.36,
+        "text": "دعم كبير للقناة"
+      },
+      {
+        "element_id": "r4_02_share_with_friends",
+        "start_t": 31.95,
+        "end_t": 34.42,
+        "duration": 2.47,
+        "text": "نشوفكم في فيديو جديد وفي أمان الله"
+      }
+    ]
+  }
+]

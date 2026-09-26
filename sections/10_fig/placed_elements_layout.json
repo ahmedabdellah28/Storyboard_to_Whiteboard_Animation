@@ -1,0 +1,302 @@
+{
+  "scale": 2.5,
+  "zoom": 0.58,
+  "world_half": 1655.1724137931035,
+  "elements": {
+    "1": [
+      {
+        "aid": "r1_01_fig_hero_fresh_cut",
+        "file": "r1_01_fig_hero_fresh_cut.png",
+        "x": 200.0,
+        "y": 481.5,
+        "w": 817,
+        "h": 637,
+        "cx": 608.5,
+        "cy": 800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r1_02_ancient_prehistoric_gatherers",
+        "file": "r1_02_ancient_prehistoric_gatherers.png",
+        "x": 1157.0,
+        "y": 472.5,
+        "w": 545,
+        "h": 655,
+        "cx": 1429.5,
+        "cy": 800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r1_03_jordan_valley_neolithic_village",
+        "file": "r1_03_jordan_valley_neolithic_village.png",
+        "x": 1842.0,
+        "y": 474.0,
+        "w": 717,
+        "h": 652,
+        "cx": 2200.5,
+        "cy": 800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r1_04_ancient_stone_carvings_fig",
+        "file": "r1_04_ancient_stone_carvings_fig.png",
+        "x": 4600.0,
+        "y": 480.0,
+        "w": 832,
+        "h": 640,
+        "cx": 5016.0,
+        "cy": 800.0,
+        "zone": "B"
+      },
+      {
+        "aid": "r1_05_fig_older_than_grains_comparison",
+        "file": "r1_05_fig_older_than_grains_comparison.png",
+        "x": 5572.0,
+        "y": 490.0,
+        "w": 805,
+        "h": 620,
+        "cx": 5974.5,
+        "cy": 800.0,
+        "zone": "B"
+      }
+    ],
+    "2": [
+      {
+        "aid": "r2_01_fig_magnified_internal_flowers",
+        "file": "r2_01_fig_magnified_internal_flowers.png",
+        "x": 200.0,
+        "y": 2481.5,
+        "w": 825,
+        "h": 637,
+        "cx": 612.5,
+        "cy": 2800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r2_02_botanical_syconium_florets_loupe",
+        "file": "r2_02_botanical_syconium_florets_loupe.png",
+        "x": 1165.0,
+        "y": 2492.5,
+        "w": 740,
+        "h": 615,
+        "cx": 1535.0,
+        "cy": 2800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r2_03_crunchy_seeds_florets_detail",
+        "file": "r2_03_crunchy_seeds_florets_detail.png",
+        "x": 4600.0,
+        "y": 2517.5,
+        "w": 645,
+        "h": 565,
+        "cx": 4922.5,
+        "cy": 2800.0,
+        "zone": "B"
+      },
+      {
+        "aid": "r2_04_trio_fresh_figs_leaf",
+        "file": "r2_04_trio_fresh_figs_leaf.png",
+        "x": 5365.0,
+        "y": 2509.0,
+        "w": 745,
+        "h": 582,
+        "cx": 5737.5,
+        "cy": 2800.0,
+        "zone": "B"
+      },
+      {
+        "aid": "r2_05_dried_figs_platter",
+        "file": "r2_05_dried_figs_platter.png",
+        "x": 6230.0,
+        "y": 2502.5,
+        "w": 685,
+        "h": 595,
+        "cx": 6572.5,
+        "cy": 2800.0,
+        "zone": "B"
+      }
+    ],
+    "3": [
+      {
+        "aid": "r3_01_fig_ostiole_wasp_entering",
+        "file": "r3_01_fig_ostiole_wasp_entering.png",
+        "x": 200.0,
+        "y": 4506.5,
+        "w": 825,
+        "h": 587,
+        "cx": 612.5,
+        "cy": 4800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r3_02_fig_wasp_illustrated",
+        "file": "r3_02_fig_wasp_illustrated.png",
+        "x": 1165.0,
+        "y": 4544.0,
+        "w": 585,
+        "h": 512,
+        "cx": 1457.5,
+        "cy": 4800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r3_03_wasp_inside_fig_interior",
+        "file": "r3_03_wasp_inside_fig_interior.png",
+        "x": 4600.0,
+        "y": 4509.0,
+        "w": 630,
+        "h": 582,
+        "cx": 4915.0,
+        "cy": 4800.0,
+        "zone": "B"
+      },
+      {
+        "aid": "r3_04_fig_enzymes_breakdown_diagram",
+        "file": "r3_04_fig_enzymes_breakdown_diagram.png",
+        "x": 5360.0,
+        "y": 4505.0,
+        "w": 907,
+        "h": 590,
+        "cx": 5813.5,
+        "cy": 4800.0,
+        "zone": "B"
+      },
+      {
+        "aid": "r3_05_commercial_fig_no_wasp_sign",
+        "file": "r3_05_commercial_fig_no_wasp_sign.png",
+        "x": 6397.0,
+        "y": 4504.0,
+        "w": 830,
+        "h": 592,
+        "cx": 6812.0,
+        "cy": 4800.0,
+        "zone": "B"
+      }
+    ],
+    "4": [
+      {
+        "aid": "r4_01_fig_varieties_lineup",
+        "file": "r4_01_fig_varieties_lineup.png",
+        "x": 200.0,
+        "y": 6545.0,
+        "w": 1645,
+        "h": 510,
+        "cx": 1022.5,
+        "cy": 6800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r4_02_fig_sapling_soil",
+        "file": "r4_02_fig_sapling_soil.png",
+        "x": 1985.0,
+        "y": 6555.0,
+        "w": 462,
+        "h": 490,
+        "cx": 2216.0,
+        "cy": 6800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r4_03_mature_fruiting_fig_tree",
+        "file": "r4_03_mature_fruiting_fig_tree.png",
+        "x": 4600.0,
+        "y": 6511.5,
+        "w": 842,
+        "h": 577,
+        "cx": 5021.0,
+        "cy": 6800.0,
+        "zone": "B"
+      },
+      {
+        "aid": "r4_04_fig_branch_ripe_unripe",
+        "file": "r4_04_fig_branch_ripe_unripe.png",
+        "x": 5582.0,
+        "y": 6535.0,
+        "w": 750,
+        "h": 530,
+        "cx": 5957.0,
+        "cy": 6800.0,
+        "zone": "B"
+      }
+    ]
+  },
+  "zones": {
+    "1": {
+      "row_y": 800.0,
+      "zone_A": [
+        1379.5,
+        800.0
+      ],
+      "zone_B": [
+        5488.5,
+        800.0
+      ],
+      "za_span": [
+        200.0,
+        2559.0
+      ],
+      "zb_span": [
+        4600.0,
+        6377.0
+      ]
+    },
+    "2": {
+      "row_y": 2800.0,
+      "zone_A": [
+        1052.5,
+        2800.0
+      ],
+      "zone_B": [
+        5757.5,
+        2800.0
+      ],
+      "za_span": [
+        200.0,
+        1905.0
+      ],
+      "zb_span": [
+        4600.0,
+        6915.0
+      ]
+    },
+    "3": {
+      "row_y": 4800.0,
+      "zone_A": [
+        975.0,
+        4800.0
+      ],
+      "zone_B": [
+        5913.5,
+        4800.0
+      ],
+      "za_span": [
+        200.0,
+        1750.0
+      ],
+      "zb_span": [
+        4600.0,
+        7227.0
+      ]
+    },
+    "4": {
+      "row_y": 6800.0,
+      "zone_A": [
+        1323.5,
+        6800.0
+      ],
+      "zone_B": [
+        5466.0,
+        6800.0
+      ],
+      "za_span": [
+        200.0,
+        2447.0
+      ],
+      "zb_span": [
+        4600.0,
+        6332.0
+      ]
+    }
+  }
+}

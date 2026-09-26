@@ -1,0 +1,256 @@
+{
+  "visual_beats": [
+    {
+      "id": "vb_001",
+      "asset_id": "r0_00_title_banner",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "الطبقة المتوسطة العليا .",
+        "start": 1.72,
+        "end": 4.87
+      },
+      "importance": 0.8,
+      "action": "reveal"
+    },
+    {
+      "id": "vb_002",
+      "asset_id": "r1_01_peaceful_upscale_home",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "تصحى في بيت هادي تملكه في حي ممتاز، أو في منزل مستقر جداً .",
+        "start": 4.87,
+        "end": 11.0
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_003",
+      "asset_id": "r1_02_smart_home_appliances",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "مكنسة روبوت تتحرك في الممر .",
+        "start": 13.3,
+        "end": 15.77
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_004",
+      "asset_id": "r1_03_coffee_machine_schedule",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "تفتح جوالك:",
+        "start": 17.76,
+        "end": 18.513
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_005",
+      "asset_id": "r1_04_calendar_and_cleaner",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "تقويم العمل .",
+        "start": 18.513,
+        "end": 19.5
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_006",
+      "asset_id": "r1_05_automated_bills_savings",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "تذكير إن عاملة النظافة بتجي الجمعة .",
+        "start": 20.6,
+        "end": 23.32
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_007",
+      "asset_id": "r2_01_varied_fresh_breakfast",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "والفلوس تتحول كل شهر للتوفير والاستثمار بدون ما تحتاج تتذكر .",
+        "start": 24.9,
+        "end": 29.62
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_008",
+      "asset_id": "r2_02_modern_paid_off_car",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "الفطور متنوع:",
+        "start": 29.62,
+        "end": 30.42
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_009",
+      "asset_id": "r2_03_expected_costs_insurance",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "بيض .",
+        "start": 31.2,
+        "end": 32.68
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_010",
+      "asset_id": "r2_04_professional_career_coding",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "خيارات جاهزة للعيال .",
+        "start": 33.6,
+        "end": 35.127
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_011",
+      "asset_id": "r2_05_complex_projects_remote",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "السيارة حديثة ومدفوعة، أو قريب تخلص أقساطها .",
+        "start": 35.127,
+        "end": 38.24
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_012",
+      "asset_id": "r3_01_strong_health_insurance",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "وظيفتك احترافية وفيها مسؤولية .",
+        "start": 41.507,
+        "end": 43.36
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_013",
+      "asset_id": "r3_02_automatic_retirement_rewards",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "يمكن تكتب كود .",
+        "start": 44.4,
+        "end": 45.828
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_014",
+      "asset_id": "r3_03_booking_travel_months_ahead",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "تعالج مرضى .",
+        "start": 45.828,
+        "end": 46.872
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_015",
+      "asset_id": "r3_04_calling_pros_time_value",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "وعندك تحكم أكبر في جدولك .",
+        "start": 48.612,
+        "end": 50.7
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_016",
+      "asset_id": "r3_05_lawn_care_regular_cleaning",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "والتأمين الصحي قوي، فتروح فحوصاتك بشكل دوري وما تؤجل الأسنان إلى آخر لحظة .",
+        "start": 52.84,
+        "end": 57.5
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_017",
+      "asset_id": "r4_01_personal_trainer_gym",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "مدخرات التقاعد تمشي تلقائياً .",
+        "start": 57.5,
+        "end": 58.7
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_018",
+      "asset_id": "r4_02_kids_sports_and_lessons",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "إذا خرب شيء في البيت، تتصل بمحترف .",
+        "start": 62.94,
+        "end": 65.76
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_019",
+      "asset_id": "r4_03_evening_agenda_signing",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "تدفع للعناية بالحديقة .",
+        "start": 69.22,
+        "end": 70.49
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_020",
+      "asset_id": "r4_04_online_gift_charity",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "وعاملة نظافة تزورك بانتظام .",
+        "start": 70.49,
+        "end": 72.08
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_021",
+      "asset_id": "r4_05_secure_future_thinking",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "العيال عندهم دروس ورياضة .",
+        "start": 76.42,
+        "end": 78.06
+      },
+      "importance": 0.8,
+      "action": "draw"
+    }
+  ]
+}

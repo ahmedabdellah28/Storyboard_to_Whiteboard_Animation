@@ -1,0 +1,112 @@
+{
+  "camera": [
+    {
+      "id": "cam_001",
+      "type": "camera_pan",
+      "start_s": 1.07,
+      "end_s": 2.07,
+      "duration_s": 1.0,
+      "target_asset_id": "r0_00_title_banner",
+      "params": {
+        "to_zone": "zone_1A",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_002",
+      "type": "camera_pan",
+      "start_s": 20.316,
+      "end_s": 21.316,
+      "duration_s": 1.0,
+      "target_asset_id": "r1_04_budget_app_paycheck",
+      "params": {
+        "to_zone": "zone_1B",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_003",
+      "type": "camera_pan",
+      "start_s": 28.13,
+      "end_s": 29.13,
+      "duration_s": 1.0,
+      "target_asset_id": "r2_01_used_reliable_car",
+      "params": {
+        "to_zone": "zone_2A",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_004",
+      "type": "camera_pan",
+      "start_s": 33.36,
+      "end_s": 34.36,
+      "duration_s": 1.0,
+      "target_asset_id": "r2_03_office_desk_emails",
+      "params": {
+        "to_zone": "zone_2B",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_005",
+      "type": "camera_pan",
+      "start_s": 43.72,
+      "end_s": 44.72,
+      "duration_s": 1.0,
+      "target_asset_id": "r3_01_lunch_banking_check",
+      "params": {
+        "to_zone": "zone_3A",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_006",
+      "type": "camera_pan",
+      "start_s": 54.98,
+      "end_s": 55.98,
+      "duration_s": 1.0,
+      "target_asset_id": "r3_04_affordable_gym",
+      "params": {
+        "to_zone": "zone_3B",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_007",
+      "type": "camera_pan",
+      "start_s": 61.37,
+      "end_s": 62.37,
+      "duration_s": 1.0,
+      "target_asset_id": "r4_01_streaming_netflix",
+      "params": {
+        "to_zone": "zone_4A",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_008",
+      "type": "camera_pan",
+      "start_s": 75.448,
+      "end_s": 76.448,
+      "duration_s": 1.0,
+      "target_asset_id": "r4_04_calendar_recheck",
+      "params": {
+        "to_zone": "zone_4B",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_009",
+      "type": "camera_zoom_wide",
+      "start_s": 81.147,
+      "end_s": 83.647,
+      "duration_s": 2.5,
+      "target_asset_id": null,
+      "params": {
+        "scale": 1.0,
+        "description": "Full scene canvas reveal"
+      }
+    }
+  ]
+}

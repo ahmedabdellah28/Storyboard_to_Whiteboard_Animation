@@ -1,0 +1,214 @@
+{
+  "semantic_beats": [
+    {
+      "id": "sb_001",
+      "sentence_id": null,
+      "subject": "r0_00_title_banner",
+      "action": "reveal",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "الطبقة المتوسطة الدنيا .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_002",
+      "sentence_id": null,
+      "subject": "r1_01_modest_apartment",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "هنا تبدأ الحياة تصير أهدأ شوي .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_003",
+      "sentence_id": null,
+      "subject": "r1_02_fridge_bills_list",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "المكان نظيف وبسيط .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_004",
+      "sentence_id": null,
+      "subject": "r1_03_coffee_calendar",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "وعلى الثلاجة قائمة للفواتير ومواعيدها .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_005",
+      "sentence_id": null,
+      "subject": "r1_04_budget_app_paycheck",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "عندك وظيفة ثابتة بساعات واضحة .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_006",
+      "sentence_id": null,
+      "subject": "r1_05_healthy_breakfast",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "وعندك تأمين، ونسبة بسيطة للتقاعد تنخصم من الراتب .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_007",
+      "sentence_id": null,
+      "subject": "r2_01_used_reliable_car",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "تستخدم تطبيق للميزانية، وتحط الأساسيات في خصم تلقائي .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_008",
+      "sentence_id": null,
+      "subject": "r2_02_commuter_train",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "بيض .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_009",
+      "sentence_id": null,
+      "subject": "r2_03_office_desk_emails",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "توست .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_010",
+      "sentence_id": null,
+      "subject": "r2_04_meeting_clients",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "وإذا عندك أطفال، تجهز غداهم وتشيك واجباتهم .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_011",
+      "sentence_id": null,
+      "subject": "r2_05_paid_break_pension",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "سيارة مستعملة ونظيفة، عليها أقساط .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_012",
+      "sentence_id": null,
+      "subject": "r3_01_lunch_banking_check",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "أو تستخدم قطار باشتراك شهري .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_013",
+      "sentence_id": null,
+      "subject": "r3_02_student_loan_deduct",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "في الدوام، دورك واضح .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_014",
+      "sentence_id": null,
+      "subject": "r3_03_savings_buffer",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "تدير طلبات .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_015",
+      "sentence_id": null,
+      "subject": "r3_04_affordable_gym",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "تمسك عملاء .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_016",
+      "sentence_id": null,
+      "subject": "r3_05_home_cooked_dinner",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "لك بريك مدفوع ووقت غداء، وغالباً تعرف جدولك لأسابيع قدام .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_017",
+      "sentence_id": null,
+      "subject": "r4_01_streaming_netflix",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "تحاول تحفظ جزء بسيط للتقاعد، وما تلمس صندوق الطوارئ إلا إذا اضطريت .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_018",
+      "sentence_id": null,
+      "subject": "r4_02_roadtrip_plan",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "قسط قرض الدراسة بينسحب بكرة .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_019",
+      "sentence_id": null,
+      "subject": "r4_03_ironing_phone_charge",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "بعد الدوام تمر نادي رخيص، أو تمشي في الحارة .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_020",
+      "sentence_id": null,
+      "subject": "r4_04_calendar_recheck",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "العشاء غالباً طبخ بيت .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_021",
+      "sentence_id": null,
+      "subject": "r4_05_safety_margin_sleep",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "نتفليكس وأخواتها، اشتراك أو اشتراكين وتبديل بينهم .",
+      "importance": 0.8
+    }
+  ]
+}

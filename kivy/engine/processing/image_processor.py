@@ -12,6 +12,7 @@ from .color_processor import ColorProcessor
 from .region_extractor import RegionExtractor
 from ..planning.object_grouping import MajorObjectGrouper
 from .panel_detector import PanelDetector
+from .whiteboard_processor import WhiteboardProcessor
 
 logger = logging.getLogger(__name__)
 
@@ -19,16 +20,28 @@ logger = logging.getLogger(__name__)
 class ImageProcessor:
     @staticmethod
     def process(image_bgr: np.ndarray, config: SceneConfig,
-                progress_cb: Optional[Callable[[float, str], None]] = None) -> Project:
+                progress_cb: Optional[Callable[[float, str], None]] = None,
+                custom_panels: Optional[List[Dict[str, Any]]] = None) -> Project:
         """
         Universal processing pipeline (V3 — Fully Dynamic Multi-Panel & Single Scene):
-        1. Structural Analysis via PanelDetector (detects 1, 2, 4, 6, 8, 9+ panels or single scenes)
-        2. For Storyboard: crop each panel and extract characters/elements at native resolution
-        3. For Single Scene: process the full image
+        1. Checks for Whiteboard / Multi-Panel Composition via WhiteboardProcessor
+        2. Falls back to SAM/Entity Storyboard processor for standard comic/character strips
         """
         def _report(pct, msg):
             if progress_cb:
                 progress_cb(pct, msg)
+
+        if custom_panels and len(custom_panels) > 0:
+            return WhiteboardProcessor.process_with_panels(image_bgr, custom_panels, config, progress_cb=_report)
+
+        # Check if Whiteboard/Dual-Engine processor should run
+        # Multi-panel educational sheets with text, math, diagrams, characters
+        try:
+            wb_project = WhiteboardProcessor.process(image_bgr, config, progress_cb=_report)
+            if wb_project and (len(wb_project.panels) >= 2 or sum(len(sc.objects) for sc in wb_project.scenes) >= 5):
+                return wb_project
+        except Exception as e:
+            logger.warning(f"WhiteboardProcessor notice: {e}, continuing with standard pipeline...")
 
         _report(5.0, "Analyzing composition & panels...")
 

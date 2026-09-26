@@ -1,0 +1,690 @@
+{
+  "section_id": "01_homeless",
+  "fixed_y": 800.0,
+  "cam_zoom": 0.68,
+  "zones": {
+    "zone_1A": {
+      "cam_pos": [
+        1335.8,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_1B": {
+      "cam_pos": [
+        5331.0,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_1C": {
+      "cam_pos": [
+        9019.6,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_2A": {
+      "cam_pos": [
+        12591.1,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_2B": {
+      "cam_pos": [
+        16327.1,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_2C": {
+      "cam_pos": [
+        20122.6,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_3A": {
+      "cam_pos": [
+        23524.6,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_3B": {
+      "cam_pos": [
+        26875.3,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_3C": {
+      "cam_pos": [
+        30824.8,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_4A": {
+      "cam_pos": [
+        35113.8,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_4B": {
+      "cam_pos": [
+        39170.1,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_5A": {
+      "cam_pos": [
+        42776.6,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_5B": {
+      "cam_pos": [
+        46482.8,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_5C": {
+      "cam_pos": [
+        50337.8,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_6A": {
+      "cam_pos": [
+        54489.6,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_6B": {
+      "cam_pos": [
+        58277.7,
+        800.0
+      ],
+      "zoom": 0.68
+    },
+    "zone_6C": {
+      "cam_pos": [
+        61772.8,
+        800.0
+      ],
+      "zoom": 0.68
+    }
+  },
+  "elements": {
+    "zone_1A": [
+      {
+        "aid": "r0_00_title_banner",
+        "file": "r0_00_title_banner.png",
+        "x": 750.0,
+        "y": 220.0,
+        "w": 1350.0,
+        "h": 270.0,
+        "cx": 1425.0,
+        "cy": 355.0,
+        "zone": "zone_1A"
+      },
+      {
+        "aid": "r1_01_waking_alarm",
+        "file": "r1_01_waking_alarm.png",
+        "x": 600.0,
+        "y": 525.2,
+        "w": 605.5,
+        "h": 549.5,
+        "cx": 902.8,
+        "cy": 800.0,
+        "zone": "zone_1A"
+      },
+      {
+        "aid": "r1_02_city_noise",
+        "file": "r1_02_city_noise.png",
+        "x": 1315.5,
+        "y": 514.8,
+        "w": 756.0,
+        "h": 570.5,
+        "cx": 1693.5,
+        "cy": 800.0,
+        "zone": "zone_1A"
+      }
+    ],
+    "zone_1B": [
+      {
+        "aid": "r1_03_body_pain",
+        "file": "r1_03_body_pain.png",
+        "x": 4135.8,
+        "y": 564.4,
+        "w": 381.3,
+        "h": 471.2,
+        "cx": 4326.4,
+        "cy": 800.0,
+        "zone": "zone_1B"
+      },
+      {
+        "aid": "r1_04_sleep_concrete",
+        "file": "r1_04_sleep_concrete.png",
+        "x": 4607.1,
+        "y": 614.0,
+        "w": 660.3,
+        "h": 372.0,
+        "cx": 4937.2,
+        "cy": 800.0,
+        "zone": "zone_1B"
+      },
+      {
+        "aid": "r1_05_sleep_bench",
+        "file": "r1_05_sleep_bench.png",
+        "x": 5357.4,
+        "y": 590.8,
+        "w": 626.2,
+        "h": 418.5,
+        "cx": 5670.5,
+        "cy": 800.0,
+        "zone": "zone_1B"
+      },
+      {
+        "aid": "r1_06_sleep_shelter",
+        "file": "r1_06_sleep_shelter.png",
+        "x": 6073.6,
+        "y": 545.8,
+        "w": 452.6,
+        "h": 508.4,
+        "cx": 6299.9,
+        "cy": 800.0,
+        "zone": "zone_1B"
+      }
+    ],
+    "zone_1C": [
+      {
+        "aid": "r1_07_check_backpack",
+        "file": "r1_07_check_backpack.png",
+        "x": 8216.2,
+        "y": 505.5,
+        "w": 699.2,
+        "h": 589.0,
+        "cx": 8565.8,
+        "cy": 800.0,
+        "zone": "zone_1C"
+      },
+      {
+        "aid": "r1_08_backpack_items",
+        "file": "r1_08_backpack_items.png",
+        "x": 9055.4,
+        "y": 547.3,
+        "w": 767.6,
+        "h": 505.4,
+        "cx": 9439.2,
+        "cy": 800.0,
+        "zone": "zone_1C"
+      }
+    ],
+    "zone_2A": [
+      {
+        "aid": "r2_01_phone_broken",
+        "file": "r2_01_phone_broken.png",
+        "x": 11819.6,
+        "y": 539.2,
+        "w": 528.5,
+        "h": 521.5,
+        "cx": 12083.9,
+        "cy": 800.0,
+        "zone": "zone_2A"
+      },
+      {
+        "aid": "r2_02_screen_cracked",
+        "file": "r2_02_screen_cracked.png",
+        "x": 12458.1,
+        "y": 567.2,
+        "w": 388.5,
+        "h": 465.5,
+        "cx": 12652.4,
+        "cy": 800.0,
+        "zone": "zone_2A"
+      },
+      {
+        "aid": "r2_03_battery_dead",
+        "file": "r2_03_battery_dead.png",
+        "x": 12956.6,
+        "y": 651.2,
+        "w": 406.0,
+        "h": 297.5,
+        "cx": 13159.6,
+        "cy": 800.0,
+        "zone": "zone_2A"
+      }
+    ],
+    "zone_2B": [
+      {
+        "aid": "r2_04_search_wifi",
+        "file": "r2_04_search_wifi.png",
+        "x": 15391.1,
+        "y": 520.0,
+        "w": 581.0,
+        "h": 560.0,
+        "cx": 15681.6,
+        "cy": 800.0,
+        "zone": "zone_2B"
+      },
+      {
+        "aid": "r2_05_wifi_icon",
+        "file": "r2_05_wifi_icon.png",
+        "x": 16082.1,
+        "y": 642.5,
+        "w": 385.0,
+        "h": 315.0,
+        "cx": 16274.6,
+        "cy": 800.0,
+        "zone": "zone_2B"
+      },
+      {
+        "aid": "r2_06_charger_problem",
+        "file": "r2_06_charger_problem.png",
+        "x": 16577.1,
+        "y": 504.2,
+        "w": 686.0,
+        "h": 591.5,
+        "cx": 16920.1,
+        "cy": 800.0,
+        "zone": "zone_2B"
+      }
+    ],
+    "zone_2C": [
+      {
+        "aid": "r2_07_goto_bathroom",
+        "file": "r2_07_goto_bathroom.png",
+        "x": 19127.1,
+        "y": 497.2,
+        "w": 742.0,
+        "h": 605.5,
+        "cx": 19498.1,
+        "cy": 800.0,
+        "zone": "zone_2C"
+      },
+      {
+        "aid": "r2_08_wash_face_sink",
+        "file": "r2_08_wash_face_sink.png",
+        "x": 19979.1,
+        "y": 521.8,
+        "w": 518.0,
+        "h": 556.5,
+        "cx": 20238.1,
+        "cy": 800.0,
+        "zone": "zone_2C"
+      },
+      {
+        "aid": "r2_09_shower_clean",
+        "file": "r2_09_shower_clean.png",
+        "x": 20607.1,
+        "y": 467.5,
+        "w": 511.0,
+        "h": 665.0,
+        "cx": 20862.6,
+        "cy": 800.0,
+        "zone": "zone_2C"
+      }
+    ],
+    "zone_3A": [
+      {
+        "aid": "r3_01_clean_shirt",
+        "file": "r3_01_clean_shirt.png",
+        "x": 22922.6,
+        "y": 516.9,
+        "w": 577.6,
+        "h": 566.2,
+        "cx": 23211.4,
+        "cy": 800.0,
+        "zone": "zone_3A"
+      },
+      {
+        "aid": "r3_02_folded_clothes",
+        "file": "r3_02_folded_clothes.png",
+        "x": 23640.2,
+        "y": 541.6,
+        "w": 486.4,
+        "h": 516.8,
+        "cx": 23883.4,
+        "cy": 800.0,
+        "zone": "zone_3A"
+      }
+    ],
+    "zone_3B": [
+      {
+        "aid": "r3_05_eating_sandwich",
+        "file": "r3_05_eating_sandwich.png",
+        "x": 26324.6,
+        "y": 524.5,
+        "w": 467.4,
+        "h": 551.0,
+        "cx": 26558.3,
+        "cy": 800.0,
+        "zone": "zone_3B"
+      },
+      {
+        "aid": "r3_06_charity_food",
+        "file": "r3_06_charity_food.png",
+        "x": 26932.0,
+        "y": 516.9,
+        "w": 494.0,
+        "h": 566.2,
+        "cx": 27179.0,
+        "cy": 800.0,
+        "zone": "zone_3B"
+      }
+    ],
+    "zone_3C": [
+      {
+        "aid": "r3_07_soup_kitchen",
+        "file": "r3_07_soup_kitchen.png",
+        "x": 29675.3,
+        "y": 530.5,
+        "w": 938.0,
+        "h": 539.0,
+        "cx": 30144.3,
+        "cy": 800.0,
+        "zone": "zone_3C"
+      },
+      {
+        "aid": "r3_08_grocery_card",
+        "file": "r3_08_grocery_card.png",
+        "x": 30723.3,
+        "y": 556.8,
+        "w": 521.5,
+        "h": 486.5,
+        "cx": 30984.0,
+        "cy": 800.0,
+        "zone": "zone_3C"
+      },
+      {
+        "aid": "r3_09_no_kitchen_home",
+        "file": "r3_09_no_kitchen_home.png",
+        "x": 31354.8,
+        "y": 556.8,
+        "w": 619.5,
+        "h": 486.5,
+        "cx": 31664.5,
+        "cy": 800.0,
+        "zone": "zone_3C"
+      }
+    ],
+    "zone_4A": [
+      {
+        "aid": "r4_01_hunger_craving",
+        "file": "r4_01_hunger_craving.png",
+        "x": 33684.3,
+        "y": 509.5,
+        "w": 759.5,
+        "h": 581.0,
+        "cx": 34064.1,
+        "cy": 800.0,
+        "zone": "zone_4A"
+      },
+      {
+        "aid": "r4_02_safety_planning",
+        "file": "r4_02_safety_planning.png",
+        "x": 34553.8,
+        "y": 488.5,
+        "w": 1263.5,
+        "h": 623.0,
+        "cx": 35185.6,
+        "cy": 800.0,
+        "zone": "zone_4A"
+      },
+      {
+        "aid": "r4_03_bench_rest",
+        "file": "r4_03_bench_rest.png",
+        "x": 35927.3,
+        "y": 562.0,
+        "w": 616.0,
+        "h": 476.0,
+        "cx": 36235.3,
+        "cy": 800.0,
+        "zone": "zone_4A"
+      }
+    ],
+    "zone_4B": [
+      {
+        "aid": "r4_04_library_books",
+        "file": "r4_04_library_books.png",
+        "x": 38253.3,
+        "y": 633.8,
+        "w": 490.0,
+        "h": 332.5,
+        "cx": 38498.3,
+        "cy": 800.0,
+        "zone": "zone_4B"
+      },
+      {
+        "aid": "r4_05_bench_chair",
+        "file": "r4_05_bench_chair.png",
+        "x": 38853.3,
+        "y": 560.2,
+        "w": 864.5,
+        "h": 479.5,
+        "cx": 39285.6,
+        "cy": 800.0,
+        "zone": "zone_4B"
+      },
+      {
+        "aid": "r4_06_laptop_search",
+        "file": "r4_06_laptop_search.png",
+        "x": 39827.8,
+        "y": 675.8,
+        "w": 259.0,
+        "h": 248.5,
+        "cx": 39957.3,
+        "cy": 800.0,
+        "zone": "zone_4B"
+      }
+    ],
+    "zone_5A": [
+      {
+        "aid": "r5_01_begging_cup",
+        "file": "r5_01_begging_cup.png",
+        "x": 41970.1,
+        "y": 565.5,
+        "w": 490.0,
+        "h": 469.0,
+        "cx": 42215.1,
+        "cy": 800.0,
+        "zone": "zone_5A"
+      },
+      {
+        "aid": "r5_02_coins_money",
+        "file": "r5_02_coins_money.png",
+        "x": 42570.1,
+        "y": 607.5,
+        "w": 441.0,
+        "h": 385.0,
+        "cx": 42790.6,
+        "cy": 800.0,
+        "zone": "zone_5A"
+      },
+      {
+        "aid": "r5_03_day_no_money",
+        "file": "r5_03_day_no_money.png",
+        "x": 43121.1,
+        "y": 558.5,
+        "w": 462.0,
+        "h": 483.0,
+        "cx": 43352.1,
+        "cy": 800.0,
+        "zone": "zone_5A"
+      }
+    ],
+    "zone_5B": [
+      {
+        "aid": "r5_04_missing_id_card",
+        "file": "r5_04_missing_id_card.png",
+        "x": 45576.6,
+        "y": 644.2,
+        "w": 427.0,
+        "h": 311.5,
+        "cx": 45790.1,
+        "cy": 800.0,
+        "zone": "zone_5B"
+      },
+      {
+        "aid": "r5_05_court_documents",
+        "file": "r5_05_court_documents.png",
+        "x": 46113.6,
+        "y": 577.8,
+        "w": 304.5,
+        "h": 444.5,
+        "cx": 46265.8,
+        "cy": 800.0,
+        "zone": "zone_5B"
+      },
+      {
+        "aid": "r5_06_no_address",
+        "file": "r5_06_no_address.png",
+        "x": 46528.1,
+        "y": 576.0,
+        "w": 861.0,
+        "h": 448.0,
+        "cx": 46958.6,
+        "cy": 800.0,
+        "zone": "zone_5B"
+      }
+    ],
+    "zone_5C": [
+      {
+        "aid": "r5_07_hospital_clinic",
+        "file": "r5_07_hospital_clinic.png",
+        "x": 49282.8,
+        "y": 563.8,
+        "w": 626.5,
+        "h": 472.5,
+        "cx": 49596.1,
+        "cy": 800.0,
+        "zone": "zone_5C"
+      },
+      {
+        "aid": "r5_08_free_clinic",
+        "file": "r5_08_free_clinic.png",
+        "x": 50019.3,
+        "y": 555.0,
+        "w": 752.5,
+        "h": 490.0,
+        "cx": 50395.6,
+        "cy": 800.0,
+        "zone": "zone_5C"
+      },
+      {
+        "aid": "r5_09_medicine_treatment",
+        "file": "r5_09_medicine_treatment.png",
+        "x": 50881.8,
+        "y": 595.2,
+        "w": 511.0,
+        "h": 409.5,
+        "cx": 51137.3,
+        "cy": 800.0,
+        "zone": "zone_5C"
+      }
+    ],
+    "zone_6A": [
+      {
+        "aid": "r6_01_shelter_bunk",
+        "file": "r6_01_shelter_bunk.png",
+        "x": 53137.8,
+        "y": 547.4,
+        "w": 598.3,
+        "h": 505.3,
+        "cx": 53437.0,
+        "cy": 800.0,
+        "zone": "zone_6A"
+      },
+      {
+        "aid": "r6_02_shelter_line",
+        "file": "r6_02_shelter_line.png",
+        "x": 53826.1,
+        "y": 553.5,
+        "w": 595.2,
+        "h": 492.9,
+        "cx": 54123.7,
+        "cy": 800.0,
+        "zone": "zone_6A"
+      },
+      {
+        "aid": "r6_03_street_sleeping",
+        "file": "r6_03_street_sleeping.png",
+        "x": 54511.3,
+        "y": 562.9,
+        "w": 678.9,
+        "h": 474.3,
+        "cx": 54850.8,
+        "cy": 800.0,
+        "zone": "zone_6A"
+      },
+      {
+        "aid": "r6_04_siren_danger",
+        "file": "r6_04_siren_danger.png",
+        "x": 55280.2,
+        "y": 578.4,
+        "w": 561.1,
+        "h": 443.3,
+        "cx": 55560.8,
+        "cy": 800.0,
+        "zone": "zone_6A"
+      }
+    ],
+    "zone_6B": [
+      {
+        "aid": "r6_05_hide_valuables",
+        "file": "r6_05_hide_valuables.png",
+        "x": 57531.3,
+        "y": 516.9,
+        "w": 433.2,
+        "h": 566.2,
+        "cx": 57747.9,
+        "cy": 800.0,
+        "zone": "zone_6B"
+      },
+      {
+        "aid": "r6_06_sleep_light",
+        "file": "r6_06_sleep_light.png",
+        "x": 58104.5,
+        "y": 496.0,
+        "w": 919.6,
+        "h": 608.0,
+        "cx": 58564.3,
+        "cy": 800.0,
+        "zone": "zone_6B"
+      }
+    ],
+    "zone_6C": [
+      {
+        "aid": "r6_07_walk_sunrise",
+        "file": "r6_07_walk_sunrise.png",
+        "x": 61077.7,
+        "y": 465.6,
+        "w": 585.2,
+        "h": 668.8,
+        "cx": 61370.3,
+        "cy": 800.0,
+        "zone": "zone_6C"
+      },
+      {
+        "aid": "r6_08_survival_cycle",
+        "file": "r6_08_survival_cycle.png",
+        "x": 61802.9,
+        "y": 473.2,
+        "w": 665.0,
+        "h": 653.6,
+        "cx": 62135.4,
+        "cy": 800.0,
+        "zone": "zone_6C"
+      }
+    ]
+  }
+}

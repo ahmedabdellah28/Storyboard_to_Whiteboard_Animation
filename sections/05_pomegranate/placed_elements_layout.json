@@ -1,0 +1,205 @@
+{
+  "elements": {
+    "1": [
+      {
+        "aid": "r1_01_hero_pomegranate",
+        "x": 600.0,
+        "y": 442.0,
+        "w": 1044,
+        "h": 716,
+        "zone": "A"
+      },
+      {
+        "aid": "r1_02_ancient_ruins_tree",
+        "x": 1784.0,
+        "y": 477.0,
+        "w": 1002,
+        "h": 646,
+        "zone": "A"
+      },
+      {
+        "aid": "r1_03_ancient_map_iran_afghanistan",
+        "x": 4400.0,
+        "y": 500.5,
+        "w": 831,
+        "h": 599,
+        "zone": "B"
+      },
+      {
+        "aid": "r1_04_pomegranate_sprout_growing",
+        "x": 5351.0,
+        "y": 556.5,
+        "w": 655,
+        "h": 487,
+        "zone": "B"
+      },
+      {
+        "aid": "r1_05_mature_fruitful_tree",
+        "x": 6126.0,
+        "y": 471.0,
+        "w": 660,
+        "h": 658,
+        "zone": "B"
+      }
+    ],
+    "2": [
+      {
+        "aid": "r2_01_persian_king",
+        "x": 650.0,
+        "y": 2488.0,
+        "w": 691,
+        "h": 624,
+        "zone": "A"
+      },
+      {
+        "aid": "r2_02_greek_and_roman_figures",
+        "x": 1481.0,
+        "y": 2517.0,
+        "w": 1344,
+        "h": 566,
+        "zone": "A"
+      },
+      {
+        "aid": "r2_03_fertility_pregnant_silhouette",
+        "x": 4300.0,
+        "y": 2487.0,
+        "w": 426,
+        "h": 626,
+        "zone": "B"
+      },
+      {
+        "aid": "r2_04_prosperity_tree_sunburst",
+        "x": 4826.0,
+        "y": 2492.5,
+        "w": 515,
+        "h": 615,
+        "zone": "B"
+      },
+      {
+        "aid": "r2_05_resurrection_stairway_heaven",
+        "x": 5441.0,
+        "y": 2494.0,
+        "w": 445,
+        "h": 612,
+        "zone": "B"
+      },
+      {
+        "aid": "r2_06_unity_hands_pomegranate",
+        "x": 5986.0,
+        "y": 2492.5,
+        "w": 564,
+        "h": 615,
+        "zone": "B"
+      }
+    ],
+    "3": [
+      {
+        "aid": "r3_01_torah_scroll_star_and_seed_zoom",
+        "x": 600.0,
+        "y": 4456.0,
+        "w": 1134,
+        "h": 688,
+        "zone": "A"
+      },
+      {
+        "aid": "r3_02_pomegranate_cross_section_seed_zoom",
+        "x": 1874.0,
+        "y": 4444.5,
+        "w": 977,
+        "h": 711,
+        "zone": "A"
+      },
+      {
+        "aid": "r3_03_antioxidant_shield_molecules",
+        "x": 4400.0,
+        "y": 4453.0,
+        "w": 1016,
+        "h": 694,
+        "zone": "B"
+      },
+      {
+        "aid": "r3_04_cardiovascular_heart_ecg",
+        "x": 5576.0,
+        "y": 4450.0,
+        "w": 999,
+        "h": 700,
+        "zone": "B"
+      }
+    ],
+    "4": [
+      {
+        "aid": "r4_01_pomegranate_juice_glass",
+        "x": 600.0,
+        "y": 6464.0,
+        "w": 1187,
+        "h": 672,
+        "zone": "A"
+      },
+      {
+        "aid": "r4_02_salad_bowl_walnuts",
+        "x": 1927.0,
+        "y": 6457.0,
+        "w": 1262,
+        "h": 686,
+        "zone": "A"
+      },
+      {
+        "aid": "r4_03_botanical_blossoms_branch",
+        "x": 4600.0,
+        "y": 6424.5,
+        "w": 1448,
+        "h": 751,
+        "zone": "B"
+      }
+    ]
+  },
+  "zones": {
+    "1": {
+      "zone_A": [
+        1693.0,
+        800.0
+      ],
+      "zone_B": [
+        5593.0,
+        800.0
+      ],
+      "clearance": 1051.8275862068967
+    },
+    "2": {
+      "zone_A": [
+        1737.5,
+        2800.0
+      ],
+      "zone_B": [
+        5425.0,
+        2800.0
+      ],
+      "clearance": 907.3275862068967
+    },
+    "3": {
+      "zone_A": [
+        1725.5,
+        4800.0
+      ],
+      "zone_B": [
+        5487.5,
+        4800.0
+      ],
+      "clearance": 1019.3275862068967
+    },
+    "4": {
+      "zone_A": [
+        1894.5,
+        6800.0
+      ],
+      "zone_B": [
+        5324.0,
+        6800.0
+      ],
+      "clearance": 1050.3275862068967
+    }
+  },
+  "zoom": 0.58,
+  "base_y": 800.0,
+  "row_gap_y": 2000.0
+}

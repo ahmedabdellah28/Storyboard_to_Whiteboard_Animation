@@ -1,0 +1,280 @@
+{
+  "visual_beats": [
+    {
+      "id": "vb_001",
+      "asset_id": "r0_00_title_banner",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "بلا مأوى .",
+        "start": 0.0,
+        "end": 1.5
+      },
+      "importance": 0.8,
+      "action": "reveal"
+    },
+    {
+      "id": "vb_002",
+      "asset_id": "r1_01_waking_street",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "تصحى قبل الفجر، لأن الشارع يصير مزعج مع بداية حركة المدينة .",
+        "start": 1.5,
+        "end": 6.8
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_003",
+      "asset_id": "r1_02_back_pain",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "أول شيء تسويه ؟",
+        "start": 12.254,
+        "end": 13.9
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_004",
+      "asset_id": "r1_03_check_backpack",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "تشيك على أغراضك القليلة، وتتأكد إن ما انسرق منك شيء في الليل .",
+        "start": 13.9,
+        "end": 18.3
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_005",
+      "asset_id": "r1_04_broken_phone",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "فتدور على واي فاي مجاني، كأنك تدور كنز .",
+        "start": 23.18,
+        "end": 27.34
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_006",
+      "asset_id": "r1_05_search_wifi",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "مشكلة ثانية لحالها .",
+        "start": 28.3,
+        "end": 30.34
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_007",
+      "asset_id": "r1_06_outdoor_charge",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "بعدها أول هدف: حمام ومويه .",
+        "start": 30.34,
+        "end": 32.68
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_008",
+      "asset_id": "r2_01_goto_bathroom",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "إذا لقيت مكان تقدر تستخدم فيه الحمام، تدخل بسرعة، تغسل وجهك وجسمك بأبسط طريقة ممكنة، وتحاول ترتب نفسك .",
+        "start": 38.2,
+        "end": 47.24
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_009",
+      "asset_id": "r2_02_wash_sink",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "الملابس النظيفة عملة نادرة .",
+        "start": 49.84,
+        "end": 51.91
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_010",
+      "asset_id": "r2_03_clean_shirt",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "بعدها يجي الأكل .",
+        "start": 51.56,
+        "end": 53.6
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_011",
+      "asset_id": "r2_04_charity_food",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "وإذا عندك بطاقة تموين، تشتري مقاضي بسيطة، لكن عندك مشكلة: أنت ما تملك مطبخ .",
+        "start": 60.98,
+        "end": 67.76
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_012",
+      "asset_id": "r2_05_eating_sidewalk",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "الجوع دائماً قريب .",
+        "start": 70.78,
+        "end": 71.68
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_013",
+      "asset_id": "r2_06_grocery_no_kitchen",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "حتى خطة يومك ما تنبني على الراحة .",
+        "start": 71.68,
+        "end": 75.66
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_014",
+      "asset_id": "r3_01_park_bench_think",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "المكتبة العامة بالنسبة لك كنز .",
+        "start": 80.86,
+        "end": 83.14
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_015",
+      "asset_id": "r3_02_public_library",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "واي فاي .",
+        "start": 83.74,
+        "end": 85.513
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_016",
+      "asset_id": "r3_03_begging_cardboard",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "فيش كهرباء .",
+        "start": 85.513,
+        "end": 86.96
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_017",
+      "asset_id": "r3_04_missing_id",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "حتى لو كنت تتسول، تختار زاوية فيها حركة ناس، لكن بعيد عن المشاكل .",
+        "start": 89.56,
+        "end": 95.16
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_018",
+      "asset_id": "r3_05_clinic_hospital",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "وأحياناً يمر يوم كامل وما يجيك ولا شيء .",
+        "start": 97.34,
+        "end": 102.0
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_019",
+      "asset_id": "r4_01_shelter_line",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "ثم تجي المشكلة الأكبر: الأوراق الرسمية .",
+        "start": 102.0,
+        "end": 104.4
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_020",
+      "asset_id": "r4_02_under_bridge",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "يصير الوصول إلى وظيفة أو سكن أو مساعدات أصعب بكثير .",
+        "start": 106.02,
+        "end": 109.92
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_021",
+      "asset_id": "r4_03_sleeping_moon",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "تحتاج وقت، ورسوم، وإجراءات، وأحياناً عنوان .",
+        "start": 111.5,
+        "end": 114.44
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_022",
+      "asset_id": "r4_04_survival_loop",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "وأنت أصلاً ما عندك عنوان .",
+        "start": 114.44,
+        "end": 117.76
+      },
+      "importance": 0.8,
+      "action": "draw"
+    },
+    {
+      "id": "vb_023",
+      "asset_id": "r4_05_walk_sunrise",
+      "semantic_role": "subject",
+      "speech_anchor": {
+        "text": "ممكن تكون زيارتك للطوارئ هي الحل الوحيد، أو تنتظر عيادة مجانية ساعات .",
+        "start": 119.8,
+        "end": 126.26
+      },
+      "importance": 0.8,
+      "action": "draw"
+    }
+  ]
+}

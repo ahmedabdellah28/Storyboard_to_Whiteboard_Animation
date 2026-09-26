@@ -2,13 +2,78 @@
 __pycache__/
 *.py[codz]
 *$py.class
+*.pyd
 
-# Exclude all markdown files from git
+# Markdown files (allow README)
 *.md
 *.MD
+!README.md
 docs/
 
+# Heavy Media Files (Audio & Video)
+*.mp4
+*.MP4
+*.avi
+*.AVI
+*.mkv
+*.MKV
+*.webm
+*.WEBM
+*.mov
+*.MOV
+*.wav
+*.WAV
+*.mp3
+*.MP3
+*.m4a
+*.M4A
+*.flac
+*.FLAC
+*.ogg
+*.OGG
+*.aac
+*.AAC
+
+# Heavy Graphic & Image Assets
+*.png
+*.PNG
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+*.webp
+*.WEBP
+*.bmp
+*.BMP
+*.gif
+*.GIF
+*.ico
+*.ICO
+*.tif
+*.tiff
+# Keep essential UI assets
+!kivy/data/*.png
+!kivy/data/**/*.png
+
+# Executables, DLLs & Archives
+*.dll
+*.DLL
+*.exe
+*.EXE
+*.so
+*.dylib
+*.bin
+*.zip
+*.ZIP
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*.apk
+*.aab
+
 # Studio runtime and generated outputs
+output_animations/
 output_test_run/
 output_benchmark/
 output_engine_test/
@@ -16,10 +81,6 @@ save_videos/
 debug/
 bkp_recipes/
 video_snapshots/
-*.mp4
-*.avi
-*.mkv
-*.webm
 *.log
 .image_to_animation/
 kivy/settings.json
@@ -27,11 +88,31 @@ settings.json
 kivy/.license_key
 .license_key
 
+# Subsystem heavy artifacts & caches
+audio_chunks/
+step_inspection_images/
+scratch/
+test_images/
+project_content/audio/
+experiments/results/
+tools/*_output/
+tools/*_output*/
+tools/prototype_*/
+tools/spike_output*/
+tools/visual_experiment_results/
+sections/**/voice/
+sections/**/assets/
+sections/**/audio_chunks/
+sections/**/scratch/
+dubbing/**/source/
+dubbing/**/segments/
+dubbing/**/output/*.wav
+dubbing/**/output/*.mp3
+dubbing/**/test_clip_dubbing/
+tests/baseline_render_output.mp4
+
 # local files & folders
 .buildozer/
-*.apk
-*.aab
-*.exe
 
 # C extensions
 *.so

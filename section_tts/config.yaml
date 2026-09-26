@@ -1,0 +1,64 @@
+tts:
+  provider: gemini
+  model: gemini-2.5-flash-preview-tts
+  voice: Fenrir
+  sample_rate: 24000
+  temperature: 1.0
+
+voice_profile:
+  name: "Saudi Male Youth - Fast YouTube Explainer"
+  voice_name: "Fenrir"
+  gender: "male"
+  dialect: "Saudi Arabic (Neutral / White)"
+  target_wpm: 168.0
+  system_directive: |
+    VOICE PERFORMANCE PROFILE:
+    Young Saudi male narrator speaking in neutral, widely understandable Saudi Arabic.
+    Fast-paced, energetic and highly engaging YouTube documentary/explainer delivery.
+    Maintain high but controlled energy throughout the entire section.
+    Speak quickly while keeping every word clearly understandable.
+    Use natural pitch variation and subtle emphasis on important facts, discoveries, contrasts and surprising information.
+    Maintain a continuous forward-moving rhythm.
+    Use short natural pauses between ideas.
+    Use slightly longer pauses only when a major idea changes or emphasis is naturally required.
+    Avoid slow dramatic narration.
+    Avoid theatrical acting.
+    Avoid exaggerated emotions.
+    Avoid sleepy or relaxed delivery.
+    Do not rush pronunciation.
+    Do not sacrifice clarity for speed.
+    Maintain the same voice identity, dialect, energy, pacing philosophy and vocal character across every TTS chunk belonging to the same section.
+
+chunking:
+  max_words_per_chunk: 28
+  min_words_per_chunk: 6
+  respect_punctuation: true
+  respect_paragraphs: true
+
+stitching:
+  pause_between_chunks_ms: 80
+  micro_crossfade_ms: 8
+
+loudness:
+  enabled: true
+  target_rms: 0.15
+  max_peak: 0.95
+
+post_processing:
+  speed_adjustment:
+    enabled: false
+    min: 0.98
+    max: 1.08
+
+validation:
+  min_duration_per_chunk_sec: 0.8
+  min_wpm: 110.0
+  max_wpm: 230.0
+  max_silence_ratio: 0.35
+  max_peak_allowed: 1.0
+
+retry:
+  max_retries: 3
+  initial_delay_sec: 1.5
+  backoff_multiplier: 2.0
+  jitter: true

@@ -1,0 +1,236 @@
+{
+  "scale": 2.3,
+  "zoom": 0.58,
+  "world_half": 1655.1724137931035,
+  "elements": {
+    "1": [
+      {
+        "aid": "r1_01_dragon_fruit_white_flesh_hero",
+        "file": "r1_01_dragon_fruit_white_flesh_hero.png",
+        "x": 200.0,
+        "y": 352.0,
+        "w": 945,
+        "h": 896,
+        "cx": 672.5,
+        "cy": 800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r1_02_dragon_fruit_cactus_tree",
+        "file": "r1_02_dragon_fruit_cactus_tree.png",
+        "x": 1305.0,
+        "y": 368.0,
+        "w": 814,
+        "h": 864,
+        "cx": 1712.0,
+        "cy": 800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r1_03_blooming_night_flower_stem",
+        "file": "r1_03_blooming_night_flower_stem.png",
+        "x": 4600.0,
+        "y": 381.5,
+        "w": 607,
+        "h": 837,
+        "cx": 4903.5,
+        "cy": 800.0,
+        "zone": "B"
+      },
+      {
+        "aid": "r1_04_dragon_fruit_red_flesh_hero",
+        "file": "r1_04_dragon_fruit_red_flesh_hero.png",
+        "x": 5367.0,
+        "y": 410.5,
+        "w": 607,
+        "h": 779,
+        "cx": 5670.5,
+        "cy": 800.0,
+        "zone": "B"
+      }
+    ],
+    "2": [
+      {
+        "aid": "r2_01_world_migration_map",
+        "file": "r2_01_world_migration_map.png",
+        "x": 400.0,
+        "y": 2534.5,
+        "w": 901,
+        "h": 531,
+        "cx": 850.5,
+        "cy": 2800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r2_02_cactus_branch_harvest",
+        "file": "r2_02_cactus_branch_harvest.png",
+        "x": 4600.0,
+        "y": 2455.0,
+        "w": 715,
+        "h": 690,
+        "cx": 4957.5,
+        "cy": 2800.0,
+        "zone": "B"
+      }
+    ],
+    "3": [
+      {
+        "aid": "r3_01_vietnam_plantation_landscape",
+        "file": "r3_01_vietnam_plantation_landscape.png",
+        "x": 200.0,
+        "y": 4453.0,
+        "w": 1265,
+        "h": 694,
+        "cx": 832.5,
+        "cy": 4800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r3_02_three_varieties_lineup",
+        "file": "r3_02_three_varieties_lineup.png",
+        "x": 4600.0,
+        "y": 4487.5,
+        "w": 1058,
+        "h": 625,
+        "cx": 5129.0,
+        "cy": 4800.0,
+        "zone": "B"
+      }
+    ],
+    "4": [
+      {
+        "aid": "r4_01_nutritional_benefits_composition",
+        "file": "r4_01_nutritional_benefits_composition.png",
+        "x": 200.0,
+        "y": 6442.5,
+        "w": 1122,
+        "h": 715,
+        "cx": 761.0,
+        "cy": 6800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r4_05_dragon_fruit_slices_composition",
+        "file": "r4_05_dragon_fruit_slices_composition.png",
+        "x": 1462.0,
+        "y": 6457.5,
+        "w": 694,
+        "h": 685,
+        "cx": 1809.0,
+        "cy": 6800.0,
+        "zone": "A"
+      },
+      {
+        "aid": "r4_02_pitaya_smoothie_bowl",
+        "file": "r4_02_pitaya_smoothie_bowl.png",
+        "x": 4600.0,
+        "y": 6468.0,
+        "w": 738,
+        "h": 664,
+        "cx": 4969.0,
+        "cy": 6800.0,
+        "zone": "B"
+      },
+      {
+        "aid": "r4_03_smoothie_tall_glass_straw",
+        "file": "r4_03_smoothie_tall_glass_straw.png",
+        "x": 5458.0,
+        "y": 6476.0,
+        "w": 549,
+        "h": 648,
+        "cx": 5732.5,
+        "cy": 6800.0,
+        "zone": "B"
+      },
+      {
+        "aid": "r4_04_cubed_dragon_fruit_plate",
+        "file": "r4_04_cubed_dragon_fruit_plate.png",
+        "x": 6127.0,
+        "y": 6544.0,
+        "w": 809,
+        "h": 512,
+        "cx": 6531.5,
+        "cy": 6800.0,
+        "zone": "B"
+      }
+    ]
+  },
+  "zones": {
+    "1": {
+      "row_y": 800.0,
+      "zone_A": [
+        1159.5,
+        800.0
+      ],
+      "zone_B": [
+        5287.0,
+        800.0
+      ],
+      "za_span": [
+        200.0,
+        2119.0
+      ],
+      "zb_span": [
+        4600.0,
+        5974.0
+      ]
+    },
+    "2": {
+      "row_y": 2800.0,
+      "zone_A": [
+        850.5,
+        2800.0
+      ],
+      "zone_B": [
+        4957.5,
+        2800.0
+      ],
+      "za_span": [
+        400.0,
+        1301.0
+      ],
+      "zb_span": [
+        4600.0,
+        5315.0
+      ]
+    },
+    "3": {
+      "row_y": 4800.0,
+      "zone_A": [
+        832.5,
+        4800.0
+      ],
+      "zone_B": [
+        5129.0,
+        4800.0
+      ],
+      "za_span": [
+        200.0,
+        1465.0
+      ],
+      "zb_span": [
+        4600.0,
+        5658.0
+      ]
+    },
+    "4": {
+      "row_y": 6800.0,
+      "zone_A": [
+        1178.0,
+        6800.0
+      ],
+      "zone_B": [
+        5768.0,
+        6800.0
+      ],
+      "za_span": [
+        200.0,
+        2156.0
+      ],
+      "zb_span": [
+        4600.0,
+        6936.0
+      ]
+    }
+  }
+}

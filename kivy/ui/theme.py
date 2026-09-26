@@ -38,6 +38,29 @@ class Theme:
     CARD_SPACING = 8
     BORDER_RADIUS = 8
 
+    # ── Priority Color Palette ──
+    PRIORITY_COLORS = [
+        [1.0, 0.78, 0.0, 1.0],      # 1: Gold / Amber
+        [0.0, 0.85, 0.50, 1.0],     # 2: Emerald Green
+        [0.0, 0.75, 1.0, 1.0],      # 3: Cyan / Sky Blue
+        [0.65, 0.35, 1.0, 1.0],     # 4: Indigo / Violet
+        [1.0, 0.40, 0.55, 1.0],     # 5: Rose / Coral
+        [1.0, 0.55, 0.0, 1.0],      # 6: Vivid Orange
+        [0.30, 0.90, 0.90, 1.0],     # 7: Teal
+        [0.85, 0.30, 0.85, 1.0]      # 8: Magenta
+    ]
+
+    @classmethod
+    def get_priority_color(cls, priority_idx) -> list:
+        if priority_idx is None or str(priority_idx).strip() in ("", "0", "None"):
+            return [0.45, 0.48, 0.55, 0.8]  # Dim neutral gray for unassigned
+        try:
+            p_int = int(priority_idx)
+            idx = max(0, p_int - 1) % len(cls.PRIORITY_COLORS)
+            return cls.PRIORITY_COLORS[idx]
+        except Exception:
+            return [0.45, 0.48, 0.55, 0.8]
+
     # ── Hex shortcuts (for KivyMD color strings) ──
     HEX_ACCENT = "#7C4DFF"
     HEX_BG_ROOT = "#0E1015"
@@ -47,3 +70,4 @@ class Theme:
     HEX_CYAN = "#00E5FF"
     HEX_SUCCESS = "#00E676"
     HEX_DANGER = "#FF5252"
+

@@ -15,11 +15,13 @@ from engine.render.concentric_engine import (
     PEN_TIP_ANCHOR_X,
     PEN_TIP_ANCHOR_Y
 )
+from engine.render.deep_pipeline_engine import render_deep_storyboard_pipeline
 from engine.core.image_io import read_image_unicode
 from engine.video.encoder import VideoEncoder as DirectVideoWriter
 
 __all__ = [
     "render_concentric_orbital_whiteboard",
+    "render_deep_storyboard_pipeline",
     "build_gapless_orbital_path",
     "extract_storyboard_panels_and_entities",
     "merge_nearby_punctuation",

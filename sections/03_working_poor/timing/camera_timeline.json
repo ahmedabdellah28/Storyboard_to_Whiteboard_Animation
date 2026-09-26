@@ -1,0 +1,112 @@
+{
+  "camera": [
+    {
+      "id": "cam_001",
+      "type": "camera_pan",
+      "start_s": 1.41,
+      "end_s": 2.41,
+      "duration_s": 1.0,
+      "target_asset_id": "r0_00_title_banner",
+      "params": {
+        "to_zone": "zone_1A",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_002",
+      "type": "camera_pan",
+      "start_s": 19.476,
+      "end_s": 20.476,
+      "duration_s": 1.0,
+      "target_asset_id": "r1_04_coffee_meal_prep",
+      "params": {
+        "to_zone": "zone_1B",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_003",
+      "type": "camera_pan",
+      "start_s": 29.5,
+      "end_s": 30.5,
+      "duration_s": 1.0,
+      "target_asset_id": "r2_01_cashier_job",
+      "params": {
+        "to_zone": "zone_2A",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_004",
+      "type": "camera_pan",
+      "start_s": 41.79,
+      "end_s": 42.79,
+      "duration_s": 1.0,
+      "target_asset_id": "r2_05_shift_checklist",
+      "params": {
+        "to_zone": "zone_2B",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_005",
+      "type": "camera_pan",
+      "start_s": 50.87,
+      "end_s": 51.87,
+      "duration_s": 1.0,
+      "target_asset_id": "r3_01_doctor_visit",
+      "params": {
+        "to_zone": "zone_3A",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_006",
+      "type": "camera_pan",
+      "start_s": 69.37,
+      "end_s": 70.37,
+      "duration_s": 1.0,
+      "target_asset_id": "r3_04_loyalty_card",
+      "params": {
+        "to_zone": "zone_3B",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_007",
+      "type": "camera_pan",
+      "start_s": 79.26,
+      "end_s": 80.26,
+      "duration_s": 1.0,
+      "target_asset_id": "r4_01_cooking_dinner",
+      "params": {
+        "to_zone": "zone_4A",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_008",
+      "type": "camera_pan",
+      "start_s": 87.43,
+      "end_s": 88.43,
+      "duration_s": 1.0,
+      "target_asset_id": "r4_04_side_job_msg",
+      "params": {
+        "to_zone": "zone_4B",
+        "easing": "easeInOutCubic"
+      }
+    },
+    {
+      "id": "cam_009",
+      "type": "camera_zoom_wide",
+      "start_s": 91.009,
+      "end_s": 93.509,
+      "duration_s": 2.5,
+      "target_asset_id": null,
+      "params": {
+        "scale": 1.0,
+        "description": "Full scene canvas reveal"
+      }
+    }
+  ]
+}

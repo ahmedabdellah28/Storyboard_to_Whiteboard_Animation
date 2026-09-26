@@ -178,7 +178,8 @@ def build_gapless_orbital_path(
     ring_step: int = 5,
     sample_interval: float = 3.0,
     brush_radius: int = 8,
-    drawing_direction: str = "OUTSIDE_IN"
+    drawing_direction: str = "OUTSIDE_IN",
+    mask: np.ndarray = None
 ) -> List[List[Tuple[float, float]]]:
     """
     Generates contour-following drawing paths tracing the actual subject silhouette
@@ -188,10 +189,11 @@ def build_gapless_orbital_path(
     if h <= 2 or w <= 2:
         return []
 
-    gray = cv2.cvtColor(img_crop, cv2.COLOR_BGR2GRAY)
-    _, mask = cv2.threshold(gray, 240, 255, cv2.THRESH_BINARY_INV)
-    if cv2.countNonZero(mask) < 20:
-        mask = np.full((h, w), 255, dtype=np.uint8)
+    if mask is None:
+        gray = cv2.cvtColor(img_crop, cv2.COLOR_BGR2GRAY)
+        _, mask = cv2.threshold(gray, 240, 255, cv2.THRESH_BINARY_INV)
+        if cv2.countNonZero(mask) < 20:
+            mask = np.full((h, w), 255, dtype=np.uint8)
 
     step = max(2, int(ring_step))
     sample_interval = max(1.0, float(sample_interval))
@@ -260,10 +262,12 @@ def render_concentric_orbital_whiteboard(
     brush_radius: int = 8,
     sample_interval: float = 3.0,
     show_hand: bool = True,
-    hand_scale: float = 0.75,
+    hand_scale: float = 0.95,
     end_hold_seconds: float = 1.5,
     custom_objects: list = None,
-    progress_callback: Optional[Callable[[float, str], None]] = None
+    progress_callback: Optional[Callable[[float, str], None]] = None,
+    character_drawing_speed: Optional[float] = None,
+    text_drawing_speed: Optional[float] = None
 ) -> str:
     """
     Main 360° Concentric Gapless Orbital Whiteboard Rendering Engine.
@@ -281,9 +285,17 @@ def render_concentric_orbital_whiteboard(
 
     # Process custom objects or detect fallback panels
     if custom_objects and len(custom_objects) > 0:
-        active_objs = [o for o in custom_objects if getattr(o, "visibility", True)]
-        if not active_objs:
-            active_objs = custom_objects
+        visible_objs = [o for o in custom_objects if getattr(o, "visibility", True)]
+        if not visible_objs:
+            visible_objs = list(custom_objects)
+
+        active_objs = sorted(
+            visible_objs,
+            key=lambda x: (
+                0 if getattr(x, "priority_order", None) not in (None, 0) else 1,
+                int(getattr(x, "priority_order", 99999)) if getattr(x, "priority_order", None) not in (None, 0) else 99999
+            )
+        )
 
         panels_order = []
         panels_map = {}
@@ -296,7 +308,7 @@ def render_concentric_orbital_whiteboard(
 
         panel_data = []
         for p_idx, pid in enumerate(panels_order):
-            p_objs = panels_map[pid]
+            p_objs = sorted(panels_map[pid], key=lambda o: getattr(o, "priority_order", 1))
             all_bboxes = [getattr(o, "global_bbox", None) or getattr(o, "bbox", (0, 0, 0, 0)) for o in p_objs]
             min_gx = max(0, min(b[0] for b in all_bboxes))
             min_gy = max(0, min(b[1] for b in all_bboxes))
@@ -332,6 +344,7 @@ def render_concentric_orbital_whiteboard(
                     "center_x": rel_x + cw / 2.0,
                     "center_y": rel_y + ch / 2.0,
                     "area": cw * ch,
+                    "direction": getattr(obj, "direction", "RTL"),
                     "crop": c,
                     "mask": (cv2.cvtColor(c, cv2.COLOR_BGR2GRAY) < 235).astype(np.uint8) * 255
                 })
@@ -442,9 +455,14 @@ def render_concentric_orbital_whiteboard(
     current_cam_scale = full_cam_scale
 
     total_entities = len(entity_render_list)
-    pts_per_frame = max(4, int(round(20 * (drawing_speed / 1.0))))
+    char_speed = float(character_drawing_speed if character_drawing_speed is not None else drawing_speed)
+    text_speed = float(text_drawing_speed if text_drawing_speed is not None else drawing_speed)
 
     for i_ent, ent_info in enumerate(entity_render_list):
+        is_text = any(t in str(ent_info.get("type", "")).upper() for t in ("TEXT", "TITLE", "UNDERLINE"))
+        current_speed = text_speed if is_text else char_speed
+        pts_per_frame = max(4, int(round(20 * (current_speed / 1.0))))
+
         p_name = ent_info["panel_name"]
         e_idx = ent_info["entity_index"]
         total_e = ent_info["total_in_panel"]

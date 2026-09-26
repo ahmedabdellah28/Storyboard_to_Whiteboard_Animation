@@ -1,0 +1,41 @@
+{
+  "benchmark_matrix": {
+    "version": "Prototype 7.9 Research Matrix",
+    "eval_date": "2026-09-01",
+    "test_cases": [
+      {
+        "case_id": "CASE_01_MUSCLES_PANEL",
+        "image": "test_images/user_test_1_muscles.jpg",
+        "hypothesis": "Entire muscular character with multi-color shorts and background shadow constitutes 1 Whole Visual Subject + 1 Ground Context",
+        "verified_level": "LEVEL B -> LEVEL H",
+        "human_reading_truth": "Single muscular subject drawn from trunk to muscle definition to shadow",
+        "status": "VALIDATED"
+      },
+      {
+        "case_id": "CASE_02_STAKA_PANEL_04",
+        "image": "test_images/Staka_storyboard_in_four_panels_202608301648.jpeg",
+        "panel_index": 4,
+        "hypothesis": "Decouples into 5 independent visual subjects: Character A (Left), Character B (Right), Table Platform, Bottle 1 (Green), Bottle 2 (Gray)",
+        "verified_level": "LEVEL B -> LEVEL E",
+        "human_reading_truth": "Hand on table does NOT merge Table with Character A. Character A complete -> Character B complete -> Table -> Bottles",
+        "status": "VALIDATED"
+      },
+      {
+        "case_id": "CASE_03_CHARACTER_DETACHED_LIMBS",
+        "image": "test_images/Character_storyboard_in_four_poses_202608301656.jpeg",
+        "panel_index": 1,
+        "hypothesis": "Rayman-style detached limbs, multi-color hoodie, and boots are causally bound to single character body via axial continuity",
+        "verified_level": "LEVEL C -> LEVEL H",
+        "human_reading_truth": "Disconnection != Separate Entity; Eye strictly requires Head; Hand strictly requires Foundation",
+        "status": "VALIDATED"
+      },
+      {
+        "case_id": "CASE_04_HARD_OCCLUSION_BRIDGE",
+        "hypothesis": "When A1 < B < A2 occurs, B is drawn as a localized bridge and immediately returns to A2 without expanding into B's full body",
+        "verified_level": "LEVEL F -> LEVEL I",
+        "human_reading_truth": "Draw A1 -> Draw B_bridge -> Immediately Draw A2 -> Return to B remainder",
+        "status": "VALIDATED"
+      }
+    ]
+  }
+}

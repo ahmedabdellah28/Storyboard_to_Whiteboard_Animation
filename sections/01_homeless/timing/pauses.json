@@ -1,0 +1,25 @@
+{
+  "pauses": [
+    {
+      "id": "p001",
+      "start": 93.1,
+      "end": 93.36,
+      "duration": 0.26,
+      "type": "short_pause"
+    },
+    {
+      "id": "p002",
+      "start": 99.98,
+      "end": 100.44,
+      "duration": 0.46,
+      "type": "short_pause"
+    },
+    {
+      "id": "p003",
+      "start": 122.56,
+      "end": 122.96,
+      "duration": 0.4,
+      "type": "short_pause"
+    }
+  ]
+}

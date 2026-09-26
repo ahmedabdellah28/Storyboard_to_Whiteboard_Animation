@@ -40,7 +40,7 @@ class SceneScreen(MDScreen):
         # ═════════════════════════════════════════════════════════════════════
         #  1. Top Studio Header Bar
         # ═════════════════════════════════════════════════════════════════════
-        top_bar = MDBoxLayout(
+        self.top_bar = MDBoxLayout(
             orientation="horizontal",
             size_hint_y=None,
             height=dp(Theme.TOP_BAR_HEIGHT),
@@ -48,12 +48,12 @@ class SceneScreen(MDScreen):
             spacing=dp(8),
             md_bg_color=Theme.BG_PANEL
         )
-        with top_bar.canvas.before:
+        with self.top_bar.canvas.before:
             Color(rgba=Theme.BG_PANEL)
-            self._tb_bg = Rectangle(pos=top_bar.pos, size=top_bar.size)
+            self._tb_bg = Rectangle(pos=self.top_bar.pos, size=self.top_bar.size)
             Color(rgba=Theme.BORDER)
-            self._tb_border = Line(points=[top_bar.x, top_bar.y, top_bar.x + top_bar.width, top_bar.y], width=1.0)
-        top_bar.bind(pos=self._update_top_bar_bg, size=self._update_top_bar_bg)
+            self._tb_border = Rectangle(pos=(self.top_bar.x, self.top_bar.y), size=(self.top_bar.width, dp(1)))
+        self.top_bar.bind(pos=self._update_top_bar_bg, size=self._update_top_bar_bg)
 
         # Back Navigation
         back_btn = MDIconButton(
@@ -65,7 +65,7 @@ class SceneScreen(MDScreen):
             pos_hint={"center_y": 0.5},
             on_release=lambda x: self.app.go_home()
         )
-        top_bar.add_widget(back_btn)
+        self.top_bar.add_widget(back_btn)
 
         # Logo & App Title
         logo_path = os.path.join(os.path.dirname(__file__), "..", "..", "data", "images", "favicon.png")
@@ -77,7 +77,7 @@ class SceneScreen(MDScreen):
                 size=(dp(24), dp(24)),
                 pos_hint={"center_y": 0.5}
             )
-            top_bar.add_widget(logo_img)
+            self.top_bar.add_widget(logo_img)
 
         title = MDLabel(
             text="STORYBOARD STUDIO",
@@ -88,7 +88,7 @@ class SceneScreen(MDScreen):
             size_hint_x=None,
             width=dp(180)
         )
-        top_bar.add_widget(title)
+        self.top_bar.add_widget(title)
 
         # Artwork Filename info
         self.file_info_lbl = MDLabel(
@@ -99,7 +99,7 @@ class SceneScreen(MDScreen):
             adaptive_height=True,
             pos_hint={"center_y": 0.5}
         )
-        top_bar.add_widget(self.file_info_lbl)
+        self.top_bar.add_widget(self.file_info_lbl)
 
         # Undo & Redo buttons in center-left
         undo_btn = MDIconButton(
@@ -120,11 +120,11 @@ class SceneScreen(MDScreen):
             pos_hint={"center_y": 0.5},
             on_release=lambda x: self.app.redo()
         )
-        top_bar.add_widget(undo_btn)
-        top_bar.add_widget(redo_btn)
+        self.top_bar.add_widget(undo_btn)
+        self.top_bar.add_widget(redo_btn)
 
         # Spacer
-        top_bar.add_widget(Widget())
+        self.top_bar.add_widget(Widget())
 
         # Settings Dialog Button
         self.settings_btn = MDIconButton(
@@ -136,7 +136,22 @@ class SceneScreen(MDScreen):
             pos_hint={"center_y": 0.5},
             on_release=lambda x: self.open_settings()
         )
-        top_bar.add_widget(self.settings_btn)
+        self.top_bar.add_widget(self.settings_btn)
+
+        # Edit Grid / Panels Button
+        self.grid_btn = MDRoundFlatIconButton(
+            text="PANELS",
+            icon="grid-large",
+            theme_text_color="Custom",
+            text_color=Theme.HEX_CYAN,
+            theme_icon_color="Custom",
+            icon_color=Theme.HEX_CYAN,
+            line_color=Theme.BORDER,
+            font_size=sp(12),
+            pos_hint={"center_y": 0.5},
+            on_release=lambda x: self.app.go_to_grid_setup()
+        )
+        self.top_bar.add_widget(self.grid_btn)
 
         # Export Folder Button
         self.export_btn = MDRoundFlatIconButton(
@@ -151,7 +166,84 @@ class SceneScreen(MDScreen):
             pos_hint={"center_y": 0.5},
             on_release=lambda x: self.app.open_export_folder()
         )
-        top_bar.add_widget(self.export_btn)
+        self.top_bar.add_widget(self.export_btn)
+
+        # Quality / Resolution Tier Selector (720p Default vs 1080p Full HD vs 4K)
+        s_init = self.app.load_settings()
+        cur_w = int(s_init.get("width", 1280))
+        cur_h = int(s_init.get("height", 720))
+
+        if cur_w >= 3840 or cur_h >= 2160:
+            init_qual = "4K Cinema"
+        elif cur_w >= 1920 or cur_h >= 1080:
+            init_qual = "1080p FHD"
+        else:
+            init_qual = "720p HD"
+
+        if cur_h > cur_w * 1.15:
+            init_ratio = "9:16 (TikTok/Reels)"
+        elif 0.85 <= cur_w / float(cur_h) <= 1.15:
+            init_ratio = "1:1 (Instagram)"
+        elif cur_w == 1440 or cur_w == 960:
+            init_ratio = "4:3 (Classic)"
+        elif (cur_w == 1080 and cur_h == 1350) or (cur_w == 720 and cur_h == 900):
+            init_ratio = "4:5 (Feed)"
+        else:
+            init_ratio = "16:9 (YouTube)"
+
+        from kivy.uix.spinner import Spinner
+
+        # 1. Quality Spinner
+        self.quality_spinner = Spinner(
+            text=init_qual,
+            values=(
+                "720p HD",
+                "1080p FHD",
+                "4K Cinema"
+            ),
+            size_hint=(None, None),
+            size=(dp(105), dp(34)),
+            background_color=Theme.BG_CARD,
+            color=Theme.HEX_CYAN,
+            pos_hint={"center_y": 0.5}
+        )
+        self.quality_spinner.bind(text=self._on_quality_selected)
+        self.top_bar.add_widget(self.quality_spinner)
+
+        # 2. Aspect Ratio Preset Selector
+        self.ratio_spinner = Spinner(
+            text=init_ratio,
+            values=(
+                "16:9 (YouTube)",
+                "9:16 (TikTok/Reels)",
+                "1:1 (Instagram)",
+                "4:5 (Feed)",
+                "4:3 (Classic)"
+            ),
+            size_hint=(None, None),
+            size=(dp(155), dp(34)),
+            background_color=Theme.BG_CARD,
+            color=Theme.TEXT,
+            pos_hint={"center_y": 0.5}
+        )
+        self.ratio_spinner.bind(text=self._on_ratio_preset_selected)
+        self.top_bar.add_widget(self.ratio_spinner)
+
+        # Deep Mode Toggle Action Button
+        self.is_deep_active = bool(s_init.get("deep_mode", True))
+        self.deep_mode_btn = MDRoundFlatIconButton(
+            text=f"DEEP MODE: {'ON' if self.is_deep_active else 'OFF'}",
+            icon="creation" if self.is_deep_active else "creation-outline",
+            theme_text_color="Custom",
+            text_color=Theme.ACCENT_CYAN if self.is_deep_active else Theme.TEXT_SECONDARY,
+            theme_icon_color="Custom",
+            icon_color=Theme.ACCENT_CYAN if self.is_deep_active else Theme.TEXT_SECONDARY,
+            line_color=Theme.ACCENT_CYAN if self.is_deep_active else Theme.BORDER,
+            font_size=sp(12),
+            pos_hint={"center_y": 0.5},
+            on_release=lambda x: self._toggle_deep_mode()
+        )
+        self.top_bar.add_widget(self.deep_mode_btn)
 
         # Hero Action: ANIMATE ALL
         self.animate_all_btn = MDFillRoundFlatIconButton(
@@ -166,9 +258,9 @@ class SceneScreen(MDScreen):
             pos_hint={"center_y": 0.5},
             on_release=lambda x: self.app.animate_all_objects()
         )
-        top_bar.add_widget(self.animate_all_btn)
+        self.top_bar.add_widget(self.animate_all_btn)
 
-        root.add_widget(top_bar)
+        root.add_widget(self.top_bar)
 
         # ═════════════════════════════════════════════════════════════════════
         #  2. Middle 3-Column Studio Workspace (Layers + Canvas + Inspector)
@@ -210,7 +302,7 @@ class SceneScreen(MDScreen):
             Color(rgba=Theme.BG_PANEL)
             self._tp_bg = Rectangle(pos=self.transport_bar.pos, size=self.transport_bar.size)
             Color(rgba=Theme.BORDER)
-            self._tp_border = Line(points=[self.transport_bar.x, self.transport_bar.y + self.transport_bar.height, self.transport_bar.x + self.transport_bar.width, self.transport_bar.y + self.transport_bar.height], width=1.0)
+            self._tp_border = Rectangle(pos=(self.transport_bar.x, self.transport_bar.y + self.transport_bar.height - dp(1)), size=(self.transport_bar.width, dp(1)))
         self.transport_bar.bind(pos=self._update_tp_bg, size=self._update_tp_bg)
 
         # Play / Pause button
@@ -288,23 +380,28 @@ class SceneScreen(MDScreen):
         return sep
 
     def _update_top_bar_bg(self, *args):
-        self._tb_bg.pos = self.children[0].children[-1].pos
-        self._tb_bg.size = self.children[0].children[-1].size
-        self._tb_border.points = [self._tb_bg.pos[0], self._tb_bg.pos[1], self._tb_bg.pos[0] + self._tb_bg.size[0], self._tb_bg.pos[1]]
+        if hasattr(self, "top_bar") and hasattr(self, "_tb_bg"):
+            self._tb_bg.pos = self.top_bar.pos
+            self._tb_bg.size = self.top_bar.size
+            self._tb_border.pos = (self.top_bar.x, self.top_bar.y)
+            self._tb_border.size = (self.top_bar.width, dp(1))
 
     def _update_tp_bg(self, *args):
-        self._tp_bg.pos = self.transport_bar.pos
-        self._tp_bg.size = self.transport_bar.size
-        self._tp_border.points = [self.transport_bar.x, self.transport_bar.y + self.transport_bar.height, self.transport_bar.x + self.transport_bar.width, self.transport_bar.y + self.transport_bar.height]
+        if hasattr(self, "transport_bar") and hasattr(self, "_tp_bg"):
+            self._tp_bg.pos = self.transport_bar.pos
+            self._tp_bg.size = self.transport_bar.size
+            self._tp_border.pos = (self.transport_bar.x, self.transport_bar.y + self.transport_bar.height - dp(1))
+            self._tp_border.size = (self.transport_bar.width, dp(1))
 
     def load_project(self, image_path, project):
         """Called after image analysis completes."""
-        self.image_preview.set_image(image_path)
+        print("  [load_project] 1. Setting filename...", flush=True)
         base_name = os.path.basename(image_path)
         self.file_info_lbl.text = f"•  {base_name}"
 
         all_objects = []
         if project and project.scenes:
+            print(f"  [load_project] 2. Extracting objects from {len(project.scenes)} scenes...", flush=True)
             for scene in project.scenes:
                 for o in scene.objects:
                     if not o.is_frame:
@@ -313,14 +410,23 @@ class SceneScreen(MDScreen):
                         all_objects.append(o)
 
             structure_type = project.structure_type.value if project.structure_type else "SINGLE_SCENE"
+            print(f"  [load_project] 3. Populating object_list with {len(all_objects)} objects...", flush=True)
             self.object_list.populate(all_objects, self.app.state.source_image,
                                       structure_type=structure_type, project=project)
+            print("  [load_project] 3b. object_list populated successfully!", flush=True)
+
+        print("  [load_project] 4. Setting image_preview...", flush=True)
+        self.image_preview.set_image(image_path)
+        print("  [load_project] 4b. image_preview set successfully!", flush=True)
 
         # Wire active object sync and objects list sync between layers, inspector, and canvas
         self.app.state._on_active_object_changed = self._on_active_sync
         self.app.state._on_objects_changed = self._on_objects_sync
+        print("  [load_project] 5. Refreshing inspector...", flush=True)
         self.inspector_panel.refresh()
+        print("  [load_project] 6. Redrawing overlays...", flush=True)
         self.image_preview.redraw_overlays()
+        print("  [load_project] 7. load_project complete!", flush=True)
 
     def _on_active_sync(self, active_obj):
         # When selecting an object while video is playing/loaded, return to canvas edit mode
@@ -371,31 +477,191 @@ class SceneScreen(MDScreen):
         tot_sec = int(tot_f / fps)
         self.timecode_lbl.text = f"{cur_sec//60:02d}:{cur_sec%60:02d} / {tot_sec//60:02d}:{tot_sec%60:02d}"
 
+    def _on_quality_selected(self, spinner, text):
+        s = self.app.load_settings()
+        cur_ratio = self.ratio_spinner.text if hasattr(self, "ratio_spinner") else "16:9"
+
+        if "1080p" in text:
+            qual_label = "1080p Full HD"
+            if "9:16" in cur_ratio:
+                w, h = 1080, 1920
+            elif "1:1" in cur_ratio:
+                w, h = 1080, 1080
+            elif "4:5" in cur_ratio:
+                w, h = 1080, 1350
+            elif "4:3" in cur_ratio:
+                w, h = 1440, 1080
+            else: # 16:9
+                w, h = 1920, 1080
+        elif "4K" in text:
+            qual_label = "4K Cinema"
+            if "9:16" in cur_ratio:
+                w, h = 2160, 3840
+            elif "1:1" in cur_ratio:
+                w, h = 2160, 2160
+            elif "4:5" in cur_ratio:
+                w, h = 2160, 2700
+            elif "4:3" in cur_ratio:
+                w, h = 2880, 2160
+            else: # 16:9
+                w, h = 3840, 2160
+        else: # 720p HD Default
+            qual_label = "720p HD (Default)"
+            if "9:16" in cur_ratio:
+                w, h = 720, 1280
+            elif "1:1" in cur_ratio:
+                w, h = 720, 720
+            elif "4:5" in cur_ratio:
+                w, h = 720, 900
+            elif "4:3" in cur_ratio:
+                w, h = 960, 720
+            else: # 16:9
+                w, h = 1280, 720
+
+        s["width"] = w
+        s["height"] = h
+
+        if self.app.state.scene and self.app.state.scene.config:
+            self.app.state.scene.config.width = w
+            self.app.state.scene.config.height = h
+            self.app.save_settings(self.app.state.scene.config)
+        else:
+            cfg = SceneConfig(**{k: v for k, v in s.items() if hasattr(SceneConfig, k)})
+            cfg.width = w
+            cfg.height = h
+            self.app.save_settings(cfg)
+
+        self.app._show_toast(f"Video Quality: {qual_label} ({w}x{h})")
+
+    def _on_ratio_preset_selected(self, spinner, text):
+        s = self.app.load_settings()
+        qual_text = self.quality_spinner.text if hasattr(self, "quality_spinner") else "720p HD"
+        is_1080p = "1080p" in qual_text
+        is_4k = "4K" in qual_text
+
+        if is_4k:
+            if "9:16" in text:
+                w, h = 2160, 3840
+                label = "9:16 TikTok / Reels (2160x3840)"
+            elif "1:1" in text:
+                w, h = 2160, 2160
+                label = "1:1 Instagram Square (2160x2160)"
+            elif "4:5" in text:
+                w, h = 2160, 2700
+                label = "4:5 Portrait Feed (2160x2700)"
+            elif "4:3" in text:
+                w, h = 2880, 2160
+                label = "4:3 Classic (2880x2160)"
+            else:
+                w, h = 3840, 2160
+                label = "16:9 Cinema 4K (3840x2160)"
+        elif is_1080p:
+            if "9:16" in text:
+                w, h = 1080, 1920
+                label = "9:16 TikTok / Reels FHD (1080x1920)"
+            elif "1:1" in text:
+                w, h = 1080, 1080
+                label = "1:1 Instagram Square FHD (1080x1080)"
+            elif "4:5" in text:
+                w, h = 1080, 1350
+                label = "4:5 Portrait Feed FHD (1080x1350)"
+            elif "4:3" in text:
+                w, h = 1440, 1080
+                label = "4:3 Classic FHD (1440x1080)"
+            else:
+                w, h = 1920, 1080
+                label = "16:9 YouTube Full HD (1920x1080)"
+        else: # 720p HD Default
+            if "9:16" in text:
+                w, h = 720, 1280
+                label = "9:16 TikTok / Reels (720x1280)"
+            elif "1:1" in text:
+                w, h = 720, 720
+                label = "1:1 Instagram Square (720x720)"
+            elif "4:5" in text:
+                w, h = 720, 900
+                label = "4:5 Portrait Feed (720x900)"
+            elif "4:3" in text:
+                w, h = 960, 720
+                label = "4:3 Classic (960x720)"
+            else:
+                w, h = 1280, 720
+                label = "16:9 YouTube HD (1280x720)"
+
+        s["width"] = w
+        s["height"] = h
+
+        if self.app.state.scene and self.app.state.scene.config:
+            self.app.state.scene.config.width = w
+            self.app.state.scene.config.height = h
+            self.app.save_settings(self.app.state.scene.config)
+        else:
+            cfg = SceneConfig(**{k: v for k, v in s.items() if hasattr(SceneConfig, k)})
+            cfg.width = w
+            cfg.height = h
+            self.app.save_settings(cfg)
+
+        self.app._show_toast(f"Platform Aspect Ratio: {label}")
+
+    def _toggle_deep_mode(self):
+        s = self.app.load_settings()
+        cur = bool(s.get("deep_mode", True))
+        new_val = not cur
+        s["deep_mode"] = new_val
+
+        if self.app.state.scene and self.app.state.scene.config:
+            self.app.state.scene.config.deep_mode = new_val
+            self.app.save_settings(self.app.state.scene.config)
+        else:
+            cfg = SceneConfig(**{k: v for k, v in s.items() if hasattr(SceneConfig, k)})
+            cfg.deep_mode = new_val
+            self.app.save_settings(cfg)
+
+        self.is_deep_active = new_val
+        self._update_deep_mode_btn_ui()
+        status_str = "ENABLED (Dynamic 6-Stage Organic Pipeline)" if new_val else "DISABLED (Classic Orbital Engine)"
+        self.app._show_toast(f"Deep Mode {status_str}")
+
+    def _update_deep_mode_btn_ui(self):
+        self.deep_mode_btn.text = f"DEEP MODE: {'ON' if self.is_deep_active else 'OFF'}"
+        self.deep_mode_btn.icon = "creation" if self.is_deep_active else "creation-outline"
+        self.deep_mode_btn.text_color = Theme.ACCENT_CYAN if self.is_deep_active else Theme.TEXT_SECONDARY
+        self.deep_mode_btn.icon_color = Theme.ACCENT_CYAN if self.is_deep_active else Theme.TEXT_SECONDARY
+        self.deep_mode_btn.line_color = Theme.ACCENT_CYAN if self.is_deep_active else Theme.BORDER
+
     def open_settings(self):
         s = self.app.load_settings()
+        active_cfg = getattr(self.app.state.scene, "config", None) if self.app.state.scene else None
+
         cfg = SceneConfig(
-            width=int(s.get("width", 1920)),
-            height=int(s.get("height", 1080)),
-            fps=int(s.get("fps", 30)),
-            detail_level=s.get("detail_level", "HIGH"),
-            color_palette_size=max(8, int(s.get("color_palette_size", 28))),
-            drawing_speed=float(s.get("drawing_speed", 1.5)),
-            camera_zoom_scale=float(s.get("camera_zoom_scale", 2.0)),
-            transition_duration=float(s.get("transition_duration", 0.5)),
+            width=int(getattr(active_cfg, "width", s.get("width", 1920))),
+            height=int(getattr(active_cfg, "height", s.get("height", 1080))),
+            fps=int(getattr(active_cfg, "fps", s.get("fps", 30))),
+            detail_level=getattr(active_cfg, "detail_level", s.get("detail_level", "HIGH")),
+            color_palette_size=max(8, int(getattr(active_cfg, "color_palette_size", s.get("color_palette_size", 28)))),
+            drawing_speed=float(getattr(active_cfg, "drawing_speed", s.get("drawing_speed", 1.5))),
+            character_drawing_speed=float(getattr(active_cfg, "character_drawing_speed", s.get("character_drawing_speed", s.get("drawing_speed", 1.5)))),
+            text_drawing_speed=float(getattr(active_cfg, "text_drawing_speed", s.get("text_drawing_speed", s.get("drawing_speed", 1.5)))),
+            camera_zoom_scale=float(getattr(active_cfg, "camera_zoom_scale", s.get("camera_zoom_scale", 1.40))),
+            transition_duration=float(getattr(active_cfg, "transition_duration", s.get("transition_duration", 0.5))),
             min_region_area=24,
-            show_hand=bool(s.get("show_hand", True)),
-            hand_scale=float(s.get("hand_scale", 0.75)),
-            element_spacing=int(s.get("element_spacing", 24)),
-            drawing_direction=str(s.get("drawing_direction", "OUTSIDE_IN")),
-            ring_step=int(s.get("ring_step", 5)),
-            brush_radius=int(s.get("brush_radius", 8)),
-            sample_interval=float(s.get("sample_interval", 3.0)),
-            end_hold_seconds=float(s.get("end_hold_seconds", 1.5))
+            show_hand=bool(getattr(active_cfg, "show_hand", s.get("show_hand", True))),
+            hand_scale=float(getattr(active_cfg, "hand_scale", s.get("hand_scale", 0.75))),
+            element_spacing=int(getattr(active_cfg, "element_spacing", s.get("element_spacing", 24))),
+            drawing_direction=str(getattr(active_cfg, "drawing_direction", s.get("drawing_direction", "OUTSIDE_IN"))),
+            ring_step=int(getattr(active_cfg, "ring_step", s.get("ring_step", 5))),
+            brush_radius=int(getattr(active_cfg, "brush_radius", s.get("brush_radius", 8))),
+            sample_interval=float(getattr(active_cfg, "sample_interval", s.get("sample_interval", 3.0))),
+            end_hold_seconds=float(getattr(active_cfg, "end_hold_seconds", s.get("end_hold_seconds", 1.5))),
+            deep_mode=bool(getattr(active_cfg, "deep_mode", s.get("deep_mode", True))),
+            suppress_borders=bool(getattr(active_cfg, "suppress_borders", s.get("suppress_borders", True)))
         )
 
         def _on_save(updated_cfg):
             self.app.save_settings(updated_cfg)
-            self.app._show_toast("Settings saved successfully!")
+            self.is_deep_active = updated_cfg.deep_mode
+            self._update_deep_mode_btn_ui()
+            self.app._show_toast(f"Speed: Chars {updated_cfg.character_drawing_speed:g}x | Text {updated_cfg.text_drawing_speed:g}x")
 
         dialog = SettingsDialog(cfg, on_save_callback=_on_save)
         dialog.open()

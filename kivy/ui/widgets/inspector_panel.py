@@ -37,7 +37,7 @@ class InspectorPanel(MDBoxLayout):
             Color(rgba=Theme.BG_PANEL)
             self._bg_rect = Rectangle(pos=self.pos, size=self.size)
             Color(rgba=Theme.BORDER)
-            self._left_border = Line(points=[self.x, self.y, self.x, self.y + self.height], width=1.0)
+            self._left_border = Rectangle(pos=(self.x, self.y), size=(dp(1), self.height))
 
         self.bind(pos=self._update_bg, size=self._update_bg)
 
@@ -85,20 +85,57 @@ class InspectorPanel(MDBoxLayout):
     def _update_bg(self, *args):
         self._bg_rect.pos = self.pos
         self._bg_rect.size = self.size
-        self._left_border.points = [self.x, self.y, self.x, self.y + self.height]
+        self._left_border.pos = (self.x, self.y)
+        self._left_border.size = (dp(1), self.height)
 
     def _on_active_changed(self, active_obj):
         self.refresh()
 
     def refresh(self):
-        """Redraws the inspector content based on current active_object."""
-        self.content_box.clear_widgets()
+        """Redraws or in-place updates the inspector content based on current active_object."""
         active_obj = self.app.state.active_object if self.app and hasattr(self.app, "state") else None
+        active_id = active_obj.id if active_obj else None
+
+        # Check if in-place update is possible
+        if active_id and active_id == getattr(self, "_active_obj_id", None) and hasattr(self, "_pos_lbl"):
+            self._sync_active_state_in_place(active_obj)
+            return
+
+        self._active_obj_id = active_id
+        self.content_box.clear_widgets()
 
         if not active_obj:
             self._build_empty_state()
         else:
             self._build_active_state(active_obj)
+
+    def _sync_active_state_in_place(self, obj):
+        """Ultra-fast in-place synchronization of inspector fields."""
+        # 1. Update Name Input (if not actively being typed into)
+        if hasattr(self, "_name_input") and not self._name_input.focus:
+            name_txt = obj.name.replace("_", " ")
+            if self._name_input.text != name_txt:
+                self._name_input.text = name_txt
+
+        # 2. Update BBox Labels
+        bbox = obj.global_bbox or obj.bbox or (0, 0, 0, 0)
+        bx, by, bw, bh = bbox
+        if hasattr(self, "_pos_lbl"):
+            self._pos_lbl.text = f"X: {bx} px    Y: {by} px"
+        if hasattr(self, "_size_lbl"):
+            self._size_lbl.text = f"W: {bw} px    H: {bh} px"
+
+        # 3. Update Speed Button
+        if hasattr(self, "_spd_btn"):
+            cur_spd = getattr(obj, "speed_multiplier", 1.0)
+            self._spd_btn.text = f"{cur_spd:.1f}x"
+
+        # 4. Update Reorder Buttons
+        if hasattr(self, "_up_btn") and hasattr(self, "_down_btn"):
+            idx = self.app.state.get_object_index(obj.id)
+            total_objs = len(self.app.state.objects) if self.app and hasattr(self.app, "state") else 0
+            self._up_btn.disabled = (idx <= 0)
+            self._down_btn.disabled = (idx >= total_objs - 1)
 
     def _build_empty_state(self):
         """Empty state displayed when no object is selected."""
@@ -109,7 +146,7 @@ class InspectorPanel(MDBoxLayout):
             adaptive_height=True
         )
         icon = MDLabel(
-            text="[size=44]" + chr(0xF0552) + "[/size]",
+            text="[size=36]--[/size]",
             markup=True,
             font_style="H4",
             theme_text_color="Custom",
@@ -184,7 +221,7 @@ class InspectorPanel(MDBoxLayout):
             adaptive_height=True,
             bold=True
         )
-        name_input = TextInput(
+        self._name_input = TextInput(
             text=obj.name.replace("_", " "),
             multiline=False,
             size_hint_y=None,
@@ -195,9 +232,9 @@ class InspectorPanel(MDBoxLayout):
             font_size=sp(13),
             padding=[dp(8), dp(8), dp(8), dp(8)]
         )
-        name_input.bind(text=lambda w, txt: self.app.state.update_object_name(obj.id, txt, record_undo=False))
+        self._name_input.bind(text=lambda w, txt: self.app.state.update_object_name(obj.id, txt, record_undo=False))
         name_card.add_widget(name_lbl)
-        name_card.add_widget(name_input)
+        name_card.add_widget(self._name_input)
         self.content_box.add_widget(name_card)
 
         # 2. Position & Size (Bounding Box in Pixels)
@@ -227,25 +264,25 @@ class InspectorPanel(MDBoxLayout):
         trans_card.add_widget(trans_title)
 
         pos_row = MDBoxLayout(orientation="horizontal", spacing=dp(8), adaptive_height=True)
-        pos_lbl = MDLabel(
+        self._pos_lbl = MDLabel(
             text=f"X: {bx} px    Y: {by} px",
             font_style="Caption",
             theme_text_color="Custom",
             text_color=Theme.TEXT,
             adaptive_height=True
         )
-        pos_row.add_widget(pos_lbl)
+        pos_row.add_widget(self._pos_lbl)
         trans_card.add_widget(pos_row)
 
         size_row = MDBoxLayout(orientation="horizontal", spacing=dp(8), adaptive_height=True)
-        size_lbl = MDLabel(
+        self._size_lbl = MDLabel(
             text=f"W: {bw} px    H: {bh} px",
             font_style="Caption",
             theme_text_color="Custom",
             text_color=Theme.TEXT,
             adaptive_height=True
         )
-        size_row.add_widget(size_lbl)
+        size_row.add_widget(self._size_lbl)
         trans_card.add_widget(size_row)
 
         self.content_box.add_widget(trans_card)
@@ -283,7 +320,7 @@ class InspectorPanel(MDBoxLayout):
             text_color=Theme.TEXT_SECONDARY,
             size_hint_x=0.4
         )
-        spd_btn = MDFlatButton(
+        self._spd_btn = MDFlatButton(
             text=f"{cur_spd:.1f}x",
             theme_text_color="Custom",
             text_color=Theme.TEXT,
@@ -292,7 +329,7 @@ class InspectorPanel(MDBoxLayout):
             on_release=lambda x: self._open_speed_menu(x, obj)
         )
         spd_row.add_widget(spd_lbl)
-        spd_row.add_widget(spd_btn)
+        spd_row.add_widget(self._spd_btn)
         anim_card.add_widget(spd_row)
 
         self.content_box.add_widget(anim_card)
@@ -300,8 +337,9 @@ class InspectorPanel(MDBoxLayout):
         # 4. Order Buttons
         order_box = MDBoxLayout(orientation="horizontal", spacing=dp(8), adaptive_height=True)
         idx = self.app.state.get_object_index(obj.id)
+        total_objs = len(self.app.state.objects) if self.app and hasattr(self.app, "state") else 0
         
-        up_btn = MDRoundFlatIconButton(
+        self._up_btn = MDRoundFlatIconButton(
             text="UP",
             icon="arrow-up",
             theme_text_color="Custom",
@@ -312,7 +350,7 @@ class InspectorPanel(MDBoxLayout):
             disabled=(idx <= 0),
             on_release=lambda x: self._move_up(idx)
         )
-        down_btn = MDRoundFlatIconButton(
+        self._down_btn = MDRoundFlatIconButton(
             text="DOWN",
             icon="arrow-down",
             theme_text_color="Custom",
@@ -320,11 +358,11 @@ class InspectorPanel(MDBoxLayout):
             theme_icon_color="Custom",
             icon_color=Theme.HEX_TEXT,
             size_hint_x=0.5,
-            disabled=(idx >= len(self.app.state.objects) - 1),
+            disabled=(idx >= total_objs - 1),
             on_release=lambda x: self._move_down(idx)
         )
-        order_box.add_widget(up_btn)
-        order_box.add_widget(down_btn)
+        order_box.add_widget(self._up_btn)
+        order_box.add_widget(self._down_btn)
         self.content_box.add_widget(order_box)
 
         # 5. Action Buttons (Duplicate, Delete, Animate Single)

@@ -36,6 +36,10 @@ class ProjectState:
         # Unified Scene Objects Collection (Auto & Manual unified)
         self.objects: List[SceneObject] = []
         
+        # Panel View State
+        self.active_panel_id: int = 1
+        self.view_mode: str = "PANEL"          # "PANEL" (Single Panel Focus) or "FULL" (Whole Board)
+        
         # Unified Single Source of Truth for Active Selection
         self.active_object_id: Optional[str] = None
         
@@ -286,6 +290,91 @@ class ProjectState:
 
         self._notify_active_changed()
         self._notify_objects_changed()
+
+    def reorder_panel_object(self, panel_id: int, old_idx: int, new_idx: int, record_undo: bool = True):
+        """Reorder object within its panel and re-index consecutive priority orders."""
+        p_objs = [o for o in self.objects if getattr(o, "panel_id", 1) == panel_id]
+        if 0 <= old_idx < len(p_objs) and 0 <= new_idx < len(p_objs) and old_idx != new_idx:
+            moving_obj = p_objs.pop(old_idx)
+            p_objs.insert(new_idx, moving_obj)
+            for p_i, o in enumerate(p_objs):
+                o.priority_order = p_i + 1
+
+            new_all = []
+            p_iter = iter(p_objs)
+            for o in self.objects:
+                if getattr(o, "panel_id", 1) == panel_id:
+                    new_all.append(next(p_iter))
+                else:
+                    new_all.append(o)
+            self.objects = new_all
+            self._notify_objects_changed()
+            return moving_obj
+        return None
+
+    def clear_panel_priority(self, panel_id: int):
+        """Clear all priority assignments for a panel, leaving them unranked."""
+        p_objs = [o for o in self.objects if getattr(o, "panel_id", 1) == panel_id]
+        for o in p_objs:
+            o.priority_order = None
+        self._notify_objects_changed()
+
+    def reset_panel_priority_auto(self, panel_id: int):
+        """Reset panel priority back to consecutive 1..N order."""
+        p_objs = [o for o in self.objects if getattr(o, "panel_id", 1) == panel_id]
+        for idx, o in enumerate(p_objs):
+            o.priority_order = idx + 1
+        self._notify_objects_changed()
+
+    def toggle_panel_object_priority(self, panel_id: int, obj_id: str):
+        """
+        Sequential Ordering Mode:
+        - If object already has priority P: remove it (priority = None), and shift down all objects with priority > P.
+        - If object is unranked (priority is None or 0): assign next consecutive priority number.
+        - Keeps objects array sorted in the assigned priority order.
+        """
+        target_obj = self.get_object_by_id(obj_id)
+        if not target_obj:
+            return False, None
+
+        p_objs = [o for o in self.objects if getattr(o, "panel_id", 1) == panel_id]
+        cur_priority = getattr(target_obj, "priority_order", None)
+
+        if cur_priority is not None and isinstance(cur_priority, int) and cur_priority > 0:
+            # 1. Unassign target object
+            target_obj.priority_order = None
+            # Shift down higher priorities
+            for o in p_objs:
+                p_val = getattr(o, "priority_order", None)
+                if p_val is not None and isinstance(p_val, int) and p_val > cur_priority:
+                    o.priority_order = p_val - 1
+            is_assigned = False
+            res_num = None
+        else:
+            # 2. Assign next available sequence number
+            assigned = [getattr(o, "priority_order", 0) for o in p_objs if getattr(o, "priority_order", None) not in (None, 0)]
+            next_num = (max(assigned) + 1) if assigned else 1
+            target_obj.priority_order = next_num
+            is_assigned = True
+            res_num = next_num
+
+        # Sort panel objects: assigned (in order of priority_order) followed by unassigned
+        assigned_objs = sorted([o for o in p_objs if getattr(o, "priority_order", None) not in (None, 0)], key=lambda x: x.priority_order)
+        unassigned_objs = [o for o in p_objs if getattr(o, "priority_order", None) in (None, 0)]
+        sorted_panel_objs = assigned_objs + unassigned_objs
+
+        new_all = []
+        p_iter = iter(sorted_panel_objs)
+        for o in self.objects:
+            if getattr(o, "panel_id", 1) == panel_id:
+                new_all.append(next(p_iter))
+            else:
+                new_all.append(o)
+
+        self.objects = new_all
+        self.set_active_id(target_obj.id)
+        self._notify_objects_changed()
+        return is_assigned, res_num
 
     def update_object_name(self, obj_id: str, new_name: str, record_undo: bool = True):
         obj = self.get_object_by_id(obj_id)

@@ -2,6 +2,7 @@
 Comprehensive Animation & Export Settings Dialog
 Features full customizable control with editable inputs, clear English descriptions, and categories.
 """
+from typing import Any
 import json
 import os
 from kivy.uix.spinner import Spinner
@@ -70,6 +71,21 @@ class SettingRow(MDBoxLayout):
             self.add_widget(lbl_desc)
 
 
+def _clean_float(val: Any, default: float) -> float:
+    """Safely parse float values supporting Arabic-Indic digits, commas, and prefixes."""
+    if val is None:
+        return default
+    s = str(val).strip()
+    arabic_digits = "٠١٢٣٤٥٦٧٨٩"
+    for i, d in enumerate(arabic_digits):
+        s = s.replace(d, str(i))
+    s = s.replace(",", ".").replace("x", "").replace("X", "").strip()
+    try:
+        return float(s)
+    except (ValueError, TypeError):
+        return default
+
+
 def create_input_field(default_value: str, width_dp: int = 140) -> MDTextField:
     """Helper to create a sleek editable text field for numeric/text settings."""
     field = MDTextField(
@@ -106,8 +122,87 @@ class SettingsDialogContent(MDBoxLayout):
             padding=[dp(8), dp(4), dp(8), dp(8)]
         )
 
+        # ── 0. Deep Storyboard Engine (AI Organic) ──
+        self.inner_layout.add_widget(SectionHeader("0. Deep Storyboard Engine (AI Organic)"))
+
+        self.deep_mode_spinner = Spinner(
+            text="ON" if getattr(config, "deep_mode", True) else "OFF",
+            values=("ON", "OFF"),
+            size_hint=(None, None), size=(dp(120), dp(34)),
+            background_color=Theme.BG_CARD, color=Theme.TEXT
+        )
+        self.inner_layout.add_widget(SettingRow(
+            "Deep Mode (Dynamic Organic):",
+            "Enable 6-Stage Dynamic Organic Pipeline (Marker-controlled watershed decomposition, auto panel detection, and cinematic zoom).",
+            self.deep_mode_spinner
+        ))
+
+        self.suppress_borders_spinner = Spinner(
+            text="ON" if getattr(config, "suppress_borders", True) else "OFF",
+            values=("ON", "OFF"),
+            size_hint=(None, None), size=(dp(120), dp(34)),
+            background_color=Theme.BG_CARD, color=Theme.TEXT
+        )
+        self.inner_layout.add_widget(SettingRow(
+            "Suppress Panel Box Borders:",
+            "Automatically removes outer rectangular panel frames so the hand draws only characters and artwork.",
+            self.suppress_borders_spinner
+        ))
+
         # ── 1. Video & Canvas Output ──
         self.inner_layout.add_widget(SectionHeader("1. Video & Canvas Output"))
+
+        # Dedicated Quality / Resolution Tier Selector
+        cur_w_val = getattr(config, "width", 1280)
+        cur_h_val = getattr(config, "height", 720)
+        if cur_w_val >= 3840 or cur_h_val >= 2160:
+            init_quality = "4K Ultra HD (3840x2160)"
+        elif cur_w_val >= 1920 or cur_h_val >= 1080:
+            init_quality = "1080p Full HD (1920x1080)"
+        else:
+            init_quality = "720p HD (1280x720 - الافتراضية)"
+
+        self.quality_spinner = Spinner(
+            text=init_quality,
+            values=(
+                "720p HD (1280x720 - الافتراضية)",
+                "1080p Full HD (1920x1080 - جودة فائقة)",
+                "4K Ultra HD (3840x2160 - سينمائية)"
+            ),
+            size_hint=(None, None), size=(dp(240), dp(34)),
+            background_color=Theme.BG_CARD, color=Theme.HEX_CYAN
+        )
+        self.quality_spinner.bind(text=self._on_quality_selected)
+        self.inner_layout.add_widget(SettingRow(
+            "Video Quality / Resolution (جودة الفيديو):",
+            "Select default 720p HD for fast rendering, or upgrade to 1080p Full HD / 4K.",
+            self.quality_spinner
+        ))
+
+        self.platform_preset_spinner = Spinner(
+            text="Choose Platform Preset...",
+            values=(
+                "16:9 📺 YouTube HD (1280x720) [Default]",
+                "16:9 📺 YouTube Full HD (1920x1080)",
+                "9:16 📱 TikTok / Reels (720x1280)",
+                "9:16 📱 TikTok / Reels FHD (1080x1920)",
+                "1:1 ⏹️ Instagram Square (720x720)",
+                "1:1 ⏹️ Instagram Square FHD (1080x1080)",
+                "4:5 📸 Portrait Feed (720x900)",
+                "4:5 📸 Portrait Feed FHD (1080x1350)",
+                "4:3 🖥️ Tablet / Classic (960x720)",
+                "4:3 🖥️ Tablet / Classic FHD (1440x1080)",
+                "4K 🎬 Cinema Ultra HD (3840x2160)"
+            ),
+            size_hint=(None, None), size=(dp(240), dp(34)),
+            background_color=Theme.BG_CARD, color=Theme.ACCENT_CYAN
+        )
+        self.platform_preset_spinner.bind(text=self._on_preset_selected)
+        self.inner_layout.add_widget(SettingRow(
+            "Platform & Aspect Ratio Preset:",
+            "Quickly sets resolution to fit YouTube, TikTok, Instagram Reels, Feed, or 4K Cinema.",
+            self.platform_preset_spinner
+        ))
 
         self.width_field = create_input_field(str(config.width), 120)
         self.inner_layout.add_widget(SettingRow(
@@ -134,10 +229,28 @@ class SettingsDialogContent(MDBoxLayout):
         self.inner_layout.add_widget(SectionHeader("2. Drawing Engine & Speed"))
 
         self.speed_field = create_input_field(str(config.drawing_speed), 120)
+        self._syncing_speed = False
+        self.speed_field.bind(text=self._on_general_speed_changed)
         self.inner_layout.add_widget(SettingRow(
-            "Drawing Speed Multiplier:",
-            "Speed factor for marker strokes and pencil motion (e.g. 1.0, 1.5, 2.5, 5.0).",
+            "General Speed Multiplier",
+            "Master baseline speed factor for marker strokes and pencil motion (e.g. 1.0, 1.5, 2.5).",
             self.speed_field
+        ))
+
+        cur_char_spd = getattr(config, "character_drawing_speed", getattr(config, "drawing_speed", 1.5))
+        self.char_speed_field = create_input_field(str(cur_char_spd), 120)
+        self.inner_layout.add_widget(SettingRow(
+            "Character & Artwork Speed",
+            "Speed multiplier for characters, artwork, and concentric shading (e.g. 1.0 = slower/smooth, 1.5 = default, 2.5 = fast).",
+            self.char_speed_field
+        ))
+
+        cur_txt_spd = getattr(config, "text_drawing_speed", getattr(config, "drawing_speed", 1.5))
+        self.text_speed_field = create_input_field(str(cur_txt_spd), 120)
+        self.inner_layout.add_widget(SettingRow(
+            "Text & Typography Speed",
+            "Speed multiplier for handwriting Arabic/English text lines, titles, and underlines (e.g. 1.0 = steady writing, 1.5 = default, 2.5 = fast).",
+            self.text_speed_field
         ))
 
         cur_dir = getattr(config, "drawing_direction", "OUTSIDE_IN")
@@ -178,7 +291,7 @@ class SettingsDialogContent(MDBoxLayout):
         # ── 3. Virtual Camera & Zoom ──
         self.inner_layout.add_widget(SectionHeader("3. Virtual Camera & Zoom"))
 
-        self.zoom_field = create_input_field(str(getattr(config, "camera_zoom_scale", 2.0)), 120)
+        self.zoom_field = create_input_field(str(getattr(config, "camera_zoom_scale", 1.40)), 120)
         self.inner_layout.add_widget(SettingRow(
             "Camera Zoom Magnification:",
             "Close-up magnification factor when focusing on each character (1.0 = Full Overview, 2.0 = Normal Focus, 3.5 = Deep Close-up).",
@@ -214,10 +327,10 @@ class SettingsDialogContent(MDBoxLayout):
             self.hand_spinner
         ))
 
-        self.hand_scale_field = create_input_field(str(getattr(config, "hand_scale", 0.75)), 120)
+        self.hand_scale_field = create_input_field(str(getattr(config, "hand_scale", 0.95)), 120)
         self.inner_layout.add_widget(SettingRow(
             "Hand Size Scale Factor:",
-            "Scale multiplier for the hand sprite size (e.g. 0.5 for small, 0.75 for standard, 1.0 for large).",
+            "Scale multiplier for the hand sprite size (e.g. 0.7 for small, 0.95 for standard, 1.2 for large).",
             self.hand_scale_field
         ))
 
@@ -273,23 +386,129 @@ class SettingsDialogContent(MDBoxLayout):
         btn_bar.add_widget(self.save_btn)
         self.add_widget(btn_bar)
 
+    def _on_quality_selected(self, spinner, text):
+        if "1080p" in text:
+            # Scale active ratio to 1080p height (or 1080p width for vertical)
+            cur_w = int(self.width_field.text or "1280")
+            cur_h = int(self.height_field.text or "720")
+            if cur_h > cur_w: # Vertical e.g. 9:16
+                self.width_field.text = "1080"
+                self.height_field.text = "1920"
+            elif cur_w == cur_h: # Square 1:1
+                self.width_field.text = "1080"
+                self.height_field.text = "1080"
+            else: # Landscape 16:9
+                self.width_field.text = "1920"
+                self.height_field.text = "1080"
+        elif "4K" in text:
+            self.width_field.text = "3840"
+            self.height_field.text = "2160"
+        else: # 720p HD Default
+            cur_w = int(self.width_field.text or "1280")
+            cur_h = int(self.height_field.text or "720")
+            if cur_h > cur_w: # Vertical 9:16
+                self.width_field.text = "720"
+                self.height_field.text = "1280"
+            elif cur_w == cur_h: # Square 1:1
+                self.width_field.text = "720"
+                self.height_field.text = "720"
+            else: # 16:9
+                self.width_field.text = "1280"
+                self.height_field.text = "720"
+
+    def _on_preset_selected(self, spinner, text):
+        if "16:9" in text:
+            if "Full HD" in text or "1920" in text:
+                self.width_field.text = "1920"
+                self.height_field.text = "1080"
+                self.quality_spinner.text = "1080p Full HD (1920x1080 "
+            else:
+                self.width_field.text = "1280"
+                self.height_field.text = "720"
+                self.quality_spinner.text = "720p HD (1280x720 )"
+        elif "9:16" in text:
+            if "FHD" in text or "1080" in text:
+                self.width_field.text = "1080"
+                self.height_field.text = "1920"
+                self.quality_spinner.text = "1080p Full HD (1920x1080 "
+            else:
+                self.width_field.text = "720"
+                self.height_field.text = "1280"
+                self.quality_spinner.text = "720p HD (1280x720 )"
+        elif "1:1" in text:
+            if "FHD" in text or "1080" in text:
+                self.width_field.text = "1080"
+                self.height_field.text = "1080"
+                self.quality_spinner.text = "1080p Full HD (1920x1080 "
+            else:
+                self.width_field.text = "720"
+                self.height_field.text = "720"
+                self.quality_spinner.text = "720p HD (1280x720 )"
+        elif "4:5" in text:
+            if "FHD" in text or "1350" in text:
+                self.width_field.text = "1080"
+                self.height_field.text = "1350"
+                self.quality_spinner.text = "1080p Full HD (1920x1080 "
+            else:
+                self.width_field.text = "720"
+                self.height_field.text = "900"
+                self.quality_spinner.text = "720p HD (1280x720 )"
+        elif "4:3" in text:
+            if "FHD" in text or "1440" in text:
+                self.width_field.text = "1440"
+                self.height_field.text = "1080"
+                self.quality_spinner.text = "1080p Full HD (1920x1080 "
+            else:
+                self.width_field.text = "960"
+                self.height_field.text = "720"
+                self.quality_spinner.text = "720p HD (1280x720 )"
+        elif "4K" in text:
+            self.width_field.text = "3840"
+            self.height_field.text = "2160"
+            self.quality_spinner.text = "4K Ultra HD (3840x2160 )"
+
+    def _on_general_speed_changed(self, instance, text):
+        """Automatically synchronizes character and text speed fields with general speed when general speed is updated."""
+        if getattr(self, "_syncing_speed", False):
+            return
+        val = _clean_float(text, None)
+        if val is not None and 0.1 <= val <= 20.0:
+            self._syncing_speed = True
+            try:
+                self.char_speed_field.text = f"{val:g}"
+                self.text_speed_field.text = f"{val:g}"
+            finally:
+                self._syncing_speed = False
+
     def reset_defaults(self):
         """Reset all input fields to recommended defaults."""
-        self.width_field.text = "1920"
-        self.height_field.text = "1080"
-        self.fps_field.text = "30"
-        self.speed_field.text = "1.5"
-        self.dir_spinner.text = "Outside -> In"
-        self.ring_step_field.text = "5"
-        self.brush_radius_field.text = "8"
-        self.sample_interval_field.text = "3.0"
-        self.zoom_field.text = "2.0"
-        self.transition_field.text = "0.5"
-        self.end_hold_field.text = "1.5"
-        self.hand_spinner.text = "ON"
-        self.hand_scale_field.text = "0.75"
-        self.spacing_field.text = "24"
-        self.color_palette_field.text = "28"
+        self._syncing_speed = True
+        try:
+            self.quality_spinner.text = "720p HD (1280x720 )"
+            self.platform_preset_spinner.text = "Choose Platform Preset..."
+            self.deep_mode_spinner.text = "ON"
+            self.suppress_borders_spinner.text = "ON"
+            self.width_field.text = "1280"
+            self.height_field.text = "720"
+            self.fps_field.text = "30"
+            self.speed_field.text = "1.5"
+            self.char_speed_field.text = "1.5"
+            self.text_speed_field.text = "1.5"
+            self.dir_spinner.text = "Outside -> In"
+            self.ring_step_field.text = "5"
+            self.brush_radius_field.text = "8"
+            self.sample_interval_field.text = "3.0"
+            self.zoom_field.text = "2.10"
+            self.transition_field.text = "0.5"
+            self.end_hold_seconds_field = getattr(self, "end_hold_field", None)
+            if self.end_hold_seconds_field:
+                self.end_hold_seconds_field.text = "1.5"
+            self.hand_spinner.text = "ON"
+            self.hand_scale_field.text = "0.95"
+            self.spacing_field.text = "24"
+            self.color_palette_field.text = "28"
+        finally:
+            self._syncing_speed = False
 
 
 class SettingsDialog:
@@ -322,33 +541,43 @@ class SettingsDialog:
     def save(self, *args):
         c = self.content.config
         try:
+            # Parse Deep Mode
+            c.deep_mode = (self.content.deep_mode_spinner.text.strip() == "ON")
+            c.suppress_borders = (self.content.suppress_borders_spinner.text.strip() == "ON")
             # Parse Resolution
-            c.width = max(320, int(float(self.content.width_field.text.strip())))
-            c.height = max(240, int(float(self.content.height_field.text.strip())))
+            c.width = max(320, int(_clean_float(self.content.width_field.text, c.width)))
+            c.height = max(240, int(_clean_float(self.content.height_field.text, c.height)))
             # Parse FPS
-            c.fps = max(1, min(120, int(float(self.content.fps_field.text.strip()))))
-            # Parse Speed
-            c.drawing_speed = max(0.1, min(20.0, float(self.content.speed_field.text.strip())))
+            c.fps = max(1, min(120, int(_clean_float(self.content.fps_field.text, c.fps))))
+            # Parse Speed with robust fallback
+            gen_spd = max(0.1, min(20.0, _clean_float(self.content.speed_field.text, c.drawing_speed)))
+            char_spd = max(0.1, min(20.0, _clean_float(self.content.char_speed_field.text, gen_spd)))
+            txt_spd = max(0.1, min(20.0, _clean_float(self.content.text_speed_field.text, gen_spd)))
+
+            c.drawing_speed = gen_spd
+            c.character_drawing_speed = char_spd
+            c.text_drawing_speed = txt_spd
+
             # Parse Direction
             dir_val = self.content.dir_spinner.text.strip()
             c.drawing_direction = "INSIDE_OUT" if "Inside" in dir_val else "OUTSIDE_IN"
             # Parse Ring Step
-            c.ring_step = max(1, min(50, int(float(self.content.ring_step_field.text.strip()))))
+            c.ring_step = max(1, min(50, int(_clean_float(self.content.ring_step_field.text, c.ring_step))))
             # Parse Brush Radius
-            c.brush_radius = max(2, min(50, int(float(self.content.brush_radius_field.text.strip()))))
+            c.brush_radius = max(2, min(50, int(_clean_float(self.content.brush_radius_field.text, c.brush_radius))))
             # Parse Sampling
-            c.sample_interval = max(1.0, min(20.0, float(self.content.sample_interval_field.text.strip())))
+            c.sample_interval = max(1.0, min(20.0, _clean_float(self.content.sample_interval_field.text, c.sample_interval)))
             # Parse Zoom
-            c.camera_zoom_scale = max(1.0, min(5.0, float(self.content.zoom_field.text.strip())))
+            c.camera_zoom_scale = max(1.0, min(5.0, _clean_float(self.content.zoom_field.text, c.camera_zoom_scale)))
             # Parse Transitions
-            c.transition_duration = max(0.0, min(10.0, float(self.content.transition_field.text.strip())))
-            c.end_hold_seconds = max(0.0, min(10.0, float(self.content.end_hold_field.text.strip())))
+            c.transition_duration = max(0.0, min(10.0, _clean_float(self.content.transition_field.text, c.transition_duration)))
+            c.end_hold_seconds = max(0.0, min(10.0, _clean_float(self.content.end_hold_field.text, c.end_hold_seconds)))
             # Parse Hand
             c.show_hand = (self.content.hand_spinner.text.strip() == "ON")
-            c.hand_scale = max(0.2, min(3.0, float(self.content.hand_scale_field.text.strip())))
+            c.hand_scale = max(0.2, min(3.0, _clean_float(self.content.hand_scale_field.text, c.hand_scale)))
             # Parse Spacing & Palette
-            c.element_spacing = max(0, min(200, int(float(self.content.spacing_field.text.strip()))))
-            c.color_palette_size = max(8, min(256, int(float(self.content.color_palette_field.text.strip()))))
+            c.element_spacing = max(0, min(200, int(_clean_float(self.content.spacing_field.text, c.element_spacing))))
+            c.color_palette_size = max(8, min(256, int(_clean_float(self.content.color_palette_field.text, c.color_palette_size))))
         except Exception as e:
             print(f"[SettingsDialog] Parse error: {e}")
 

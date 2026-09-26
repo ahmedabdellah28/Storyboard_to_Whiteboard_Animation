@@ -1,0 +1,214 @@
+{
+  "semantic_beats": [
+    {
+      "id": "sb_001",
+      "sentence_id": null,
+      "subject": "r0_00_title_banner",
+      "action": "reveal",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "الفقر المتقع .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_002",
+      "sentence_id": null,
+      "subject": "r1_01_waking_up",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "هنا عندك سقف، لكنه بالكاد يعتبر أمان .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_003",
+      "sentence_id": null,
+      "subject": "r1_02_crowded_room",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "مرتبة على الأرض .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_004",
+      "sentence_id": null,
+      "subject": "r1_03_broken_ac",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "أول شيء تشيك على جوالك مسبق الدفع: هل الخدمة لسه شغالة ؟",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_005",
+      "sentence_id": null,
+      "subject": "r1_04_prepaid_phone",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "وتبدأ تخطط يومك حول الفلوس .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_006",
+      "sentence_id": null,
+      "subject": "r1_05_counting_tickets",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "شوفان .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_007",
+      "sentence_id": null,
+      "subject": "r2_01_basic_breakfast",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "توست .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_008",
+      "sentence_id": null,
+      "subject": "r2_02_shopping_coupons",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "تستخدم كوبونات، وبطاقات التموين، ومواعيد الجمعيات الخيرية .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_009",
+      "sentence_id": null,
+      "subject": "r2_03_kids_snacks",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "وإذا عندك أطفال، ممكن يعتمد جزء من أكلهم على وجبات المدرسة، وأنت تجهز لهم سناك من البيت لأن كل ريال يفرق .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_010",
+      "sentence_id": null,
+      "subject": "r2_04_waiting_bus",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "تنتظر باص يتأخر، أو تسوق سيارة متهالكة ولمبة المكينة فيها شغالة وأنت تقول: بعدين أصلحها .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_011",
+      "sentence_id": null,
+      "subject": "r2_05_broken_car",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "يوم يطلبونك، ويوم ما يطلبونك .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_012",
+      "sentence_id": null,
+      "subject": "r3_01_work_schedule",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "ولهذا تقول نعم لأي شفت إضافي أو شغل يومي تقدر عليه .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_013",
+      "sentence_id": null,
+      "subject": "r3_02_overtime_work",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "الإكراميات والأوفر تايم هنا مو رفاهية .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_014",
+      "sentence_id": null,
+      "subject": "r3_03_overdue_bills",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "الفواتير نفسها صارت لغز تحله كل شهر .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_015",
+      "sentence_id": null,
+      "subject": "r3_04_money_transfer",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "الكهرباء متأخرة .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_016",
+      "sentence_id": null,
+      "subject": "r3_05_clinic_wait",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "تختار أي غرامة توجع أقل .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_017",
+      "sentence_id": null,
+      "subject": "r4_01_laundry_mat",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "تشتري حوالة مالية لأنك تبي تتجنب رسوم البنك .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_018",
+      "sentence_id": null,
+      "subject": "r4_02_diy_repair",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "الصحة ؟",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_019",
+      "sentence_id": null,
+      "subject": "r4_03_stretching_resources",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "أو طوارئ لما الألم يصير أقوى من الانتظار .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_020",
+      "sentence_id": null,
+      "subject": "r4_04_night_planning",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "حتى إصلاح الأسنان يتأجل لأن عندك أشياء أهم .",
+      "importance": 0.8
+    },
+    {
+      "id": "sb_021",
+      "sentence_id": null,
+      "subject": "r4_05_sleeping_night",
+      "action": "draw",
+      "relation": null,
+      "objects": [],
+      "anchor_text": "فتجمعه مع مشوار المرسلة، وتستفيد من الواي فاي المجاني عشان تدور وظائف .",
+      "importance": 0.8
+    }
+  ]
+}

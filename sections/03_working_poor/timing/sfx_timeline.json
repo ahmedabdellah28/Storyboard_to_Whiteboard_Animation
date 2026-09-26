@@ -1,0 +1,156 @@
+{
+  "sfx": [
+    {
+      "id": "sfx_001",
+      "type": "pop",
+      "start_s": 1.66,
+      "end_s": 2.06,
+      "duration_s": 0.4,
+      "anchor_asset_id": "r0_00_title_banner"
+    },
+    {
+      "id": "sfx_002",
+      "type": "marker_draw",
+      "start_s": 4.6,
+      "end_s": 5.35,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r1_01_alarm_wake"
+    },
+    {
+      "id": "sfx_003",
+      "type": "marker_draw",
+      "start_s": 9.1,
+      "end_s": 9.85,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r1_02_small_apartment"
+    },
+    {
+      "id": "sfx_004",
+      "type": "marker_draw",
+      "start_s": 17.78,
+      "end_s": 18.53,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r1_03_check_bank_app"
+    },
+    {
+      "id": "sfx_005",
+      "type": "marker_draw",
+      "start_s": 22.35,
+      "end_s": 23.1,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r1_05_bus_commute"
+    },
+    {
+      "id": "sfx_006",
+      "type": "marker_draw",
+      "start_s": 27.38,
+      "end_s": 28.13,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r1_06_old_car_fuel"
+    },
+    {
+      "id": "sfx_007",
+      "type": "marker_draw",
+      "start_s": 32.78,
+      "end_s": 33.53,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r2_02_warehouse_job"
+    },
+    {
+      "id": "sfx_008",
+      "type": "marker_draw",
+      "start_s": 36.9,
+      "end_s": 37.65,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r2_03_restaurant_job"
+    },
+    {
+      "id": "sfx_009",
+      "type": "marker_draw",
+      "start_s": 39.87,
+      "end_s": 40.62,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r2_04_caregiver_job"
+    },
+    {
+      "id": "sfx_010",
+      "type": "marker_draw",
+      "start_s": 47.328,
+      "end_s": 48.078,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r2_06_eating_lunchbox"
+    },
+    {
+      "id": "sfx_011",
+      "type": "marker_draw",
+      "start_s": 51.12,
+      "end_s": 51.87,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r3_01_doctor_visit"
+    },
+    {
+      "id": "sfx_012",
+      "type": "marker_draw",
+      "start_s": 59.76,
+      "end_s": 60.51,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r3_02_family_thinking"
+    },
+    {
+      "id": "sfx_013",
+      "type": "marker_draw",
+      "start_s": 62.32,
+      "end_s": 63.07,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r3_03_shopping_discounts"
+    },
+    {
+      "id": "sfx_014",
+      "type": "marker_draw",
+      "start_s": 69.62,
+      "end_s": 70.37,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r3_04_loyalty_card"
+    },
+    {
+      "id": "sfx_015",
+      "type": "marker_draw",
+      "start_s": 72.464,
+      "end_s": 73.214,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r3_05_utility_bills"
+    },
+    {
+      "id": "sfx_016",
+      "type": "marker_draw",
+      "start_s": 77.486,
+      "end_s": 78.236,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r3_06_savings_jar"
+    },
+    {
+      "id": "sfx_017",
+      "type": "marker_draw",
+      "start_s": 81.66,
+      "end_s": 82.41,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r4_02_laundry_hanging"
+    },
+    {
+      "id": "sfx_018",
+      "type": "marker_draw",
+      "start_s": 85.406,
+      "end_s": 86.156,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r4_03_mail_notices"
+    },
+    {
+      "id": "sfx_019",
+      "type": "marker_draw",
+      "start_s": 89.626,
+      "end_s": 90.376,
+      "duration_s": 0.75,
+      "anchor_asset_id": "r4_05_online_course"
+    }
+  ]
+}

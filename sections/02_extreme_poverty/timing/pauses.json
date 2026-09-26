@@ -1,0 +1,39 @@
+{
+  "pauses": [
+    {
+      "id": "p001",
+      "start": 49.36,
+      "end": 49.92,
+      "duration": 0.56,
+      "type": "medium_pause"
+    },
+    {
+      "id": "p002",
+      "start": 58.08,
+      "end": 58.68,
+      "duration": 0.6,
+      "type": "medium_pause"
+    },
+    {
+      "id": "p003",
+      "start": 77.16,
+      "end": 77.7,
+      "duration": 0.54,
+      "type": "medium_pause"
+    },
+    {
+      "id": "p004",
+      "start": 85.62,
+      "end": 86.18,
+      "duration": 0.56,
+      "type": "medium_pause"
+    },
+    {
+      "id": "p005",
+      "start": 96.04,
+      "end": 96.57,
+      "duration": 0.53,
+      "type": "medium_pause"
+    }
+  ]
+}
