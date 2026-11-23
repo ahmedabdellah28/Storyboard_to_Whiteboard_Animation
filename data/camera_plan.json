@@ -1,0 +1,100 @@
+[
+  {
+    "shot_id": "shot_001",
+    "beat_id": "beat_001",
+    "action": "hold",
+    "start": 0.0,
+    "end": 5.84,
+    "focal_point": [
+      0.5,
+      0.5
+    ],
+    "zoom": 1.0,
+    "easing": "smootherstep",
+    "reason": "Establish protagonist coffee dilemma"
+  },
+  {
+    "shot_id": "shot_002",
+    "beat_id": "beat_003",
+    "action": "subtle_push",
+    "start": 5.84,
+    "end": 10.46,
+    "focal_point": [
+      0.5,
+      0.5
+    ],
+    "zoom": 1.12,
+    "easing": "smootherstep",
+    "reason": "Push in as social anxiety and perceived scrutiny intensify"
+  },
+  {
+    "shot_id": "shot_003",
+    "beat_id": "beat_006",
+    "action": "lateral_reframe",
+    "start": 10.46,
+    "end": 19.5,
+    "focal_point": [
+      0.45,
+      0.48
+    ],
+    "zoom": 1.08,
+    "easing": "smootherstep",
+    "reason": "Frame the illuminated brain model with protagonist ego bubble"
+  },
+  {
+    "shot_id": "shot_004",
+    "beat_id": "beat_009",
+    "action": "punch_in",
+    "start": 19.5,
+    "end": 21.72,
+    "focal_point": [
+      0.5,
+      0.52
+    ],
+    "zoom": 1.22,
+    "easing": "smootherstep",
+    "reason": "Dramatic punch onto stage spotlight beam illuminating hero"
+  },
+  {
+    "shot_id": "shot_005",
+    "beat_id": "beat_010",
+    "action": "pull_back",
+    "start": 21.72,
+    "end": 24.94,
+    "focal_point": [
+      0.5,
+      0.52
+    ],
+    "zoom": 0.95,
+    "easing": "smootherstep",
+    "reason": "Pull back to reveal public completely oblivious to protagonist"
+  },
+  {
+    "shot_id": "shot_006",
+    "beat_id": "beat_012",
+    "action": "hold",
+    "start": 24.94,
+    "end": 33.88,
+    "focal_point": [
+      0.5,
+      0.48
+    ],
+    "zoom": 1.02,
+    "easing": "smootherstep",
+    "reason": "Stable view of bystanders each trapped in their own spotlight"
+  },
+  {
+    "shot_id": "shot_007",
+    "beat_id": "beat_016",
+    "action": "subtle_push",
+    "start": 33.88,
+    "end": 45.486,
+    "focal_point": [
+      0.5,
+      0.5
+    ],
+    "zoom": 1.15,
+    "easing": "smootherstep",
+    "reason": "Gentle push to central liberating takeaway holding through audio tail"
+  }
+]

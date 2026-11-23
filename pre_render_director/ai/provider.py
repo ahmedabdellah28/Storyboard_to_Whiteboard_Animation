@@ -13,31 +13,9 @@ from .prompt_builder import DirectorPromptBuilder
 from .structured_output import parse_director_response
 
 def get_gemini_api_keys() -> List[str]:
-    """Extracts valid Gemini API keys from environment or .env file."""
-    keys: List[str] = []
-    # Direct env vars
-    for var in ["GEMINI_API_KEY", "GEMINI_API_KEY2", "GEMINI_API_KEY3"]:
-        val = os.getenv(var, "").strip()
-        if val and val not in keys:
-            keys.append(val)
-
-    # Check local .env file
-    env_file = Path("e:/image_to_animate/.env")
-    if env_file.exists():
-        try:
-            for line in env_file.read_text(encoding="utf-8").splitlines():
-                line = line.strip()
-                if line.startswith("#") or not line:
-                    continue
-                if "=" in line:
-                    k, v = line.split("=", 1)
-                    k = k.strip()
-                    v = v.strip().strip("'\"")
-                    if k.startswith("GEMINI_API_KEY") and v and v not in keys:
-                        keys.append(v)
-        except Exception:
-            pass
-    return keys
+    """Extracts valid Gemini API keys via unified core.config.env_loader."""
+    from core.config.env_loader import get_gemini_api_keys as _get_keys
+    return _get_keys()
 
 class AIProvider(ABC):
     """Abstract base class for visual director AI reasoning."""

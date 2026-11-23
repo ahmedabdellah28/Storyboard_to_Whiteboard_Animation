@@ -75,26 +75,15 @@ class GeminiTTSProvider(TTSProvider):
         self.model = model
         self.profile = profile
         self.director_note = director_note
-        self._api_keys: list[str] = []
+        from core.config.env_loader import get_gemini_api_keys
 
+        self._api_keys: list[str] = []
         if api_key:
             self._api_keys.append(api_key.strip())
 
-        for env_var in ["GEMINI_API_KEY", "GEMINI_API_KEY2", "GEMINI_API_KEY3"]:
-            val = os.environ.get(env_var)
-            if val and val.strip() not in self._api_keys:
-                self._api_keys.append(val.strip())
-
-        # Workspace .env
-        env_path = os.path.join(os.path.dirname(__file__), "..", "..", ".env")
-        if os.path.isfile(env_path):
-            with open(env_path, "r", encoding="utf-8") as f:
-                for line in f:
-                    line = line.strip()
-                    if line.startswith("GEMINI_API_KEY") and "=" in line:
-                        val = line.split("=", 1)[1].strip("\"' ")
-                        if val and val not in self._api_keys:
-                            self._api_keys.append(val)
+        for k in get_gemini_api_keys():
+            if k not in self._api_keys:
+                self._api_keys.append(k)
 
         self._key_idx = 0
         self._client = None
@@ -121,19 +110,8 @@ class GeminiTTSProvider(TTSProvider):
     @staticmethod
     def _raw_pcm_to_wav(audio_data: bytes, sample_rate: int = 24000) -> bytes:
         """Wrap raw linear PCM into a valid WAV container."""
-        bits = 16
-        channels = 1
-        block_align = channels * (bits // 8)
-        byte_rate = sample_rate * block_align
-        data_size = len(audio_data)
-        header = struct.pack(
-            "<4sI4s4sIHHIIHH4sI",
-            b"RIFF", 36 + data_size, b"WAVE",
-            b"fmt ", 16, 1, channels,
-            sample_rate, byte_rate, block_align, bits,
-            b"data", data_size,
-        )
-        return header + audio_data
+        from core.audio.wav_utils import pcm_to_wav
+        return pcm_to_wav(audio_data, sample_rate=sample_rate)
 
     def synthesize(
         self,

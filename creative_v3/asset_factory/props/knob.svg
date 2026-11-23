@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="prop_knob" viewBox="-50 -60 120 120" width="120" height="120">
+  <circle cx="0" cy="0" r="18" fill="#1A1C22" stroke="#0B0C10" stroke-width="3.5"/><line x1="0" y1="0" x2="0" y2="-14" stroke="#FFD400" stroke-width="4" stroke-linecap="round"/>
+</svg>

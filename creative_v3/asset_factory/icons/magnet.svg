@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="icon_magnet" viewBox="0 0 64 64" width="64" height="64">
+  <path d="M18 14v18a14 14 0 0 0 28 0V14h-8v18a6 6 0 0 1-12 0V14h-8z" fill="#FF4757" stroke="#0B0C10" stroke-width="3.8"/><rect x="18" y="14" width="8" height="8" fill="#FFFFFF"/><rect x="38" y="14" width="8" height="8" fill="#FFFFFF"/>
+</svg>

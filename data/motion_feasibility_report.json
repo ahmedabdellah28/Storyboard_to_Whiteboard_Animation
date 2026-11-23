@@ -1,0 +1,271 @@
+[
+  {
+    "beat_id": "beat_001",
+    "visual_density": "high",
+    "hero_assets": [
+      "asset_001"
+    ],
+    "support_assets": [
+      "asset_006",
+      "asset_009"
+    ],
+    "continuity_assets": [],
+    "recommended_motion_strategy": "kinetic_stagger_with_camera_push",
+    "issues": [
+      "single_visual_asset_assigned_in_narrative_map",
+      "extended_duration_needs_secondary_motion"
+    ]
+  },
+  {
+    "beat_id": "beat_002",
+    "visual_density": "sparse",
+    "hero_assets": [
+      "asset_002"
+    ],
+    "support_assets": [],
+    "continuity_assets": [],
+    "recommended_motion_strategy": "hero_pop_in_with_subtle_hold",
+    "issues": [
+      "single_visual_asset_assigned_in_narrative_map",
+      "short_beat_duration_under_1s"
+    ]
+  },
+  {
+    "beat_id": "beat_003",
+    "visual_density": "high",
+    "hero_assets": [
+      "asset_013"
+    ],
+    "support_assets": [
+      "asset_011",
+      "asset_014"
+    ],
+    "continuity_assets": [],
+    "recommended_motion_strategy": "kinetic_stagger_with_camera_push",
+    "issues": [
+      "single_visual_asset_assigned_in_narrative_map"
+    ]
+  },
+  {
+    "beat_id": "beat_004",
+    "visual_density": "sparse",
+    "hero_assets": [
+      "asset_004"
+    ],
+    "support_assets": [],
+    "continuity_assets": [],
+    "recommended_motion_strategy": "hero_pop_in_with_subtle_hold",
+    "issues": [
+      "single_visual_asset_assigned_in_narrative_map",
+      "short_beat_duration_under_1s"
+    ]
+  },
+  {
+    "beat_id": "beat_005",
+    "visual_density": "sparse",
+    "hero_assets": [
+      "asset_005"
+    ],
+    "support_assets": [],
+    "continuity_assets": [],
+    "recommended_motion_strategy": "hero_pop_in_with_subtle_hold",
+    "issues": [
+      "single_visual_asset_assigned_in_narrative_map"
+    ]
+  },
+  {
+    "beat_id": "beat_006",
+    "visual_density": "medium",
+    "hero_assets": [
+      "asset_015"
+    ],
+    "support_assets": [
+      "asset_016"
+    ],
+    "continuity_assets": [],
+    "recommended_motion_strategy": "sequential_reveal_hero_then_support",
+    "issues": [
+      "single_visual_asset_assigned_in_narrative_map"
+    ]
+  },
+  {
+    "beat_id": "beat_007",
+    "visual_density": "high",
+    "hero_assets": [
+      "asset_007"
+    ],
+    "support_assets": [
+      "asset_018",
+      "asset_019"
+    ],
+    "continuity_assets": [],
+    "recommended_motion_strategy": "kinetic_stagger_with_camera_push",
+    "issues": [
+      "single_visual_asset_assigned_in_narrative_map",
+      "extended_duration_needs_secondary_motion"
+    ]
+  },
+  {
+    "beat_id": "beat_008",
+    "visual_density": "high",
+    "hero_assets": [
+      "asset_008"
+    ],
+    "support_assets": [
+      "asset_020",
+      "asset_021"
+    ],
+    "continuity_assets": [],
+    "recommended_motion_strategy": "kinetic_stagger_with_camera_push",
+    "issues": [
+      "single_visual_asset_assigned_in_narrative_map"
+    ]
+  },
+  {
+    "beat_id": "beat_009",
+    "visual_density": "medium",
+    "hero_assets": [
+      "asset_023"
+    ],
+    "support_assets": [
+      "asset_022"
+    ],
+    "continuity_assets": [],
+    "recommended_motion_strategy": "sequential_reveal_hero_then_support",
+    "issues": [
+      "single_visual_asset_assigned_in_narrative_map"
+    ]
+  },
+  {
+    "beat_id": "beat_010",
+    "visual_density": "medium",
+    "hero_assets": [
+      "asset_010"
+    ],
+    "support_assets": [
+      "asset_024"
+    ],
+    "continuity_assets": [],
+    "recommended_motion_strategy": "sequential_reveal_hero_then_support",
+    "issues": [
+      "single_visual_asset_assigned_in_narrative_map"
+    ]
+  },
+  {
+    "beat_id": "beat_011",
+    "visual_density": "medium",
+    "hero_assets": [
+      "asset_025"
+    ],
+    "support_assets": [
+      "asset_026"
+    ],
+    "continuity_assets": [],
+    "recommended_motion_strategy": "sequential_reveal_hero_then_support",
+    "issues": [
+      "single_visual_asset_assigned_in_narrative_map"
+    ]
+  },
+  {
+    "beat_id": "beat_012",
+    "visual_density": "sparse",
+    "hero_assets": [
+      "asset_012"
+    ],
+    "support_assets": [],
+    "continuity_assets": [],
+    "recommended_motion_strategy": "hero_entrance_with_soft_bounce",
+    "issues": [
+      "single_visual_asset_assigned_in_narrative_map"
+    ]
+  },
+  {
+    "beat_id": "beat_013",
+    "visual_density": "medium",
+    "hero_assets": [
+      "asset_003"
+    ],
+    "support_assets": [
+      "asset_028"
+    ],
+    "continuity_assets": [],
+    "recommended_motion_strategy": "sequential_reveal_hero_then_support",
+    "issues": [
+      "single_visual_asset_assigned_in_narrative_map"
+    ]
+  },
+  {
+    "beat_id": "beat_014",
+    "visual_density": "high",
+    "hero_assets": [
+      "asset_027"
+    ],
+    "support_assets": [
+      "asset_029",
+      "asset_030"
+    ],
+    "continuity_assets": [],
+    "recommended_motion_strategy": "kinetic_stagger_with_camera_push",
+    "issues": [
+      "single_visual_asset_assigned_in_narrative_map",
+      "extended_duration_needs_secondary_motion"
+    ]
+  },
+  {
+    "beat_id": "beat_015",
+    "visual_density": "high",
+    "hero_assets": [
+      "asset_035"
+    ],
+    "support_assets": [
+      "asset_031",
+      "asset_032"
+    ],
+    "continuity_assets": [
+      "asset_014"
+    ],
+    "recommended_motion_strategy": "continuity_hold_with_staggered_support_and_pull_back",
+    "issues": [
+      "single_visual_asset_assigned_in_narrative_map",
+      "extended_duration_needs_secondary_motion"
+    ]
+  },
+  {
+    "beat_id": "beat_016",
+    "visual_density": "high",
+    "hero_assets": [
+      "asset_042"
+    ],
+    "support_assets": [
+      "asset_033",
+      "asset_034"
+    ],
+    "continuity_assets": [
+      "asset_035"
+    ],
+    "recommended_motion_strategy": "continuity_hold_with_staggered_support_and_pull_back",
+    "issues": [
+      "single_visual_asset_assigned_in_narrative_map",
+      "extended_duration_needs_secondary_motion"
+    ]
+  },
+  {
+    "beat_id": "beat_017",
+    "visual_density": "high",
+    "hero_assets": [
+      "asset_017"
+    ],
+    "support_assets": [
+      "asset_036",
+      "asset_037"
+    ],
+    "continuity_assets": [
+      "asset_035"
+    ],
+    "recommended_motion_strategy": "continuity_hold_with_staggered_support_and_pull_back",
+    "issues": [
+      "single_visual_asset_assigned_in_narrative_map",
+      "extended_duration_needs_secondary_motion"
+    ]
+  }
+]

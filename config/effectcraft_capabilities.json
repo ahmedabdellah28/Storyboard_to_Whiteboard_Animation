@@ -1,0 +1,582 @@
+{
+  "schema_version": "aion.effectcraft_capabilities.v1",
+  "generated_at": "2026-11-17T12:46:24.251624+00:00",
+  "cli_path": "E:\\image_to_animate\\craftApp\\effectcraft\\target\\release\\effectcraft-cli.exe",
+  "gpu_requested": false,
+  "summary": {
+    "VERIFIED": 19,
+    "PARTIAL": 1
+  },
+  "contact_sheet": "E:\\image_to_animate\\cache\\capability_probes\\probe_contact_sheet.png",
+  "capabilities": {
+    "shape_layer": {
+      "id": "shape_layer",
+      "title": "Native Shape Layer (Rect/Ellipse/Star + Scale Keyframes)",
+      "status": "VERIFIED",
+      "verified_at": "2026-11-17T12:46:15.766697+00:00",
+      "command_api": {
+        "create": "layer.newShape",
+        "kinds": [
+          "rect",
+          "rounded",
+          "ellipse",
+          "star",
+          "polygon",
+          "none"
+        ]
+      },
+      "fallback": "Render vector asset via Pillow/Cairo PNG + layer.addItem",
+      "notes": "Rendered and reopened cleanly; visible pixels and expected temporal delta confirmed.",
+      "evidence": {
+        "reopened": true,
+        "comp_count": 0,
+        "metrics": {
+          "resolution": [
+            640,
+            360
+          ],
+          "non_bg_ratio_t0": 0.01558,
+          "non_bg_ratio_t1": 0.11657,
+          "temporal_mad": 10.2678,
+          "changed_pixel_ratio": 0.10357,
+          "luma_std_t1": 39.597
+        }
+      }
+    },
+    "bezier_path": {
+      "id": "bezier_path",
+      "title": "Bezier Vector Path with Custom Tangents",
+      "status": "VERIFIED",
+      "verified_at": "2026-11-17T12:46:16.167420+00:00",
+      "command_api": {
+        "create_layer": "layer.newShape (kind='none')",
+        "add_path": "shape.newPath",
+        "note": "Layer origin is comp center; vertices shifted by [-W/2, -H/2]."
+      },
+      "fallback": "Rasterize cubic bezier via Pillow/SVG sequence",
+      "notes": "Rendered and reopened cleanly; visible pixels and expected temporal delta confirmed.",
+      "evidence": {
+        "reopened": true,
+        "comp_count": 0,
+        "metrics": {
+          "resolution": [
+            640,
+            360
+          ],
+          "non_bg_ratio_t0": 0.01039,
+          "non_bg_ratio_t1": 0.03399,
+          "temporal_mad": 3.3229,
+          "changed_pixel_ratio": 0.03303,
+          "luma_std_t1": 27.508
+        }
+      }
+    },
+    "trim_paths": {
+      "id": "trim_paths",
+      "title": "Trim Paths Draw-On / Draw-Off Stroke Animation",
+      "status": "VERIFIED",
+      "verified_at": "2026-11-17T12:46:16.538356+00:00",
+      "command_api": {
+        "add": "layer.addShapeItem {kind: 'trim'}",
+        "props": [
+          "contents/trim/start",
+          "contents/trim/end",
+          "contents/trim/offset"
+        ]
+      },
+      "fallback": "Animated wipe mask on raster stroke",
+      "notes": "Rendered and reopened cleanly; visible pixels and expected temporal delta confirmed.",
+      "evidence": {
+        "reopened": true,
+        "comp_count": 0,
+        "metrics": {
+          "resolution": [
+            640,
+            360
+          ],
+          "non_bg_ratio_t0": 0.00321,
+          "non_bg_ratio_t1": 0.024,
+          "temporal_mad": 2.5181,
+          "changed_pixel_ratio": 0.022,
+          "luma_std_t1": 23.314
+        }
+      }
+    },
+    "arrow_path": {
+      "id": "arrow_path",
+      "title": "Animated Explanatory Arrow Path (Stem Trim + Arrowhead)",
+      "status": "VERIFIED",
+      "verified_at": "2026-11-17T12:46:16.917131+00:00",
+      "command_api": {
+        "stem": "shape.newPath + layer.addShapeItem {kind: 'trim'}",
+        "head": "compound triangle shape synced at end point"
+      },
+      "fallback": "Baked multi-part vector SVG arrow via edit.pasteSvg",
+      "notes": "Rendered and reopened cleanly; visible pixels and expected temporal delta confirmed.",
+      "evidence": {
+        "reopened": true,
+        "comp_count": 0,
+        "metrics": {
+          "resolution": [
+            640,
+            360
+          ],
+          "non_bg_ratio_t0": 0.00154,
+          "non_bg_ratio_t1": 0.01527,
+          "temporal_mad": 1.3156,
+          "changed_pixel_ratio": 0.01425,
+          "luma_std_t1": 16.606
+        }
+      }
+    },
+    "masks": {
+      "id": "masks",
+      "title": "Animated Bezier Mask Path + Feather + Expansion",
+      "status": "VERIFIED",
+      "verified_at": "2026-11-17T12:46:17.321352+00:00",
+      "command_api": {
+        "create": "mask.new",
+        "props": [
+          "masks/mask/path",
+          "masks/mask/feather",
+          "masks/mask/expansion",
+          "masks/mask/opacity"
+        ]
+      },
+      "fallback": "ec.transition.linearwipe",
+      "notes": "Rendered and reopened cleanly; visible pixels and expected temporal delta confirmed.",
+      "evidence": {
+        "reopened": true,
+        "comp_count": 0,
+        "metrics": {
+          "resolution": [
+            640,
+            360
+          ],
+          "non_bg_ratio_t0": 0.06842,
+          "non_bg_ratio_t1": 0.2333,
+          "temporal_mad": 16.8004,
+          "changed_pixel_ratio": 0.19347,
+          "luma_std_t1": 51.658
+        }
+      }
+    },
+    "track_mattes": {
+      "id": "track_mattes",
+      "title": "Alpha Track Matte Reveal Between Layers",
+      "status": "VERIFIED",
+      "verified_at": "2026-11-17T12:46:17.732994+00:00",
+      "command_api": {
+        "set": "layer.setTrackMatte {layer, matte, kind: 'alpha'|'alphaInverted'|'luma'|'lumaInverted'}"
+      },
+      "fallback": "Animated mask on target layer directly",
+      "notes": "Rendered and reopened cleanly; visible pixels and expected temporal delta confirmed.",
+      "evidence": {
+        "reopened": true,
+        "comp_count": 0,
+        "metrics": {
+          "resolution": [
+            640,
+            360
+          ],
+          "non_bg_ratio_t0": 0.09684,
+          "non_bg_ratio_t1": 0.16947,
+          "temporal_mad": 40.5926,
+          "changed_pixel_ratio": 0.26652,
+          "luma_std_t1": 67.787
+        }
+      }
+    },
+    "text_animators": {
+      "id": "text_animators",
+      "title": "Kinetic Text Animator with Range Selector",
+      "status": "VERIFIED",
+      "verified_at": "2026-11-17T12:46:18.203802+00:00",
+      "command_api": {
+        "create": "layer.addTextAnimator (auto-creates rangeSelector)",
+        "props": "text/animators/animator/selectors/rangeSelector/{start,end,offset}"
+      },
+      "fallback": "Word-level masked/keyframed text card layers",
+      "notes": "Rendered and reopened cleanly; visible pixels and expected temporal delta confirmed.",
+      "evidence": {
+        "reopened": true,
+        "comp_count": 0,
+        "metrics": {
+          "resolution": [
+            640,
+            360
+          ],
+          "non_bg_ratio_t0": 0.00185,
+          "non_bg_ratio_t1": 0.01369,
+          "temporal_mad": 1.9634,
+          "changed_pixel_ratio": 0.0133,
+          "luma_std_t1": 21.183
+        }
+      }
+    },
+    "arabic_rtl_text": {
+      "id": "arabic_rtl_text",
+      "title": "Arabic RTL Text Shaping + Word/Line Kinetic Animation",
+      "status": "PARTIAL",
+      "verified_at": "2026-11-17T12:46:18.655029+00:00",
+      "command_api": {
+        "text": "layer.newText {font:'Cairo', direction:'rtl', justify:'center'}",
+        "word_mode": "selectors/rangeSelector/advanced/basedOn=2"
+      },
+      "fallback": "RTL mask wipe over Cairo Arabic text OR pre-shaped PNG word cards via Pillow+arabic_reshaper+bidi",
+      "notes": "Arabic Cairo RTL renders crisply with connected ligatures and animates in word-mode (basedOn=2); classified PARTIAL so compiler uses safe RTL word-cards or RTL mask-reveal fallback when per-character offsets are requested.",
+      "evidence": {
+        "reopened": true,
+        "comp_count": 0,
+        "metrics": {
+          "resolution": [
+            640,
+            360
+          ],
+          "non_bg_ratio_t0": 0.14613,
+          "non_bg_ratio_t1": 0.14613,
+          "temporal_mad": 1.1787,
+          "changed_pixel_ratio": 0.01322,
+          "luma_std_t1": 23.171
+        },
+        "utf8_preserved": true
+      }
+    },
+    "expressions": {
+      "id": "expressions",
+      "title": "Procedural Expressions (time / Math.sin / wiggle) with expr.errors Check",
+      "status": "VERIFIED",
+      "verified_at": "2026-11-17T12:46:19.278017+00:00",
+      "command_api": {
+        "set": "prop.setExpression {layer, path, expression, enabled: true}",
+        "validate": "expr.errors"
+      },
+      "fallback": "Sample procedural curve into dense prop.addKey keyframes in Python",
+      "notes": "Expression evaluated across frames with 0 errors and verified pixel displacement.",
+      "evidence": {
+        "reopened": true,
+        "comp_count": 0,
+        "metrics": {
+          "resolution": [
+            640,
+            360
+          ],
+          "non_bg_ratio_t0": 0.01995,
+          "non_bg_ratio_t1": 0.01987,
+          "temporal_mad": 4.7179,
+          "changed_pixel_ratio": 0.03981,
+          "luma_std_t1": 21.013
+        },
+        "expr_errors": []
+      }
+    },
+    "repeaters": {
+      "id": "repeaters",
+      "title": "Shape Layer Repeater Radial / Linear Pattern",
+      "status": "VERIFIED",
+      "verified_at": "2026-11-17T12:46:19.665860+00:00",
+      "command_api": {
+        "add": "layer.addShapeItem {kind:'repeater'}",
+        "props": [
+          "contents/repeater/copies",
+          "contents/repeater/transform/{position,rotation,scale}"
+        ]
+      },
+      "fallback": "Emit N positioned Shape Groups / SVG <use> pattern via procedural_graphics",
+      "notes": "Rendered and reopened cleanly; visible pixels and expected temporal delta confirmed.",
+      "evidence": {
+        "reopened": true,
+        "comp_count": 0,
+        "metrics": {
+          "resolution": [
+            640,
+            360
+          ],
+          "non_bg_ratio_t0": 0.02305,
+          "non_bg_ratio_t1": 0.02292,
+          "temporal_mad": 0.6442,
+          "changed_pixel_ratio": 0.00965,
+          "luma_std_t1": 23.095
+        }
+      }
+    },
+    "particles": {
+      "id": "particles",
+      "title": "Procedural Particle Simulation (ec.sim.ccparticlesystems2)",
+      "status": "VERIFIED",
+      "verified_at": "2026-11-17T12:46:20.079606+00:00",
+      "command_api": {
+        "effect": "ec.sim.ccparticlesystems2",
+        "alt": "ec.sim.ccparticleworld"
+      },
+      "fallback": "Procedural multi-particle SVG/Shape repeater simulation",
+      "notes": "Rendered and reopened cleanly; visible pixels and expected temporal delta confirmed.",
+      "evidence": {
+        "reopened": true,
+        "comp_count": 0,
+        "metrics": {
+          "resolution": [
+            640,
+            360
+          ],
+          "non_bg_ratio_t0": 0.01301,
+          "non_bg_ratio_t1": 0.24712,
+          "temporal_mad": 6.6735,
+          "changed_pixel_ratio": 0.26597,
+          "luma_std_t1": 16.455
+        }
+      }
+    },
+    "glow": {
+      "id": "glow",
+      "title": "Stylized Glow (ec.stylize.glow)",
+      "status": "VERIFIED",
+      "verified_at": "2026-11-17T12:46:20.463448+00:00",
+      "command_api": {
+        "effect": "ec.stylize.glow",
+        "rule": "Keep intensity < 1.0 or use ec.generate.cclightsweep over bright cards"
+      },
+      "fallback": "Soft layered outer-stroke halo + Drop Shadow",
+      "notes": "Rendered and reopened cleanly; visible pixels and expected temporal delta confirmed.",
+      "evidence": {
+        "reopened": true,
+        "comp_count": 0,
+        "metrics": {
+          "resolution": [
+            640,
+            360
+          ],
+          "non_bg_ratio_t0": 0.03222,
+          "non_bg_ratio_t1": 0.06102,
+          "temporal_mad": 0.9615,
+          "changed_pixel_ratio": 0.03456,
+          "luma_std_t1": 32.746
+        }
+      }
+    },
+    "blur": {
+      "id": "blur",
+      "title": "Gaussian Blur Focus Rack (ec.blur.gaussian)",
+      "status": "VERIFIED",
+      "verified_at": "2026-11-17T12:46:20.843555+00:00",
+      "command_api": {
+        "effect": "ec.blur.gaussian",
+        "prop": "effects/#1/blurriness"
+      },
+      "fallback": "Scale + opacity atmospheric transition",
+      "notes": "Rendered and reopened cleanly; visible pixels and expected temporal delta confirmed.",
+      "evidence": {
+        "reopened": true,
+        "comp_count": 0,
+        "metrics": {
+          "resolution": [
+            640,
+            360
+          ],
+          "non_bg_ratio_t0": 0.06372,
+          "non_bg_ratio_t1": 0.0286,
+          "temporal_mad": 2.4372,
+          "changed_pixel_ratio": 0.06347,
+          "luma_std_t1": 28.608
+        }
+      }
+    },
+    "distortion": {
+      "id": "distortion",
+      "title": "Turbulent Displace Distortion (ec.distort.turbulentdisplace)",
+      "status": "VERIFIED",
+      "verified_at": "2026-11-17T12:46:21.269879+00:00",
+      "command_api": {
+        "effect": "ec.distort.turbulentdisplace",
+        "props": [
+          "effects/#1/amount",
+          "effects/#1/evolution"
+        ]
+      },
+      "fallback": "ec.distort.wavewarp or path vertex keyframe wobble",
+      "notes": "Rendered and reopened cleanly; visible pixels and expected temporal delta confirmed.",
+      "evidence": {
+        "reopened": true,
+        "comp_count": 0,
+        "metrics": {
+          "resolution": [
+            640,
+            360
+          ],
+          "non_bg_ratio_t0": 0.0983,
+          "non_bg_ratio_t1": 0.10005,
+          "temporal_mad": 1.9311,
+          "changed_pixel_ratio": 0.01921,
+          "luma_std_t1": 45.99
+        }
+      }
+    },
+    "layer_2_5d": {
+      "id": "layer_2_5d",
+      "title": "2.5D Multi-Plane Z-Depth Layers with Parallax",
+      "status": "VERIFIED",
+      "verified_at": "2026-11-17T12:46:21.661019+00:00",
+      "command_api": {
+        "switch": "layer.setSwitch {switch:'threeD', value:true}",
+        "z_pos": "transform/position [x,y,z]"
+      },
+      "fallback": "Simulated 2D multi-speed parallax X/Y + scale offsets",
+      "notes": "Rendered and reopened cleanly; visible pixels and expected temporal delta confirmed.",
+      "evidence": {
+        "reopened": true,
+        "comp_count": 0,
+        "metrics": {
+          "resolution": [
+            640,
+            360
+          ],
+          "non_bg_ratio_t0": 0.12597,
+          "non_bg_ratio_t1": 0.12716,
+          "temporal_mad": 0.5057,
+          "changed_pixel_ratio": 0.0055,
+          "luma_std_t1": 41.553
+        }
+      }
+    },
+    "camera_motion": {
+      "id": "camera_motion",
+      "title": "3D Active Camera Motion (Orbit / Pan / Push-In)",
+      "status": "VERIFIED",
+      "verified_at": "2026-11-17T12:46:22.057324+00:00",
+      "command_api": {
+        "create": "layer.newCamera",
+        "props": [
+          "transform/position",
+          "transform/poi",
+          "cameraOptions/zoom"
+        ]
+      },
+      "fallback": "Parented world Null scaling + translating layers proportionally by depth",
+      "notes": "Rendered and reopened cleanly; visible pixels and expected temporal delta confirmed.",
+      "evidence": {
+        "reopened": true,
+        "comp_count": 0,
+        "metrics": {
+          "resolution": [
+            640,
+            360
+          ],
+          "non_bg_ratio_t0": 0.17795,
+          "non_bg_ratio_t1": 0.22951,
+          "temporal_mad": 12.0489,
+          "changed_pixel_ratio": 0.16097,
+          "luma_std_t1": 51.81
+        }
+      }
+    },
+    "lights_and_shadows": {
+      "id": "lights_and_shadows",
+      "title": "3D Spot/Point Light + Shadow Casting Across Depth Planes",
+      "status": "VERIFIED",
+      "verified_at": "2026-11-17T12:46:22.448305+00:00",
+      "command_api": {
+        "light": "layer.newLight {kind:'Spot', castsShadows:true}",
+        "material": "materialOptions/castsShadows=1, acceptsShadows=1"
+      },
+      "fallback": "Drop Shadow / Radial Shadow effect synced with pseudo-light vector",
+      "notes": "Rendered and reopened cleanly; visible pixels and expected temporal delta confirmed.",
+      "evidence": {
+        "reopened": true,
+        "comp_count": 0,
+        "metrics": {
+          "resolution": [
+            640,
+            360
+          ],
+          "non_bg_ratio_t0": 0.38421,
+          "non_bg_ratio_t1": 0.38532,
+          "temporal_mad": 20.9159,
+          "changed_pixel_ratio": 0.29173,
+          "luma_std_t1": 50.508
+        }
+      }
+    },
+    "nested_compositions": {
+      "id": "nested_compositions",
+      "title": "Precomp / Nested Composition Hierarchies",
+      "status": "VERIFIED",
+      "verified_at": "2026-11-17T12:46:22.815476+00:00",
+      "command_api": {
+        "create": "comp.new inner + layer.addItem {item: inner_name} OR layer.precompose"
+      },
+      "fallback": "Parent null hierarchy within single comp",
+      "notes": "Rendered and reopened cleanly; visible pixels and expected temporal delta confirmed.",
+      "evidence": {
+        "reopened": true,
+        "comp_count": 0,
+        "metrics": {
+          "resolution": [
+            640,
+            360
+          ],
+          "non_bg_ratio_t0": 0.02212,
+          "non_bg_ratio_t1": 0.08586,
+          "temporal_mad": 7.3822,
+          "changed_pixel_ratio": 0.06698,
+          "luma_std_t1": 36.761
+        }
+      }
+    },
+    "animated_svg": {
+      "id": "animated_svg",
+      "title": "Native SVG Vector Import (`edit.pasteSvg`) + Keyframed Trim/Transform",
+      "status": "VERIFIED",
+      "verified_at": "2026-11-17T12:46:23.208505+00:00",
+      "command_api": {
+        "import": "edit.pasteSvg {svg, name, comp} -> editable Shape groups (group, group#2, ...)"
+      },
+      "fallback": "Rasterize SVG frames via cairosvg / Pillow or convert SVG path commands to shape.newPath",
+      "notes": "Rendered and reopened cleanly; visible pixels and expected temporal delta confirmed.",
+      "evidence": {
+        "reopened": true,
+        "comp_count": 0,
+        "metrics": {
+          "resolution": [
+            640,
+            360
+          ],
+          "non_bg_ratio_t0": 0.01137,
+          "non_bg_ratio_t1": 0.10725,
+          "temporal_mad": 8.0179,
+          "changed_pixel_ratio": 0.10565,
+          "luma_std_t1": 35.975
+        }
+      }
+    },
+    "render_and_reopen": {
+      "id": "render_and_reopen",
+      "title": "Project Persistence (.ecproj Reopen) + Video Encode Render (MP4 + ffprobe)",
+      "status": "VERIFIED",
+      "verified_at": "2026-11-17T12:46:23.821882+00:00",
+      "command_api": {
+        "save": "file.saveAs",
+        "reopen": "--project <ecproj>",
+        "render": "render --comp <c> --out <mp4> --fps 24 --start 0 --end <d>"
+      },
+      "fallback": "Render PNG frame sequence + FFmpeg h264 mux",
+      "notes": ".ecproj saved, reopened, rendered to MP4 (23981 B, duration=1.00s) and verified via ffprobe.",
+      "evidence": {
+        "reopened": true,
+        "comp_count": 0,
+        "metrics": {
+          "resolution": [
+            640,
+            360
+          ],
+          "non_bg_ratio_t0": 0.06649,
+          "non_bg_ratio_t1": 0.06651,
+          "temporal_mad": 14.1637,
+          "changed_pixel_ratio": 0.13302,
+          "luma_std_t1": 33.608
+        },
+        "mp4_bytes": 23981,
+        "duration_sec": 1.0
+      }
+    }
+  }
+}

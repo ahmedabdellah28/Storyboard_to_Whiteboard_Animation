@@ -1,0 +1,217 @@
+{
+  "schema_version": "3.2.0",
+  "license": "Original Brand Vector Art (MIT-compatible internal asset pack)",
+  "icon_count": 40,
+  "prop_count": 20,
+  "fx_primitive_count": 24,
+  "icons": [
+    "arrow",
+    "atom",
+    "book",
+    "brain",
+    "camera",
+    "cards",
+    "chart",
+    "clock",
+    "cloud",
+    "compass",
+    "crystal",
+    "diamond",
+    "electricity",
+    "experiment",
+    "eyes",
+    "fire",
+    "flag",
+    "folder",
+    "gear",
+    "heart",
+    "key",
+    "lab",
+    "lightbulb",
+    "lock",
+    "logic",
+    "magnet",
+    "magnifier",
+    "mic",
+    "portal",
+    "puzzle",
+    "question",
+    "remote",
+    "rocket",
+    "shield",
+    "speaker",
+    "speech_bubble",
+    "star",
+    "target",
+    "trophy",
+    "watch"
+  ],
+  "props": {
+    "remote": {
+      "anchor": [
+        12,
+        32
+      ],
+      "mass": "light"
+    },
+    "gem": {
+      "anchor": [
+        0,
+        0
+      ],
+      "mass": "light"
+    },
+    "magic_ring": {
+      "anchor": [
+        0,
+        0
+      ],
+      "mass": "light"
+    },
+    "pen": {
+      "anchor": [
+        0,
+        0
+      ],
+      "mass": "light"
+    },
+    "cable": {
+      "anchor": [
+        0,
+        0
+      ],
+      "mass": "flexible"
+    },
+    "grappling_nozzle": {
+      "anchor": [
+        0,
+        0
+      ],
+      "mass": "medium"
+    },
+    "lasso": {
+      "anchor": [
+        0,
+        0
+      ],
+      "mass": "flexible"
+    },
+    "tether_hook": {
+      "anchor": [
+        0,
+        0
+      ],
+      "mass": "light"
+    },
+    "pointer": {
+      "anchor": [
+        0,
+        0
+      ],
+      "mass": "light"
+    },
+    "magnifier": {
+      "anchor": [
+        0,
+        0
+      ],
+      "mass": "light"
+    },
+    "megaphone": {
+      "anchor": [
+        0,
+        0
+      ],
+      "mass": "medium"
+    },
+    "wand": {
+      "anchor": [
+        0,
+        0
+      ],
+      "mass": "light"
+    },
+    "switch": {
+      "anchor": [
+        0,
+        0
+      ],
+      "mass": "static"
+    },
+    "knob": {
+      "anchor": [
+        0,
+        0
+      ],
+      "mass": "static"
+    },
+    "lever": {
+      "anchor": [
+        0,
+        0
+      ],
+      "mass": "medium"
+    },
+    "flashlight": {
+      "anchor": [
+        0,
+        0
+      ],
+      "mass": "light"
+    },
+    "door": {
+      "anchor": [
+        0,
+        0
+      ],
+      "mass": "heavy"
+    },
+    "curtain_handle": {
+      "anchor": [
+        0,
+        0
+      ],
+      "mass": "light"
+    },
+    "portal_key": {
+      "anchor": [
+        0,
+        0
+      ],
+      "mass": "light"
+    },
+    "springboard": {
+      "anchor": [
+        0,
+        0
+      ],
+      "mass": "heavy"
+    }
+  },
+  "fx_primitives": [
+    "spark_burst",
+    "electric_branch",
+    "flare",
+    "energy_thread",
+    "glowing_circle",
+    "energy_pulse",
+    "small_stars",
+    "smoke_curl",
+    "cartoon_flame",
+    "ash_disintegration",
+    "circular_portal",
+    "water_ripple",
+    "shockwave",
+    "streak",
+    "speed_line",
+    "confetti",
+    "shatter_tiles",
+    "radial_spokes",
+    "particles_to_shape",
+    "dissolve_mask",
+    "ink_splash",
+    "glow_outline",
+    "soft_impact_smear",
+    "zigzag_burst"
+  ]
+}

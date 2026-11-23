@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="icon_flag" viewBox="0 0 64 64" width="64" height="64">
+  <line x1="16" y1="10" x2="16" y2="54" stroke="#0B0C10" stroke-width="4.5" stroke-linecap="round"/><polygon points="16,12 50,20 16,32" fill="#0072CE" stroke="#0B0C10" stroke-width="3.5" stroke-linejoin="round"/>
+</svg>

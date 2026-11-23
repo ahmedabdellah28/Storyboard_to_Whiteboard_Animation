@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="icon_remote" viewBox="0 0 64 64" width="64" height="64">
+  <rect x="20" y="8" width="24" height="48" rx="6" fill="#1A1C22" stroke="#0B0C10" stroke-width="3.8"/><circle cx="32" cy="18" r="4" fill="#FF4757"/><rect x="26" y="28" width="12" height="6" rx="2" fill="#00A99D"/>
+</svg>

@@ -12,6 +12,28 @@ from PIL import Image, ImageDraw, ImageFont
 
 sys.stdout.reconfigure(encoding='utf-8')
 
+def imread_unicode(path, flags=cv2.IMREAD_COLOR):
+    """Safely loads images from paths containing non-ASCII / Unicode characters on Windows."""
+    try:
+        data = np.fromfile(str(path), dtype=np.uint8)
+        return cv2.imdecode(data, flags)
+    except Exception as e:
+        print(f"Error reading image {path}: {e}")
+        return None
+
+def imwrite_unicode(path, img):
+    """Safely writes images to paths containing non-ASCII / Unicode characters on Windows."""
+    try:
+        ext = os.path.splitext(str(path))[1]
+        ok, buf = cv2.imencode(ext, img)
+        if ok:
+            buf.tofile(str(path))
+            return True
+        return False
+    except Exception as e:
+        print(f"Error writing image {path}: {e}")
+        return False
+
 class DynamicStoryboardExtractor:
     def __init__(self, section_dir):
         self.section_dir = section_dir
@@ -157,7 +179,9 @@ class DynamicStoryboardExtractor:
         if not os.path.exists(self.storyboard_path):
             raise FileNotFoundError(f"Storyboard not found at: {self.storyboard_path}")
 
-        img = cv2.imread(self.storyboard_path)
+        img = imread_unicode(self.storyboard_path)
+        if img is None:
+            raise ValueError(f"Could not load/decode storyboard image from: {self.storyboard_path}")
         h, w = img.shape[:2]
 
         rows = self.detect_rows(img)
@@ -204,7 +228,7 @@ class DynamicStoryboardExtractor:
                         aid = custom_aid
 
                     out_name = f"{aid}.png"
-                    cv2.imwrite(os.path.join(self.assets_dir, out_name), bgra)
+                    imwrite_unicode(os.path.join(self.assets_dir, out_name), bgra)
 
                     actual_w = tx2 - tx1 + 1
                     actual_h = ty2 - ty1 + 1
@@ -228,3 +252,66 @@ class DynamicStoryboardExtractor:
 
         print(f"✅ Extracted {len(extracted)} assets saved to: {self.assets_dir}")
         return extracted
+
+    def extract_single_box(self, img_bgr, box, pad=4):
+        """Extracts a tight clean RGBA asset from a bounding box [x, y, w, h]."""
+        h, w = img_bgr.shape[:2]
+        bx, by, bw, bh = [int(v) for v in box]
+        px1 = max(0, bx - pad)
+        py1 = max(0, by - pad)
+        px2 = min(w, bx + bw + pad)
+        py2 = min(h, by + bh + pad)
+
+        if px2 <= px1 or py2 <= py1:
+            return None, [bx, by, bw, bh], 0
+
+        crop = img_bgr[py1:py2, px1:px2]
+        gray = cv2.cvtColor(crop, cv2.COLOR_BGR2GRAY)
+        is_fg = gray < 240
+
+        mask = is_fg.astype(np.uint8) * 255
+        k = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3))
+        mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, k)
+
+        ys, xs = np.where(mask > 0)
+        if len(xs) > 0 and len(ys) > 0:
+            tx1, tx2 = int(np.min(xs)), int(np.max(xs))
+            ty1, ty2 = int(np.min(ys)), int(np.max(ys))
+            tight_crop = crop[ty1:ty2+1, tx1:tx2+1]
+            tight_mask = mask[ty1:ty2+1, tx1:tx2+1]
+            bgra = np.dstack([tight_crop, tight_mask])
+            actual_w = tx2 - tx1 + 1
+            actual_h = ty2 - ty1 + 1
+            area = int(np.count_nonzero(tight_mask))
+            actual_box = [int(px1 + tx1), int(py1 + ty1), int(actual_w), int(actual_h)]
+            return bgra, actual_box, area
+        else:
+            # Fallback to direct crop if no distinct foreground lines found
+            bgra = cv2.cvtColor(crop, cv2.COLOR_BGR2BGRA)
+            actual_box = [px1, py1, px2 - px1, py2 - py1]
+            return bgra, actual_box, actual_box[2] * actual_box[3]
+
+    def recrop_and_save_asset(self, aid, box, desc="Custom Element"):
+        """Re-crops an asset from storyboard.png given box [x, y, w, h] and writes PNG & returns metadata."""
+        if not os.path.exists(self.storyboard_path):
+            raise FileNotFoundError(f"Storyboard not found: {self.storyboard_path}")
+        img = imread_unicode(self.storyboard_path)
+        if img is None:
+            raise ValueError(f"Could not load/decode storyboard image from: {self.storyboard_path}")
+        bgra, actual_box, area = self.extract_single_box(img, box)
+        if bgra is None:
+            return None
+
+        out_name = f"{aid}.png"
+        out_path = os.path.join(self.assets_dir, out_name)
+        imwrite_unicode(out_path, bgra)
+
+        return {
+            "file": out_name,
+            "orig_box": actual_box,
+            "bbox": actual_box,
+            "orig_size": [actual_box[2], actual_box[3]],
+            "area": area,
+            "desc": desc,
+            "excluded": False,
+        }

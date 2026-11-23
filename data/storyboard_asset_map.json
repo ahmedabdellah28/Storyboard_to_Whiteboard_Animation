@@ -1,0 +1,284 @@
+{
+  "section": "06_spotlight_effect",
+  "storyboard_image": "sections/brain_illusions_documentary/06_spotlight_effect/storyboard.png",
+  "canvas_dimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "total_storyboard_panels": 10,
+  "panel_mappings": [
+    {
+      "panel_id": "01_man_coffee_spill",
+      "panel_index": 1,
+      "storyboard_reference": "panel_01_coffee_spill",
+      "orig_box": [
+        0,
+        0,
+        353,
+        348
+      ],
+      "hero_entities": [
+        "asset_001"
+      ],
+      "support_entities": [
+        "asset_036"
+      ],
+      "accent_entities": [
+        "asset_038"
+      ],
+      "persistent_entities": [],
+      "allowed_assets": [
+        "asset_001",
+        "asset_036",
+        "asset_038"
+      ],
+      "description": "Protagonist standing in suit holding spilled coffee cup with flying droplet"
+    },
+    {
+      "panel_id": "02_man_hiding_stain",
+      "panel_index": 2,
+      "storyboard_reference": "panel_02_hiding_stain",
+      "orig_box": [
+        353,
+        0,
+        660,
+        348
+      ],
+      "hero_entities": [
+        "asset_001"
+      ],
+      "support_entities": [],
+      "accent_entities": [
+        "asset_037"
+      ],
+      "persistent_entities": [],
+      "allowed_assets": [
+        "asset_001",
+        "asset_037"
+      ],
+      "description": "Protagonist clutching jacket trying to cover and hide coffee stain"
+    },
+    {
+      "panel_id": "03_man_eyes_watching",
+      "panel_index": 3,
+      "storyboard_reference": "panel_03_eyes_watching",
+      "orig_box": [
+        660,
+        0,
+        1029,
+        348
+      ],
+      "hero_entities": [
+        "asset_002"
+      ],
+      "support_entities": [
+        "asset_027"
+      ],
+      "accent_entities": [
+        "asset_029",
+        "asset_030",
+        "asset_032"
+      ],
+      "persistent_entities": [],
+      "allowed_assets": [
+        "asset_002",
+        "asset_027",
+        "asset_029",
+        "asset_030",
+        "asset_032"
+      ],
+      "description": "Protagonist head clutching in panic, judging crowd silhouette and staring eyes pointing at stain"
+    },
+    {
+      "panel_id": "06_brain_spotlight_hero",
+      "panel_index": 4,
+      "storyboard_reference": "panel_06_brain_spotlight_hero",
+      "orig_box": [
+        460,
+        337,
+        967,
+        696
+      ],
+      "hero_entities": [
+        "asset_013"
+      ],
+      "support_entities": [
+        "asset_003"
+      ],
+      "accent_entities": [
+        "asset_018"
+      ],
+      "persistent_entities": [],
+      "allowed_assets": [
+        "asset_013",
+        "asset_003",
+        "asset_018"
+      ],
+      "description": "Glowing profile of brain with internal spotlight shining on protagonist ego self-concept"
+    },
+    {
+      "panel_id": "05_man_stressed_thought_bubble",
+      "panel_index": 5,
+      "storyboard_reference": "panel_05_ego_thought_bubble",
+      "orig_box": [
+        0,
+        337,
+        460,
+        696
+      ],
+      "hero_entities": [
+        "asset_003"
+      ],
+      "support_entities": [
+        "asset_018"
+      ],
+      "accent_entities": [
+        "asset_008"
+      ],
+      "persistent_entities": [],
+      "allowed_assets": [
+        "asset_003",
+        "asset_018",
+        "asset_008"
+      ],
+      "description": "Protagonist looking up anxiously with thought bubble convincing him he is the hero of the story"
+    },
+    {
+      "panel_id": "04_spotlight_silhouettes",
+      "panel_index": 6,
+      "storyboard_reference": "panel_04_theatrical_spotlight",
+      "orig_box": [
+        1029,
+        0,
+        1536,
+        348
+      ],
+      "hero_entities": [
+        "asset_001"
+      ],
+      "support_entities": [
+        "asset_015",
+        "asset_027"
+      ],
+      "accent_entities": [
+        "asset_031"
+      ],
+      "persistent_entities": [],
+      "allowed_assets": [
+        "asset_001",
+        "asset_015",
+        "asset_027",
+        "asset_031"
+      ],
+      "description": "Theatrical spotlight cone shining directly on protagonist on stage with crowd and all eyes watching"
+    },
+    {
+      "panel_id": "08_man_stain_crowd_distracted",
+      "panel_index": 7,
+      "storyboard_reference": "panel_08_crowd_oblivious",
+      "orig_box": [
+        0,
+        686,
+        537,
+        1024
+      ],
+      "hero_entities": [
+        "asset_010"
+      ],
+      "support_entities": [
+        "asset_024",
+        "asset_025",
+        "asset_026"
+      ],
+      "accent_entities": [],
+      "persistent_entities": [],
+      "allowed_assets": [
+        "asset_010",
+        "asset_024",
+        "asset_025",
+        "asset_026"
+      ],
+      "description": "Protagonist standing small with stain, pedestrians walking away completely absorbed and oblivious"
+    },
+    {
+      "panel_id": "07_three_distracted_people",
+      "panel_index": 8,
+      "storyboard_reference": "panel_07_three_distracted_people",
+      "orig_box": [
+        967,
+        337,
+        1536,
+        696
+      ],
+      "hero_entities": [
+        "asset_006"
+      ],
+      "support_entities": [
+        "asset_004",
+        "asset_007"
+      ],
+      "accent_entities": [
+        "asset_035"
+      ],
+      "persistent_entities": [],
+      "allowed_assets": [
+        "asset_006",
+        "asset_004",
+        "asset_007",
+        "asset_035"
+      ],
+      "description": "Three people side-by-side: man checking hair, woman absorbed in phone, man worried about mistake"
+    },
+    {
+      "panel_id": "09_brain_social_warning",
+      "panel_index": 9,
+      "storyboard_reference": "panel_09_brain_social_warning",
+      "orig_box": [
+        537,
+        686,
+        967,
+        1024
+      ],
+      "hero_entities": [
+        "asset_017"
+      ],
+      "support_entities": [
+        "asset_013"
+      ],
+      "accent_entities": [],
+      "persistent_entities": [],
+      "allowed_assets": [
+        "asset_017",
+        "asset_013"
+      ],
+      "description": "Brain social monitoring and vigilance surveillance mechanism explaining evolutionary purpose"
+    },
+    {
+      "panel_id": "10_man_worried_others_busy",
+      "panel_index": 10,
+      "storyboard_reference": "panel_10_liberating_takeaway",
+      "orig_box": [
+        967,
+        686,
+        1536,
+        1024
+      ],
+      "hero_entities": [
+        "asset_017"
+      ],
+      "support_entities": [
+        "asset_010"
+      ],
+      "accent_entities": [
+        "asset_018"
+      ],
+      "persistent_entities": [],
+      "allowed_assets": [
+        "asset_017",
+        "asset_010",
+        "asset_018"
+      ],
+      "description": "Final liberating perspective: protagonist peaceful with empty thought bubble (nobody noticed)"
+    }
+  ]
+}

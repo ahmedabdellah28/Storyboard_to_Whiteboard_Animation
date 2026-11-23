@@ -1,0 +1,1928 @@
+{
+  "contract_type": "narrative_visual_map",
+  "version": "2.0",
+  "map_id": "map_06_spotlight_effect",
+  "storyboard_hash": "dd7fe1c40ea49b7530d4520a9b0b4e96ff5150b260450aa46fdba08f8938aab2",
+  "script_hash": "8fb4a5adcb674034941b92152a355b7d8cf92ba4f6086a3aa9da026e26e655f5",
+  "concepts": [
+    {
+      "concept_id": "cpt_spotlight_effect_asset_001",
+      "visual_id": "asset_001",
+      "narrative_role": "hero",
+      "importance_weight": 1.0,
+      "anchor_candidates": [
+        {
+          "text": "عمرها انكبت",
+          "weight": 1.0,
+          "type": "identity"
+        },
+        {
+          "text": "عمرها انكبت على",
+          "weight": 0.98,
+          "type": "semantic"
+        },
+        {
+          "text": "قهوة",
+          "weight": 0.92,
+          "type": "semantic"
+        },
+        {
+          "text": "عمرها",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "انكبت",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "ثوبك",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "قميصك",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "قطرة",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "صغيرة",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "وقضيت",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "باقي",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "الدوام",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "وأنت",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "تحاول",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "تغطيها",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "عمرها انكبت على ثوبك أو قميصك قطرة قهوة صغيرة وقضيت باقي الدوام وأنت تحاول تغطيها",
+          "weight": 0.75,
+          "type": "support"
+        }
+      ],
+      "script_reference_segment": {
+        "paragraph_index": 0,
+        "full_sentence": "عمرها انكبت على ثوبك أو قميصك قطرة قهوة صغيرة وقضيت باقي الدوام وأنت تحاول تغطيها"
+      },
+      "visual_continuity": {
+        "persist_after_draw": true,
+        "min_hold_after_finish_s": 2.0,
+        "allowed_simultaneous_with": []
+      },
+      "notes": "Bound to asset_001 via rule 'spotlight_effect' (score=1.00)"
+    },
+    {
+      "concept_id": "cpt_concept_beat_002_asset_002",
+      "visual_id": "asset_002",
+      "narrative_role": "hero",
+      "importance_weight": 0.9500000000000001,
+      "anchor_candidates": [
+        {
+          "text": "ليش",
+          "weight": 0.85,
+          "type": "support"
+        }
+      ],
+      "script_reference_segment": {
+        "paragraph_index": 1,
+        "full_sentence": "ليش"
+      },
+      "visual_continuity": {
+        "persist_after_draw": true,
+        "min_hold_after_finish_s": 2.0,
+        "allowed_simultaneous_with": []
+      },
+      "notes": "Bound to asset_002 via rule 'concept_beat_002' (score=0.95)"
+    },
+    {
+      "concept_id": "cpt_spotlight_effect_asset_013",
+      "visual_id": "asset_013",
+      "narrative_role": "hero",
+      "importance_weight": 1.0,
+      "anchor_candidates": [
+        {
+          "text": "لأنك تحس",
+          "weight": 1.0,
+          "type": "identity"
+        },
+        {
+          "text": "لأنك تحس إن",
+          "weight": 0.98,
+          "type": "semantic"
+        },
+        {
+          "text": "بقعة",
+          "weight": 0.92,
+          "type": "semantic"
+        },
+        {
+          "text": "لأنك",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "تحس",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "الكوكب",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "كله",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "جالس",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "يطالع",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "البقعة",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "لأنك تحس إن الكوكب كله جالس يطالع البقعة",
+          "weight": 0.75,
+          "type": "support"
+        }
+      ],
+      "script_reference_segment": {
+        "paragraph_index": 2,
+        "full_sentence": "لأنك تحس إن الكوكب كله جالس يطالع البقعة"
+      },
+      "visual_continuity": {
+        "persist_after_draw": true,
+        "min_hold_after_finish_s": 2.0,
+        "allowed_simultaneous_with": []
+      },
+      "notes": "Bound to asset_013 via rule 'spotlight_effect' (score=1.00)"
+    },
+    {
+      "concept_id": "cpt_concept_beat_004_asset_004",
+      "visual_id": "asset_004",
+      "narrative_role": "hero",
+      "importance_weight": 0.9500000000000001,
+      "anchor_candidates": [
+        {
+          "text": "كل واحد",
+          "weight": 1.0,
+          "type": "identity"
+        },
+        {
+          "text": "كل واحد شافها",
+          "weight": 0.98,
+          "type": "semantic"
+        },
+        {
+          "text": "واحد",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "شافها",
+          "weight": 0.85,
+          "type": "support"
+        }
+      ],
+      "script_reference_segment": {
+        "paragraph_index": 3,
+        "full_sentence": "كل واحد شافها"
+      },
+      "visual_continuity": {
+        "persist_after_draw": true,
+        "min_hold_after_finish_s": 2.0,
+        "allowed_simultaneous_with": []
+      },
+      "notes": "Bound to asset_004 via rule 'concept_beat_004' (score=0.95)"
+    },
+    {
+      "concept_id": "cpt_concept_beat_005_asset_005",
+      "visual_id": "asset_005",
+      "narrative_role": "hero",
+      "importance_weight": 0.9500000000000001,
+      "anchor_candidates": [
+        {
+          "text": "وكل واحد",
+          "weight": 1.0,
+          "type": "identity"
+        },
+        {
+          "text": "وكل واحد يحكم",
+          "weight": 0.98,
+          "type": "semantic"
+        },
+        {
+          "text": "وكل",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "واحد",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "يحكم",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "عليك",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "وكل واحد يحكم عليك",
+          "weight": 0.75,
+          "type": "support"
+        }
+      ],
+      "script_reference_segment": {
+        "paragraph_index": 4,
+        "full_sentence": "وكل واحد يحكم عليك"
+      },
+      "visual_continuity": {
+        "persist_after_draw": true,
+        "min_hold_after_finish_s": 2.0,
+        "allowed_simultaneous_with": []
+      },
+      "notes": "Bound to asset_005 via rule 'concept_beat_005' (score=0.95)"
+    },
+    {
+      "concept_id": "cpt_spotlight_effect_asset_015",
+      "visual_id": "asset_015",
+      "narrative_role": "hero",
+      "importance_weight": 1.0,
+      "anchor_candidates": [
+        {
+          "text": "هذا اسمه",
+          "weight": 1.0,
+          "type": "identity"
+        },
+        {
+          "text": "هذا اسمه تأثير",
+          "weight": 0.98,
+          "type": "semantic"
+        },
+        {
+          "text": "بقعة الضوء",
+          "weight": 0.92,
+          "type": "semantic"
+        },
+        {
+          "text": "بقعة",
+          "weight": 0.92,
+          "type": "semantic"
+        },
+        {
+          "text": "اسمه",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "تأثير",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "الضوء",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "هذا اسمه تأثير بقعة الضوء",
+          "weight": 0.75,
+          "type": "support"
+        }
+      ],
+      "script_reference_segment": {
+        "paragraph_index": 5,
+        "full_sentence": "هذا اسمه تأثير بقعة الضوء"
+      },
+      "visual_continuity": {
+        "persist_after_draw": true,
+        "min_hold_after_finish_s": 2.0,
+        "allowed_simultaneous_with": []
+      },
+      "notes": "Bound to asset_015 via rule 'spotlight_effect' (score=1.00)"
+    },
+    {
+      "concept_id": "cpt_hero_warrior_asset_007",
+      "visual_id": "asset_007",
+      "narrative_role": "hero",
+      "importance_weight": 1.0,
+      "anchor_candidates": [
+        {
+          "text": "لأنك أنت",
+          "weight": 1.0,
+          "type": "identity"
+        },
+        {
+          "text": "لأنك أنت عايش",
+          "weight": 0.98,
+          "type": "semantic"
+        },
+        {
+          "text": "بطل",
+          "weight": 0.92,
+          "type": "semantic"
+        },
+        {
+          "text": "ساعة",
+          "weight": 0.92,
+          "type": "semantic"
+        },
+        {
+          "text": "مخك",
+          "weight": 0.95,
+          "type": "semantic"
+        },
+        {
+          "text": "لأنك",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "أنت",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "عايش",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "داخل",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "رأسك",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "أربع",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "وعشرين",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "فمخك",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "يتعامل",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "معك",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "وكأنك",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "القصة",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "لأنك أنت عايش داخل رأسك أربع وعشرين ساعة فمخك يتعامل معك وكأنك بطل القصة",
+          "weight": 0.75,
+          "type": "support"
+        }
+      ],
+      "script_reference_segment": {
+        "paragraph_index": 6,
+        "full_sentence": "لأنك أنت عايش داخل رأسك أربع وعشرين ساعة فمخك يتعامل معك وكأنك بطل القصة"
+      },
+      "visual_continuity": {
+        "persist_after_draw": true,
+        "min_hold_after_finish_s": 2.0,
+        "allowed_simultaneous_with": []
+      },
+      "notes": "Bound to asset_007 via rule 'hero_warrior' (score=1.00)"
+    },
+    {
+      "concept_id": "cpt_hero_warrior_asset_008",
+      "visual_id": "asset_008",
+      "narrative_role": "hero",
+      "importance_weight": 1.0,
+      "anchor_candidates": [
+        {
+          "text": "ومع الوقت",
+          "weight": 1.0,
+          "type": "identity"
+        },
+        {
+          "text": "ومع الوقت يقنعك",
+          "weight": 0.98,
+          "type": "semantic"
+        },
+        {
+          "text": "بطل",
+          "weight": 0.92,
+          "type": "semantic"
+        },
+        {
+          "text": "الناس",
+          "weight": 0.92,
+          "type": "semantic"
+        },
+        {
+          "text": "ومع",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "الوقت",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "يقنعك",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "إنك",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "القصة",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "عند",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "الثانيين",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "بعد",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "ومع الوقت يقنعك إنك بطل القصة عند الناس الثانيين بعد",
+          "weight": 0.75,
+          "type": "support"
+        }
+      ],
+      "script_reference_segment": {
+        "paragraph_index": 7,
+        "full_sentence": "ومع الوقت يقنعك إنك بطل القصة عند الناس الثانيين بعد"
+      },
+      "visual_continuity": {
+        "persist_after_draw": true,
+        "min_hold_after_finish_s": 2.0,
+        "allowed_simultaneous_with": []
+      },
+      "notes": "Bound to asset_008 via rule 'hero_warrior' (score=1.00)"
+    },
+    {
+      "concept_id": "cpt_spotlight_effect_asset_023",
+      "visual_id": "asset_023",
+      "narrative_role": "hero",
+      "importance_weight": 1.0,
+      "anchor_candidates": [
+        {
+          "text": "تحس إن",
+          "weight": 1.0,
+          "type": "identity"
+        },
+        {
+          "text": "تحس إن عليك",
+          "weight": 0.98,
+          "type": "semantic"
+        },
+        {
+          "text": "كشاف",
+          "weight": 0.92,
+          "type": "semantic"
+        },
+        {
+          "text": "تحس",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "عليك",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "مسرح",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "وكل",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "العيون",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "تحس إن عليك كشاف مسرح وكل العيون عليك",
+          "weight": 0.75,
+          "type": "support"
+        }
+      ],
+      "script_reference_segment": {
+        "paragraph_index": 8,
+        "full_sentence": "تحس إن عليك كشاف مسرح وكل العيون عليك"
+      },
+      "visual_continuity": {
+        "persist_after_draw": true,
+        "min_hold_after_finish_s": 2.0,
+        "allowed_simultaneous_with": []
+      },
+      "notes": "Bound to asset_023 via rule 'spotlight_effect' (score=1.00)"
+    },
+    {
+      "concept_id": "cpt_concept_beat_010_asset_010",
+      "visual_id": "asset_010",
+      "narrative_role": "hero",
+      "importance_weight": 0.9500000000000001,
+      "anchor_candidates": [
+        {
+          "text": "لكن الحقيقة",
+          "weight": 1.0,
+          "type": "identity"
+        },
+        {
+          "text": "لكن الحقيقة غالباً",
+          "weight": 0.98,
+          "type": "semantic"
+        },
+        {
+          "text": "لكن",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "الحقيقة",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "غالبا",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "محد",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "خبر",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "لكن الحقيقة غالباً محد طق لك خبر",
+          "weight": 0.75,
+          "type": "support"
+        }
+      ],
+      "script_reference_segment": {
+        "paragraph_index": 9,
+        "full_sentence": "لكن الحقيقة غالباً محد طق لك خبر"
+      },
+      "visual_continuity": {
+        "persist_after_draw": true,
+        "min_hold_after_finish_s": 2.0,
+        "allowed_simultaneous_with": []
+      },
+      "notes": "Bound to asset_010 via rule 'concept_beat_010' (score=0.95)"
+    },
+    {
+      "concept_id": "cpt_distraction_asset_025",
+      "visual_id": "asset_025",
+      "narrative_role": "hero",
+      "importance_weight": 1.0,
+      "anchor_candidates": [
+        {
+          "text": "الناس مشغولة",
+          "weight": 1.0,
+          "type": "identity"
+        },
+        {
+          "text": "الناس مشغولة بنفسها",
+          "weight": 0.98,
+          "type": "semantic"
+        },
+        {
+          "text": "مشغولة",
+          "weight": 0.95,
+          "type": "semantic"
+        },
+        {
+          "text": "الناس",
+          "weight": 0.92,
+          "type": "semantic"
+        },
+        {
+          "text": "بنفسها",
+          "weight": 0.85,
+          "type": "support"
+        }
+      ],
+      "script_reference_segment": {
+        "paragraph_index": 10,
+        "full_sentence": "الناس مشغولة بنفسها"
+      },
+      "visual_continuity": {
+        "persist_after_draw": true,
+        "min_hold_after_finish_s": 2.0,
+        "allowed_simultaneous_with": []
+      },
+      "notes": "Bound to asset_025 via rule 'distraction' (score=1.00)"
+    },
+    {
+      "concept_id": "cpt_concept_beat_012_asset_012",
+      "visual_id": "asset_012",
+      "narrative_role": "hero",
+      "importance_weight": 0.9500000000000001,
+      "anchor_candidates": [
+        {
+          "text": "واحد يفكر",
+          "weight": 1.0,
+          "type": "identity"
+        },
+        {
+          "text": "واحد يفكر في",
+          "weight": 0.98,
+          "type": "semantic"
+        },
+        {
+          "text": "واحد",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "يفكر",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "شعره",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "واحد يفكر في شعره",
+          "weight": 0.75,
+          "type": "support"
+        }
+      ],
+      "script_reference_segment": {
+        "paragraph_index": 11,
+        "full_sentence": "واحد يفكر في شعره"
+      },
+      "visual_continuity": {
+        "persist_after_draw": true,
+        "min_hold_after_finish_s": 2.0,
+        "allowed_simultaneous_with": []
+      },
+      "notes": "Bound to asset_012 via rule 'concept_beat_012' (score=0.95)"
+    },
+    {
+      "concept_id": "cpt_phantom_vibration_asset_003",
+      "visual_id": "asset_003",
+      "narrative_role": "hero",
+      "importance_weight": 1.0,
+      "anchor_candidates": [
+        {
+          "text": "واحد مركز",
+          "weight": 1.0,
+          "type": "identity"
+        },
+        {
+          "text": "واحد مركز في",
+          "weight": 0.98,
+          "type": "semantic"
+        },
+        {
+          "text": "جوال",
+          "weight": 0.92,
+          "type": "semantic"
+        },
+        {
+          "text": "واحد",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "مركز",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "جواله",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "واحد مركز في جواله",
+          "weight": 0.75,
+          "type": "support"
+        }
+      ],
+      "script_reference_segment": {
+        "paragraph_index": 12,
+        "full_sentence": "واحد مركز في جواله"
+      },
+      "visual_continuity": {
+        "persist_after_draw": true,
+        "min_hold_after_finish_s": 2.0,
+        "allowed_simultaneous_with": []
+      },
+      "notes": "Bound to asset_003 via rule 'phantom_vibration' (score=1.00)"
+    },
+    {
+      "concept_id": "cpt_distraction_asset_027",
+      "visual_id": "asset_027",
+      "narrative_role": "hero",
+      "importance_weight": 1.0,
+      "anchor_candidates": [
+        {
+          "text": "واحد خايف",
+          "weight": 1.0,
+          "type": "identity"
+        },
+        {
+          "text": "واحد خايف إن",
+          "weight": 0.98,
+          "type": "semantic"
+        },
+        {
+          "text": "الناس",
+          "weight": 0.92,
+          "type": "semantic"
+        },
+        {
+          "text": "واحد",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "خايف",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "تلاحظ",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "الخطأ",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "سواه",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "قبل",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "خمس",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "دقايق",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "واحد خايف إن الناس تلاحظ الخطأ اللي سواه قبل خمس دقايق",
+          "weight": 0.75,
+          "type": "support"
+        }
+      ],
+      "script_reference_segment": {
+        "paragraph_index": 13,
+        "full_sentence": "واحد خايف إن الناس تلاحظ الخطأ اللي سواه قبل خمس دقايق"
+      },
+      "visual_continuity": {
+        "persist_after_draw": true,
+        "min_hold_after_finish_s": 2.0,
+        "allowed_simultaneous_with": []
+      },
+      "notes": "Bound to asset_027 via rule 'distraction' (score=1.00)"
+    },
+    {
+      "concept_id": "cpt_spotlight_effect_asset_035",
+      "visual_id": "asset_035",
+      "narrative_role": "hero",
+      "importance_weight": 1.0,
+      "anchor_candidates": [
+        {
+          "text": "يعني كل",
+          "weight": 1.0,
+          "type": "identity"
+        },
+        {
+          "text": "يعني كل شخص",
+          "weight": 0.98,
+          "type": "semantic"
+        },
+        {
+          "text": "بقعة الضوء",
+          "weight": 0.92,
+          "type": "semantic"
+        },
+        {
+          "text": "بقعة",
+          "weight": 0.92,
+          "type": "semantic"
+        },
+        {
+          "text": "يعني",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "شخص",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "تقريبا",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "عنده",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "نسخة",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "خاصة",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "تأثير",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "الضوء",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "يعني كل شخص تقريباً عنده نسخة خاصة من تأثير بقعة الضوء",
+          "weight": 0.75,
+          "type": "support"
+        }
+      ],
+      "script_reference_segment": {
+        "paragraph_index": 14,
+        "full_sentence": "يعني كل شخص تقريباً عنده نسخة خاصة من تأثير بقعة الضوء"
+      },
+      "visual_continuity": {
+        "persist_after_draw": true,
+        "min_hold_after_finish_s": 2.0,
+        "allowed_simultaneous_with": []
+      },
+      "notes": "Bound to asset_035 via rule 'spotlight_effect' (score=1.00)"
+    },
+    {
+      "concept_id": "cpt_spotlight_effect_asset_042",
+      "visual_id": "asset_042",
+      "narrative_role": "hero",
+      "importance_weight": 1.0,
+      "anchor_candidates": [
+        {
+          "text": "ومخك يضخم",
+          "weight": 1.0,
+          "type": "identity"
+        },
+        {
+          "text": "ومخك يضخم إحساسك",
+          "weight": 0.98,
+          "type": "semantic"
+        },
+        {
+          "text": "مراقبة",
+          "weight": 0.92,
+          "type": "semantic"
+        },
+        {
+          "text": "مخك",
+          "weight": 0.95,
+          "type": "semantic"
+        },
+        {
+          "text": "ومخك",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "يضخم",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "إحساسك",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "بأنك",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "تحت",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "المراقبة",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "لأنه",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "يحاول",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "يخليك",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "أكثر",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "حذرا",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "اجتماعيا",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "ومخك يضخم إحساسك بأنك تحت المراقبة لأنه يحاول يخليك أكثر حذراً اجتماعياً",
+          "weight": 0.75,
+          "type": "support"
+        }
+      ],
+      "script_reference_segment": {
+        "paragraph_index": 15,
+        "full_sentence": "ومخك يضخم إحساسك بأنك تحت المراقبة لأنه يحاول يخليك أكثر حذراً اجتماعياً"
+      },
+      "visual_continuity": {
+        "persist_after_draw": true,
+        "min_hold_after_finish_s": 2.0,
+        "allowed_simultaneous_with": []
+      },
+      "notes": "Bound to asset_042 via rule 'spotlight_effect' (score=1.00)"
+    },
+    {
+      "concept_id": "cpt_concept_beat_017_asset_017",
+      "visual_id": "asset_017",
+      "narrative_role": "hero",
+      "importance_weight": 0.9500000000000001,
+      "anchor_candidates": [
+        {
+          "text": "لكن بالنسبة",
+          "weight": 1.0,
+          "type": "identity"
+        },
+        {
+          "text": "لكن بالنسبة للناس",
+          "weight": 0.98,
+          "type": "semantic"
+        },
+        {
+          "text": "لكن",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "بالنسبة",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "للناس",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "حولك",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "غالبا",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "أنت",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "أقل",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "أهمية",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "بكثير",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "مما",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "تتخيل",
+          "weight": 0.85,
+          "type": "support"
+        },
+        {
+          "text": "لكن بالنسبة للناس حولك غالباً أنت أقل أهمية بكثير مما تتخيل",
+          "weight": 0.75,
+          "type": "support"
+        }
+      ],
+      "script_reference_segment": {
+        "paragraph_index": 16,
+        "full_sentence": "لكن بالنسبة للناس حولك غالباً أنت أقل أهمية بكثير مما تتخيل"
+      },
+      "visual_continuity": {
+        "persist_after_draw": true,
+        "min_hold_after_finish_s": 2.0,
+        "allowed_simultaneous_with": []
+      },
+      "notes": "Bound to asset_017 via rule 'concept_beat_017' (score=0.95)"
+    }
+  ],
+  "narrative_flow_rules": [
+    {
+      "antecedent": "cpt_spotlight_effect_asset_001",
+      "consequent": "cpt_concept_beat_002_asset_002",
+      "order_constraint": "antecedent_before_consequent",
+      "overlap_policy": "SAFE_COMPOSITION"
+    },
+    {
+      "antecedent": "cpt_concept_beat_002_asset_002",
+      "consequent": "cpt_spotlight_effect_asset_013",
+      "order_constraint": "antecedent_before_consequent",
+      "overlap_policy": "SAFE_COMPOSITION"
+    },
+    {
+      "antecedent": "cpt_spotlight_effect_asset_013",
+      "consequent": "cpt_concept_beat_004_asset_004",
+      "order_constraint": "antecedent_before_consequent",
+      "overlap_policy": "SAFE_COMPOSITION"
+    },
+    {
+      "antecedent": "cpt_concept_beat_004_asset_004",
+      "consequent": "cpt_concept_beat_005_asset_005",
+      "order_constraint": "antecedent_before_consequent",
+      "overlap_policy": "SAFE_COMPOSITION"
+    },
+    {
+      "antecedent": "cpt_concept_beat_005_asset_005",
+      "consequent": "cpt_spotlight_effect_asset_015",
+      "order_constraint": "antecedent_before_consequent",
+      "overlap_policy": "SAFE_COMPOSITION"
+    },
+    {
+      "antecedent": "cpt_spotlight_effect_asset_015",
+      "consequent": "cpt_hero_warrior_asset_007",
+      "order_constraint": "antecedent_before_consequent",
+      "overlap_policy": "SAFE_COMPOSITION"
+    },
+    {
+      "antecedent": "cpt_hero_warrior_asset_007",
+      "consequent": "cpt_hero_warrior_asset_008",
+      "order_constraint": "antecedent_before_consequent",
+      "overlap_policy": "SAFE_COMPOSITION"
+    },
+    {
+      "antecedent": "cpt_hero_warrior_asset_008",
+      "consequent": "cpt_spotlight_effect_asset_023",
+      "order_constraint": "antecedent_before_consequent",
+      "overlap_policy": "SAFE_COMPOSITION"
+    },
+    {
+      "antecedent": "cpt_spotlight_effect_asset_023",
+      "consequent": "cpt_concept_beat_010_asset_010",
+      "order_constraint": "antecedent_before_consequent",
+      "overlap_policy": "SAFE_COMPOSITION"
+    },
+    {
+      "antecedent": "cpt_concept_beat_010_asset_010",
+      "consequent": "cpt_distraction_asset_025",
+      "order_constraint": "antecedent_before_consequent",
+      "overlap_policy": "SAFE_COMPOSITION"
+    },
+    {
+      "antecedent": "cpt_distraction_asset_025",
+      "consequent": "cpt_concept_beat_012_asset_012",
+      "order_constraint": "antecedent_before_consequent",
+      "overlap_policy": "SAFE_COMPOSITION"
+    },
+    {
+      "antecedent": "cpt_concept_beat_012_asset_012",
+      "consequent": "cpt_phantom_vibration_asset_003",
+      "order_constraint": "antecedent_before_consequent",
+      "overlap_policy": "SAFE_COMPOSITION"
+    },
+    {
+      "antecedent": "cpt_phantom_vibration_asset_003",
+      "consequent": "cpt_distraction_asset_027",
+      "order_constraint": "antecedent_before_consequent",
+      "overlap_policy": "SAFE_COMPOSITION"
+    },
+    {
+      "antecedent": "cpt_distraction_asset_027",
+      "consequent": "cpt_spotlight_effect_asset_035",
+      "order_constraint": "antecedent_before_consequent",
+      "overlap_policy": "SAFE_COMPOSITION"
+    },
+    {
+      "antecedent": "cpt_spotlight_effect_asset_035",
+      "consequent": "cpt_spotlight_effect_asset_042",
+      "order_constraint": "antecedent_before_consequent",
+      "overlap_policy": "SAFE_COMPOSITION"
+    },
+    {
+      "antecedent": "cpt_spotlight_effect_asset_042",
+      "consequent": "cpt_concept_beat_017_asset_017",
+      "order_constraint": "antecedent_before_consequent",
+      "overlap_policy": "SAFE_COMPOSITION"
+    }
+  ],
+  "metadata": {
+    "source_storyboard_id": "06_spotlight_effect",
+    "total_speech_beats": 17,
+    "total_narrative_concepts": 17,
+    "total_visual_bindings": 17,
+    "audio_duration_s": 45.486,
+    "resolved_anchors_count": 17,
+    "speech_beats": [
+      {
+        "beat_id": "beat_001",
+        "start": 0.0,
+        "end": 5.14,
+        "duration": 5.14,
+        "transcript_text": "عمرها انكبت على ثوبك أو قميصك قطرة قهوة صغيرة وقضيت باقي الدوام وأنت تحاول تغطيها",
+        "anchor_words": [
+          "عمرها",
+          "انكبت",
+          "على",
+          "ثوبك",
+          "أو",
+          "قميصك",
+          "قطرة",
+          "قهوة",
+          "صغيرة",
+          "وقضيت",
+          "باقي",
+          "الدوام",
+          "وأنت",
+          "تحاول",
+          "تغطيها"
+        ],
+        "concepts": [
+          "spotlight_effect"
+        ],
+        "visual_entities": [
+          "asset_001"
+        ],
+        "semantic_roles": [
+          "hero"
+        ],
+        "priority": 0.8,
+        "continuity": false
+      },
+      {
+        "beat_id": "beat_002",
+        "start": 5.14,
+        "end": 5.84,
+        "duration": 0.7,
+        "transcript_text": "ليش",
+        "anchor_words": [
+          "ليش"
+        ],
+        "concepts": [
+          "concept_beat_002"
+        ],
+        "visual_entities": [
+          "asset_002"
+        ],
+        "semantic_roles": [
+          "hero"
+        ],
+        "priority": 0.8,
+        "continuity": false
+      },
+      {
+        "beat_id": "beat_003",
+        "start": 5.84,
+        "end": 8.56,
+        "duration": 2.72,
+        "transcript_text": "لأنك تحس إن الكوكب كله جالس يطالع البقعة",
+        "anchor_words": [
+          "لأنك",
+          "تحس",
+          "إن",
+          "الكوكب",
+          "كله",
+          "جالس",
+          "يطالع",
+          "البقعة"
+        ],
+        "concepts": [
+          "spotlight_effect"
+        ],
+        "visual_entities": [
+          "asset_013"
+        ],
+        "semantic_roles": [
+          "hero"
+        ],
+        "priority": 0.8,
+        "continuity": false
+      },
+      {
+        "beat_id": "beat_004",
+        "start": 8.56,
+        "end": 9.42,
+        "duration": 0.86,
+        "transcript_text": "كل واحد شافها",
+        "anchor_words": [
+          "كل",
+          "واحد",
+          "شافها"
+        ],
+        "concepts": [
+          "concept_beat_004"
+        ],
+        "visual_entities": [
+          "asset_004"
+        ],
+        "semantic_roles": [
+          "hero"
+        ],
+        "priority": 0.8,
+        "continuity": false
+      },
+      {
+        "beat_id": "beat_005",
+        "start": 9.42,
+        "end": 10.46,
+        "duration": 1.04,
+        "transcript_text": "وكل واحد يحكم عليك",
+        "anchor_words": [
+          "وكل",
+          "واحد",
+          "يحكم",
+          "عليك"
+        ],
+        "concepts": [
+          "concept_beat_005"
+        ],
+        "visual_entities": [
+          "asset_005"
+        ],
+        "semantic_roles": [
+          "hero"
+        ],
+        "priority": 0.8,
+        "continuity": false
+      },
+      {
+        "beat_id": "beat_006",
+        "start": 10.46,
+        "end": 12.18,
+        "duration": 1.72,
+        "transcript_text": "هذا اسمه تأثير بقعة الضوء",
+        "anchor_words": [
+          "هذا",
+          "اسمه",
+          "تأثير",
+          "بقعة",
+          "الضوء"
+        ],
+        "concepts": [
+          "spotlight_effect"
+        ],
+        "visual_entities": [
+          "asset_015"
+        ],
+        "semantic_roles": [
+          "hero"
+        ],
+        "priority": 0.8,
+        "continuity": false
+      },
+      {
+        "beat_id": "beat_007",
+        "start": 12.18,
+        "end": 16.7,
+        "duration": 4.52,
+        "transcript_text": "لأنك أنت عايش داخل رأسك أربع وعشرين ساعة فمخك يتعامل معك وكأنك بطل القصة",
+        "anchor_words": [
+          "لأنك",
+          "أنت",
+          "عايش",
+          "داخل",
+          "رأسك",
+          "أربع",
+          "وعشرين",
+          "ساعة",
+          "فمخك",
+          "يتعامل",
+          "معك",
+          "وكأنك",
+          "بطل",
+          "القصة"
+        ],
+        "concepts": [
+          "hero_warrior"
+        ],
+        "visual_entities": [
+          "asset_007"
+        ],
+        "semantic_roles": [
+          "hero"
+        ],
+        "priority": 0.8,
+        "continuity": false
+      },
+      {
+        "beat_id": "beat_008",
+        "start": 16.7,
+        "end": 19.5,
+        "duration": 2.8,
+        "transcript_text": "ومع الوقت يقنعك إنك بطل القصة عند الناس الثانيين بعد",
+        "anchor_words": [
+          "ومع",
+          "الوقت",
+          "يقنعك",
+          "إنك",
+          "بطل",
+          "القصة",
+          "عند",
+          "الناس",
+          "الثانيين",
+          "بعد"
+        ],
+        "concepts": [
+          "hero_warrior"
+        ],
+        "visual_entities": [
+          "asset_008"
+        ],
+        "semantic_roles": [
+          "hero"
+        ],
+        "priority": 0.8,
+        "continuity": false
+      },
+      {
+        "beat_id": "beat_009",
+        "start": 19.5,
+        "end": 21.72,
+        "duration": 2.22,
+        "transcript_text": "تحس إن عليك كشاف مسرح وكل العيون عليك",
+        "anchor_words": [
+          "تحس",
+          "إن",
+          "عليك",
+          "كشاف",
+          "مسرح",
+          "وكل",
+          "العيون",
+          "عليك"
+        ],
+        "concepts": [
+          "spotlight_effect"
+        ],
+        "visual_entities": [
+          "asset_023"
+        ],
+        "semantic_roles": [
+          "hero"
+        ],
+        "priority": 0.8,
+        "continuity": false
+      },
+      {
+        "beat_id": "beat_010",
+        "start": 21.72,
+        "end": 23.52,
+        "duration": 1.8,
+        "transcript_text": "لكن الحقيقة غالباً محد طق لك خبر",
+        "anchor_words": [
+          "لكن",
+          "الحقيقة",
+          "غالباً",
+          "محد",
+          "طق",
+          "لك",
+          "خبر"
+        ],
+        "concepts": [
+          "concept_beat_010"
+        ],
+        "visual_entities": [
+          "asset_010"
+        ],
+        "semantic_roles": [
+          "hero"
+        ],
+        "priority": 0.8,
+        "continuity": false
+      },
+      {
+        "beat_id": "beat_011",
+        "start": 23.52,
+        "end": 24.94,
+        "duration": 1.42,
+        "transcript_text": "الناس مشغولة بنفسها",
+        "anchor_words": [
+          "الناس",
+          "مشغولة",
+          "بنفسها"
+        ],
+        "concepts": [
+          "distraction"
+        ],
+        "visual_entities": [
+          "asset_025"
+        ],
+        "semantic_roles": [
+          "hero"
+        ],
+        "priority": 0.8,
+        "continuity": false
+      },
+      {
+        "beat_id": "beat_012",
+        "start": 24.94,
+        "end": 26.04,
+        "duration": 1.1,
+        "transcript_text": "واحد يفكر في شعره",
+        "anchor_words": [
+          "واحد",
+          "يفكر",
+          "في",
+          "شعره"
+        ],
+        "concepts": [
+          "concept_beat_012"
+        ],
+        "visual_entities": [
+          "asset_012"
+        ],
+        "semantic_roles": [
+          "hero"
+        ],
+        "priority": 0.8,
+        "continuity": false
+      },
+      {
+        "beat_id": "beat_013",
+        "start": 26.04,
+        "end": 27.5,
+        "duration": 1.46,
+        "transcript_text": "واحد مركز في جواله",
+        "anchor_words": [
+          "واحد",
+          "مركز",
+          "في",
+          "جواله"
+        ],
+        "concepts": [
+          "phantom_vibration"
+        ],
+        "visual_entities": [
+          "asset_003"
+        ],
+        "semantic_roles": [
+          "hero"
+        ],
+        "priority": 0.8,
+        "continuity": false
+      },
+      {
+        "beat_id": "beat_014",
+        "start": 27.5,
+        "end": 30.66,
+        "duration": 3.16,
+        "transcript_text": "واحد خايف إن الناس تلاحظ الخطأ اللي سواه قبل خمس دقايق",
+        "anchor_words": [
+          "واحد",
+          "خايف",
+          "إن",
+          "الناس",
+          "تلاحظ",
+          "الخطأ",
+          "اللي",
+          "سواه",
+          "قبل",
+          "خمس",
+          "دقايق"
+        ],
+        "concepts": [
+          "distraction"
+        ],
+        "visual_entities": [
+          "asset_027"
+        ],
+        "semantic_roles": [
+          "hero"
+        ],
+        "priority": 0.8,
+        "continuity": false
+      },
+      {
+        "beat_id": "beat_015",
+        "start": 30.66,
+        "end": 33.88,
+        "duration": 3.22,
+        "transcript_text": "يعني كل شخص تقريباً عنده نسخة خاصة من تأثير بقعة الضوء",
+        "anchor_words": [
+          "يعني",
+          "كل",
+          "شخص",
+          "تقريباً",
+          "عنده",
+          "نسخة",
+          "خاصة",
+          "من",
+          "تأثير",
+          "بقعة",
+          "الضوء"
+        ],
+        "concepts": [
+          "spotlight_effect"
+        ],
+        "visual_entities": [
+          "asset_035"
+        ],
+        "semantic_roles": [
+          "hero"
+        ],
+        "priority": 0.8,
+        "continuity": false
+      },
+      {
+        "beat_id": "beat_016",
+        "start": 33.88,
+        "end": 38.88,
+        "duration": 5.0,
+        "transcript_text": "ومخك يضخم إحساسك بأنك تحت المراقبة لأنه يحاول يخليك أكثر حذراً اجتماعياً",
+        "anchor_words": [
+          "ومخك",
+          "يضخم",
+          "إحساسك",
+          "بأنك",
+          "تحت",
+          "المراقبة",
+          "لأنه",
+          "يحاول",
+          "يخليك",
+          "أكثر",
+          "حذراً",
+          "اجتماعياً"
+        ],
+        "concepts": [
+          "spotlight_effect"
+        ],
+        "visual_entities": [
+          "asset_042"
+        ],
+        "semantic_roles": [
+          "hero"
+        ],
+        "priority": 0.8,
+        "continuity": false
+      },
+      {
+        "beat_id": "beat_017",
+        "start": 38.88,
+        "end": 42.74,
+        "duration": 3.86,
+        "transcript_text": "لكن بالنسبة للناس حولك غالباً أنت أقل أهمية بكثير مما تتخيل",
+        "anchor_words": [
+          "لكن",
+          "بالنسبة",
+          "للناس",
+          "حولك",
+          "غالباً",
+          "أنت",
+          "أقل",
+          "أهمية",
+          "بكثير",
+          "مما",
+          "تتخيل"
+        ],
+        "concepts": [
+          "concept_beat_017"
+        ],
+        "visual_entities": [
+          "asset_017"
+        ],
+        "semantic_roles": [
+          "hero"
+        ],
+        "priority": 0.8,
+        "continuity": false
+      }
+    ],
+    "visual_bindings": [
+      {
+        "beat_id": "beat_001",
+        "concept_id": "cpt_spotlight_effect_asset_001",
+        "visual_id": "asset_001",
+        "relevance_score": 1.0,
+        "role": "hero",
+        "reason": "Matched rule 'spotlight_effect' in beat 'عمرها انكبت على ثوبك أو قميصك ...'",
+        "source_references": [
+          "عمرها انكبت على ثوبك أو قميصك قطرة قهوة صغيرة وقضيت باقي الدوام وأنت تحاول تغطيها"
+        ]
+      },
+      {
+        "beat_id": "beat_002",
+        "concept_id": "cpt_concept_beat_002_asset_002",
+        "visual_id": "asset_002",
+        "relevance_score": 0.9500000000000001,
+        "role": "hero",
+        "reason": "Matched rule 'concept_beat_002' in beat 'ليش...'",
+        "source_references": [
+          "ليش"
+        ]
+      },
+      {
+        "beat_id": "beat_003",
+        "concept_id": "cpt_spotlight_effect_asset_013",
+        "visual_id": "asset_013",
+        "relevance_score": 1.0,
+        "role": "hero",
+        "reason": "Matched rule 'spotlight_effect' in beat 'لأنك تحس إن الكوكب كله جالس يط...'",
+        "source_references": [
+          "لأنك تحس إن الكوكب كله جالس يطالع البقعة"
+        ]
+      },
+      {
+        "beat_id": "beat_004",
+        "concept_id": "cpt_concept_beat_004_asset_004",
+        "visual_id": "asset_004",
+        "relevance_score": 0.9500000000000001,
+        "role": "hero",
+        "reason": "Matched rule 'concept_beat_004' in beat 'كل واحد شافها...'",
+        "source_references": [
+          "كل واحد شافها"
+        ]
+      },
+      {
+        "beat_id": "beat_005",
+        "concept_id": "cpt_concept_beat_005_asset_005",
+        "visual_id": "asset_005",
+        "relevance_score": 0.9500000000000001,
+        "role": "hero",
+        "reason": "Matched rule 'concept_beat_005' in beat 'وكل واحد يحكم عليك...'",
+        "source_references": [
+          "وكل واحد يحكم عليك"
+        ]
+      },
+      {
+        "beat_id": "beat_006",
+        "concept_id": "cpt_spotlight_effect_asset_015",
+        "visual_id": "asset_015",
+        "relevance_score": 1.0,
+        "role": "hero",
+        "reason": "Matched rule 'spotlight_effect' in beat 'هذا اسمه تأثير بقعة الضوء...'",
+        "source_references": [
+          "هذا اسمه تأثير بقعة الضوء"
+        ]
+      },
+      {
+        "beat_id": "beat_007",
+        "concept_id": "cpt_hero_warrior_asset_007",
+        "visual_id": "asset_007",
+        "relevance_score": 1.0,
+        "role": "hero",
+        "reason": "Matched rule 'hero_warrior' in beat 'لأنك أنت عايش داخل رأسك أربع و...'",
+        "source_references": [
+          "لأنك أنت عايش داخل رأسك أربع وعشرين ساعة فمخك يتعامل معك وكأنك بطل القصة"
+        ]
+      },
+      {
+        "beat_id": "beat_008",
+        "concept_id": "cpt_hero_warrior_asset_008",
+        "visual_id": "asset_008",
+        "relevance_score": 1.0,
+        "role": "hero",
+        "reason": "Matched rule 'hero_warrior' in beat 'ومع الوقت يقنعك إنك بطل القصة ...'",
+        "source_references": [
+          "ومع الوقت يقنعك إنك بطل القصة عند الناس الثانيين بعد"
+        ]
+      },
+      {
+        "beat_id": "beat_009",
+        "concept_id": "cpt_spotlight_effect_asset_023",
+        "visual_id": "asset_023",
+        "relevance_score": 1.0,
+        "role": "hero",
+        "reason": "Matched rule 'spotlight_effect' in beat 'تحس إن عليك كشاف مسرح وكل العي...'",
+        "source_references": [
+          "تحس إن عليك كشاف مسرح وكل العيون عليك"
+        ]
+      },
+      {
+        "beat_id": "beat_010",
+        "concept_id": "cpt_concept_beat_010_asset_010",
+        "visual_id": "asset_010",
+        "relevance_score": 0.9500000000000001,
+        "role": "hero",
+        "reason": "Matched rule 'concept_beat_010' in beat 'لكن الحقيقة غالباً محد طق لك خ...'",
+        "source_references": [
+          "لكن الحقيقة غالباً محد طق لك خبر"
+        ]
+      },
+      {
+        "beat_id": "beat_011",
+        "concept_id": "cpt_distraction_asset_025",
+        "visual_id": "asset_025",
+        "relevance_score": 1.0,
+        "role": "hero",
+        "reason": "Matched rule 'distraction' in beat 'الناس مشغولة بنفسها...'",
+        "source_references": [
+          "الناس مشغولة بنفسها"
+        ]
+      },
+      {
+        "beat_id": "beat_012",
+        "concept_id": "cpt_concept_beat_012_asset_012",
+        "visual_id": "asset_012",
+        "relevance_score": 0.9500000000000001,
+        "role": "hero",
+        "reason": "Matched rule 'concept_beat_012' in beat 'واحد يفكر في شعره...'",
+        "source_references": [
+          "واحد يفكر في شعره"
+        ]
+      },
+      {
+        "beat_id": "beat_013",
+        "concept_id": "cpt_phantom_vibration_asset_003",
+        "visual_id": "asset_003",
+        "relevance_score": 1.0,
+        "role": "hero",
+        "reason": "Matched rule 'phantom_vibration' in beat 'واحد مركز في جواله...'",
+        "source_references": [
+          "واحد مركز في جواله"
+        ]
+      },
+      {
+        "beat_id": "beat_014",
+        "concept_id": "cpt_distraction_asset_027",
+        "visual_id": "asset_027",
+        "relevance_score": 1.0,
+        "role": "hero",
+        "reason": "Matched rule 'distraction' in beat 'واحد خايف إن الناس تلاحظ الخطأ...'",
+        "source_references": [
+          "واحد خايف إن الناس تلاحظ الخطأ اللي سواه قبل خمس دقايق"
+        ]
+      },
+      {
+        "beat_id": "beat_015",
+        "concept_id": "cpt_spotlight_effect_asset_035",
+        "visual_id": "asset_035",
+        "relevance_score": 1.0,
+        "role": "hero",
+        "reason": "Matched rule 'spotlight_effect' in beat 'يعني كل شخص تقريباً عنده نسخة ...'",
+        "source_references": [
+          "يعني كل شخص تقريباً عنده نسخة خاصة من تأثير بقعة الضوء"
+        ]
+      },
+      {
+        "beat_id": "beat_016",
+        "concept_id": "cpt_spotlight_effect_asset_042",
+        "visual_id": "asset_042",
+        "relevance_score": 1.0,
+        "role": "hero",
+        "reason": "Matched rule 'spotlight_effect' in beat 'ومخك يضخم إحساسك بأنك تحت المر...'",
+        "source_references": [
+          "ومخك يضخم إحساسك بأنك تحت المراقبة لأنه يحاول يخليك أكثر حذراً اجتماعياً"
+        ]
+      },
+      {
+        "beat_id": "beat_017",
+        "concept_id": "cpt_concept_beat_017_asset_017",
+        "visual_id": "asset_017",
+        "relevance_score": 0.9500000000000001,
+        "role": "hero",
+        "reason": "Matched rule 'concept_beat_017' in beat 'لكن بالنسبة للناس حولك غالباً ...'",
+        "source_references": [
+          "لكن بالنسبة للناس حولك غالباً أنت أقل أهمية بكثير مما تتخيل"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="prop_curtain_handle" viewBox="-50 -60 120 120" width="120" height="120">
+  <line x1="0" y1="-30" x2="0" y2="10" stroke="#FFD400" stroke-width="4"/><circle cx="0" cy="14" r="7" fill="#FFD400" stroke="#0B0C10" stroke-width="3"/>
+</svg>

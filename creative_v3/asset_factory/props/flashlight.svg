@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="prop_flashlight" viewBox="-50 -60 120 120" width="120" height="120">
+  <rect x="-8" y="-8" width="28" height="16" rx="3" fill="#1A1C22" stroke="#0B0C10" stroke-width="3"/><polygon points="20,-12 30,-16 30,16 20,12" fill="#FFD400" stroke="#0B0C10" stroke-width="3"/>
+</svg>

@@ -36,7 +36,7 @@ if hasattr(sys.stdout, 'reconfigure'):
         pass
 
 # ─── Constants ────────────────────────────────────────────────────────────────
-ROOT_DIR = r"E:\image_to_animate"
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECTIONS_DIR = os.path.join(ROOT_DIR, "sections")
 OUTPUT_BASE = os.path.join(ROOT_DIR, "output_animations", "12_strangest_fruits_documentary", "deliverables", "reels")
 

@@ -1,0 +1,121 @@
+{
+  "cta_id": "cta_channel_en_puck",
+  "text": "Hit like, subscribe to the channel, and watch the full video from the related link right below!",
+  "voice": "Puck",
+  "profile": "US_CASUAL_STORYTELLER",
+  "note": "VIRAL_PSYCHOLOGY_ENGLISH_YT",
+  "wav_path": "E:\\image_to_animate\\assets\\audio\\cta\\cta_channel_en_puck.wav",
+  "duration": 4.245,
+  "words": [
+    {
+      "word": "Hit",
+      "start": 0.0,
+      "end": 0.14,
+      "duration": 0.14
+    },
+    {
+      "word": "like,",
+      "start": 0.14,
+      "end": 0.42,
+      "duration": 0.28
+    },
+    {
+      "word": "subscribe",
+      "start": 0.62,
+      "end": 0.92,
+      "duration": 0.3
+    },
+    {
+      "word": "to",
+      "start": 0.92,
+      "end": 1.14,
+      "duration": 0.22
+    },
+    {
+      "word": "the",
+      "start": 1.14,
+      "end": 1.22,
+      "duration": 0.08
+    },
+    {
+      "word": "channel,",
+      "start": 1.22,
+      "end": 1.46,
+      "duration": 0.24
+    },
+    {
+      "word": "and",
+      "start": 1.7,
+      "end": 1.74,
+      "duration": 0.04
+    },
+    {
+      "word": "watch",
+      "start": 1.74,
+      "end": 1.94,
+      "duration": 0.2
+    },
+    {
+      "word": "the",
+      "start": 1.94,
+      "end": 2.1,
+      "duration": 0.16
+    },
+    {
+      "word": "full",
+      "start": 2.1,
+      "end": 2.36,
+      "duration": 0.26
+    },
+    {
+      "word": "video",
+      "start": 2.36,
+      "end": 2.68,
+      "duration": 0.32
+    },
+    {
+      "word": "from",
+      "start": 2.68,
+      "end": 2.9,
+      "duration": 0.22
+    },
+    {
+      "word": "the",
+      "start": 2.9,
+      "end": 3.0,
+      "duration": 0.1
+    },
+    {
+      "word": "related",
+      "start": 3.0,
+      "end": 3.3,
+      "duration": 0.3
+    },
+    {
+      "word": "link",
+      "start": 3.3,
+      "end": 3.58,
+      "duration": 0.28
+    },
+    {
+      "word": "right",
+      "start": 3.58,
+      "end": 3.78,
+      "duration": 0.2
+    },
+    {
+      "word": "below!",
+      "start": 3.78,
+      "end": 4.04,
+      "duration": 0.26
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Hit like, subscribe to the channel, and watch the full video from the related link right below!",
+      "start": 0.0,
+      "end": 4.04,
+      "word_count": 17
+    }
+  ]
+}

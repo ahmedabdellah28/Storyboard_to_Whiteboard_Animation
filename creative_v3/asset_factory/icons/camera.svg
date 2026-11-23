@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="icon_camera" viewBox="0 0 64 64" width="64" height="64">
+  <rect x="10" y="20" width="44" height="30" rx="5" fill="#0072CE" stroke="#0B0C10" stroke-width="3.8"/><path d="M22 20l4-8h12l4 8" fill="#0072CE" stroke="#0B0C10" stroke-width="3.5"/><circle cx="32" cy="35" r="9" fill="#FFFFFF" stroke="#0B0C10" stroke-width="3.5"/>
+</svg>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="fx_water_ripple" viewBox="0 0 200 200" width="200" height="200">
+  <circle cx="100.0" cy="100.0" r="35.0" fill="none" stroke="#00A99D" stroke-width="4.5" opacity="0.65"/><circle cx="100.0" cy="100.0" r="21.0" fill="none" stroke="#0072CE" stroke-width="2.5" opacity="0.65"/>
+</svg>

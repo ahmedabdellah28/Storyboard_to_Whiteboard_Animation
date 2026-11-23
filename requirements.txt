@@ -1,0 +1,33 @@
+# AION Studio V6 — Verified Python Runtime Dependencies
+# Tested on Windows x64 with Python 3.13.13
+
+# --- AI & Gemini API ---
+google-genai>=1.0.0,<3.0.0          # tested: 2.24.0
+
+# --- Speech Alignment & Audio ---
+faster-whisper>=1.1.0               # tested: 1.2.1
+ctranslate2>=4.5.0                  # tested: 4.8.2
+av>=14.0.0                          # tested: 18.1.0
+
+# --- Vision, Contour Extraction & Numerical ---
+numpy>=2.0.0                        # tested: 2.4.4
+scipy>=1.14.0                       # tested: 1.17.1
+pillow>=10.4.0                      # tested: 10.4.0
+opencv-python>=4.10.0               # tested: 5.0.0.93
+
+# --- Typography & Arabic/English Text Shaping ---
+fonttools>=4.55.0                   # tested: 4.62.1
+arabic-reshaper>=3.0.0              # tested: 3.0.0
+python-bidi>=0.6.0                  # tested: 0.6.7
+
+# --- Schema Validation, Telemetry & Config ---
+pydantic>=2.10.0                    # tested: 2.13.3
+psutil>=6.0.0                       # tested: 7.2.2
+python-dotenv>=1.0.0                # tested: 1.2.2
+PyYAML>=6.0.2                       # tested: 6.0.3
+
+# --- Testing & Verification ---
+pytest>=8.0.0                       # tested: 9.1.1
+
+# --- Optional Desktop GUI (not required for CLI pipeline_cli.py) ---
+# PySide6>=6.8.0                    # tested: 6.11.2

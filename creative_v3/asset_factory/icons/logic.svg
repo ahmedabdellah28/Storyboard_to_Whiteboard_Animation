@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="icon_logic" viewBox="0 0 64 64" width="64" height="64">
+  <rect x="12" y="14" width="16" height="16" rx="3" fill="#0072CE" stroke="#0B0C10" stroke-width="3.5"/><rect x="36" y="34" width="16" height="16" rx="3" fill="#00A99D" stroke="#0B0C10" stroke-width="3.5"/><path d="M28 22h8v12h8" fill="none" stroke="#0B0C10" stroke-width="3.5"/>
+</svg>

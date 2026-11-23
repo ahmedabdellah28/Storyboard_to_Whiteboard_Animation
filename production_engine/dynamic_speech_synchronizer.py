@@ -58,21 +58,49 @@ class DynamicSpeechSynchronizer:
                 ))
 
             # Distribute remaining elements across speech duration
-            num_elems = len(asset_keys)
-            speech_segments = [s for s in segments if s["start"] >= 3.0]
-            
-            for idx, aid in enumerate(asset_keys):
-                desc = meta[aid].get("desc", aid)
-                # Estimate timing from segments
-                seg_idx = min(len(speech_segments) - 1, int(idx * len(speech_segments) / float(max(1, num_elems))))
-                seg = speech_segments[seg_idx]
-                st = max(3.5, float(seg["start"]) - 0.18)
-                dur = min(2.8, float(seg["end"]) - float(seg["start"]))
-                dur = max(1.2, dur)
-                en = st + dur
-                zone = f"zone_{min(15, 1 + (idx // 3)):02d}"
-                anim = "outside_in_pen" if (idx % 2 == 0) else "slide_down"
-                manifest_items.append((aid, round(st, 3), round(en, 3), desc, zone, anim, 5 if anim == "outside_in_pen" else 4))
+            # Group by row for sequential, non-overlapping placement
+            rows = {}
+            for aid in asset_keys:
+                row = meta[aid].get("row", 1)
+                rows.setdefault(row, []).append(aid)
+
+            speech_segments = [s for s in segments if s.get("start", 0) >= 3.0]
+            if not speech_segments:
+                speech_segments = segments if segments else [{"start": 0.0, "end": max(audio_duration, 4.0)}]
+
+            num_rows = len(rows)
+            row_keys = sorted(rows.keys())
+            seg_per_row = len(speech_segments) / max(1, num_rows)
+
+            for row_idx, row_num in enumerate(row_keys):
+                row_aids = rows[row_num]
+                seg_start = int(row_idx * seg_per_row)
+                seg_end = int((row_idx + 1) * seg_per_row)
+                row_segs = speech_segments[seg_start:seg_end] if seg_end > seg_start else [speech_segments[-1]]
+
+                row_t_start = float(row_segs[0]["start"]) if row_segs else 3.0
+                row_t_end = float(row_segs[-1]["end"]) if row_segs else audio_duration
+                row_dur = row_t_end - row_t_start
+                elem_dur = row_dur / max(1, len(row_aids))
+
+                for elem_idx, aid in enumerate(row_aids):
+                    desc = meta[aid].get("desc", aid)
+                    st = row_t_start + elem_idx * elem_dur
+                    st = max(0.5, st - 0.18)
+                    dur = max(1.0, min(2.8, elem_dur + 0.2))
+                    en = st + dur
+                    zone_num = min(15, 1 + row_num)
+                    zone = f"zone_{zone_num:02d}"
+                    # Only first element per row gets pen inking; others get varied animations
+                    if elem_idx == 0:
+                        anim = "outside_in_pen"
+                    elif elem_idx == 1:
+                        anim = "slide_down"
+                    elif elem_idx == 2:
+                        anim = "jelly_pop"
+                    else:
+                        anim = "organic_grow"
+                    manifest_items.append((aid, round(st, 3), round(en, 3), desc, zone, anim, 5 if anim == "outside_in_pen" else 4))
 
         # Build events
         drawing_events = []

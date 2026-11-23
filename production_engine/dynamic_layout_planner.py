@@ -45,36 +45,61 @@ class DynamicLayoutPlanner:
             placed_elements[z_name] = []
             num_elems = len(aids)
 
-            # Adaptive prominent scaling
-            if z_name == "zone_01":
-                elem_scale = 3.8
+            # Calculate visible camera frame constraints
+            visible_w = 1920.0 / self.cam_zoom  # ~2823.5 px at zoom 0.68
+            safe_max_zone_w = visible_w - 320.0  # ~2500 px with safe 160px margins on left/right
+
+            # Pre-compute total raw width of elements to guarantee perfect fitting
+            raw_widths = []
+            for aid in aids:
+                if aid != "r0_00_title_banner":
+                    orig = metadata.get(aid, {}).get("orig_size", [150, 150])
+                    raw_widths.append(float(orig[0]))
+
+            num_content_elems = len(raw_widths)
+            if num_content_elems <= 1:
+                base_scale = 3.2
                 spacing = 100.0
-            elif num_elems <= 2:
-                elem_scale = 3.8
-                spacing = 140.0
-            elif num_elems == 3:
-                elem_scale = 3.4
-                spacing = 100.0
-            else:
-                elem_scale = 3.0
+            elif num_content_elems == 2:
+                base_scale = 2.6
+                spacing = 90.0
+            elif num_content_elems == 3:
+                base_scale = 2.35
                 spacing = 80.0
+            else:
+                base_scale = 2.0
+                spacing = 60.0
+
+            # Auto-clamp elem_scale so total zone width never overflows camera viewport
+            if num_content_elems > 0 and sum(raw_widths) > 0:
+                avail_w = safe_max_zone_w - (spacing * max(0, num_content_elems - 1))
+                fit_scale = avail_w / sum(raw_widths)
+                elem_scale = min(base_scale, fit_scale)
+            else:
+                elem_scale = base_scale
 
             cur_x = cur_zone_x
             for aid in aids:
                 meta = metadata.get(aid, {})
                 orig_size = meta.get("orig_size", [150, 150])
 
+                has_banner = any(a == "r0_00_title_banner" for a in aids)
                 if aid == "r0_00_title_banner":
                     w_px = 1100.0
                     h_px = 242.0
                     x_px = cur_zone_x + 100.0
                     y_px = 180.0
-                elif z_name == "zone_01" and aid != "r0_00_title_banner":
+                elif has_banner and aid != "r0_00_title_banner":
                     w_px = float(orig_size[0]) * elem_scale
                     h_px = float(orig_size[1]) * elem_scale
-                    x_px = cur_zone_x + 150.0
-                    y_px = 880.0 - (h_px / 2.0)
-                    cur_x = max(cur_x, x_px + w_px + spacing)
+                    max_allowed_h = 660.0
+                    if h_px > max_allowed_h:
+                        ratio = max_allowed_h / h_px
+                        w_px *= ratio
+                        h_px = max_allowed_h
+                    x_px = cur_x
+                    y_px = 960.0 - (h_px / 2.0)
+                    cur_x += w_px + spacing
                 else:
                     w_px = float(orig_size[0]) * elem_scale
                     h_px = float(orig_size[1]) * elem_scale

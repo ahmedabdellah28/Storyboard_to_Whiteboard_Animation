@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="icon_mic" viewBox="0 0 64 64" width="64" height="64">
+  <rect x="24" y="10" width="16" height="26" rx="8" fill="#FFFFFF" stroke="#0B0C10" stroke-width="3.8"/><path d="M16 30a16 16 0 0 0 32 0M32 46v8" fill="none" stroke="#0B0C10" stroke-width="3.8" stroke-linecap="round"/>
+</svg>

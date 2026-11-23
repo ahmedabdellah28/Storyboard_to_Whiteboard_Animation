@@ -1,0 +1,1906 @@
+{
+  "audited_count": 100,
+  "passed": 100,
+  "results": [
+    {
+      "action_id": "signature_idle_breath",
+      "number": 1,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "36ef40a55152",
+        "05187c037f40",
+        "ac4b65748ebb"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_001\\contact_sheet.png",
+      "preview_webm": "actions\\action_001\\preview.webm"
+    },
+    {
+      "action_id": "eye_track_and_point",
+      "number": 2,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "1401a0770b11",
+        "89bc77cd5544",
+        "2b30238df138"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_002\\contact_sheet.png",
+      "preview_webm": "actions\\action_002\\preview.webm"
+    },
+    {
+      "action_id": "eager_presenter_greeting",
+      "number": 3,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "36ef40a55152",
+        "8e19cf7933dc",
+        "ac4b65748ebb"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_003\\contact_sheet.png",
+      "preview_webm": "actions\\action_003\\preview.webm"
+    },
+    {
+      "action_id": "think_then_epiphany",
+      "number": 4,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "36ef40a55152",
+        "348ee1f3ace7",
+        "3cfc8a173107"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_004\\contact_sheet.png",
+      "preview_webm": "actions\\action_004\\preview.webm"
+    },
+    {
+      "action_id": "suspicious_sneak_peek",
+      "number": 5,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "df4a266c63a6",
+        "ae00f8579a06",
+        "c3625791106e"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_005\\contact_sheet.png",
+      "preview_webm": "actions\\action_005\\preview.webm"
+    },
+    {
+      "action_id": "explosive_surprise_recoil",
+      "number": 6,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 54,
+      "expected_frame_count": 54,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "c624dc6f1fe5",
+        "c24145bcd7c5",
+        "5d803143fc62"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_006\\contact_sheet.png",
+      "preview_webm": "actions\\action_006\\preview.webm"
+    },
+    {
+      "action_id": "confident_superhero_land",
+      "number": 7,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "10eebde1f490",
+        "06084679878a",
+        "6e4d3f91bd2d"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_007\\contact_sheet.png",
+      "preview_webm": "actions\\action_007\\preview.webm"
+    },
+    {
+      "action_id": "dynamic_run_skid",
+      "number": 8,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "10eebde1f490",
+        "9ef3b59746c2",
+        "2108ab686284"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_008\\contact_sheet.png",
+      "preview_webm": "actions\\action_008\\preview.webm"
+    },
+    {
+      "action_id": "exaggerated_balance_rescue",
+      "number": 9,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "36ef40a55152",
+        "441fb9bf7473",
+        "8e8f41e2c3a0"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_009\\contact_sheet.png",
+      "preview_webm": "actions\\action_009\\preview.webm"
+    },
+    {
+      "action_id": "signature_spin_and_bow",
+      "number": 10,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "ee781a067f5f",
+        "9053bcc5c53a",
+        "7806f4db458d"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_010\\contact_sheet.png",
+      "preview_webm": "actions\\action_010\\preview.webm"
+    },
+    {
+      "action_id": "palm_summon_card",
+      "number": 11,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "36ef40a55152",
+        "eecada600b3a",
+        "1b94e7b50350"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_011\\contact_sheet.png",
+      "preview_webm": "actions\\action_011\\preview.webm"
+    },
+    {
+      "action_id": "elastic_grab_and_pull",
+      "number": 12,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "6c4d5f92fc2f",
+        "7c1afd7cb7ad",
+        "f9b40afab469"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_012\\contact_sheet.png",
+      "preview_webm": "actions\\action_012\\preview.webm"
+    },
+    {
+      "action_id": "toss_orbit_catch",
+      "number": 13,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "404b8cf7bd0e",
+        "7e78c1184f87",
+        "89bba613ab88"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_013\\contact_sheet.png",
+      "preview_webm": "actions\\action_013\\preview.webm"
+    },
+    {
+      "action_id": "two_card_juggle_compare",
+      "number": 14,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 75,
+      "expected_frame_count": 75,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "7dd9c3a98d8d",
+        "50ccc2fe580e",
+        "6dfd73bbd4fe"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_014\\contact_sheet.png",
+      "preview_webm": "actions\\action_014\\preview.webm"
+    },
+    {
+      "action_id": "giant_card_fold",
+      "number": 15,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "e84b9aff8612",
+        "d5adf805f435",
+        "66b3f831bc9a"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_015\\contact_sheet.png",
+      "preview_webm": "actions\\action_015\\preview.webm"
+    },
+    {
+      "action_id": "flip_reveal_panel",
+      "number": 16,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "582da073b47f",
+        "f5c2157a5e11",
+        "451615d1f595"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_016\\contact_sheet.png",
+      "preview_webm": "actions\\action_016\\preview.webm"
+    },
+    {
+      "action_id": "domino_card_knock",
+      "number": 17,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "ecdf7f88004b",
+        "f26a09df6378",
+        "ab51d6b2d374"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_017\\contact_sheet.png",
+      "preview_webm": "actions\\action_017\\preview.webm"
+    },
+    {
+      "action_id": "stack_shuffle_splay",
+      "number": 18,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "7d5cc676fe54",
+        "6ba9861921f0",
+        "261a02943fb7"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_018\\contact_sheet.png",
+      "preview_webm": "actions\\action_018\\preview.webm"
+    },
+    {
+      "action_id": "bounce_off_foot",
+      "number": 19,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "b9083391e074",
+        "e4daef4d80a1",
+        "c8f1d5f74089"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_019\\contact_sheet.png",
+      "preview_webm": "actions\\action_019\\preview.webm"
+    },
+    {
+      "action_id": "vacuum_pull_group",
+      "number": 20,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "60bcdbec8913",
+        "17ac7a6a7aa4",
+        "d3d24d41f394"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_020\\contact_sheet.png",
+      "preview_webm": "actions\\action_020\\preview.webm"
+    },
+    {
+      "action_id": "shoot_energy_tether",
+      "number": 21,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "83964a6f1fd2",
+        "8dbdfeb7b600",
+        "64ecf1612b9c"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_021\\contact_sheet.png",
+      "preview_webm": "actions\\action_021\\preview.webm"
+    },
+    {
+      "action_id": "lasso_select_circle",
+      "number": 22,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "a68e697eb36f",
+        "a5e4e5ba6618",
+        "d320ccea3371"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_022\\contact_sheet.png",
+      "preview_webm": "actions\\action_022\\preview.webm"
+    },
+    {
+      "action_id": "grapple_swing_to_target",
+      "number": 23,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "cb7b16928931",
+        "6292348c307c",
+        "b23d380acbeb"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_023\\contact_sheet.png",
+      "preview_webm": "actions\\action_023\\preview.webm"
+    },
+    {
+      "action_id": "zipline_card_travel",
+      "number": 24,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "e0f7201a1257",
+        "26e224358a42",
+        "2d14a3cd4c3e"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_024\\contact_sheet.png",
+      "preview_webm": "actions\\action_024\\preview.webm"
+    },
+    {
+      "action_id": "dual_thread_puppet",
+      "number": 25,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "7d7f76a65f01",
+        "e5af406c5b86",
+        "5abdb4e1cb0e"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_025\\contact_sheet.png",
+      "preview_webm": "actions\\action_025\\preview.webm"
+    },
+    {
+      "action_id": "stitch_two_panels",
+      "number": 26,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "57e8cbd55d97",
+        "2b66fdc4a97a",
+        "070f41a282ac"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_026\\contact_sheet.png",
+      "preview_webm": "actions\\action_026\\preview.webm"
+    },
+    {
+      "action_id": "unweave_object",
+      "number": 27,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "9644e844a073",
+        "344b8805487e",
+        "9e5ce877616a"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_027\\contact_sheet.png",
+      "preview_webm": "actions\\action_027\\preview.webm"
+    },
+    {
+      "action_id": "tether_slingshot",
+      "number": 28,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "a76a42d1df48",
+        "a14bf1d04333",
+        "111dc1497ae7"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_028\\contact_sheet.png",
+      "preview_webm": "actions\\action_028\\preview.webm"
+    },
+    {
+      "action_id": "web_net_reveal",
+      "number": 29,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "15570079bc07",
+        "d9e98250f903",
+        "fe0c54da0f21"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_029\\contact_sheet.png",
+      "preview_webm": "actions\\action_029\\preview.webm"
+    },
+    {
+      "action_id": "spiral_thread_portal",
+      "number": 30,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "36ef40a55152",
+        "36d03bae258d",
+        "96ce81c2c319"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_030\\contact_sheet.png",
+      "preview_webm": "actions\\action_030\\preview.webm"
+    },
+    {
+      "action_id": "remote_single_pop",
+      "number": 31,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 54,
+      "expected_frame_count": 54,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "7b66e8ebe263",
+        "8363d51f1bc3",
+        "f8809e86f14e"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_031\\contact_sheet.png",
+      "preview_webm": "actions\\action_031\\preview.webm"
+    },
+    {
+      "action_id": "remote_background_swap",
+      "number": 32,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "36ef40a55152",
+        "bb7633b792ff",
+        "68fbe1a61d61"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_032\\contact_sheet.png",
+      "preview_webm": "actions\\action_032\\preview.webm"
+    },
+    {
+      "action_id": "remote_time_rewind",
+      "number": 33,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "3416059be5f1",
+        "e80282adc21a",
+        "4d01762b4d1d"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_033\\contact_sheet.png",
+      "preview_webm": "actions\\action_033\\preview.webm"
+    },
+    {
+      "action_id": "remote_pause_freeze",
+      "number": 34,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "072f77ce9014",
+        "b972d51d6025",
+        "6cf840f0d315"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_034\\contact_sheet.png",
+      "preview_webm": "actions\\action_034\\preview.webm"
+    },
+    {
+      "action_id": "wrist_hologram_cast",
+      "number": 35,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "36ef40a55152",
+        "98d76f76e47e",
+        "759583a75f58"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_035\\contact_sheet.png",
+      "preview_webm": "actions\\action_035\\preview.webm"
+    },
+    {
+      "action_id": "handheld_scanner_reveal",
+      "number": 36,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "4a8a5715a188",
+        "99ba96a739f3",
+        "ef4117ecd4e4"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_036\\contact_sheet.png",
+      "preview_webm": "actions\\action_036\\preview.webm"
+    },
+    {
+      "action_id": "magnet_glove_attract",
+      "number": 37,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "8ee8d8dc858f",
+        "97cb42972c94",
+        "8b68c6e956b7"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_037\\contact_sheet.png",
+      "preview_webm": "actions\\action_037\\preview.webm"
+    },
+    {
+      "action_id": "volume_knob_resize",
+      "number": 38,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "beae9219e69f",
+        "8e7bfb8dc401",
+        "cbfe4a536f7b"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_038\\contact_sheet.png",
+      "preview_webm": "actions\\action_038\\preview.webm"
+    },
+    {
+      "action_id": "floor_button_spring",
+      "number": 39,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "7ae943baf1f4",
+        "2af3f1d4afad",
+        "025aca1c6fe3"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_039\\contact_sheet.png",
+      "preview_webm": "actions\\action_039\\preview.webm"
+    },
+    {
+      "action_id": "snapshot_flash_transform",
+      "number": 40,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "0d5cc4229962",
+        "5ab8ee0d9941",
+        "9dc9b2507bcf"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_040\\contact_sheet.png",
+      "preview_webm": "actions\\action_040\\preview.webm"
+    },
+    {
+      "action_id": "expanding_ring_summon",
+      "number": 41,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "308aaf0de4ed",
+        "b290a226336d",
+        "be91405443c0"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_041\\contact_sheet.png",
+      "preview_webm": "actions\\action_041\\preview.webm"
+    },
+    {
+      "action_id": "prism_fragment_to_text",
+      "number": 42,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "308aaf0de4ed",
+        "2c0cd143e619",
+        "4a3e73d6a3be"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_042\\contact_sheet.png",
+      "preview_webm": "actions\\action_042\\preview.webm"
+    },
+    {
+      "action_id": "pocket_portal_throw",
+      "number": 43,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "308aaf0de4ed",
+        "4aac2ad39c4e",
+        "3321dcca5e36"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_043\\contact_sheet.png",
+      "preview_webm": "actions\\action_043\\preview.webm"
+    },
+    {
+      "action_id": "peel_invisible_door",
+      "number": 44,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "308aaf0de4ed",
+        "d7071bf0d3ec",
+        "5acad05bb5d8"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_044\\contact_sheet.png",
+      "preview_webm": "actions\\action_044\\preview.webm"
+    },
+    {
+      "action_id": "sketch_glyph_materialize",
+      "number": 45,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "308aaf0de4ed",
+        "0dc6a059c657",
+        "804051e400d8"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_045\\contact_sheet.png",
+      "preview_webm": "actions\\action_045\\preview.webm"
+    },
+    {
+      "action_id": "book_burst_collage",
+      "number": 46,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "308aaf0de4ed",
+        "ca6aa954e343",
+        "4f3191109b55"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_046\\contact_sheet.png",
+      "preview_webm": "actions\\action_046\\preview.webm"
+    },
+    {
+      "action_id": "bubble_inflate_asset",
+      "number": 47,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "308aaf0de4ed",
+        "ee2051d52242",
+        "13791ecab722"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_047\\contact_sheet.png",
+      "preview_webm": "actions\\action_047\\preview.webm"
+    },
+    {
+      "action_id": "lantern_shadow_reveal",
+      "number": 48,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "308aaf0de4ed",
+        "a0f227a1e597",
+        "06b40e6f5e6b"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_048\\contact_sheet.png",
+      "preview_webm": "actions\\action_048\\preview.webm"
+    },
+    {
+      "action_id": "miniature_world_unfold",
+      "number": 49,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "308aaf0de4ed",
+        "bb95b1e88468",
+        "a79f5696b12a"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_049\\contact_sheet.png",
+      "preview_webm": "actions\\action_049\\preview.webm"
+    },
+    {
+      "action_id": "stone_touch_transmutation",
+      "number": 50,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "308aaf0de4ed",
+        "60fcecf1698c",
+        "4b294991ee0d"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_050\\contact_sheet.png",
+      "preview_webm": "actions\\action_050\\preview.webm"
+    },
+    {
+      "action_id": "fingertip_air_write",
+      "number": 51,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "b7ddd21ef336",
+        "ae7a42d07f92",
+        "55c93a75f623"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_051\\contact_sheet.png",
+      "preview_webm": "actions\\action_051\\preview.webm"
+    },
+    {
+      "action_id": "keyboard_air_type",
+      "number": 52,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "b7ddd21ef336",
+        "32ff03a138fc",
+        "dde012a62cb1"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_052\\contact_sheet.png",
+      "preview_webm": "actions\\action_052\\preview.webm"
+    },
+    {
+      "action_id": "rope_pull_letters",
+      "number": 53,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "b7ddd21ef336",
+        "88ed433da148",
+        "55c93a75f623"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_053\\contact_sheet.png",
+      "preview_webm": "actions\\action_053\\preview.webm"
+    },
+    {
+      "action_id": "knock_over_word_domino",
+      "number": 54,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "b7ddd21ef336",
+        "d5a428f80148",
+        "dde012a62cb1"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_054\\contact_sheet.png",
+      "preview_webm": "actions\\action_054\\preview.webm"
+    },
+    {
+      "action_id": "compress_word_to_icon",
+      "number": 55,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "b7ddd21ef336",
+        "7f86d8d76270",
+        "55c93a75f623"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_055\\contact_sheet.png",
+      "preview_webm": "actions\\action_055\\preview.webm"
+    },
+    {
+      "action_id": "flashlight_kinetic_reveal",
+      "number": 56,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "b7ddd21ef336",
+        "a7c47c7d2955",
+        "55c93a75f623"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_056\\contact_sheet.png",
+      "preview_webm": "actions\\action_056\\preview.webm"
+    },
+    {
+      "action_id": "shatter_word_particles",
+      "number": 57,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "b7ddd21ef336",
+        "cab6aa5ca5bd",
+        "dde012a62cb1"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_057\\contact_sheet.png",
+      "preview_webm": "actions\\action_057\\preview.webm"
+    },
+    {
+      "action_id": "magnetic_letter_alignment",
+      "number": 58,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "b7ddd21ef336",
+        "2b1c5d78184a",
+        "55c93a75f623"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_058\\contact_sheet.png",
+      "preview_webm": "actions\\action_058\\preview.webm"
+    },
+    {
+      "action_id": "punctuation_boomerang",
+      "number": 59,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "b7ddd21ef336",
+        "17e493535a59",
+        "55c93a75f623"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_059\\contact_sheet.png",
+      "preview_webm": "actions\\action_059\\preview.webm"
+    },
+    {
+      "action_id": "underline_surfing",
+      "number": 60,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "305b5429cc75",
+        "5a6f12d703fa",
+        "395cdc0df5c4"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_060\\contact_sheet.png",
+      "preview_webm": "actions\\action_060\\preview.webm"
+    },
+    {
+      "action_id": "paper_backdrop_peel",
+      "number": 61,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "4c027d95a4cb",
+        "7820927bcdde",
+        "70c9171b0dcf"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_061\\contact_sheet.png",
+      "preview_webm": "actions\\action_061\\preview.webm"
+    },
+    {
+      "action_id": "rotating_stage_dial",
+      "number": 62,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "4c027d95a4cb",
+        "daa0d9ec72ee",
+        "01939b972837"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_062\\contact_sheet.png",
+      "preview_webm": "actions\\action_062\\preview.webm"
+    },
+    {
+      "action_id": "floor_flip_laboratory",
+      "number": 63,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "4c027d95a4cb",
+        "32ef3a16af59",
+        "435b184a579b"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_063\\contact_sheet.png",
+      "preview_webm": "actions\\action_063\\preview.webm"
+    },
+    {
+      "action_id": "unzip_world",
+      "number": 64,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "4c027d95a4cb",
+        "22d35d57af0d",
+        "e468723f3e09"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_064\\contact_sheet.png",
+      "preview_webm": "actions\\action_064\\preview.webm"
+    },
+    {
+      "action_id": "brush_recolor_environment",
+      "number": 65,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "4c027d95a4cb",
+        "8f1e15b7e6f9",
+        "eeecfbe4caf9"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_065\\contact_sheet.png",
+      "preview_webm": "actions\\action_065\\preview.webm"
+    },
+    {
+      "action_id": "curtain_pull_scene",
+      "number": 66,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "4c027d95a4cb",
+        "d1b9259de1b7",
+        "937d16bcfa12"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_066\\contact_sheet.png",
+      "preview_webm": "actions\\action_066\\preview.webm"
+    },
+    {
+      "action_id": "shrink_room_to_card",
+      "number": 67,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "4c027d95a4cb",
+        "378d731be953",
+        "f7995107a336"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_067\\contact_sheet.png",
+      "preview_webm": "actions\\action_067\\preview.webm"
+    },
+    {
+      "action_id": "fold_horizon_over",
+      "number": 68,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "4c027d95a4cb",
+        "05db550761f4",
+        "599ac19129d8"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_068\\contact_sheet.png",
+      "preview_webm": "actions\\action_068\\preview.webm"
+    },
+    {
+      "action_id": "jump_shockwave_wipe",
+      "number": 69,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "4c027d95a4cb",
+        "82f939dc7346",
+        "70c9171b0dcf"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_069\\contact_sheet.png",
+      "preview_webm": "actions\\action_069\\preview.webm"
+    },
+    {
+      "action_id": "layered_parallax_portal",
+      "number": 70,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "4c027d95a4cb",
+        "6e63bd9f000a",
+        "01939b972837"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_070\\contact_sheet.png",
+      "preview_webm": "actions\\action_070\\preview.webm"
+    },
+    {
+      "action_id": "circle_square_morph",
+      "number": 71,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "0f0849894fe9",
+        "b9df92281cc1",
+        "eba1e4eeec9e"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_071\\contact_sheet.png",
+      "preview_webm": "actions\\action_071\\preview.webm"
+    },
+    {
+      "action_id": "mosaic_shatter_rebuild",
+      "number": 72,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "5acbc2d39b10",
+        "d125ecc21db6",
+        "32468de50298"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_072\\contact_sheet.png",
+      "preview_webm": "actions\\action_072\\preview.webm"
+    },
+    {
+      "action_id": "origami_fold_transform",
+      "number": 73,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "e50632eeeaa0",
+        "f5ac7c4e9e08",
+        "e53c3bb33568"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_073\\contact_sheet.png",
+      "preview_webm": "actions\\action_073\\preview.webm"
+    },
+    {
+      "action_id": "smoke_dissolve_reform",
+      "number": 74,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "e50632eeeaa0",
+        "6b55d3b5b255",
+        "e53c3bb33568"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_074\\contact_sheet.png",
+      "preview_webm": "actions\\action_074\\preview.webm"
+    },
+    {
+      "action_id": "safe_cartoon_fire_burn",
+      "number": 75,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "e50632eeeaa0",
+        "8ffa14664b29",
+        "e53c3bb33568"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_075\\contact_sheet.png",
+      "preview_webm": "actions\\action_075\\preview.webm"
+    },
+    {
+      "action_id": "crystal_freeze_melt",
+      "number": 76,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "e50632eeeaa0",
+        "02838ea1f8b8",
+        "6b6463d406f0"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_076\\contact_sheet.png",
+      "preview_webm": "actions\\action_076\\preview.webm"
+    },
+    {
+      "action_id": "lightning_blueprint_pop",
+      "number": 77,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "e50632eeeaa0",
+        "c38d7fe25269",
+        "d8ec15d2cbf4"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_077\\contact_sheet.png",
+      "preview_webm": "actions\\action_077\\preview.webm"
+    },
+    {
+      "action_id": "pixel_scatter_reassemble",
+      "number": 78,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "5acbc2d39b10",
+        "5c1240d01044",
+        "32468de50298"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_078\\contact_sheet.png",
+      "preview_webm": "actions\\action_078\\preview.webm"
+    },
+    {
+      "action_id": "ink_splash_shape_shift",
+      "number": 79,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "e50632eeeaa0",
+        "405505c4ba00",
+        "e53c3bb33568"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_079\\contact_sheet.png",
+      "preview_webm": "actions\\action_079\\preview.webm"
+    },
+    {
+      "action_id": "detached_shadow_reveal",
+      "number": 80,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "e50632eeeaa0",
+        "45eefdca5541",
+        "e53c3bb33568"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_080\\contact_sheet.png",
+      "preview_webm": "actions\\action_080\\preview.webm"
+    },
+    {
+      "action_id": "accidental_trip_reveal",
+      "number": 81,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "26c5d1f4f6b5",
+        "b6e2c2e09015",
+        "35c5281d4976"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_081\\contact_sheet.png",
+      "preview_webm": "actions\\action_081\\preview.webm"
+    },
+    {
+      "action_id": "comic_sneeze_launch",
+      "number": 82,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "78bf3153665e",
+        "e88ee93e99b8",
+        "3d1c198b05fe"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_082\\contact_sheet.png",
+      "preview_webm": "actions\\action_082\\preview.webm"
+    },
+    {
+      "action_id": "whistle_summon_companion_prop",
+      "number": 83,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "bc6172ad1276",
+        "e1e3508dadfb",
+        "f606b31f3117"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_083\\contact_sheet.png",
+      "preview_webm": "actions\\action_083\\preview.webm"
+    },
+    {
+      "action_id": "clap_reverse_gravity",
+      "number": 84,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "5eea26305d6f",
+        "be68c621f0d3",
+        "0c9a400cddcc"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_084\\contact_sheet.png",
+      "preview_webm": "actions\\action_084\\preview.webm"
+    },
+    {
+      "action_id": "tiny_clone_helper",
+      "number": 85,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "3eb9e69430f6",
+        "894ddfa45bdc",
+        "f10455ec79ee"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_085\\contact_sheet.png",
+      "preview_webm": "actions\\action_085\\preview.webm"
+    },
+    {
+      "action_id": "remote_wrong_button_comedy",
+      "number": 86,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "0301cf12cc30",
+        "0b67f92fc1e9",
+        "e6873ed91e56"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_086\\contact_sheet.png",
+      "preview_webm": "actions\\action_086\\preview.webm"
+    },
+    {
+      "action_id": "falling_card_dodge_catch",
+      "number": 87,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "1928be602135",
+        "08a43535d215",
+        "b3554230ce19"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_087\\contact_sheet.png",
+      "preview_webm": "actions\\action_087\\preview.webm"
+    },
+    {
+      "action_id": "forehead_bounce_solve",
+      "number": 88,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "b4e952585dc5",
+        "2b270e3a84c1",
+        "c50bd350c247"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_088\\contact_sheet.png",
+      "preview_webm": "actions\\action_088\\preview.webm"
+    },
+    {
+      "action_id": "impossible_pocket_pull",
+      "number": 89,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "76236ef8ef10",
+        "388ab8c7dce3",
+        "5b58231add57"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_089\\contact_sheet.png",
+      "preview_webm": "actions\\action_089\\preview.webm"
+    },
+    {
+      "action_id": "fake_out_freeze_then_reveal",
+      "number": 90,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "782bf3ee31a1",
+        "cc0fa119054d",
+        "77cc2b718d27"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_090\\contact_sheet.png",
+      "preview_webm": "actions\\action_090\\preview.webm"
+    },
+    {
+      "action_id": "gesture_driven_whip_pan",
+      "number": 91,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 54,
+      "expected_frame_count": 54,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "c1a0fb8e60c7",
+        "9bfc3eb14fba",
+        "6f60b2be13a2"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_091\\contact_sheet.png",
+      "preview_webm": "actions\\action_091\\preview.webm"
+    },
+    {
+      "action_id": "zoom_through_hand_portal",
+      "number": 92,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "500304d38d3c",
+        "045a6b8f4527",
+        "0f46b5c07091"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_092\\contact_sheet.png",
+      "preview_webm": "actions\\action_092\\preview.webm"
+    },
+    {
+      "action_id": "walking_parallax_depth",
+      "number": 93,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "2f7c48b2e064",
+        "17b7f96d165e",
+        "108dc9451569"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_093\\contact_sheet.png",
+      "preview_webm": "actions\\action_093\\preview.webm"
+    },
+    {
+      "action_id": "comic_panel_breakout",
+      "number": 94,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "5f9c89535168",
+        "580fc652359e",
+        "db74eb95ba5a"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_094\\contact_sheet.png",
+      "preview_webm": "actions\\action_094\\preview.webm"
+    },
+    {
+      "action_id": "silhouette_match_cut",
+      "number": 95,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "dd5d116b5963",
+        "0c92b7874f4b",
+        "a765fc40b739"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_095\\contact_sheet.png",
+      "preview_webm": "actions\\action_095\\preview.webm"
+    },
+    {
+      "action_id": "faux_camera_orbit_2d",
+      "number": 96,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 72,
+      "expected_frame_count": 72,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "7115bb16cce2",
+        "c9b0163d189e",
+        "2202cafd5e1b"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_096\\contact_sheet.png",
+      "preview_webm": "actions\\action_096\\preview.webm"
+    },
+    {
+      "action_id": "lock_on_radar_reveal",
+      "number": 97,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 60,
+      "expected_frame_count": 60,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "0d83ba227df1",
+        "0c30b5a415bc",
+        "7f2eecb509dc"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_097\\contact_sheet.png",
+      "preview_webm": "actions\\action_097\\preview.webm"
+    },
+    {
+      "action_id": "dramatic_hold_highlight",
+      "number": 98,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "9e32f5df25f9",
+        "be9117a8b05c",
+        "09c1b17ea0b2"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_098\\contact_sheet.png",
+      "preview_webm": "actions\\action_098\\preview.webm"
+    },
+    {
+      "action_id": "spotlight_toss_follow",
+      "number": 99,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 66,
+      "expected_frame_count": 66,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "86eb0e16c83c",
+        "da2e94bf9048",
+        "44697fda2c25"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_099\\contact_sheet.png",
+      "preview_webm": "actions\\action_099\\preview.webm"
+    },
+    {
+      "action_id": "signature_finale_chain",
+      "number": 100,
+      "status": "PASS",
+      "validation_errors": [],
+      "rendered_frame_count": 90,
+      "expected_frame_count": 90,
+      "transparent_alpha_ok": true,
+      "non_empty_bounds_ok": true,
+      "embedded_bitmaps": 0,
+      "keyframe_pixel_hashes": [
+        "fffe391c04eb",
+        "53e746fd2e37",
+        "c5830cffb9e2"
+      ],
+      "motion_verified": true,
+      "contact_sheet": "actions\\action_100\\contact_sheet.png",
+      "preview_webm": "actions\\action_100\\preview.webm"
+    }
+  ]
+}

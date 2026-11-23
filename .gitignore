@@ -4,11 +4,9 @@ __pycache__/
 *$py.class
 *.pyd
 
-# Markdown files (allow README)
-*.md
-*.MD
-!README.md
-docs/
+# Markdown files - allow all important .md files
+# Only ignore docs/ build output
+docs/_build/
 
 # Heavy Media Files (Audio & Video)
 *.mp4
@@ -33,27 +31,26 @@ docs/
 *.OGG
 *.aac
 *.AAC
+# Allow project_content audio files (needed for production)
+!project_content/audio/**
 
-# Heavy Graphic & Image Assets
-*.png
-*.PNG
-*.jpg
-*.JPG
-*.jpeg
-*.JPEG
-*.webp
-*.WEBP
-*.bmp
-*.BMP
-*.gif
-*.GIF
-*.ico
-*.ICO
-*.tif
-*.tiff
-# Keep essential UI assets
-!kivy/data/*.png
-!kivy/data/**/*.png
+# Heavy Graphic & Image Assets (in general directories)
+# Allow project_content images, sections storyboards, and kivy UI assets
+# Ignore images only in output/test/scratch directories
+output_animations/**/*.png
+output_animations/**/*.jpg
+test_images/**/*.png
+test_images/**/*.jpg
+scratch/**/*.png
+scratch/**/*.jpg
+scratch_crops/**/*.png
+scratch_inspect/**/*.png
+step_inspection_images/**/*.png
+asset_sheet_extractor_v2_output/**/*.png
+test_extractor_jpg/**/*.jpg
+test_extractor_png/**/*.png
+sections/**/assets/**/*.png
+sections/**/scratch/**/*.png
 
 # Executables, DLLs & Archives
 *.dll
@@ -93,7 +90,6 @@ audio_chunks/
 step_inspection_images/
 scratch/
 test_images/
-project_content/audio/
 experiments/results/
 tools/*_output/
 tools/*_output*/
@@ -315,3 +311,67 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Craft applications suite (binaries >100MB; distributed via Portable ZIP / Releases)
+craftApp/
+bin/*.exe
+bin/*.dll
+!openh264-2.5.0-win64.dll
+
+# Track essential lightweight Studio SFX & reusable CTA audio while ignoring rendered WAV/MP4
+!assets/audio/cta/*.wav
+!assets/sfx/*.wav
+!production_engine/sfx/*.wav
+!creative_v3/studio_pro_sfx_and_audio_stems_v3/**/*.wav
+
+# Track Python package debug submodules if any global debug/ rule exists
+!core/**/debug/
+!core/**/debug/**
+!section_timing/debug/
+!section_timing/debug/**
+
+# AION Studio local workspace outputs, caches & heavy project media
+projects/*/
+!projects/.gitkeep
+cache/
+exports/
+sections/
+output_animations/
+section_tts/
+pre_render_director/
+project_content/
+experiments/
+dubbing/
+kivy/
+scratch/
+tools/
+graphify-out/
+.active_project
+.state/
+.artifacts_cache/
+audio_chunks/
+logs/
+*.ecproj
+scratch_*.py
+test_*.ecproj
+run_0*.py
+dev_separator/output_reports/
+tests/baseline_render_output.mp4
+
+# Heavy creative_v3 intermediates (keep only asset_factory + studio_pro_sfx_and_audio_stems_v3)
+creative_v3/renders/
+creative_v3/Character_Motion_Project_v4/
+creative_v3/ContentCreator_Dynamic_Puppet_Kit/
+creative_v3/ContentCreator_Vector_SVG_Rig_AniCraft/
+
+# Local scratch & test extraction artifacts
+scratch_cells/
+scratch_words_list.txt
+test_extractor_jpg/
+test_extractor_png/
+asset_sheet_extractor_v2_output/
+sections_archive_plants/
+inputs/
+*.jsx
+data/*.sqlite*
+

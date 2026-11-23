@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="icon_lock" viewBox="0 0 64 64" width="64" height="64">
+  <rect x="16" y="28" width="32" height="24" rx="4" fill="#FFD400" stroke="#0B0C10" stroke-width="3.8"/><path d="M22 28v-8a10 10 0 0 1 20 0v8" fill="none" stroke="#0B0C10" stroke-width="4"/>
+</svg>

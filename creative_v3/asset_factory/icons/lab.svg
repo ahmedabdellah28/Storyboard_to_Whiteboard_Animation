@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="icon_lab" viewBox="0 0 64 64" width="64" height="64">
+  <path d="M14 52h36M22 52V20l10-8 10 8v32" fill="#FFFFFF" stroke="#0B0C10" stroke-width="3.8" stroke-linejoin="round"/><circle cx="32" cy="32" r="6" fill="#00A99D"/>
+</svg>

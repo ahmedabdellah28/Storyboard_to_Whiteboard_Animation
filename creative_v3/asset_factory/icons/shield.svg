@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="icon_shield" viewBox="0 0 64 64" width="64" height="64">
+  <path d="M32 10l18 6v14c0 12-8 20-18 24-10-4-18-12-18-24V16z" fill="#0072CE" stroke="#0B0C10" stroke-width="3.8" stroke-linejoin="round"/>
+</svg>

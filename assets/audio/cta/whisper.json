@@ -1,0 +1,117 @@
+{
+  "audio_path": "E:\\image_to_animate\\assets\\audio\\cta\\cta_channel_en_puck.wav",
+  "duration": 4.245,
+  "language": "en",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 4.04,
+      "text": "Hit like, subscribe to the channel, and watch the full video from the related link right below.",
+      "words": [
+        {
+          "word": "Hit",
+          "start": 0.0,
+          "end": 0.14,
+          "probability": 0.882
+        },
+        {
+          "word": "like,",
+          "start": 0.14,
+          "end": 0.42,
+          "probability": 0.702
+        },
+        {
+          "word": "subscribe",
+          "start": 0.62,
+          "end": 0.92,
+          "probability": 0.996
+        },
+        {
+          "word": "to",
+          "start": 0.92,
+          "end": 1.14,
+          "probability": 0.992
+        },
+        {
+          "word": "the",
+          "start": 1.14,
+          "end": 1.22,
+          "probability": 0.989
+        },
+        {
+          "word": "channel,",
+          "start": 1.22,
+          "end": 1.46,
+          "probability": 0.997
+        },
+        {
+          "word": "and",
+          "start": 1.7,
+          "end": 1.74,
+          "probability": 0.997
+        },
+        {
+          "word": "watch",
+          "start": 1.74,
+          "end": 1.94,
+          "probability": 0.997
+        },
+        {
+          "word": "the",
+          "start": 1.94,
+          "end": 2.1,
+          "probability": 0.988
+        },
+        {
+          "word": "full",
+          "start": 2.1,
+          "end": 2.36,
+          "probability": 0.996
+        },
+        {
+          "word": "video",
+          "start": 2.36,
+          "end": 2.68,
+          "probability": 0.996
+        },
+        {
+          "word": "from",
+          "start": 2.68,
+          "end": 2.9,
+          "probability": 0.988
+        },
+        {
+          "word": "the",
+          "start": 2.9,
+          "end": 3.0,
+          "probability": 0.975
+        },
+        {
+          "word": "related",
+          "start": 3.0,
+          "end": 3.3,
+          "probability": 0.955
+        },
+        {
+          "word": "link",
+          "start": 3.3,
+          "end": 3.58,
+          "probability": 0.989
+        },
+        {
+          "word": "right",
+          "start": 3.58,
+          "end": 3.78,
+          "probability": 0.958
+        },
+        {
+          "word": "below.",
+          "start": 3.78,
+          "end": 4.04,
+          "probability": 0.998
+        }
+      ]
+    }
+  ]
+}

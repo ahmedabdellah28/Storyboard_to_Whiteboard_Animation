@@ -1,0 +1,133 @@
+{
+  "version": "1.0",
+  "rules": [
+    {
+      "concept": "pareidolia_vision",
+      "keyword": "الفيش",
+      "aliases": ["وجوه", "الغيوم", "ملامح", "فيش", "غيوم"],
+      "priority": 1.0,
+      "negative_keywords": ["يهتز", "صوت"],
+      "preferred_asset_types": ["atomic_object", "character"]
+    },
+    {
+      "concept": "phantom_vibration",
+      "keyword": "يهتز",
+      "aliases": ["جوال", "هاتف", "اهتزاز", "جيب", "ثابت"],
+      "priority": 1.0,
+      "negative_keywords": ["وجوه", "غيوم"],
+      "preferred_asset_types": ["atomic_object", "prop"]
+    },
+    {
+      "concept": "memory_reconstruction",
+      "keyword": "ذكرياتك",
+      "aliases": ["تركيب", "يعيد تركيب", "ذاكرة", "مانديلا", "بيكاشو", "مونوبولي"],
+      "priority": 1.0,
+      "negative_keywords": ["غوريلا", "كاميرا"],
+      "preferred_asset_types": ["atomic_object", "composite_scene"]
+    },
+    {
+      "concept": "inattentional_blindness",
+      "keyword": "غوريلا",
+      "aliases": ["قوريلا", "يحذف", "قدام عينك", "أدام عينك", "كرة السلة", "عدم انتباه"],
+      "priority": 1.0,
+      "negative_keywords": ["جوال", "ذكريات"],
+      "preferred_asset_types": ["character", "composite_scene"]
+    },
+    {
+      "concept": "sensory_agreement",
+      "keyword": "تتفقان",
+      "aliases": ["عينك", "إذنك", "واذنك", "سمعتها", "ماكغورك", "شفايف"],
+      "priority": 1.0,
+      "negative_keywords": ["غوريلا", "بقعة"],
+      "preferred_asset_types": ["atomic_object", "composite_scene"]
+    },
+    {
+      "concept": "spotlight_effect",
+      "keyword": "مركز الكون",
+      "aliases": ["بوهم", "وهم", "بقعة الضوء", "كشاف", "مراقبة", "قهوة", "بقعة"],
+      "priority": 1.0,
+      "negative_keywords": ["ذاكرة", "غوريلا"],
+      "preferred_asset_types": ["character", "composite_scene"]
+    },
+    {
+      "concept": "reality_interpretation",
+      "keyword": "يعيد بناءه",
+      "aliases": ["يفسر", "يتوقع", "يتوقعه", "بناءه", "الواقع", "توقع"],
+      "priority": 0.98,
+      "negative_keywords": ["كاميرا", "شفايف"],
+      "preferred_asset_types": ["composite_scene", "atomic_object"]
+    },
+    {
+      "concept": "camera_analogy",
+      "keyword": "كاميرا",
+      "aliases": ["تنقل الواقع", "صورة", "مجرد كاميرا", "تسجيل"],
+      "priority": 0.95,
+      "negative_keywords": ["تتفقان", "غوريلا"],
+      "preferred_asset_types": ["atomic_object", "prop"]
+    },
+    {
+      "concept": "realization",
+      "keyword": "تذكرك",
+      "aliases": ["شيء واحد", "كل هذه الأشياء", "كل هذي الأشياء", "معلومة", "إدراك"],
+      "priority": 0.92,
+      "negative_keywords": ["قهوة", "جوال"],
+      "preferred_asset_types": ["atomic_object", "composite_scene"]
+    },
+    {
+      "concept": "distraction",
+      "keyword": "مشغولة",
+      "aliases": ["مشغولين", "تشتت", "جوالاتهم", "ساعة", "سماعات", "الناس"],
+      "priority": 0.90,
+      "negative_keywords": ["بقعة", "وهم"],
+      "preferred_asset_types": ["character", "composite_scene"]
+    },
+    {
+      "concept": "thinking",
+      "keyword": "مخك",
+      "aliases": ["الدماغ", "تفكير", "عقل", "عضو جبار", "مخكم"],
+      "priority": 0.85,
+      "negative_keywords": ["كاميرا", "صوت", "يفسر", "يتوقع"],
+      "preferred_asset_types": ["atomic_object", "character"]
+    },
+    {
+      "concept": "confusion",
+      "keyword": "غريبة",
+      "aliases": ["عجيب", "يقرر يسوي", "حيرة", "استغراب", "أشياء غريبة"],
+      "priority": 0.85,
+      "negative_keywords": ["واضح", "بسيط"],
+      "preferred_asset_types": ["atomic_object", "composite_scene"]
+    },
+    {
+      "concept": "hero_warrior",
+      "keyword": "محارب",
+      "aliases": ["بطل", "قائد", "فارس", "شجاع", "غوان يو", "عمر المختار", "البراء"],
+      "priority": 0.95,
+      "negative_keywords": ["ضعيف", "مهزوم"],
+      "preferred_asset_types": ["character", "atomic_object"]
+    },
+    {
+      "concept": "weapon_combat",
+      "keyword": "سلاح",
+      "aliases": ["سيف", "رمح", "درع", "قتال", "معركة", "حصان", "هلالي"],
+      "priority": 0.88,
+      "negative_keywords": ["استسلام"],
+      "preferred_asset_types": ["prop", "atomic_object"]
+    },
+    {
+      "concept": "payoff",
+      "keyword": "خلاصة",
+      "aliases": ["نهاية", "النتيجة", "اخيرا", "وبس والله", "خاتمة"],
+      "priority": 0.88,
+      "negative_keywords": [],
+      "preferred_asset_types": ["composite_scene", "atomic_object"]
+    },
+    {
+      "concept": "outro_cta",
+      "keyword": "الاشتراك",
+      "aliases": ["اللايك", "التعليقات", "طالعوا الفيديو", "الفيديو الجاي", "أمان الله"],
+      "priority": 0.88,
+      "negative_keywords": [],
+      "preferred_asset_types": ["composite_scene", "atomic_object"]
+    }
+  ]
+}

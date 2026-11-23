@@ -1,163 +1,105 @@
-# 📷 ➜ ▶️ Offline Image to Animation Maker
-An open-source, cross-platform, offline app for Android, Linux, Windows, Mac & iOS (Mac & iOS apps are not built by us, but can be done using the documentation). Just upload an image (batch processing is possible on desktop platform by selecting a folder) & generate a sketch style animation video file(s) in seconds or munites (depends on device) without an Internet connection.
+# AION Studio V6 — Whiteboard Motion Graphics & Shorts Production Engine
 
-> Overview: The app uses KivyMD and Kivy mainly for the UI. The app uses `Numpy` & `OpenCV` as the logic backbone which generates the video from an image.
+Automated CLI-first studio pipeline for producing **16:9 Whiteboard Motion Graphics Explain Videos** and **9:16 Viral Shorts** using `pipeline_cli.py`, **EffectCraft GPU Compiler**, **PhotoCraft 3x HD Extractor**, **Faster-Whisper Word Alignment**, and **Gemini TTS**.
 
-### 🤔 Why would you choose our app? (Features)
-👉 Generate White-board drawing style sketch animation just from an image. <br>
-👉 No internet connection is required, completely `Offline`. <br>
-👉 Available on Android, Windows & Linux. Can run on any OS using `Python`. <br>
-👉 No subscription, watermark, completely `open-source`. <br>
-👉 Configurable speed, frame rate & few other params to control the video lenght & speed. <br>
-👉 We can also choose whether we want to show the original image (colour) or the grayscale (with Gaussian blur) image at the end of the sketch & for how long (in number of seconds). <br>
-👉 Now, we can choose a `folder` to create multiple videos from multiple images (all images in the selected folder) in a single batch (queue) on `desktop` versions only. [Not available on Android] <br>
+---
 
-## 📽️ Demo
-You can click on the below Image or this [Youtube Link](https://www.youtube.com/watch?v=_UuAIjSzUJQ) to see the demo. Please let me know in the comments, how do you feel about this App. <br>
-[![ImageToSketch](./docs/images/thumb.png)](https://www.youtube.com/watch?v=_UuAIjSzUJQ)
+## Documentation & Governance Map
 
-## 💰 Sponsor Me
-You can buy me a coffee via [this link](https://www.paypal.com/paypalme/soomnathsdas) or tap on below image. Thank you 🙏. <br>
-<a href="https://www.paypal.com/paypalme/soomnathsdas"><img src="./docs/images/donate.svg" height="40"></a>
+- **[AGENTS.md](AGENTS.md)** — Mandatory Studio Constitution & safety rules (CLI-first workflow, zero pre-render image reading, isolated run directories, golden integrity).
+- **[SKILL.md](SKILL.md)** & **[.agents/skills/whiteboard_motion_graphics/SKILL.md](.agents/skills/whiteboard_motion_graphics/SKILL.md)** — Production creative directing skill & Typography/Motion V6 standards.
+- **[CLI_REFERENCE.md](CLI_REFERENCE.md)** — Auto-generated live CLI command specification (`python pipeline_cli.py cli-spec --write-docs`).
 
-## 🖧 Our Scematic Architecture
-To be added...
+---
 
-## 🧑‍💻 Quickstart Guide
+## Quickstart (Fresh Windows Machine)
 
-### 📱 Download & Run the Android App
-Get the app from [Google PlayStore](https://play.google.com/store/apps/details?id=in.daslearning.imgskch) <br>
-[![Google-Play](./docs/images/google_play.svg)](https://play.google.com/store/apps/details?id=in.daslearning.imgskch) <br>
+### 1. Python Environment
+Requires **Python 3.11 – 3.13 (64-bit)** on Windows.
 
-You can also check the [Releases](https://github.com/daslearning-org/image-to-animation-offline/releases) and downlaod the latest version of the android app on your phone.
-
-> If you use the `Download` button from the app, you can save the animation video in one of the mentioned folders: `Downloads`, `Movies`, `Videos` due android file access restrictions on `Android 11+`.
-
-### 💻 Download & Run the Windows or Linux App
-Get the app from [Microsoft App Store](https://apps.microsoft.com/detail/9n2w89c5rb7v?referrer=appbadge&mode=direct&hl=en-GB&gl=IN) <br>
-[![MS-Store](./docs/images/ms_store_light.svg)](https://apps.microsoft.com/detail/9n2w89c5rb7v?referrer=appbadge&mode=direct&hl=en-GB&gl=IN) <br>
-
-You can check the [Releases](https://github.com/daslearning-org/image-to-animation-offline/releases) and downlaod the latest version of the app on your `Linux` or `Windows` platform. The Linux app has no extension, you may need to change the permission of the file to run it. The Windows app will have an `exe` extension, just double click & run it (You may need to create an exception for Antivirus if there is any detection).
-
-### 🐍 Run with Python
-
-1. Clone the repo
-```bash
-git clone https://github.com/daslearning-org/image-to-animation-offline.git
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
 ```
 
-2. Run the application
-```bash
-cd image-to-animation-offline/kivy/
-pip install -r requirements.txt # virtual environment is recommended
-python main.py
+### 2. FFmpeg & CraftApp Binaries
+- **FFmpeg & FFprobe:** Install FFmpeg and ensure `ffmpeg` and `ffprobe` are on your system `PATH` (or place `ffmpeg.exe` / `ffprobe.exe` inside `bin/`).
+- **EffectCraft & PhotoCraft:**
+  - Included pre-placed in the **Portable ZIP** (`craftApp/effectcraft/target/release/effectcraft-cli.exe`, `craftApp/photocraft/target/release/photocraft-cli.exe`, `openh264-2.5.0-win64.dll`).
+  - If cloning from GitHub, copy those release binaries into `bin/` or `craftApp/<app>/target/release/` (or set `EFFECTCRAFT_CLI` / `PHOTOCRAFT_CLI` in `.env`).
+
+### 3. API Keys Setup
+```powershell
+copy .env.example .env
+# Edit .env and add your GEMINI_API_KEY (plus optional GEMINI_API_KEY2..N for rotation)
 ```
 
-## 🦾 Build your own App
-The Kivy project has a great tool named [Buildozer](https://buildozer.readthedocs.io/en/latest/) which can make mobile apps for `Android` & `iOS`
-
-### 📱 Build Android App
-A Linux environment is recommended for the app development. If you are on Windows, you may use `WSL` or any `Virtual Machine`. As of now the `buildozer` tool works on Python version `3.11` at maximum. I am going to use Python `3.11`
-
-```bash
-# add the python repository
-sudo add-apt-repository ppa:deadsnakes/ppa
-sudo apt update
-
-# install all dependencies.
-sudo apt install -y ant autoconf automake ccache cmake g++ gcc lbzip2 libffi-dev libltdl-dev libtool libssl-dev make openjdk-17-jdk patch patchelf pkg-config unzip wget zip git python3.11 python3.11-venv python3.11-dev # python3-dev python3-pip (if required)
-
-# optionally you may check the java installation with below commands
-java -version
-javac -version
-
-# install python modules
-git clone https://github.com/daslearning-org/image-to-animation-offline.git
-cd image-to-animation-offline/kivy/
-python3.11 -m venv .env # create python virtual environment
-source .env/bin/activate
-pip install -r req_android.txt
-
-# build the android apk
-buildozer android debug # this may take a good amount of time for the first time & will generate the apk in the bin directory
+### 4. Verify Installation
+```powershell
+python pipeline_cli.py doctor --json
+python pipeline_cli.py studio doctor --json
+python pipeline_cli.py studio fonts --verify-sha --json
 ```
 
-### 🖳 Build Computer Application (Windows / Linux / MacOS)
-A `Python` virtual environment is recommended and please follow the same steps from above till the pip module installations (do not require buildozer for desktop apps). It builds a native app depending on the OS type i.e. `.exe` if you are running `PyInstaller` from a Windows machine. Build computer apps from [docker image](https://hub.docker.com/r/cdrx/pyinstaller-windows) for any OS type.
+---
 
-```bash
-# install pyinstaller
-pip install pyinstaller
+## Standard Production Workflow
 
-# generate the spec file <<OPTIONAL>>
-pyinstaller --name "dlDesktop" --windowed --onefile main.py # optional as it is already created in the repo
+```powershell
+# 1. Create / switch active project
+python pipeline_cli.py init my_video
+python pipeline_cli.py use my_video
 
-# then update the spec file as needed
-# then build your app which will be native to the OS i.e. Linux or Windows or MAC
-pyinstaller dlDesktop.spec
+# 2. Check project status
+python pipeline_cli.py status --detailed --project my_video
+
+# 3. Voiceover + Faster-Whisper Word Alignment
+python pipeline_cli.py voice --project my_video --section section_01
+python pipeline_cli.py timing --project my_video --section section_01
+
+# 4. Storyboard Extraction (PhotoCraft 3x HD) + Semantic Brief
+python pipeline_cli.py extract --project my_video --section section_01
+python pipeline_cli.py brief --project my_video --section section_01
+
+# 5. Render GPU Video (Default: 720p — pass `--resolution 1080p` for Full HD) + QA + Merge
+python pipeline_cli.py studio compile --project my_video --section section_01
+# Optional 1080p Full HD:
+# python pipeline_cli.py studio compile --project my_video --section section_01 --resolution 1080p
+python pipeline_cli.py qa --project my_video --section section_01
+python pipeline_cli.py merge --project my_video
+
+# 6. 9:16 Shorts Pipeline (reuses mastered audio + shared CTA; default 720x1280)
+python pipeline_cli.py studio shorts --action inspect --project my_video
+python pipeline_cli.py studio shorts --action compile --project my_video --all
+
+# 7. Export existing 1080p MP4s down to 720p if needed
+python pipeline_cli.py studio export-720p --input projects/my_video/exports/runs/run_01
 ```
 
-#### Build Windows exe from Linux
+---
 
-* Install Wine
-```bash
-# Add the Wine repository key
-sudo mkdir -pm755 /etc/apt/keyrings
-sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
+## Project Structure (Clean Repository Layout)
 
-# Add the Wine repository for your Linux Mint version
-# For Linux Mint 21.x (Vanessa, Virginia, Victoria - based on Ubuntu 22.04 Jammy Jellyfish)
-# Replace 'jammy' with your Ubuntu base codename if different (e.g., 'focal' for Mint 20.x)
-sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
-
-# Update package lists
-sudo apt update
-
-# Install Wine (Stable branch is usually recommended)
-sudo apt install --install-recommends winehq-stable
-
-# If you need 32-bit support (highly recommended for Python/PyInstaller compatibility)
-# This command typically handles it, but if you encounter issues later, ensure 32-bit architecture is enabled:
-sudo dpkg --add-architecture i386
-sudo apt update
-sudo apt install wine32 # This might be pulled by winehq-stable, but good to ensure
-```
-
-* Download Windows Python from [official page](https://www.python.org/downloads/windows/) and then install
-```bash
-# Navigate to where you downloaded the Python installer
-cd ~/Downloads
-
-# Run the installer using wine
-# Replace 'python-3.9.13-amd64.exe' with the actual filename you downloaded
-wine python-3.9.13-amd64.exe
-```
-
-* Then run the development
-```bash
-cd kivy/
-wine pip install pyinstaller
-wine pip install -r requirements.txt
-# Also install kivy-deps.sdl2, kivy-deps.glew, kivy-deps.angle explicitly if not pulled by Kivy/KivyMD
-wine pip install kivy-deps.sdl2 kivy-deps.glew kivy-deps.angle
-
-# Replace 'Python39' with your installed Python version in Wine
-wine pyinstaller dlDesktop.spec # exe will be in the dist folder
-```
-
-## 🐞 Issues
-There can be few issues & some solutions around it.
-
-### Android Issues
-
-* Sometimes the apk might not get installed. You may enable `Developer Options` > `USB Debugging` and run below command with [adb tool](https://developer.android.com/tools/adb).
-```bash
-# check your packages (it may not show the uninstalled version, some leftover may cause the issue)
-adb shell pm list packages | grep imgskch
-
-# uninstall cleans it
-adb uninstall in.daslearning.imgskch
-
-# you may use buildozer deploy run to check the adb
-buildozer android debug deploy run
+```text
+├── pipeline_cli.py                 # Main unified CLI entrypoint
+├── requirements.txt                # Verified Python package requirements
+├── .env.example                    # Safe environment variable template
+├── AGENTS.md / SKILL.md            # Studio rules & creative direction skill
+├── CLI_REFERENCE.md                # Live CLI specification
+├── .agents/skills/                 # Agent skill playbooks
+├── core/                           # AION pipeline core, compilers, typography, shorts, QA
+├── core_engine/                    # EffectCraft motion studio, SFX director, compositor
+├── voice_studio/                   # Gemini TTS & voice profiles
+├── section_timing/                 # Faster-Whisper transcription & word-script aligner
+├── production_engine/              # Dynamic section, motion & audio mixing engines
+├── dev_separator/                  # Panel/choreographer utilities
+├── creative_v3/
+│   ├── asset_factory/              # Procedural SVG icons & props
+│   └── studio_pro_sfx_and_audio_stems_v3/  # Pro SFX stems
+├── assets/
+│   ├── typography/                 # Commercial-safe OFL Arabic & Latin fonts + registry
+│   ├── sfx/ & gifs/ & audio/cta/   # Studio SFX, micro-overlays & shared CTA tracks
+├── config/                         # Capabilities registry, semantic & typography rules
+└── tests/aion_cli/                 # Automated non-regression CLI & creative quality suite
 ```

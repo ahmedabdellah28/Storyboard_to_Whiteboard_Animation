@@ -1,7 +1,8 @@
 """
 Voice Studio Batch Narrator
 Iterates over all script sections in sequence with a configurable sleep delay (10-15s)
-to respect API rate limits and produce a unified, master multi-chapter voiceover.
+to respect API rate limits and produce a unified, master multi-chapter voiceover
+engineered for Bendia-style 20-asset fast-cut storyboards.
 """
 import os
 import sys
@@ -24,8 +25,9 @@ def run_batch_narrator(
     output_master_wav: str = "project_content/audio/خلنا نبدأ من أول مستوى المستوى التأسيسي.wav",
     model: str = "gemini-2.5-flash-preview-tts",
     voice_name: str = "Fenrir",
+    temperature: float = 0.75,
     delay_between_sections: float = 12.0,
-    pause_between_sections: float = 0.25,
+    pause_between_sections: float = 0.14,
     chunks_dir: str = "project_content/audio/chunks",
     artifact_dir: Optional[str] = r"C:\Users\loper\.gemini\antigravity-ide\brain\158728a5-a939-4410-9555-755847fa7279"
 ):
@@ -52,7 +54,7 @@ def run_batch_narrator(
     total_sections = len(sections)
 
     engine = VoiceStudioEngine(model=model)
-    # Prioritize GEMINI_API_KEY2 since Key 1 exhausted its 10 requests daily limit
+    # Prioritize GEMINI_API_KEY2 since Key 1 exhausted its daily limit
     if len(engine.api_keys) > 1:
         for k in engine.api_keys:
             if k.startswith("AQ.Ab8RN6L6v") or k != engine.api_keys[0]:
@@ -68,37 +70,38 @@ def run_batch_narrator(
     print("=" * 85)
     print(f"Total Sections   : {total_sections}")
     print(f"Model / Voice    : {model} / {voice_name}")
+    print(f"Temperature      : {temperature} (Bendia Fast Pacing + Crisp Arabic Letters)")
     print(f"Delay Between    : {delay_between_sections}s (Rate-Limiter Protection)")
-    print(f"Natural Pause    : {pause_between_sections}s")
+    print(f"Section Gap      : {pause_between_sections}s (Trimmed Zero-Dead-Air Transition)")
     print(f"Master Target    : {output_master_wav}")
     print(f"Chunks Directory : {chunks_dir}\n")
 
     chunk_files = []
 
     for i, sec in enumerate(sections, 1):
-        tag_label = sec["tag"] if sec["tag"] else "[neutral]"
-        clean_tag = re.sub(r'[^a-zA-Z0-9_]', '_', tag_label.strip('[]'))
-        chunk_name = f"sec_{i:02d}_{clean_tag}.wav"
+        tag_label = sec["tag"] if sec["tag"] else "[fast_story]"
+        clean_tag = re.sub(r'[^a-zA-Z0-9_]', '_', tag_label.strip('[]')).strip('_') or "sec"
+        chunk_hash = engine.compute_chunk_hash(sec["text"], voice_name, profile.name)
+        chunk_name = f"sec_{i:02d}_{clean_tag}_{chunk_hash}.wav"
         chunk_path = os.path.join(chunks_dir, chunk_name)
         chunk_files.append(chunk_path)
 
         section_export = os.path.join(ROOT_DIR, "project_content", "audio", f"section_{i:02d}_speed_1.0x.wav")
         first_snippet = " ".join(re.sub(r'\[.*?\]', '', sec["text"]).replace('\n', ' ').split()[:7])
 
-        # Check existing chunk
+        # Check existing content-verified chunk
         if os.path.exists(chunk_path) and os.path.getsize(chunk_path) > 2000:
             with wave.open(chunk_path, 'rb') as wf:
                 sec_dur = wf.getnframes() / float(wf.getframerate())
             print(f"[{i:02d}/{total_sections:02d}] ⚡ CACHED: {tag_label} ({sec['words']} words) -> {sec_dur:.2f}s")
-            if not os.path.exists(section_export):
-                shutil.copyfile(chunk_path, section_export)
+            shutil.copyfile(chunk_path, section_export)
             continue
 
         print(f"[{i:02d}/{total_sections:02d}] 🎙️ GENERATING: {tag_label} ({sec['words']} words)")
         print(f"        Snippet: \"{first_snippet}...\"")
 
         full_prompt = engine.build_prompt(sec["text"], profile, director_note)
-        
+
         # Retry with exponential backoff and delay parsing
         success = False
         for attempt in range(1, 5):
@@ -109,9 +112,10 @@ def run_batch_narrator(
                     full_prompt=full_prompt,
                     output_wav_path=chunk_path,
                     voice_name=voice_name,
-                    temperature=1.0,
+                    temperature=temperature,
                     retries=1
                 )
+                client = res.get("client", client)
                 sec_dur = res["duration"]
                 print(f"        ✅ Succeeded: {sec_dur:.2f}s audio duration.")
                 shutil.copyfile(chunk_path, section_export)
@@ -136,7 +140,6 @@ def run_batch_narrator(
                         wait_sec = float(m.group(1)) + 3.0
                 print(f"        ⏳ Waiting {wait_sec:.1f}s before retrying...")
                 time.sleep(wait_sec)
-                # Rotate key if another key is available
                 engine.rotate_key()
                 client = genai.Client(api_key=engine.api_key)
 
@@ -157,6 +160,15 @@ def run_batch_narrator(
     sample_rate = 24000
     num_channels = 1
     sampwidth = 2
+    if chunk_files and os.path.exists(chunk_files[0]):
+        try:
+            with wave.open(chunk_files[0], 'rb') as first_wf:
+                sample_rate = first_wf.getframerate()
+                num_channels = first_wf.getnchannels()
+                sampwidth = first_wf.getsampwidth()
+        except Exception:
+            pass
+
     silence_bytes = b'\x00' * int(sample_rate * num_channels * sampwidth * pause_between_sections)
 
     with wave.open(output_master_wav, 'wb') as outfile:
@@ -188,7 +200,7 @@ def run_batch_narrator(
 
     mins = int(master_duration // 60)
     secs = int(master_duration % 60)
-    print("🎉 ALL 17 SECTIONS SUCCESSFULLY GENERATED & CONCATENATED!")
+    print(f"🎉 ALL {total_sections} SECTIONS SUCCESSFULLY GENERATED & CONCATENATED!")
     print(f"  • Master File : {output_master_wav}")
     print(f"  • Total Time  : {master_duration:.2f}s (~{mins} minutes {secs} seconds)")
     print(f"  • Total Size  : {master_size / (1024*1024):.2f} MB")

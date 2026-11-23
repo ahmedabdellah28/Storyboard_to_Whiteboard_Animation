@@ -1,0 +1,60 @@
+{
+  "schema_version": "aion.typography_settings.v1",
+  "studio_library_root": "assets/typography",
+  "effectcraft_font_dirs": [
+    "assets/typography/fonts"
+  ],
+  "registry_path": "assets/typography/font_registry.json",
+  "download_manifest_path": "assets/typography/font_registry_download.json",
+  "enforce_open_licenses_only": true,
+  "max_families_per_video": 2,
+  "never_split_arabic_chars": true,
+  "arabic_animator_based_on": 2,
+  "default_fallbacks": {
+    "ar_primary": "Cairo",
+    "ar_display": "Alyamama",
+    "ar_editorial": "IBM Plex Sans Arabic",
+    "ar_documentary_serif": "Amiri",
+    "ar_mobile_9x16": "Alexandria",
+    "en_primary": "Inter",
+    "en_display": "Funnel Display",
+    "commercial_placeholder_fallback": "Cairo"
+  },
+  "story_pairings": {
+    "psychological_cinematic": {
+      "primary": "Cairo",
+      "display": "Alyamama",
+      "fallback": "Alexandria",
+      "aspect_preference": "16:9",
+      "min_headline_duration_sec": 1.8
+    },
+    "historical_documentary": {
+      "primary": "IBM Plex Sans Arabic",
+      "display": "Amiri",
+      "fallback": "Cairo",
+      "aspect_preference": "16:9",
+      "min_headline_duration_sec": 2.2
+    },
+    "shorts_viral_9x16": {
+      "primary": "Alexandria",
+      "display": "Changa",
+      "fallback": "Cairo",
+      "aspect_preference": "9:16",
+      "min_headline_duration_sec": 1.6
+    },
+    "scientific_explanation": {
+      "primary": "Cairo",
+      "display": "Readex Pro",
+      "fallback": "IBM Plex Sans Arabic",
+      "aspect_preference": "16:9",
+      "min_headline_duration_sec": 1.8
+    },
+    "english_editorial": {
+      "primary": "Inter",
+      "display": "Funnel Display",
+      "fallback": "Space Grotesk",
+      "aspect_preference": "16:9",
+      "min_headline_duration_sec": 1.8
+    }
+  }
+}

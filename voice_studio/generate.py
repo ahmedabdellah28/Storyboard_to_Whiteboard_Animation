@@ -25,15 +25,15 @@ def extract_first_sentence(text: str) -> str:
     lines = [line.strip() for line in text.split('\n') if line.strip()]
     if not lines:
         return "voiceover"
-    
+
     # Filter out lines that are purely emotion/stage cues like [emphasis], [fast], etc.
     spoken_lines = [
-        line for line in lines 
+        line for line in lines
         if not (line.startswith('[') and line.endswith(']'))
         and not (line.startswith('(') and line.endswith(')'))
     ]
     candidate_line = spoken_lines[0] if spoken_lines else lines[0]
-    
+
     # Strip any inline tags e.g. [emphasis]
     clean_line = re.sub(r'\[.*?\]', '', candidate_line).strip()
     clean_line = re.sub(r'\(.*?\)', '', clean_line).strip()
@@ -65,7 +65,6 @@ def sanitize_filename(name: str, max_len: int = 70) -> str:
     if not cleaned:
         cleaned = "voiceover"
     if len(cleaned) > max_len:
-        # Cut at nearest word boundary before max_len
         truncated = cleaned[:max_len]
         if ' ' in truncated:
             cleaned = truncated.rsplit(' ', 1)[0].rstrip('. ')
@@ -82,7 +81,8 @@ def main():
     parser.add_argument("--voice", type=str, default="Fenrir", help="Gemini Voice Name (e.g. Fenrir, Puck, Aoede, Kore, Charon)")
     parser.add_argument("--profile", type=str, default="SAUDI_YOUTH_CREATOR", choices=list(AUDIO_PROFILES.keys()), help="Audio Persona Profile")
     parser.add_argument("--director-note", type=str, default="HIGH_ENERGY_YOUTUBE", choices=list(DIRECTOR_NOTES.keys()), help="Director's note style")
-    parser.add_argument("--speed", type=float, default=1.1, help="Playback speed multiplier (e.g. 1.0, 1.1, 1.25, default: 1.1)")
+    parser.add_argument("--temperature", type=float, default=0.75, help="Sampling temperature (default: 0.75 for Bendia energy + clear letters)")
+    parser.add_argument("--speed", type=float, default=1.0, help="Playback speed multiplier (e.g. 1.0, default: 1.0)")
     parser.add_argument("--api-key", type=str, default=None, help="Optional Gemini API Key")
     parser.add_argument("--model", type=str, default="gemini-3.1-flash-tts-preview", help="Gemini TTS Model")
 
@@ -136,7 +136,9 @@ def main():
     print("=" * 85)
     print(f"Script Source   : {script_source}")
     print(f"Persona Profile : {args.profile}")
+    print(f"Director Style  : {args.director_note}")
     print(f"Voice Name      : {args.voice}")
+    print(f"Temperature     : {args.temperature}")
     print(f"Target Speed    : {args.speed}x")
     print(f"Output File     : {output_file}")
     print(f"Transcript Snippet:\n{transcript[:160]}...\n")
@@ -148,6 +150,7 @@ def main():
             voice_name=args.voice,
             profile_key=args.profile,
             director_note_key=args.director_note,
+            temperature=args.temperature,
             speed=args.speed
         )
         print("=" * 85)

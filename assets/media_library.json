@@ -1,0 +1,291 @@
+{
+  "version": "1.0",
+  "description": "Curated Whiteboard Motion Graphics Media Library (Royalty-Free BGM & Transparent Animated GIFs)",
+  "music": [
+    {
+      "id": "apprehension",
+      "title": "File:Apprehension (ISRC USUAN1100327).mp3",
+      "filename": "apprehension_mystery.mp3",
+      "category": "mystery_suspense",
+      "mood": "Dark, tense, atmospheric documentary",
+      "artist": "Kevin MacLeod",
+      "license": "Creative Commons Attribution 3.0 / 4.0"
+    },
+    {
+      "id": "anxiety",
+      "title": "File:Anxiety (ISRC USUAN1100328).mp3",
+      "filename": "anxiety_tension.mp3",
+      "category": "investigation_tension",
+      "mood": "Psychological tension, dark exploration",
+      "artist": "Kevin MacLeod",
+      "license": "Creative Commons Attribution 3.0 / 4.0"
+    },
+    {
+      "id": "dark_walk",
+      "title": "File:Dark Walk (ISRC USUAN1100468).mp3",
+      "filename": "dark_walk_noir.mp3",
+      "category": "crime_investigation",
+      "mood": "Slow documentary investigation, mysterious detective vibe",
+      "artist": "Kevin MacLeod",
+      "license": "Creative Commons Attribution 3.0 / 4.0"
+    },
+    {
+      "id": "decay",
+      "title": "File:Decay (ISRC USUAN1100512).mp3",
+      "filename": "decay_ambient_drone.mp3",
+      "category": "science_sci_fi",
+      "mood": "Deep atmospheric drone, biological/virus mystery",
+      "artist": "Kevin MacLeod",
+      "license": "Creative Commons Attribution 3.0 / 4.0"
+    },
+    {
+      "id": "blue_sizzle",
+      "title": "File:Blue Sizzle (ISRC USUAN1100385).mp3",
+      "filename": "blue_sizzle_electronic.mp3",
+      "category": "modern_tech_pulse",
+      "mood": "Rhythmic tech investigation, medical lab rhythm",
+      "artist": "Kevin MacLeod",
+      "license": "Creative Commons Attribution 3.0 / 4.0"
+    },
+    {
+      "id": "aftermath",
+      "title": "File:Aftermath (ISRC USUAN1100575).mp3",
+      "filename": "aftermath_reflection.mp3",
+      "category": "reflective_melancholy",
+      "mood": "Post-crisis reflection, eerie sadness, aftermath",
+      "artist": "Kevin MacLeod",
+      "license": "Creative Commons Attribution 3.0 / 4.0"
+    },
+    {
+      "id": "chase_pulse",
+      "title": "File:Chase Pulse (ISRC USUAN1100383).mp3",
+      "filename": "chase_pulse_countdown.mp3",
+      "category": "military_countdown",
+      "mood": "High-stakes rhythmic pulse, ticking clock, nuclear countdown",
+      "project_fit": "lyal_kad_alaalm_ynthy_fyha",
+      "artist": "Kevin MacLeod",
+      "license": "Creative Commons Attribution 3.0 / 4.0"
+    },
+    {
+      "id": "cipher",
+      "title": "File:Cipher (ISRC USUAN1100844).mp3",
+      "filename": "cipher_tech_puzzle.mp3",
+      "category": "tech_psychology",
+      "mood": "Intriguing tech groove, digital algorithms, psychological curiosity",
+      "project_fit": "phone_traps",
+      "artist": "Kevin MacLeod",
+      "license": "Creative Commons Attribution 3.0 / 4.0"
+    },
+    {
+      "id": "hitman",
+      "title": "File:Hitman (ISRC USUAN1300013).mp3",
+      "filename": "hitman_cold_war.mp3",
+      "category": "spy_espionage",
+      "mood": "Cold War espionage, stealth, classified military secrets",
+      "project_fit": "lyal_kad_alaalm_ynthy_fyha",
+      "artist": "Kevin MacLeod",
+      "license": "Creative Commons Attribution 3.0 / 4.0"
+    },
+    {
+      "id": "volatile_reaction",
+      "title": "File:Volatile Reaction (ISRC USUAN1400039).mp3",
+      "filename": "volatile_reaction_crisis.mp3",
+      "category": "escalating_crisis",
+      "mood": "Urgent cinematic tension, escalating crisis, dramatic revelation",
+      "project_fit": "lyal_kad_alaalm_ynthy_fyha, human_body_mysteries",
+      "artist": "Kevin MacLeod",
+      "license": "Creative Commons Attribution 3.0 / 4.0"
+    }
+  ],
+  "gifs": [
+    {
+      "id": "research_magnifier",
+      "title": "File:Research Flat Icon GIF Animation.gif",
+      "filename": "research_magnifier.gif",
+      "category": "investigation",
+      "description": "Animated magnifying glass scanning documents or clues"
+    },
+    {
+      "id": "microscope_scan",
+      "title": "File:Microscope Flat Icon GIF Animation.gif",
+      "filename": "microscope_scan.gif",
+      "category": "science_medical",
+      "description": "Animated microscope examining biological sample"
+    },
+    {
+      "id": "chemical_flasks",
+      "title": "File:Flasks Flat Icon GIF Animation.gif",
+      "filename": "chemical_flasks.gif",
+      "category": "science_lab",
+      "description": "Animated bubbling chemical/lab flasks"
+    },
+    {
+      "id": "heart_monitor",
+      "title": "File:Heart Monitor Flat Icon GIF Animation.gif",
+      "filename": "heart_monitor.gif",
+      "category": "medical_vitals",
+      "description": "Animated medical heart monitor displaying ECG pulse"
+    },
+    {
+      "id": "idea_bulb",
+      "title": "File:Bulb Idea Flat Icon GIF Animation.gif",
+      "filename": "idea_bulb.gif",
+      "category": "concept_insight",
+      "description": "Animated glowing light bulb symbolizing insight or realization"
+    },
+    {
+      "id": "checklist_verify",
+      "title": "File:Checklist Flat Icon GIF Animation.gif",
+      "filename": "checklist_verify.gif",
+      "category": "proof_verification",
+      "description": "Animated checklist ticking off points and scientific facts"
+    },
+    {
+      "id": "dna_sequence",
+      "title": "File:DNA Sequence Flat Icon GIF Animation.gif",
+      "filename": "dna_sequence.gif",
+      "category": "genetics_biology",
+      "description": "Animated DNA strand sequence"
+    },
+    {
+      "id": "biohazard_symbol",
+      "title": "File:Biohazard.gif",
+      "filename": "biohazard_symbol.gif",
+      "category": "danger_alert",
+      "description": "Animated warning biohazard rotation for viruses/toxins"
+    },
+    {
+      "id": "question_mark",
+      "title": "File:Question-mark-red-orange-animated.gif",
+      "filename": "question_mark_pulse.gif",
+      "category": "mystery_query",
+      "description": "Animated question mark for unanswered questions and theories"
+    },
+    {
+      "id": "green_arrow_right",
+      "title": "File:Green-animated-arrow-right.gif",
+      "filename": "arrow_pointing_right.gif",
+      "category": "directional_pointer",
+      "description": "Animated arrow indicating direction, transition, or flow"
+    },
+    {
+      "id": "red_arrow_down",
+      "title": "File:Red-animated-arrow-down.gif",
+      "filename": "arrow_pointing_down.gif",
+      "category": "directional_pointer",
+      "description": "Animated red arrow highlighting a specific person or clue"
+    },
+    {
+      "id": "animated_gears",
+      "title": "File:Animated internal gear.gif",
+      "filename": "mechanism_gears.gif",
+      "category": "system_mechanism",
+      "description": "Animated turning gears representing mechanisms and systems"
+    },
+    {
+      "id": "medical_syringe",
+      "title": "File:Syringe Flat Icon GIF Animation.gif",
+      "filename": "medical_syringe.gif",
+      "category": "medical_biology",
+      "description": "Animated syringe injecting medicine, venom, or radioactive tracer"
+    },
+    {
+      "id": "prescription_pills",
+      "title": "File:Tablets Flat Icon GIF Animation.gif",
+      "filename": "prescription_pills.gif",
+      "category": "medical_biology",
+      "description": "Animated pills / medication / sedatives for neurological conditions"
+    },
+    {
+      "id": "stethoscope_diagnosis",
+      "title": "File:Stethoscope Flat Icon GIF Animation.gif",
+      "filename": "stethoscope_diagnosis.gif",
+      "category": "medical_biology",
+      "description": "Animated stethoscope for doctor checkups and medical diagnosis"
+    },
+    {
+      "id": "fever_thermometer",
+      "title": "File:Thermometer Flat Icon GIF Animation.gif",
+      "filename": "fever_thermometer.gif",
+      "category": "medical_biology",
+      "description": "Animated medical thermometer showing temperature / fever rise"
+    },
+    {
+      "id": "optical_vision",
+      "title": "File:Vision Flat Icon GIF Animation.gif",
+      "filename": "optical_vision.gif",
+      "category": "medical_biology",
+      "description": "Animated human eye for vision, optical lobe, and illusions"
+    },
+    {
+      "id": "medical_clipboard",
+      "title": "File:Clipboard Flat Icon GIF Animation.gif",
+      "filename": "medical_clipboard.gif",
+      "category": "medical_biology",
+      "description": "Animated hospital clipboard with patient health records"
+    },
+    {
+      "id": "rotating_globe",
+      "title": "File:Rotating earth animated transparent.gif",
+      "filename": "rotating_globe.gif",
+      "category": "geopolitics_world",
+      "description": "Rotating planet Earth with transparent background for global crises"
+    },
+    {
+      "id": "missile_rocket_launch",
+      "title": "File:Rocket Launch (2).gif",
+      "filename": "missile_rocket_launch.gif",
+      "category": "military_crisis",
+      "description": "Animated missile rocket launching into the atmosphere"
+    },
+    {
+      "id": "computer_terminal",
+      "title": "File:Computer Flat Icon GIF Animation.gif",
+      "filename": "computer_terminal.gif",
+      "category": "technology_crisis",
+      "description": "Animated retro / military computer terminal screen"
+    },
+    {
+      "id": "world_map_briefing",
+      "title": "File:Map Flat Icon GIF Animation.gif",
+      "filename": "world_map_briefing.gif",
+      "category": "geopolitics_world",
+      "description": "Animated unfolded map for tactical briefings and geography"
+    },
+    {
+      "id": "investigation_report",
+      "title": "File:Reports Flat Icon GIF Animation.gif",
+      "filename": "investigation_report.gif",
+      "category": "documents_investigation",
+      "description": "Animated document reports and classified scientific papers"
+    },
+    {
+      "id": "laptop_screen",
+      "title": "File:Laptop Flat Icon GIF Animation.gif",
+      "filename": "laptop_screen.gif",
+      "category": "digital_tech",
+      "description": "Animated laptop screen for online habits, apps, and digital platforms"
+    },
+    {
+      "id": "digital_notification",
+      "title": "File:Email Flat Icon GIF Animation.gif",
+      "filename": "digital_notification.gif",
+      "category": "digital_tech",
+      "description": "Animated message notification envelope representing alert popups"
+    },
+    {
+      "id": "ticking_clock",
+      "title": "File:Animated clock.gif",
+      "filename": "ticking_clock.gif",
+      "category": "time_countdown",
+      "description": "Animated ticking clock representing elapsed time, deadlines, and sleep deprivation"
+    },
+    {
+      "id": "thumbs_up_like",
+      "title": "File:WP25 Thumbs Up - blue.gif",
+      "filename": "thumbs_up_like.gif",
+      "category": "social_cta",
+      "description": "Animated blue thumbs up for the YouTube Like call-to-action"
+    }
+  ]
+}

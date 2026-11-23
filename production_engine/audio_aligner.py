@@ -6,7 +6,7 @@ import re
 import numpy as np
 from google.genai import types
 
-ROOT_DIR = r"E:\image_to_animate"
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if ROOT_DIR not in sys.path:
     sys.path.insert(0, ROOT_DIR)
 

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="icon_fire" viewBox="0 0 64 64" width="64" height="64">
+  <path d="M32 8c6 10 16 18 16 30a16 16 0 1 1-32 0c0-8 4-14 8-18 0 6 4 8 6 8 0-8 2-14 2-20z" fill="#FF6B2C" stroke="#0B0C10" stroke-width="3.5" stroke-linejoin="round"/>
+</svg>

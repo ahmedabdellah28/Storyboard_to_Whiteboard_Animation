@@ -4,6 +4,7 @@ Generates expressive, natural Arabic voiceovers synchronized for whiteboard anim
 """
 import os
 import sys
+import time
 import re
 import struct
 import mimetypes
@@ -66,9 +67,9 @@ DIRECTOR_NOTES = {
         style="High energy, punchy consonants, elongated vowels on excitement words.",
         scene=(
             "A fast-paced animated YouTube explainer for a young Arabic-speaking audience. "
-            "Rapid visuals, frequent visual changes, quick jokes, surprising facts and constant forward motion. "
+            "Rapid stickman-style visuals, frequent visual changes, quick jokes, surprising facts and constant forward motion.\n\n"
             "The narrator is speaking directly to the viewer in an energetic, natural and conversational way, "
-            "as if explaining something fascinating to a friend. "
+            "as if explaining something fascinating to a friend.\n\n"
             "The scene is youthful, clever, entertaining and highly engaging. "
             "The narration should feel tightly synchronized with fast animation and should almost never stop."
         ),
@@ -147,30 +148,27 @@ class GeminiTTSEngine:
     """
 
     def __init__(self, api_key: Optional[str] = None, model: str = "gemini-3.1-flash-tts-preview"):
-        self.api_key = api_key or os.environ.get("GEMINI_API_KEY")
-        if not self.api_key or self.api_key.strip() == "YOUR_GEMINI_API_KEY_HERE":
-            # Check local .env in workspace root
-            root_candidates = [
-                os.path.join(os.path.dirname(__file__), "..", "..", "..", ".env"),
-                os.path.join(os.getcwd(), ".env")
-            ]
-            for env_path in root_candidates:
-                if os.path.exists(env_path):
-                    with open(env_path, "r", encoding="utf-8") as f:
-                        for line in f:
-                            clean_line = line.strip()
-                            if clean_line.startswith("GEMINI_API_KEY="):
-                                val = clean_line.split("=", 1)[1].strip('"\' ')
-                                if val and val != "YOUR_GEMINI_API_KEY_HERE":
-                                    self.api_key = val
-                                    break
-                if self.api_key:
-                    break
+        from core.config.env_loader import get_gemini_api_keys
 
-        if self.api_key == "YOUR_GEMINI_API_KEY_HERE":
-            self.api_key = None
+        self.api_keys: List[str] = []
+        if api_key and api_key.strip() != "YOUR_GEMINI_API_KEY_HERE":
+            self.api_keys.append(api_key.strip())
 
+        for k in get_gemini_api_keys():
+            if k not in self.api_keys:
+                self.api_keys.append(k)
+
+        self.api_key = self.api_keys[0] if self.api_keys else None
         self.model = model
+
+    def rotate_key(self) -> Optional[str]:
+        """Rotates to the next available API key."""
+        if len(self.api_keys) > 1:
+            curr = self.api_keys.pop(0)
+            self.api_keys.append(curr)
+            self.api_key = self.api_keys[0]
+            return self.api_key
+        return self.api_key
 
     def build_prompt(
         self,
@@ -179,24 +177,18 @@ class GeminiTTSEngine:
         director_note: DirectorNote
     ) -> str:
         """Constructs the prompt embedding the persona, scene notes, and transcript."""
-        return f"""Read the following transcript based on the audio profile and director's note.
-
-# Audio Profile
-{profile.description}
-
-# Director's note
-Style: {director_note.style}
-
-## Scene:
-{director_note.scene}
-
-## Sample Context:
-{director_note.sample_context}
-
-## Transcript:
-[emphasis]
-
-{transcript.strip()}"""
+        clean_text = transcript.strip()
+        if not clean_text.startswith("["):
+            clean_text = f"[energetic, fast]\n{clean_text}"
+        return (
+            f"# Audio Profile\n"
+            f"{profile.description.strip()}\n\n"
+            f"# Scene\n"
+            f"{director_note.scene.strip()}\n\n"
+            f"# Sample Context\n"
+            f"{director_note.sample_context.strip()}\n\n"
+            f"{clean_text}"
+        )
 
     def generate_speech(
         self,
@@ -207,10 +199,11 @@ Style: {director_note.style}
         director_note_key: str = "HIGH_ENERGY_YOUTUBE",
         custom_profile: Optional[AudioProfile] = None,
         custom_director_note: Optional[DirectorNote] = None,
-        temperature: float = 1.0
+        temperature: float = 2.0
     ) -> Dict[str, Any]:
         """
         Generates expressive spoken audio from text and saves to a WAV file.
+        Strictly adheres to the best model, doubles temperature to 2.0, and rotates keys on limits.
         """
         try:
             from google import genai
@@ -252,32 +245,48 @@ Style: {director_note.style}
         )
 
         print(f"\n[GeminiTTSEngine] Initiating streaming TTS generation...")
-        print(f"  • Model      : {self.model}")
-        print(f"  • Voice Name : {voice_name}")
-        print(f"  • Persona    : {profile.name}")
-        print(f"  • Output Path: {output_wav_path}")
+        print(f"  • Model       : {self.model}")
+        print(f"  • Voice Name  : {voice_name}")
+        print(f"  • Persona     : {profile.name}")
+        print(f"  • Temperature : {temperature}")
+        print(f"  • Output Path : {output_wav_path}")
 
-        audio_data = bytearray()
-        mime_type = "audio/L16;rate=24000"
+        max_attempts = max(20, len(self.api_keys) * 4)
+        last_err = None
 
-        for chunk in client.models.generate_content_stream(
-            model=self.model,
-            contents=contents,
-            config=generate_content_config,
-        ):
-            if chunk.parts is None:
-                continue
-            for part in chunk.parts:
-                if part.inline_data and part.inline_data.data:
-                    inline_data = part.inline_data
-                    audio_data.extend(inline_data.data)
-                    if inline_data.mime_type:
-                        mime_type = inline_data.mime_type
-                elif part.text:
-                    print(f"  [TTS Model Log] {part.text}")
+        for attempt in range(1, max_attempts + 1):
+            try:
+                audio_data = bytearray()
+                mime_type = "audio/L16;rate=24000"
 
-        if not audio_data:
-            raise RuntimeError("No audio data was received from the Gemini TTS stream.")
+                for chunk in client.models.generate_content_stream(
+                    model=self.model,
+                    contents=contents,
+                    config=generate_content_config,
+                ):
+                    if chunk.parts is None:
+                        continue
+                    for part in chunk.parts:
+                        if part.inline_data and part.inline_data.data:
+                            inline_data = part.inline_data
+                            audio_data.extend(inline_data.data)
+                            if inline_data.mime_type:
+                                mime_type = inline_data.mime_type
+                        elif part.text:
+                            print(f"  [TTS Model Log] {part.text}")
+
+                if not audio_data:
+                    raise RuntimeError("No audio data was received from the Gemini TTS stream.")
+                break
+            except Exception as e:
+                last_err = e
+                print(f"  ⚠️ [ليميت / Limit] حدث خطأ أو ليميت في المفتاح الحالي ({e})")
+                new_key = self.rotate_key()
+                client = genai.Client(api_key=new_key)
+                print(f"  🔄 الانتقال إلى API Key آخر ({new_key[:10] if new_key else 'None'}...) مع البقاء على الموديل ({self.model})...")
+                time.sleep(2)
+        else:
+            raise RuntimeError(f"Failed to generate speech after {max_attempts} attempts: {last_err}")
 
         # Convert to standard WAV
         os.makedirs(os.path.dirname(os.path.abspath(output_wav_path)), exist_ok=True)

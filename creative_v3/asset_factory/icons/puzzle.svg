@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="icon_puzzle" viewBox="0 0 64 64" width="64" height="64">
+  <path d="M14 20h14a5 5 0 0 1 8 0h14v14a5 5 0 0 1 0 8v10H14V20z" fill="#00A99D" stroke="#0B0C10" stroke-width="3.5" stroke-linejoin="round"/>
+</svg>

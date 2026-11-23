@@ -1,0 +1,383 @@
+{
+  "schema_version": "3.2.0",
+  "character_id": "brand_mascot_v1",
+  "viewBox": [
+    0,
+    0,
+    600,
+    800
+  ],
+  "root_bone": "character_root",
+  "bones": {
+    "character_root": {
+      "parent": null,
+      "pivot": [
+        300,
+        740
+      ],
+      "limits": [
+        -180,
+        180
+      ]
+    },
+    "pelvis_group": {
+      "parent": "character_root",
+      "pivot": [
+        286,
+        474
+      ],
+      "limits": [
+        -35,
+        35
+      ]
+    },
+    "torso_group": {
+      "parent": "pelvis_group",
+      "pivot": [
+        286,
+        468
+      ],
+      "limits": [
+        -45,
+        45
+      ]
+    },
+    "neck_group": {
+      "parent": "torso_group",
+      "pivot": [
+        282,
+        318
+      ],
+      "limits": [
+        -25,
+        25
+      ]
+    },
+    "head_group": {
+      "parent": "torso_group",
+      "pivot": [
+        288,
+        268
+      ],
+      "limits": [
+        -45,
+        45
+      ]
+    },
+    "tie_group": {
+      "parent": "torso_group",
+      "pivot": [
+        278,
+        342
+      ],
+      "limits": [
+        -55,
+        55
+      ]
+    },
+    "arm_left_upper": {
+      "parent": "torso_group",
+      "pivot": [
+        228,
+        348
+      ],
+      "limits": [
+        -160,
+        160
+      ]
+    },
+    "arm_left_forearm": {
+      "parent": "arm_left_upper",
+      "pivot": [
+        180,
+        406
+      ],
+      "limits": [
+        -145,
+        145
+      ]
+    },
+    "wrist_left": {
+      "parent": "arm_left_forearm",
+      "pivot": [
+        226,
+        438
+      ],
+      "limits": [
+        -85,
+        85
+      ]
+    },
+    "arm_right_upper": {
+      "parent": "torso_group",
+      "pivot": [
+        338,
+        348
+      ],
+      "limits": [
+        -160,
+        160
+      ]
+    },
+    "arm_right_forearm": {
+      "parent": "arm_right_upper",
+      "pivot": [
+        374,
+        394
+      ],
+      "limits": [
+        -145,
+        145
+      ]
+    },
+    "wrist_right": {
+      "parent": "arm_right_forearm",
+      "pivot": [
+        440,
+        334
+      ],
+      "limits": [
+        -85,
+        85
+      ]
+    },
+    "leg_left_upper": {
+      "parent": "pelvis_group",
+      "pivot": [
+        260,
+        480
+      ],
+      "limits": [
+        -115,
+        115
+      ]
+    },
+    "leg_left_lower": {
+      "parent": "leg_left_upper",
+      "pivot": [
+        250,
+        596
+      ],
+      "limits": [
+        -135,
+        10
+      ]
+    },
+    "foot_left": {
+      "parent": "leg_left_lower",
+      "pivot": [
+        242,
+        704
+      ],
+      "limits": [
+        -60,
+        60
+      ]
+    },
+    "leg_right_upper": {
+      "parent": "pelvis_group",
+      "pivot": [
+        308,
+        480
+      ],
+      "limits": [
+        -115,
+        115
+      ]
+    },
+    "leg_right_lower": {
+      "parent": "leg_right_upper",
+      "pivot": [
+        320,
+        594
+      ],
+      "limits": [
+        -10,
+        135
+      ]
+    },
+    "foot_right": {
+      "parent": "leg_right_lower",
+      "pivot": [
+        330,
+        702
+      ],
+      "limits": [
+        -60,
+        60
+      ]
+    }
+  },
+  "finger_joints": {
+    "sides": [
+      "left",
+      "right"
+    ],
+    "fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "pinky"
+    ],
+    "curl_range": [
+      0.0,
+      1.0
+    ],
+    "spread_range": [
+      -1.0,
+      1.0
+    ]
+  },
+  "face_controls": {
+    "gaze_range": [
+      -1.0,
+      1.0
+    ],
+    "eyelid_range": [
+      0.0,
+      1.0
+    ],
+    "brow_lift_range": [
+      -15.0,
+      15.0
+    ],
+    "brow_tilt_range": [
+      -25.0,
+      25.0
+    ]
+  },
+  "ik_chains": {
+    "left_arm": {
+      "upper": "arm_left_upper",
+      "lower": "arm_left_forearm",
+      "end": "wrist_left",
+      "l1": 70.7,
+      "l2": 58.3
+    },
+    "right_arm": {
+      "upper": "arm_right_upper",
+      "lower": "arm_right_forearm",
+      "end": "wrist_right",
+      "l1": 58.4,
+      "l2": 89.2
+    },
+    "left_leg": {
+      "upper": "leg_left_upper",
+      "lower": "leg_left_lower",
+      "end": "foot_left",
+      "l1": 116.4,
+      "l2": 108.2
+    },
+    "right_leg": {
+      "upper": "leg_right_upper",
+      "lower": "leg_right_lower",
+      "end": "foot_right",
+      "l1": 114.6,
+      "l2": 108.5
+    }
+  },
+  "anchors": {
+    "left_palm": {
+      "bone": "wrist_left",
+      "offset": [
+        16,
+        4
+      ]
+    },
+    "right_palm": {
+      "bone": "wrist_right",
+      "offset": [
+        22,
+        -4
+      ]
+    },
+    "fingertips": {
+      "bone": "wrist_right",
+      "offset": [
+        68,
+        -12
+      ]
+    },
+    "chest": {
+      "bone": "torso_group",
+      "offset": [
+        0,
+        -75
+      ]
+    },
+    "eyes": {
+      "bone": "head_group",
+      "offset": [
+        4,
+        -78
+      ]
+    },
+    "foot": {
+      "bone": "foot_right",
+      "offset": [
+        18,
+        42
+      ]
+    },
+    "ground_contact": {
+      "bone": "character_root",
+      "offset": [
+        0,
+        0
+      ]
+    },
+    "target_center": {
+      "bone": "character_root",
+      "offset": [
+        180,
+        -340
+      ]
+    }
+  },
+  "hand_poses": [
+    "open_palm",
+    "point",
+    "grip",
+    "fist",
+    "snap",
+    "remote",
+    "energy",
+    "pinch",
+    "articulated"
+  ],
+  "expressions": [
+    "neutral",
+    "smile",
+    "happy",
+    "open_talk",
+    "surprise",
+    "frown",
+    "sad",
+    "angry",
+    "curious",
+    "determined",
+    "mischievous",
+    "baffled"
+  ],
+  "visemes": [
+    "viseme_rest",
+    "viseme_A",
+    "viseme_E",
+    "viseme_I",
+    "viseme_O",
+    "viseme_U",
+    "viseme_MBP",
+    "viseme_FV",
+    "viseme_LTH"
+  ],
+  "views": [
+    "front",
+    "front_34_left",
+    "front_34_right",
+    "profile_left",
+    "profile_right",
+    "back_34",
+    "back"
+  ]
+}

@@ -22,6 +22,9 @@ import uuid
 from pathlib import Path
 from typing import List, Optional, Callable, Dict, Any
 
+from core.telemetry.timer import TaskTimer
+from core.telemetry.reporter import print_pipeline_summary
+
 from ..models.dubbing_models import (
     DubbingResult,
     DubbingSegment,
@@ -161,56 +164,62 @@ class DubbingPipeline:
 
         # 2. Stage 1: Load and probe audio
         self._update_progress("[1/6] Loading audio", 0.05, cb)
-        source_info, processed_audio = self._preprocess_source_audio(
-            audio_path=audio_path,
-            project_dir=project_dir,
-        )
+        with TaskTimer(f"dubbing_{project_id}_stage1_preprocess", category="audio"):
+            source_info, processed_audio = self._preprocess_source_audio(
+                audio_path=audio_path,
+                project_dir=project_dir,
+            )
 
         # 3. Stage 2: Transcribe with Faster-Whisper
         self._update_progress("[2/6] Transcribing", 0.15, cb)
-        transcription = self._transcribe_step(
-            audio_path=processed_audio,
-            project_dir=project_dir,
-            force=force_rebuild,
-        )
+        with TaskTimer(f"dubbing_{project_id}_stage2_transcribe", category="whisper"):
+            transcription = self._transcribe_step(
+                audio_path=processed_audio,
+                project_dir=project_dir,
+                force=force_rebuild,
+            )
 
         # 4. Stage 3: Translate segments
         self._update_progress("[3/6] Translating", 0.35, cb)
-        translations = self._translate_step(
-            transcription=transcription,
-            target_language=target_language,
-            project_dir=project_dir,
-            force=force_rebuild,
-        )
+        with TaskTimer(f"dubbing_{project_id}_stage3_translate", category="translation"):
+            translations = self._translate_step(
+                transcription=transcription,
+                target_language=target_language,
+                project_dir=project_dir,
+                force=force_rebuild,
+            )
 
         # 5. Stage 4: Generate TTS for segments
         self._update_progress("[4/6] Generating TTS", 0.50, cb)
-        tts_segments = self._generate_tts_step(
-            translations=translations,
-            voice=voice,
-            target_language=target_language,
-            project_dir=project_dir,
-            callback=cb,
-            force=force_rebuild,
-        )
+        with TaskTimer(f"dubbing_{project_id}_stage4_tts", category="tts"):
+            tts_segments = self._generate_tts_step(
+                translations=translations,
+                voice=voice,
+                target_language=target_language,
+                project_dir=project_dir,
+                callback=cb,
+                force=force_rebuild,
+            )
 
         # 6. Stage 5: Duration matching
         self._update_progress("[5/6] Matching durations", 0.75, cb)
-        matched_segments = self._match_durations_step(
-            tts_segments=tts_segments,
-            project_dir=project_dir,
-            callback=cb,
-            force=force_rebuild,
-        )
+        with TaskTimer(f"dubbing_{project_id}_stage5_duration_match", category="timing"):
+            matched_segments = self._match_durations_step(
+                tts_segments=tts_segments,
+                project_dir=project_dir,
+                callback=cb,
+                force=force_rebuild,
+            )
 
         # 7. Stage 6: Rendering final audio with exact pause preservation
         self._update_progress("[6/6] Rendering final audio", 0.90, cb)
-        final_audio_path = self._render_final_audio(
-            segments=matched_segments,
-            target_language=target_language,
-            total_duration=source_info.duration,
-            project_dir=project_dir,
-        )
+        with TaskTimer(f"dubbing_{project_id}_stage6_mix", category="audio_mix"):
+            final_audio_path = self._render_final_audio(
+                segments=matched_segments,
+                target_language=target_language,
+                total_duration=source_info.duration,
+                project_dir=project_dir,
+            )
 
         # 8. Create metadata & wrap result
         self._update_progress("[Finalizing] Creating metadata", 0.96, cb)
@@ -226,6 +235,7 @@ class DubbingPipeline:
         )
 
         self._update_progress("[Complete] Dubbing finished successfully!", 1.0, cb)
+        print_pipeline_summary(title=f"Dubbing ({target_language}) Run Telemetry")
 
         return DubbingResult(
             project_id=project_id,

@@ -16,15 +16,18 @@ if hasattr(sys.stdout, 'reconfigure'):
     except Exception:
         pass
 
-ROOT_DIR = r"E:\image_to_animate"
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if ROOT_DIR not in sys.path:
     sys.path.insert(0, ROOT_DIR)
-kivy_dir = os.path.join(ROOT_DIR, 'kivy')
-if kivy_dir not in sys.path:
-    sys.path.insert(0, kivy_dir)
+try:
+    from core.render_engine.render.hand_compositor import load_hand_asset_bgra, composite_hand_on_canvas_fast
+except ImportError:
+    kivy_dir = os.path.join(ROOT_DIR, 'kivy')
+    if kivy_dir not in sys.path:
+        sys.path.insert(0, kivy_dir)
+    # pyrefly: ignore [missing-import]
+    from engine.render.hand_compositor import load_hand_asset_bgra, composite_hand_on_canvas_fast
 
-# pyrefly: ignore [missing-import]
-from engine.render.hand_compositor import load_hand_asset_bgra, composite_hand_on_canvas_fast
 
 WIDTH, HEIGHT = 1920, 1080
 FPS = 30
@@ -65,8 +68,12 @@ def build_solid_inking_cache(img_bgra, duration_sec, fps=FPS, ring_step=5, brush
     then progressively spirals into the interior (Outside-In Boundary Layer Infill).
     Ink appears ONLY under the pen tip — never in bulk ring pops.
     """
-    # pyrefly: ignore [missing-import]
-    from engine.render.concentric_engine import build_gapless_orbital_path
+    try:
+        from core.render_engine.render.concentric_engine import build_gapless_orbital_path
+    except ImportError:
+        # pyrefly: ignore [missing-import]
+        from engine.render.concentric_engine import build_gapless_orbital_path
+
 
     h, w = img_bgra.shape[:2]
     total_f = max(1, int(round(duration_sec * fps)))
@@ -279,19 +286,20 @@ def build_arabic_handwriting_cache(img_bgra, duration_sec, fps=FPS):
     return frames
 
 def blend_sprite_screen(frame, sprite_bgra, scr_x, scr_y, scr_w, scr_h, alpha_mult=1.0):
-    if sprite_bgra is None or sprite_bgra.size == 0:
+    if sprite_bgra is None or sprite_bgra.size == 0 or frame is None:
         return
     sp_h, sp_w = sprite_bgra.shape[:2]
     if sp_h <= 0 or sp_w <= 0 or scr_w <= 2 or scr_h <= 2:
         return
 
+    fh, fw = frame.shape[:2] if hasattr(frame, "shape") else (HEIGHT, WIDTH)
     x1, y1 = scr_x, scr_y
     x2, y2 = scr_x + scr_w, scr_y + scr_h
-    if x2 <= 0 or x1 >= WIDTH or y2 <= 0 or y1 >= HEIGHT:
+    if x2 <= 0 or x1 >= fw or y2 <= 0 or y1 >= fh:
         return
 
     clip_x1, clip_y1 = max(0, x1), max(0, y1)
-    clip_x2, clip_y2 = min(WIDTH, x2), min(HEIGHT, y2)
+    clip_x2, clip_y2 = min(fw, x2), min(fh, y2)
     dst_w, dst_h = clip_x2 - clip_x1, clip_y2 - clip_y1
     if dst_w <= 0 or dst_h <= 0:
         return
@@ -331,10 +339,22 @@ class DynamicSectionEngine:
         os.makedirs(self.assets_dir, exist_ok=True)
         os.makedirs(self.scratch_dir, exist_ok=True)
 
-        # Hand Sprite
-        hand_path = os.path.join(ROOT_DIR, "kivy/data/images/drawing-hand.png")
-        hand_mask_path = os.path.join(ROOT_DIR, "kivy/data/images/hand-mask.png")
-        raw_hand = load_hand_asset_bgra(hand_path, hand_mask_path)
+        # Hand Sprite — multi-root discovery prioritizing core.render_engine
+        candidate_hand_roots = [
+            os.path.join(ROOT_DIR, "core", "render_engine", "data", "images"),
+            os.path.join(ROOT_DIR, "data", "images"),
+            os.path.join(ROOT_DIR, "kivy", "data", "images"),
+        ]
+        hand_path, hand_mask_path = None, None
+        for root in candidate_hand_roots:
+            hp = os.path.join(root, "drawing-hand.png")
+            mp = os.path.join(root, "hand-mask.png")
+            if os.path.exists(hp) and os.path.exists(mp):
+                hand_path, hand_mask_path = hp, mp
+                break
+
+        raw_hand = load_hand_asset_bgra(hand_path, hand_mask_path) if hand_path else None
+
         if raw_hand is not None:
             hh, hw = raw_hand.shape[:2]
             target_h = 480
@@ -567,6 +587,17 @@ class DynamicSectionEngine:
             elif anim in ('pulse_pop', 'golden_burst'):
                 sfx_cues.append((t, 'chime', 0.35))
                 sfx_cues.append((t + 0.15, 'pop', 0.25))
+
+            elif anim == 'bounce_drop':
+                sfx_cues.append((t, 'whoosh', 0.30))
+                sfx_cues.append((t + dur * 0.45, 'bright_ping', 0.28))
+
+            elif anim == 'slam_down':
+                sfx_cues.append((t, 'whoosh', 0.35))
+                sfx_cues.append((t + dur * 0.70, 'soft_impact', 0.45))
+
+            elif anim == 'float_drift':
+                sfx_cues.append((t, 'pop', 0.25))
 
         # Add whoosh sounds for camera pans (zone/row transitions)
         if camera_pans:
@@ -814,6 +845,35 @@ class DynamicSectionEngine:
                     else:
                         blend_sprite_screen(frame, base_asset, scr_x, scr_y, scr_w, scr_h)
 
+                elif anim_type == 'bounce_drop':
+                    if prog < 1.0:
+                        bounce = abs(math.cos(prog * math.pi * 2.2)) * math.exp(-prog * 3.5)
+                        drop_offset = int(round(-120 * bounce * cam_zoom))
+                        cur_y = scr_y + drop_offset
+                        blend_sprite_screen(frame, base_asset, scr_x, cur_y, scr_w, scr_h, alpha_mult=min(1.0, prog * 2.5))
+                    else:
+                        blend_sprite_screen(frame, base_asset, scr_x, scr_y, scr_w, scr_h)
+
+                elif anim_type == 'slam_down':
+                    if prog < 1.0:
+                        p = prog * prog * prog
+                        cur_y = scr_y - int(round(140 * (1.0 - p) * cam_zoom))
+                        squash = 1.0 + (0.20 * (1.0 - abs(prog - 0.85) / 0.15) if prog > 0.7 else 0.0)
+                        cur_w = int(round(scr_w * squash))
+                        cur_h = int(round(scr_h / squash))
+                        cur_x = scr_x + (scr_w - cur_w) // 2
+                        blend_sprite_screen(frame, base_asset, cur_x, cur_y, cur_w, cur_h, alpha_mult=min(1.0, prog * 3.0))
+                    else:
+                        blend_sprite_screen(frame, base_asset, scr_x, scr_y, scr_w, scr_h)
+
+                elif anim_type == 'float_drift':
+                    float_y = int(round(10 * math.sin((time_s - t_st) * 2.5) * cam_zoom))
+                    if prog < 1.0:
+                        p = smootherstep(prog)
+                        blend_sprite_screen(frame, base_asset, scr_x, scr_y + float_y, scr_w, scr_h, alpha_mult=p)
+                    else:
+                        blend_sprite_screen(frame, base_asset, scr_x, scr_y + float_y, scr_w, scr_h)
+
                 else:
                     blend_sprite_screen(frame, base_asset, scr_x, scr_y, scr_w, scr_h)
 
@@ -844,3 +904,28 @@ class DynamicSectionEngine:
         subprocess.run(mux_cmd, check=True, capture_output=True)
         print(f"🎉 Section video complete: {final_video} ({duration_sec:.2f}s)")
         return final_video
+
+    def render_motion_plan(
+        self,
+        motion_plan_path: str,
+        manifest_path: str,
+        assets_dir: str,
+        audio_path: str,
+        output_path: str,
+        width: int = 1280,
+        height: int = 720,
+        fps: int = 30,
+    ):
+        """Declaratively renders motion plan using DeclarativeMotionGraphicsEngine."""
+        from production_engine.motion_graphics_engine import DeclarativeMotionGraphicsEngine
+        engine = DeclarativeMotionGraphicsEngine(
+            motion_plan_path=motion_plan_path,
+            manifest_path=manifest_path,
+            assets_dir=assets_dir,
+            audio_path=audio_path,
+            output_path=output_path,
+            width=width,
+            height=height,
+            fps=fps,
+        )
+        return engine.render_preview_video()

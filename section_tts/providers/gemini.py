@@ -17,40 +17,18 @@ from ..utils.retry import RetryManager
 
 def pcm_to_wav_bytes(pcm_data: bytes, sample_rate: int = 24000, bits_per_sample: int = 16) -> bytes:
     """Wraps raw linear PCM audio bytes into a valid standard RIFF/WAVE container."""
-    num_channels = 1
-    data_size = len(pcm_data)
-    bytes_per_sample = bits_per_sample // 8
-    block_align = num_channels * bytes_per_sample
-    byte_rate = sample_rate * block_align
-    chunk_size = 36 + data_size
-
-    header = struct.pack(
-        "<4sI4s4sIHHIIHH4sI",
-        b"RIFF",
-        chunk_size,
-        b"WAVE",
-        b"fmt ",
-        16,
-        1,
-        num_channels,
-        sample_rate,
-        byte_rate,
-        block_align,
-        bits_per_sample,
-        b"data",
-        data_size
-    )
-    return header + pcm_data
+    from core.audio.wav_utils import pcm_to_wav
+    return pcm_to_wav(pcm_data, sample_rate=sample_rate, bits_per_sample=bits_per_sample)
 
 class GeminiTTSProvider(TTSProvider):
     """Production Gemini TTS Provider supporting model configuration and multi-key rotation."""
     def __init__(
         self,
-        model: str = "gemini-2.5-flash-preview-tts",
+        model: str = "gemini-3.1-flash-tts-preview",
         voice_name: str = "Fenrir",
         sample_rate: int = 24000,
         api_keys: Optional[List[str]] = None,
-        max_retries: int = 8
+        max_retries: int = 24
     ):
         self.model = model
         self.voice_name = voice_name
@@ -70,6 +48,7 @@ class GeminiTTSProvider(TTSProvider):
     def _rotate_key(self):
         prev = self.current_key_idx
         self.current_key_idx = (self.current_key_idx + 1) % len(self.clients)
+        print(f"  ⚠️ [ليميت / Limit] تدوير المفتاح: #{prev + 1} -> #{self.current_key_idx + 1}")
         log.tts(f"Rotating API Key: #{prev + 1} -> #{self.current_key_idx + 1}")
 
     def build_prompt(
@@ -132,7 +111,7 @@ class GeminiTTSProvider(TTSProvider):
         ]
 
         cfg = types.GenerateContentConfig(
-            temperature=1.0,
+            temperature=2.0,
             response_modalities=["audio"],
             speech_config=types.SpeechConfig(
                 voice_config=types.VoiceConfig(
@@ -160,12 +139,16 @@ class GeminiTTSProvider(TTSProvider):
                                         pcm_buffer.extend(inline.data)
             except Exception as e:
                 err_msg = str(e)
+                print(f"  ⚠️ [ليميت / Limit] حدث خطأ أو ليميت في Gemini TTS Provider: {err_msg[:120]}")
                 if "429" in err_msg or "RESOURCE_EXHAUSTED" in err_msg:
                     delay_match = re.search(r'retryDelay[\'"]?:\s*[\'"]?([0-9]+)s', err_msg)
-                    cooldown = int(delay_match.group(1)) + 2 if delay_match else 20
+                    cooldown = int(delay_match.group(1)) + 2 if delay_match else 10
                     self._rotate_key()
                     log.tts(f"Quota throttle (429): cooling down {cooldown}s before retrying...")
                     time.sleep(cooldown)
+                else:
+                    self._rotate_key()
+                    time.sleep(2)
                 raise e
 
             if not pcm_buffer:

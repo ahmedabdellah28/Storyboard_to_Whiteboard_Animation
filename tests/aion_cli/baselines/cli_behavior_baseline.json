@@ -1,0 +1,270 @@
+{
+ "root_help": {
+  "argv": [
+   "--help"
+  ],
+  "exit_code": 0,
+  "stdout": "usage: pipeline_cli.py [-h] [--project PROJECT] [--strict]\n                       {init,new,use,switch,projects,list,paths,info,script,voice,timing,extract,semantic-map,map,brief,direct,motion,sfx,render,qa,effects,status,merge,enhance,doctor,cli-spec,studio,auto,loop,run-all,run} ...\n\nUnified Whiteboard Motion Graphics Multi-Project Pipeline (AION CLI)\n\npositional arguments:\n  {init,new,use,switch,projects,list,paths,info,script,voice,timing,extract,semantic-map,map,brief,direct,motion,sfx,render,qa,effects,status,merge,enhance,doctor,cli-spec,studio,auto,loop,run-all,run}\n    init (new)          Initialize a new isolated video project\n    use (switch)        Switch active working project\n    projects (list)     List all video projects\n    paths (info)        Show exact input/output paths for project\n    script              Split and validate section scripts from master_script\n    voice               Generate Voiceover\n    timing              Generate Timing & SRT\n    extract             Topological Asset Extractor\n    semantic-map (map)  Map storyboard assets to timing sentences\n    brief               Generate/validate AION Creative Brief\n    direct              Generate or validate AION scene_graph.json\n    motion              Prepare exhibit cards / soft-bottom asset derivatives\n    sfx                 Mix narration WAV with RMS-ducked studio SFX\n    render              Render Master Video (720p default, or --resolution\n                        1080p)\n    qa                  Run PostRender QA + 10-frame Contact Sheet + Scene\n                        Graph Audit\n    effects             EffectCraft Motion Effects Studio\n    status              Show pipeline status matrix\n    merge               Merge rendered sections into master documentary\n    enhance             Apply Micro-Retention GIF Overlays with Pure Voiceover\n                        (Zero-BGM Policy)\n    doctor              Check FFmpeg, CraftApp binaries, GPU, storage & Gemini\n                        keys\n    cli-spec            Print live CLI schema JSON and optionally generate\n                        CLI_REFERENCE.md\n    studio              AION Creative Studio V5 (ECGC compiler, capabilities &\n                        visual QA)\n    auto (loop, run-all, run)\n                        Autonomous production loop across stages 1..12\n\noptions:\n  -h, --help            show this help message and exit\n  --project PROJECT     Specify project name (overrides active project)\n  --strict              Exit non-zero if any stage fails or reports errors",
+  "stderr_tail": "",
+  "active_after": "mind_glitches_ar"
+ },
+ "help_init": {
+  "argv": [
+   "init",
+   "--help"
+  ],
+  "exit_code": 0,
+  "stdout": "usage: pipeline_cli.py init [-h] [--sections SECTIONS] [--desc DESC]\n                            [--lang {ar,en}] [--dialect DIALECT]\n                            [--voice VOICE]\n                            name\n\npositional arguments:\n  name                 Project name (e.g. quantum_physics,\n                       alexander_the_great)\n\noptions:\n  -h, --help           show this help message and exit\n  --sections SECTIONS  Number of sections to scaffold (default: 10)\n  --desc DESC          Short description of the video\n  --lang {ar,en}       Project language (ar or en; default: ar)\n  --dialect DIALECT    Accent/dialect tag (e.g. us_casual, saudi_white)\n  --voice VOICE        Override TTS voice name (e.g. Puck, Fenrir)",
+  "stderr_tail": "",
+  "active_after": "mind_glitches_ar"
+ },
+ "help_use": {
+  "argv": [
+   "use",
+   "--help"
+  ],
+  "exit_code": 0,
+  "stdout": "usage: pipeline_cli.py use [-h] name\n\npositional arguments:\n  name        Name of project to activate\n\noptions:\n  -h, --help  show this help message and exit",
+  "stderr_tail": "",
+  "active_after": "mind_glitches_ar"
+ },
+ "help_projects": {
+  "argv": [
+   "projects",
+   "--help"
+  ],
+  "exit_code": 0,
+  "stdout": "usage: pipeline_cli.py projects [-h]\n\noptions:\n  -h, --help  show this help message and exit",
+  "stderr_tail": "",
+  "active_after": "mind_glitches_ar"
+ },
+ "help_paths": {
+  "argv": [
+   "paths",
+   "--help"
+  ],
+  "exit_code": 0,
+  "stdout": "usage: pipeline_cli.py paths [-h] [--project PROJECT]\n\noptions:\n  -h, --help         show this help message and exit\n  --project PROJECT  Project name (overrides active project)",
+  "stderr_tail": "",
+  "active_after": "mind_glitches_ar"
+ },
+ "help_voice": {
+  "argv": [
+   "voice",
+   "--help"
+  ],
+  "exit_code": 0,
+  "stdout": "usage: pipeline_cli.py voice [-h] [--section SECTION] [--all] [--model MODEL]\n                             [--force] [--no-verify]\n                             [--pipeline {aion,legacy}] [--project PROJECT]\n\noptions:\n  -h, --help            show this help message and exit\n  --section SECTION     Section number (e.g. 01, 02, 03)\n  --all                 Generate all sections\n  --model MODEL         TTS model override (default: gemini-3.8-flash-tts)\n  --force               Regenerate cached TTS chunks\n  --no-verify           Skip per-chunk Faster-Whisper QA verification\n  --pipeline {aion,legacy}\n                        Voice backend (default: aion)\n  --project PROJECT     Project name (overrides active project)",
+  "stderr_tail": "",
+  "active_after": "mind_glitches_ar"
+ },
+ "help_timing": {
+  "argv": [
+   "timing",
+   "--help"
+  ],
+  "exit_code": 0,
+  "stdout": "usage: pipeline_cli.py timing [-h] [--section SECTION] [--all] [--force]\n                              [--project PROJECT]\n\noptions:\n  -h, --help         show this help message and exit\n  --section SECTION  Section number (e.g. 01, 02, 03)\n  --all              Align all sections and build timing index\n  --force            Force Whisper re-transcription\n  --project PROJECT  Project name (overrides active project)",
+  "stderr_tail": "",
+  "active_after": "mind_glitches_ar"
+ },
+ "help_extract": {
+  "argv": [
+   "extract",
+   "--help"
+  ],
+  "exit_code": 0,
+  "stdout": "usage: pipeline_cli.py extract [-h] [--section SECTION] [--all]\n                               [--mode {grid,contour}] [--rows ROWS]\n                               [--cols COLS] [--from-zip FROM_ZIP]\n                               [--project PROJECT]\n\noptions:\n  -h, --help            show this help message and exit\n  --section SECTION     Section number (e.g. 01, 02, 03)\n  --all                 Extract all sections\n  --mode {grid,contour}\n                        Extraction mode (default: grid)\n  --rows ROWS           Grid rows for grid mode (default: 4)\n  --cols COLS           Grid cols for grid mode (default: 5)\n  --from-zip FROM_ZIP   Import pre-extracted section assets & manifest.json\n                        from a ZIP archive\n  --project PROJECT     Project name (overrides active project)",
+  "stderr_tail": "",
+  "active_after": "mind_glitches_ar"
+ },
+ "help_render": {
+  "argv": [
+   "render",
+   "--help"
+  ],
+  "exit_code": 0,
+  "stdout": "usage: pipeline_cli.py render [-h] [--section SECTION] [--all]\n                              [--engine {python,effectcraft}]\n                              [--pipeline {auto,aion,legacy}]\n                              [--resolution {720p,1080p,full,half,third,quarter}]\n                              [--run-id RUN_ID] [--no-gpu] [--no-rollback]\n                              [--project PROJECT]\n\noptions:\n  -h, --help            show this help message and exit\n  --section SECTION     Section number (e.g. 01, 02, 03)\n  --all                 Render all sections\n  --engine {python,effectcraft}\n                        Render engine (default: effectcraft)\n  --pipeline {auto,aion,legacy}\n                        Pipeline mode (default: auto)\n  --resolution {720p,1080p,full,half,third,quarter}\n                        Output resolution (default: 720p; pass 1080p or full\n                        for 1920x1080)\n  --run-id RUN_ID       Isolated run ID (prevents overwriting previous runs)\n  --no-gpu              Disable GPU rendering flag\n  --no-rollback         Keep partial outputs on render failure\n  --project PROJECT     Project name (overrides active project)",
+  "stderr_tail": "",
+  "active_after": "mind_glitches_ar"
+ },
+ "help_effects": {
+  "argv": [
+   "effects",
+   "--help"
+  ],
+  "exit_code": 0,
+  "stdout": "usage: pipeline_cli.py effects [-h] [--list] [--demo DEMO] [--all]\n\noptions:\n  -h, --help   show this help message and exit\n  --list       List all 15 available effects\n  --demo DEMO  Render specific effect demo\n  --all        Render all 15 effect demos",
+  "stderr_tail": "",
+  "active_after": "mind_glitches_ar"
+ },
+ "help_status": {
+  "argv": [
+   "status",
+   "--help"
+  ],
+  "exit_code": 0,
+  "stdout": "usage: pipeline_cli.py status [-h] [--detailed] [--project PROJECT]\n\noptions:\n  -h, --help         show this help message and exit\n  --detailed         Show isolated run & resume stage state\n  --project PROJECT  Project name (overrides active project)",
+  "stderr_tail": "",
+  "active_after": "mind_glitches_ar"
+ },
+ "help_merge": {
+  "argv": [
+   "merge",
+   "--help"
+  ],
+  "exit_code": 0,
+  "stdout": "usage: pipeline_cli.py merge [-h] [--run-id RUN_ID]\n                             [--pipeline {auto,aion,legacy}] [--out OUT]\n                             [--project PROJECT]\n\noptions:\n  -h, --help            show this help message and exit\n  --run-id RUN_ID       Isolated run ID to merge\n  --pipeline {auto,aion,legacy}\n                        Merge mode (default: auto)\n  --out OUT             Optional explicit output MP4 path\n  --project PROJECT     Project name (overrides active project)",
+  "stderr_tail": "",
+  "active_after": "mind_glitches_ar"
+ },
+ "help_enhance": {
+  "argv": [
+   "enhance",
+   "--help"
+  ],
+  "exit_code": 0,
+  "stdout": "usage: pipeline_cli.py enhance [-h] [--section SECTION] [--all]\n                               [--project PROJECT]\n\noptions:\n  -h, --help         show this help message and exit\n  --section SECTION  Section number (e.g. 01, 02)\n  --all              Enhance all sections in project\n  --project PROJECT  Project name (overrides active project)",
+  "stderr_tail": "",
+  "active_after": "mind_glitches_ar"
+ },
+ "help_auto": {
+  "argv": [
+   "auto",
+   "--help"
+  ],
+  "exit_code": 0,
+  "stdout": "usage: pipeline_cli.py auto [-h] [--project PROJECT] [--start START]\n                            [--end END] [--engine {python,effectcraft}]\n                            [--pipeline {auto,aion,legacy}]\n                            [--from-stage {script,voice,timing,extract,semantic-map,brief,direct,motion,sfx,render,qa,merge}]\n                            [--to-stage {script,voice,timing,extract,semantic-map,brief,direct,motion,sfx,render,qa,merge}]\n                            [--resume] [--run-id RUN_ID]\n                            [--mode {grid,contour}]\n                            [--resolution {720p,1080p,full,half,third,quarter}]\n                            [--no-gpu] [--no-rollback] [--skip-voice]\n                            [--skip-timing] [--skip-extract] [--skip-render]\n                            [--skip-merge] [--force]\n\noptions:\n  -h, --help            show this help message and exit\n  --project PROJECT     Project name (overrides active project)\n  --start START         Starting section number (default: 1)\n  --end END             Ending section number (default: auto-detect)\n  --engine {python,effectcraft}\n                        Render engine (default: effectcraft)\n  --pipeline {auto,aion,legacy}\n                        Pipeline architecture (default: auto)\n  --from-stage {script,voice,timing,extract,semantic-map,brief,direct,motion,sfx,render,qa,merge}\n                        Start execution at this stage\n  --to-stage {script,voice,timing,extract,semantic-map,brief,direct,motion,sfx,render,qa,merge}\n                        Stop execution after this stage\n  --resume              Resume isolated run from last successful stage\n  --run-id RUN_ID       Explicit isolated run ID\n  --mode {grid,contour}\n                        Extraction mode (default: grid)\n  --resolution {720p,1080p,full,half,third,quarter}\n                        Output resolution (default: 720p -> 1280x720; pass\n                        1080p or full for 1920x1080)\n  --no-gpu              Disable GPU rendering flag\n  --no-rollback         Disable rollback on failure\n  --skip-voice          Skip voice generation\n  --skip-timing         Skip timing alignment\n  --skip-extract        Skip extraction\n  --skip-render         Skip rendering\n  --skip-merge          Skip final merge\n  --force               Force regeneration of all stages",
+  "stderr_tail": "",
+  "active_after": "mind_glitches_ar"
+ },
+ "init_fixture": {
+  "argv": [
+   "init",
+   "aion_regression_fixture",
+   "--sections",
+   "2",
+   "--lang",
+   "en"
+  ],
+  "exit_code": 0,
+  "stdout": "============================================================================\n🎉 تم إنشاء وتهيئة مشروع الفيديو الجديد بنجاح: [AION_REGRESSION_FIXTURE]\n============================================================================\n📂 المجلد الرئيسي للمشروع:\n   <ROOT>\\projects\\aion_regression_fixture\n\n📥 1. أين تضع الاسكربت الصوتي (Voiceover Script):\n   • ملف النص الكامل:\n     👉 <ROOT>\\projects\\aion_regression_fixture\\inputs\\script\\master_script.txt\n   • أو نصوص السكاشن منفصلة:\n     👉 <ROOT>\\projects\\aion_regression_fixture\\inputs\\script\\sections\\section_01.txt\n\n🎨 2. أين تضع صور الاستوري بورد (Storyboard Images):\n   • مجلد الصور:\n     👉 <ROOT>\\projects\\aion_regression_fixture\\inputs\\storyboards\n   • التسمية المطلوبة: section_01.png, section_02.png ... (PNG/JPG/WEBP)\n\n📤 3. مجلد المخرجات النهائي (Exports Folder):\n   • مجلد مخرجات هذا المشروع تحديداً (داخل المشروع ذاته):\n     👉 <ROOT>\\projects\\aion_regression_fixture\\exports\n   • الفيديوهات المصدرة ستكون مثل: section_01_master_v6.mp4\n\n✨ تم ضبط المشروع [aion_regression_fixture] كمشروع نشط حالياً (Active Project).\n🚀 خطوات الإنتاج التالية (جاهزة للتشغيل مباشرة):\n   1) توليد الصوت:       python pipeline_cli.py voice   --section 01\n   2) مزامنة التوقيت:     python pipeline_cli.py timing  --section 01\n   3) استخراج العناصر:    python pipeline_cli.py extract --section 01\n   4) رندر الفيديو 1080p: python pipeline_cli.py render  --section 01 --engine effectcraft\n   5) متابعة الحالة:     python pipeline_cli.py status\n============================================================================",
+  "stderr_tail": "",
+  "active_after": "aion_regression_fixture"
+ },
+ "projects": {
+  "argv": [
+   "projects"
+  ],
+  "exit_code": 0,
+  "stdout": "============================================================================\n📋 قائمة مشاريع الموشن جرافيك المتوفرة\n============================================================================\nاسم المشروع               | الحالة       | عدد السكاشن    | تاريخ الإنشاء\n----------------------------------------------------------------------------\naion_regression_fixture   | ⭐ [ACTIVE]   | 2              | <TS>\ndefault                   |              | 10             | —\nen_smoke_test             |              | 1              | <TS>\nenlightenment_nightmares  |              | 12             | <TS>\nhuman_body_mysteries      |              | 7              | <TS>\nlyal_kad_alaalm_ynthy_fyha |              | 5              | <TS>\nmamluk_sultans            |              | 9              | <TS>\nmind_glitches_ar          |              | 8              | <TS>\nmind_glitches_en          |              | 8              |\nottoman_sultans           |              | 9              | <TS>\nphone_traps               |              | 10             | <TS>\nprison_escapes            |              | 12             | <TS>\nprison_escapes_en         |              | 12             | <TS>\nrevenge_legends           |              | 12             | <TS>\nzombie                    |              | 10             | <TS>\n============================================================================\n👉 للتبديل بين المشاريع: python pipeline_cli.py use <اسم_المشروع>",
+  "stderr_tail": "",
+  "active_after": "aion_regression_fixture"
+ },
+ "paths_sub_flag": {
+  "argv": [
+   "paths",
+   "--project",
+   "aion_regression_fixture"
+  ],
+  "exit_code": 0,
+  "stdout": "============================================================================\n🔍 تفاصيل ومسارات مشروع: [AION_REGRESSION_FIXTURE]\n============================================================================\n📝 1. الاسكربت الصوتي (Voice Script):\n   • المسار: <ROOT>\\projects\\aion_regression_fixture\\inputs\\script\\master_script.txt\n   • الحالة: ✅ موجود\n\n🎨 2. مجلد الاستوري بورد (Storyboards):\n   • المسار: <ROOT>\\projects\\aion_regression_fixture\\inputs\\storyboards\n   • عدد الصور المتوفرة: 0 صور\n\n📤 3. مجلد المخرجات (Exports):\n   • المسار: <ROOT>\\projects\\aion_regression_fixture\\exports\n   • الفيديوهات المصدرة: 0 فيديو\n============================================================================",
+  "stderr_tail": "",
+  "active_after": "aion_regression_fixture"
+ },
+ "status_sub_flag": {
+  "argv": [
+   "status",
+   "--project",
+   "aion_regression_fixture"
+  ],
+  "exit_code": 0,
+  "stdout": "======================================================================================\n📊 WHITEBOARD PIPELINE STATUS — PROJECT: [AION_REGRESSION_FIXTURE]\n======================================================================================\nSection      | Script   | Storyboard   | Voice (WAV)  | Timing (SRT)   | Assets   | Export (MP4)\n--------------------------------------------------------------------------------------\nsection_01   | ✅        | ⏳            | ⏳            | ⏳              | ⏳        | ⏳\nsection_02   | ✅        | ⏳            | ⏳            | ⏳              | ⏳        | ⏳\n======================================================================================",
+  "stderr_tail": "",
+  "active_after": "aion_regression_fixture"
+ },
+ "status_root_flag": {
+  "argv": [
+   "--project",
+   "aion_regression_fixture",
+   "status"
+  ],
+  "exit_code": 0,
+  "stdout": "======================================================================================\n📊 WHITEBOARD PIPELINE STATUS — PROJECT: [AION_REGRESSION_FIXTURE]\n======================================================================================\nSection      | Script   | Storyboard   | Voice (WAV)  | Timing (SRT)   | Assets   | Export (MP4)\n--------------------------------------------------------------------------------------\nsection_01   | ✅        | ⏳            | ⏳            | ⏳              | ⏳        | ⏳\nsection_02   | ✅        | ⏳            | ⏳            | ⏳              | ⏳        | ⏳\n======================================================================================",
+  "stderr_tail": "",
+  "active_after": "aion_regression_fixture"
+ },
+ "timing_no_audio": {
+  "argv": [
+   "timing",
+   "--section",
+   "01",
+   "--project",
+   "aion_regression_fixture"
+  ],
+  "exit_code": 0,
+  "stdout": "======================================================================\n⏱️ GENERATING TIMING & SRT ALIGNMENT FOR SECTION_01 (Project: aion_regression_fixture)\n======================================================================\n❌ Audio file not found: <ROOT>\\projects\\aion_regression_fixture\\sections\\section_01\\voice\\section_01.wav. Run 'voice' first.",
+  "stderr_tail": "",
+  "active_after": "aion_regression_fixture"
+ },
+ "extract_no_storyboard": {
+  "argv": [
+   "extract",
+   "--section",
+   "01",
+   "--project",
+   "aion_regression_fixture"
+  ],
+  "exit_code": 0,
+  "stdout": "======================================================================\n✂️ TOPOLOGICAL CONNECTIVITY & CONTOUR EXTRACTOR FOR SECTION_01\n======================================================================\n❌ Storyboard image not found: <ROOT>\\projects\\aion_regression_fixture\\inputs\\storyboards\\section_01.png\n👉 Please place the storyboard image at:\n   <ROOT>\\projects\\aion_regression_fixture\\inputs\\storyboards\\section_01.png",
+  "stderr_tail": "",
+  "active_after": "aion_regression_fixture"
+ },
+ "render_no_manifest": {
+  "argv": [
+   "render",
+   "--section",
+   "01",
+   "--project",
+   "aion_regression_fixture"
+  ],
+  "exit_code": 0,
+  "stdout": "======================================================================\n🎬 RENDERING 720P MASTER V7 FOR SECTION_01 (Engine: EFFECTCRAFT)\n• Project    : aion_regression_fixture\n• Target MP4 : <ROOT>\\projects\\aion_regression_fixture\\exports\\section_01_master_v7.mp4\n======================================================================\n❌ Manifest not found: <ROOT>\\projects\\aion_regression_fixture\\sections\\section_01\\manifest.json",
+  "stderr_tail": "",
+  "active_after": "aion_regression_fixture"
+ },
+ "merge_no_videos": {
+  "argv": [
+   "merge",
+   "--project",
+   "aion_regression_fixture"
+  ],
+  "exit_code": 0,
+  "stdout": "================================================================================\n🎬 CONCATENATING FULL DOCUMENTARY MASTER FOR: [AION_REGRESSION_FIXTURE]\n================================================================================\n❌ No rendered section videos found in: <ROOT>\\projects\\aion_regression_fixture\\exports",
+  "stderr_tail": "",
+  "active_after": "aion_regression_fixture"
+ },
+ "effects_list": {
+  "argv": [
+   "effects",
+   "--list"
+  ],
+  "exit_code": 0,
+  "stdout": "=== EFFECTCRAFT MOTION EFFECTS CATALOG ===\n• pop_bounce           | ظهور ارتدادي نابض (Pop & Bounce) (entrance)\n• directional_slide    | انزلاق خاطف باتجاه معين (Directional Slide) (entrance)\n• camera_zoom          | تقريب الكاميرا السينمائية (3D Camera Zoom) (camera)\n• scale_punch          | نبضة تضخيم الكلمة (Audio Scale Punch) (emphasis)\n• orbit_arc            | حركة مدارية منحنية (Orbit Arc) (motion)\n• gravity_drop         | سقوط حر بجاذبية (Gravity Drop) (physics)\n• light_sweep          | مسح ضوئي نيون متوهج (CC Light Sweep) (stylize)\n• radio_waves          | أمواج دائرية متوسعة (Radio Waves) (simulation)\n• magnify_lens         | عدسة مكبرة تفاعلية (Magnify Lens) (distort)\n• glow_shimmer         | وهج ساطع مشع (Stylized Glow) (stylize)\n• turbulent_ripple     | تموج عضوي غلياني (Turbulent Displace) (distort)\n• echo_trail           | أثر شبحي متكرر (Echo Ghost Trail) (time)\n• shatter_burst        | انفجار وشظايا متناثرة (Shatter Burst) (simulation)\n• page_turn            | قلب صفحة الكتاب (CC Page Turn) (transition)\n• split_screen         | تقسيم شاشة المقارنة (Split Screen) (transition)",
+  "stderr_tail": "",
+  "active_after": "aion_regression_fixture"
+ },
+ "voice_no_script": {
+  "argv": [
+   "voice",
+   "--section",
+   "01",
+   "--project",
+   "aion_regression_fixture"
+  ],
+  "exit_code": 0,
+  "stdout": "======================================================================\n🎙️ GENERATING VOICEOVER FOR SECTION_01 (Project: aion_regression_fixture)\n======================================================================\n❌ Could not find script for Section 01 in:\n   1) <ROOT>\\projects\\aion_regression_fixture\\inputs\\script\\sections\\section_01.txt\n   2) <ROOT>\\projects\\aion_regression_fixture\\inputs\\script\\master_script.txt",
+  "stderr_tail": "",
+  "active_after": "aion_regression_fixture"
+ }
+}

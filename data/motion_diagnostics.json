@@ -1,0 +1,18 @@
+{
+  "total_beats": 17,
+  "total_shots": 7,
+  "total_actions": 35,
+  "average_actions_per_beat": 2.06,
+  "max_simultaneous_assets": 5,
+  "camera_movement_count": 7,
+  "beats_with_no_visual_action": [],
+  "beats_with_excessive_density": [],
+  "render_duration": 45.486,
+  "audio_duration": 45.486,
+  "timeline_tail": {
+    "type": "audio_tail",
+    "start": 42.74,
+    "end": 45.486,
+    "visual_policy": "hold_last_state"
+  }
+}

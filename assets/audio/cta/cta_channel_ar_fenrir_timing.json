@@ -1,0 +1,102 @@
+{
+  "cta_id": "cta_channel_ar_fenrir",
+  "text": "اعمل لايك، واشترك في القناة، وكمل الفيديو كامل من الفيديو المرتبط تحت اسم القناة!",
+  "voice": "Fenrir",
+  "profile": "SAUDI_YOUTH_CREATOR",
+  "wav_path": "E:\\image_to_animate\\assets\\audio\\cta\\cta_channel_ar_fenrir.wav",
+  "duration": 4.181,
+  "words": [
+    {
+      "word": "اعمل",
+      "start": 0.0,
+      "end": 0.52,
+      "duration": 0.52
+    },
+    {
+      "word": "لايك،",
+      "start": 0.52,
+      "end": 0.82,
+      "duration": 0.3
+    },
+    {
+      "word": "واشترك",
+      "start": 0.82,
+      "end": 1.16,
+      "duration": 0.34
+    },
+    {
+      "word": "في",
+      "start": 1.16,
+      "end": 1.28,
+      "duration": 0.12
+    },
+    {
+      "word": "القناة،",
+      "start": 1.28,
+      "end": 1.66,
+      "duration": 0.38
+    },
+    {
+      "word": "وكمل",
+      "start": 1.66,
+      "end": 1.96,
+      "duration": 0.3
+    },
+    {
+      "word": "الفيديو",
+      "start": 1.96,
+      "end": 2.3,
+      "duration": 0.34
+    },
+    {
+      "word": "كامل",
+      "start": 2.3,
+      "end": 2.7,
+      "duration": 0.4
+    },
+    {
+      "word": "من",
+      "start": 2.7,
+      "end": 2.8,
+      "duration": 0.1
+    },
+    {
+      "word": "الفيديو",
+      "start": 2.8,
+      "end": 3.1,
+      "duration": 0.3
+    },
+    {
+      "word": "المرتبط",
+      "start": 3.1,
+      "end": 3.42,
+      "duration": 0.32
+    },
+    {
+      "word": "تحت",
+      "start": 3.42,
+      "end": 3.64,
+      "duration": 0.22
+    },
+    {
+      "word": "اسم",
+      "start": 3.64,
+      "end": 3.84,
+      "duration": 0.2
+    },
+    {
+      "word": "القناة!",
+      "start": 3.84,
+      "end": 4.16,
+      "duration": 0.32
+    }
+  ],
+  "sentences": [
+    {
+      "text": "اعمل لايك، واشترك في القناة، وكمل الفيديو كامل من الفيديو المرتبط تحت اسم القناة!",
+      "start": 0.0,
+      "end": 4.16,
+      "word_count": 14
+    }
+  ]
+}

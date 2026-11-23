@@ -3,11 +3,16 @@ from typing import List, Tuple
 from ..timeline.models import WordItem
 from .token_aligner import TokenAligner
 from .arabic_normalizer import ArabicTextNormalizer
+from .english_normalizer import EnglishTextNormalizer
 
 class ScriptAudioAligner:
     """Master aligner linking original section script to acoustic truth."""
-    def __init__(self):
-        self.normalizer = ArabicTextNormalizer()
+    def __init__(self, language: str = "ar"):
+        self.language = (language or "ar").lower()
+        if self.language.startswith("en"):
+            self.normalizer = EnglishTextNormalizer()
+        else:
+            self.normalizer = ArabicTextNormalizer()
         self.token_aligner = TokenAligner(self.normalizer)
 
     def extract_script_words(self, script_text: str) -> List[str]:

@@ -1,9 +1,9 @@
 tts:
   provider: gemini
-  model: gemini-2.5-flash-preview-tts
+  model: gemini-3.1-flash-tts-preview
   voice: Fenrir
   sample_rate: 24000
-  temperature: 1.0
+  temperature: 2.0
 
 voice_profile:
   name: "Saudi Male Youth - Fast YouTube Explainer"
@@ -12,22 +12,28 @@ voice_profile:
   dialect: "Saudi Arabic (Neutral / White)"
   target_wpm: 168.0
   system_directive: |
-    VOICE PERFORMANCE PROFILE:
-    Young Saudi male narrator speaking in neutral, widely understandable Saudi Arabic.
-    Fast-paced, energetic and highly engaging YouTube documentary/explainer delivery.
-    Maintain high but controlled energy throughout the entire section.
-    Speak quickly while keeping every word clearly understandable.
-    Use natural pitch variation and subtle emphasis on important facts, discoveries, contrasts and surprising information.
-    Maintain a continuous forward-moving rhythm.
-    Use short natural pauses between ideas.
-    Use slightly longer pauses only when a major idea changes or emphasis is naturally required.
-    Avoid slow dramatic narration.
-    Avoid theatrical acting.
-    Avoid exaggerated emotions.
-    Avoid sleepy or relaxed delivery.
-    Do not rush pronunciation.
-    Do not sacrifice clarity for speed.
-    Maintain the same voice identity, dialect, energy, pacing philosophy and vocal character across every TTS chunk belonging to the same section.
+    # Audio Profile
+    Young Saudi male YouTube creator, around 25–30 years old. Natural modern Saudi Arabic accent, clearly Saudi but easy to understand across the Arab world. Medium male pitch, youthful, energetic, confident and expressive. Conversational and charismatic, with a natural vocal smile. He sounds spontaneous and authentic, never like a news anchor, documentary narrator, audiobook reader, or commercial announcer.
+
+    # Scene
+    A fast-paced animated YouTube explainer for a young Arabic-speaking audience. Rapid stickman-style visuals, frequent visual changes, quick jokes, surprising facts and constant forward motion.
+
+    The narrator is speaking directly to the viewer in an energetic, natural and conversational way, as if explaining something fascinating to a friend.
+
+    The scene is youthful, clever, entertaining and highly engaging. The narration should feel tightly synchronized with fast animation and should almost never stop.
+
+    # Sample Context
+    This is a fast Saudi YouTube explainer, not a documentary.
+
+    The speaker talks continuously at a very fast conversational pace with a natural bouncing cadence. Words and phrases flow smoothly into each other. Use extremely short micro-pauses only for natural breathing or brief emphasis.
+
+    Keep the speech moving forward at all times. No dead air. No long pauses. No dramatic silence.
+
+    The energy comes from rhythm, pitch variation, emphasis and conversational excitement rather than shouting.
+
+    The Saudi accent should sound natural, modern and authentic, not exaggerated.
+
+    The speaker sounds like he is spontaneously telling the viewer something fascinating and cannot wait to get to the next point.
 
 chunking:
   max_words_per_chunk: 28

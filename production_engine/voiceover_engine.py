@@ -7,11 +7,16 @@ import re
 import time
 from google.genai import types
 
-ROOT_DIR = r"E:\image_to_animate"
+from pathlib import Path
+from core.config.settings import PROJECT_ROOT
+from core.audio.wav_utils import pcm_to_wav as convert_raw_pcm_to_wav, stitch_wav_files, apply_speed
+from core.telemetry.timer import TaskTimer
+from core.telemetry.counters import get_telemetry_counters
+
+ROOT_DIR = str(PROJECT_ROOT)
 if ROOT_DIR not in sys.path:
     sys.path.insert(0, ROOT_DIR)
 
-from voice_studio.engine import convert_raw_pcm_to_wav
 from production_engine.gemini_client_pool import get_client_pool
 
 def split_into_semantic_chunks(text, max_words=28):
@@ -122,15 +127,15 @@ def generate_voiceover_zero_truncation(
     output_wav_path,
     chunks_dir,
     voice_name="Fenrir",
-    speed_factor=1.1,
+    speed_factor=1.0,
     max_words_per_chunk=28,
     force_regenerate=False,
-    model="gemini-2.5-flash-preview-tts"
+    model="gemini-3.1-flash-tts-preview"
 ):
     """
     Master pipeline for zero-truncation, fast Saudi YouTube voiceover generation:
     1. Semantic boundary chunking (< 28 words/chunk).
-    2. Single-chunk TTS with gemini-2.5-flash-preview-tts & multi-key rotation.
+    2. Single-chunk TTS with gemini-3.1-flash-tts-preview & multi-key rotation.
     3. Seamless stitching with 0.08s micro-pauses.
     4. Automated tail-verification loop with gemini-3.6-flash.
     5. Automatic repair if any tail words are missing.
@@ -165,16 +170,20 @@ def generate_voiceover_zero_truncation(
     )
 
     chunk_files = []
+    counters = get_telemetry_counters()
+
     for idx, ctext in enumerate(chunks, 1):
         c_path = os.path.join(chunks_dir, f"safe_chunk_{idx:02d}.wav")
         chunk_files.append(c_path)
 
         if not force_regenerate and os.path.exists(c_path) and os.path.getsize(c_path) > 5000:
+            counters.record_cache_hit("voiceover_chunk")
             with wave.open(c_path, 'rb') as wf:
                 dur = wf.getnframes() / float(wf.getframerate())
             print(f"  [{idx:02d}/{len(chunks):02d}] ⚡ Cached: {dur:.2f}s ({len(ctext.split())} words)", flush=True)
             continue
 
+        counters.record_cache_miss("voiceover_chunk")
         print(f"  [{idx:02d}/{len(chunks):02d}] 🎙️ Synthesizing ({len(ctext.split())} words)...", flush=True)
         full_prompt = f"{prompt_directive}\n\n{ctext}"
         contents = [
@@ -184,7 +193,7 @@ def generate_voiceover_zero_truncation(
             )
         ]
         cfg = types.GenerateContentConfig(
-            temperature=1.0,
+            temperature=2.0,
             response_modalities=["audio"],
             speech_config=types.SpeechConfig(
                 voice_config=types.VoiceConfig(
@@ -193,11 +202,12 @@ def generate_voiceover_zero_truncation(
             )
         )
 
-        raw_pcm = pool.execute_stream_with_retry(
-            model=model,
-            contents=contents,
-            config=cfg
-        )
+        with TaskTimer(f"tts_chunk_{idx:02d}", category="tts"):
+            raw_pcm = pool.execute_stream_with_retry(
+                model=model,
+                contents=contents,
+                config=cfg
+            )
 
         wav_bytes = convert_raw_pcm_to_wav(raw_pcm, "audio/L16;rate=24000")
         with open(c_path, "wb") as f:
@@ -209,23 +219,9 @@ def generate_voiceover_zero_truncation(
         # Gentle inter-chunk throttle to respect free tier RPM
         time.sleep(1.0)
 
-    # Stitch all chunks with 0.08s micro-pause
-    sample_rate = 24000
-    silence_bytes = b'\x00' * int(sample_rate * 1 * 2 * 0.08)
+    # Stitch all chunks with 0.08s micro-pause via core.audio.wav_utils
     temp_stitched = output_wav_path.replace(".wav", "_temp_stitched.wav")
-
-    def stitch_files(file_list, target_path):
-        with wave.open(target_path, 'wb') as outfile:
-            outfile.setnchannels(1)
-            outfile.setsampwidth(2)
-            outfile.setframerate(sample_rate)
-            for i, cp in enumerate(file_list):
-                with wave.open(cp, 'rb') as infile:
-                    outfile.writeframes(infile.readframes(infile.getnframes()))
-                if i < len(file_list) - 1:
-                    outfile.writeframes(silence_bytes)
-
-    stitch_files(chunk_files, temp_stitched)
+    stitch_wav_files(chunk_files, temp_stitched, silence_ms=80)
 
     # Automated Tail-Verification Loop
     print("\n🔍 Verifying tail completion via Gemini STT (gemini-3.6-flash)...", flush=True)
@@ -241,24 +237,25 @@ def generate_voiceover_zero_truncation(
         full_prompt = f"{prompt_directive}\n\n{repair_text}"
         contents = [types.Content(role="user", parts=[types.Part.from_text(text=full_prompt)])]
         cfg = types.GenerateContentConfig(
-            temperature=1.0,
+            temperature=2.0,
             response_modalities=["audio"],
             speech_config=types.SpeechConfig(
                 voice_config=types.VoiceConfig(prebuilt_voice_config=types.PrebuiltVoiceConfig(voice_name=voice_name))
             )
         )
-        raw_pcm = pool.execute_stream_with_retry(
-            model=model,
-            contents=contents,
-            config=cfg
-        )
+        with TaskTimer("tts_tail_repair", category="tts"):
+            raw_pcm = pool.execute_stream_with_retry(
+                model=model,
+                contents=contents,
+                config=cfg
+            )
 
         wav_bytes = convert_raw_pcm_to_wav(raw_pcm, "audio/L16;rate=24000")
         with open(repair_path, "wb") as f:
             f.write(wav_bytes)
 
         chunk_files.append(repair_path)
-        stitch_files(chunk_files, temp_stitched)
+        stitch_wav_files(chunk_files, temp_stitched, silence_ms=80)
         
         # Re-verify
         is_complete, heard_tail, missing = verify_tail_completion(temp_stitched, target_tail_phrase)
@@ -270,10 +267,9 @@ def generate_voiceover_zero_truncation(
     else:
         print("  ✅ 100% Tail-Word Verification Confirmed on First Pass!", flush=True)
 
-    # Apply FFmpeg atempo speedup
+    # Apply FFmpeg atempo speedup via core.audio.wav_utils
     print(f"⚡ Applying speed multiplier {speed_factor}x...", flush=True)
-    cmd = ["ffmpeg", "-y", "-i", temp_stitched, "-af", f"atempo={speed_factor}", output_wav_path]
-    subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
+    apply_speed(temp_stitched, output_wav_path, factor=speed_factor)
 
     if os.path.exists(temp_stitched):
         os.remove(temp_stitched)

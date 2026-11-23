@@ -1,0 +1,326 @@
+{
+  "anchored_events_count": 35,
+  "events_within_100ms": 33,
+  "events_within_250ms": 35,
+  "events_outside_250ms": 0,
+  "pct_within_250ms": 100.0,
+  "average_anchor_delta_ms": 17.4,
+  "max_anchor_delta_ms": 240.0,
+  "events": [
+    {
+      "asset_id": "asset_001",
+      "speech_anchor": "انكبت",
+      "event_time": 0.56,
+      "anchor_time": 0.56,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Establish protagonist coffee dilemma"
+    },
+    {
+      "asset_id": "asset_038",
+      "speech_anchor": "قطرة",
+      "event_time": 1.94,
+      "anchor_time": 1.94,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Accentuate coffee droplet"
+    },
+    {
+      "asset_id": "asset_036",
+      "speech_anchor": "قهوة",
+      "event_time": 2.2,
+      "anchor_time": 2.2,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Introduce spilled coffee cup"
+    },
+    {
+      "asset_id": "asset_001",
+      "speech_anchor": "ليش",
+      "event_time": 5.14,
+      "anchor_time": 5.14,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Protagonist cringes at dilemma"
+    },
+    {
+      "asset_id": "asset_002",
+      "speech_anchor": "تحس",
+      "event_time": 6.12,
+      "anchor_time": 6.12,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Protagonist head clutching in panic"
+    },
+    {
+      "asset_id": "asset_027",
+      "speech_anchor": "الكوكب",
+      "event_time": 6.54,
+      "anchor_time": 6.54,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Perceived judging crowd appears"
+    },
+    {
+      "asset_id": "asset_029",
+      "speech_anchor": "يطالع",
+      "event_time": 7.64,
+      "anchor_time": 7.64,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Staring eyes pair appears"
+    },
+    {
+      "asset_id": "asset_032",
+      "speech_anchor": "البقعة",
+      "event_time": 7.88,
+      "anchor_time": 7.88,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Gaze arrow points at stain"
+    },
+    {
+      "asset_id": "asset_030",
+      "speech_anchor": "شافها",
+      "event_time": 8.8,
+      "anchor_time": 8.8,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Eyes lock on the stain"
+    },
+    {
+      "asset_id": "asset_002",
+      "speech_anchor": "شافها",
+      "event_time": 8.9,
+      "anchor_time": 8.9,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Hero pulse under social pressure"
+    },
+    {
+      "asset_id": "asset_027",
+      "speech_anchor": "يحكم",
+      "event_time": 9.74,
+      "anchor_time": 9.74,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Perceived judgment intensifies"
+    },
+    {
+      "asset_id": "asset_002",
+      "speech_anchor": "يحكم",
+      "event_time": 9.8,
+      "anchor_time": 9.74,
+      "delta_ms": 60.0,
+      "timing_category": "sync",
+      "reason": "Hero anxiety peaks"
+    },
+    {
+      "asset_id": "asset_013",
+      "speech_anchor": "الضوء",
+      "event_time": 11.56,
+      "anchor_time": 11.56,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Illuminated brain concept reveal"
+    },
+    {
+      "asset_id": "asset_013",
+      "speech_anchor": "مخك",
+      "event_time": 14.36,
+      "anchor_time": 14.36,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Brain illusion pulse"
+    },
+    {
+      "asset_id": "asset_003",
+      "speech_anchor": "بطل",
+      "event_time": 15.74,
+      "anchor_time": 15.74,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Ego protagonist self-concept appears"
+    },
+    {
+      "asset_id": "asset_018",
+      "speech_anchor": "يقنعك",
+      "event_time": 17.36,
+      "anchor_time": 17.36,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Connecting thought bubble expands"
+    },
+    {
+      "asset_id": "asset_003",
+      "speech_anchor": "الناس",
+      "event_time": 18.58,
+      "anchor_time": 18.58,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Ego projection onto audience"
+    },
+    {
+      "asset_id": "asset_001",
+      "speech_anchor": "تحس",
+      "event_time": 19.5,
+      "anchor_time": 19.5,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Hero on stage under scrutiny"
+    },
+    {
+      "asset_id": "asset_015",
+      "speech_anchor": "مسرح",
+      "event_time": 20.36,
+      "anchor_time": 20.36,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Theatrical spotlight beam illuminates hero"
+    },
+    {
+      "asset_id": "asset_031",
+      "speech_anchor": "العيون",
+      "event_time": 20.96,
+      "anchor_time": 20.96,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "All eyes direct toward hero"
+    },
+    {
+      "asset_id": "asset_001",
+      "speech_anchor": "عليك",
+      "event_time": 21.24,
+      "anchor_time": 21.24,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Hero climactic focal emphasis"
+    },
+    {
+      "asset_id": "asset_010",
+      "speech_anchor": "الحقيقة",
+      "event_time": 21.72,
+      "anchor_time": 21.96,
+      "delta_ms": -240.0,
+      "timing_category": "anticipation",
+      "reason": "Protagonist realizes nobody noticed"
+    },
+    {
+      "asset_id": "asset_024",
+      "speech_anchor": "خبر",
+      "event_time": 22.8,
+      "anchor_time": 22.8,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Pedestrian walks away oblivious"
+    },
+    {
+      "asset_id": "asset_025",
+      "speech_anchor": "مشغولة",
+      "event_time": 24.0,
+      "anchor_time": 24.0,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Public busy with own lives"
+    },
+    {
+      "asset_id": "asset_010",
+      "speech_anchor": "مشغولة",
+      "event_time": 24.1,
+      "anchor_time": 24.0,
+      "delta_ms": 100.0,
+      "timing_category": "sync",
+      "reason": "Protagonist relief settles in"
+    },
+    {
+      "asset_id": "asset_006",
+      "speech_anchor": "شعره",
+      "event_time": 25.2,
+      "anchor_time": 25.2,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Man checking hair anxiously"
+    },
+    {
+      "asset_id": "asset_004",
+      "speech_anchor": "جواله",
+      "event_time": 26.6,
+      "anchor_time": 26.6,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Woman absorbed in phone"
+    },
+    {
+      "asset_id": "asset_007",
+      "speech_anchor": "خايف",
+      "event_time": 27.72,
+      "anchor_time": 27.72,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Man worried about past mistake"
+    },
+    {
+      "asset_id": "asset_035",
+      "speech_anchor": "نسخة",
+      "event_time": 32.04,
+      "anchor_time": 32.04,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Individual spotlight mini-cone appears"
+    },
+    {
+      "asset_id": "asset_006",
+      "speech_anchor": "نسخة",
+      "event_time": 32.2,
+      "anchor_time": 32.04,
+      "delta_ms": 160.0,
+      "timing_category": "reaction",
+      "reason": "Shared spotlight effect realization"
+    },
+    {
+      "asset_id": "asset_017",
+      "speech_anchor": "مخك",
+      "event_time": 33.88,
+      "anchor_time": 33.88,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Social vigilance eye mechanism appears"
+    },
+    {
+      "asset_id": "asset_017",
+      "speech_anchor": "المراقبة",
+      "event_time": 35.52,
+      "anchor_time": 35.52,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Vigilance amplification explanation"
+    },
+    {
+      "asset_id": "asset_010",
+      "speech_anchor": "أقل",
+      "event_time": 40.88,
+      "anchor_time": 40.88,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Protagonist peacefully unburdened"
+    },
+    {
+      "asset_id": "asset_017",
+      "speech_anchor": "أهمية",
+      "event_time": 41.16,
+      "anchor_time": 41.16,
+      "delta_ms": 0.0,
+      "timing_category": "sync",
+      "reason": "Final central perspective takeaway"
+    },
+    {
+      "asset_id": "asset_017",
+      "speech_anchor": "تتخيل",
+      "event_time": 44.95,
+      "anchor_time": 45.0,
+      "delta_ms": -50.0,
+      "timing_category": "sync",
+      "reason": "Peace of mind holds into tail"
+    }
+  ]
+}

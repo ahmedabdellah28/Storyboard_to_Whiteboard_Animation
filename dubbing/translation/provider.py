@@ -70,25 +70,15 @@ class GeminiTranslationProvider(TranslationProvider):
         self.inter_batch_sleep = inter_batch_sleep
         self.checkpoint_file = checkpoint_file
         self._current_model_idx = 0
-        self._api_keys: list[str] = []
+        from core.config.env_loader import get_gemini_api_keys
 
+        self._api_keys: list[str] = []
         if api_key:
             self._api_keys.append(api_key.strip())
 
-        for env_var in ["GEMINI_API_KEY", "GEMINI_API_KEY2", "GEMINI_API_KEY3"]:
-            val = os.environ.get(env_var)
-            if val and val.strip() not in self._api_keys:
-                self._api_keys.append(val.strip())
-
-        env_path = os.path.join(os.path.dirname(__file__), "..", "..", ".env")
-        if os.path.isfile(env_path):
-            with open(env_path, "r", encoding="utf-8") as f:
-                for line in f:
-                    line = line.strip()
-                    if line.startswith("GEMINI_API_KEY") and "=" in line:
-                        val = line.split("=", 1)[1].strip("\"' ")
-                        if val and val not in self._api_keys:
-                            self._api_keys.append(val)
+        for k in get_gemini_api_keys():
+            if k not in self._api_keys:
+                self._api_keys.append(k)
 
         self._key_idx = 0
         self._client = None

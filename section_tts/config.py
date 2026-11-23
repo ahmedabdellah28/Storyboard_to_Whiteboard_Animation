@@ -7,47 +7,24 @@ from pydantic import BaseModel, Field
 ROOT_DIR = Path(__file__).resolve().parent.parent
 
 def load_env_file(env_path: Optional[Path] = None) -> Dict[str, str]:
-    """Loads key=value pairs from .env into os.environ if not already present."""
-    if env_path is None:
-        env_path = ROOT_DIR / ".env"
-    env_vars = {}
-    if env_path.exists():
-        with open(env_path, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if not line or line.startswith("#") or "=" not in line:
-                    continue
-                key, val = line.split("=", 1)
-                k = key.strip()
-                v = val.strip().strip("'\"")
-                env_vars[k] = v
-                if k not in os.environ:
-                    os.environ[k] = v
-    return env_vars
+    """Loads key=value pairs from .env via core.config.env_loader."""
+    from core.config.env_loader import load_project_env
+    return load_project_env()
 
 # Auto load environment
 load_env_file()
 
 def get_gemini_api_keys() -> List[str]:
-    """Retrieves all GEMINI_API_KEY entries from environment."""
-    keys = []
-    # Primary key
-    primary = os.environ.get("GEMINI_API_KEY", "").strip()
-    if primary:
-        keys.append(primary)
-    # Check secondary keys GEMINI_API_KEY2, GEMINI_API_KEY3, etc.
-    for i in range(2, 20):
-        k = os.environ.get(f"GEMINI_API_KEY{i}", "").strip()
-        if k and k not in keys:
-            keys.append(k)
-    return keys
+    """Retrieves all GEMINI_API_KEY entries via core.config.env_loader."""
+    from core.config.env_loader import get_gemini_api_keys as _get_keys
+    return _get_keys()
 
 class TTSConfig(BaseModel):
     provider: str = "gemini"
-    model: str = "gemini-2.5-flash-preview-tts"
+    model: str = "gemini-3.1-flash-tts-preview"
     voice: str = "Fenrir"
     sample_rate: int = 24000
-    temperature: float = 1.0
+    temperature: float = 2.0
 
 class VoiceProfileConfig(BaseModel):
     name: str = "Saudi Male Youth - Fast YouTube Explainer"

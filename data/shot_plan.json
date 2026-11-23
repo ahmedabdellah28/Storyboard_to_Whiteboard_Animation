@@ -1,0 +1,844 @@
+[
+  {
+    "shot_id": "shot_001",
+    "beat_id": "beat_001",
+    "start": 0.0,
+    "end": 5.84,
+    "intent": "INTRO",
+    "hero_assets": [
+      "asset_001"
+    ],
+    "support_assets": [
+      "asset_036"
+    ],
+    "accent_assets": [
+      "asset_038"
+    ],
+    "persistent_assets": [],
+    "layout_template": "hero_center",
+    "normalized_positions": {
+      "asset_001": [
+        0.5,
+        0.52
+      ],
+      "asset_036": [
+        0.25,
+        0.52
+      ],
+      "asset_038": [
+        0.32,
+        0.28
+      ]
+    },
+    "relative_scales": {
+      "asset_001": 1.05,
+      "asset_036": 0.85,
+      "asset_038": 0.65
+    },
+    "z_order": {
+      "asset_001": 10,
+      "asset_036": 5,
+      "asset_038": 15
+    },
+    "depth_layers": {
+      "asset_001": 0.5,
+      "asset_036": 0.7,
+      "asset_038": 1.0
+    },
+    "focal_point": [
+      0.5,
+      0.52
+    ],
+    "visual_density": "balanced",
+    "camera_intent": {
+      "action": "hold",
+      "focal_point": [
+        0.5,
+        0.5
+      ],
+      "zoom": 1.0,
+      "reason": "Establish protagonist coffee dilemma"
+    },
+    "composition_state": {
+      "composition_id": "comp_001",
+      "shot_id": "shot_001",
+      "beat_id": "beat_001",
+      "start": 0.0,
+      "end": 5.84,
+      "hero": "asset_001",
+      "support": [
+        "asset_036"
+      ],
+      "accents": [
+        "asset_038"
+      ],
+      "persistent": [],
+      "layout_template": "hero_center",
+      "normalized_positions": {
+        "asset_001": [
+          0.5,
+          0.52
+        ],
+        "asset_036": [
+          0.25,
+          0.52
+        ],
+        "asset_038": [
+          0.32,
+          0.28
+        ]
+      },
+      "relative_scales": {
+        "asset_001": 1.05,
+        "asset_036": 0.85,
+        "asset_038": 0.65
+      },
+      "z_orders": {
+        "asset_001": 10,
+        "asset_036": 5,
+        "asset_038": 15
+      },
+      "depth_layers": {
+        "asset_001": 0.5,
+        "asset_036": 0.7,
+        "asset_038": 1.0
+      },
+      "focal_point": [
+        0.5,
+        0.52
+      ]
+    }
+  },
+  {
+    "shot_id": "shot_002",
+    "beat_id": "beat_003",
+    "start": 5.84,
+    "end": 10.46,
+    "intent": "BUILD_UP",
+    "hero_assets": [
+      "asset_002"
+    ],
+    "support_assets": [
+      "asset_027"
+    ],
+    "accent_assets": [
+      "asset_029",
+      "asset_030",
+      "asset_032"
+    ],
+    "persistent_assets": [],
+    "layout_template": "hero_with_surrounding_accents",
+    "normalized_positions": {
+      "asset_002": [
+        0.5,
+        0.52
+      ],
+      "asset_029": [
+        0.24,
+        0.32
+      ],
+      "asset_030": [
+        0.76,
+        0.32
+      ],
+      "asset_032": [
+        0.22,
+        0.65
+      ],
+      "asset_027": [
+        0.2,
+        0.75
+      ]
+    },
+    "relative_scales": {
+      "asset_002": 1.1,
+      "asset_029": 0.7,
+      "asset_030": 0.7,
+      "asset_032": 0.7,
+      "asset_027": 0.75
+    },
+    "z_order": {
+      "asset_002": 10,
+      "asset_029": 15,
+      "asset_030": 15,
+      "asset_032": 15,
+      "asset_027": 3
+    },
+    "depth_layers": {
+      "asset_002": 0.5,
+      "asset_029": 1.0,
+      "asset_030": 1.0,
+      "asset_032": 1.0,
+      "asset_027": 0.2
+    },
+    "focal_point": [
+      0.5,
+      0.52
+    ],
+    "visual_density": "balanced",
+    "camera_intent": {
+      "action": "subtle_push",
+      "focal_point": [
+        0.5,
+        0.5
+      ],
+      "zoom": 1.12,
+      "reason": "Push in as social anxiety and perceived scrutiny intensify"
+    },
+    "composition_state": {
+      "composition_id": "comp_002",
+      "shot_id": "shot_002",
+      "beat_id": "beat_003",
+      "start": 5.84,
+      "end": 10.46,
+      "hero": "asset_002",
+      "support": [
+        "asset_027"
+      ],
+      "accents": [
+        "asset_029",
+        "asset_030",
+        "asset_032"
+      ],
+      "persistent": [],
+      "layout_template": "hero_with_surrounding_accents",
+      "normalized_positions": {
+        "asset_002": [
+          0.5,
+          0.52
+        ],
+        "asset_029": [
+          0.24,
+          0.32
+        ],
+        "asset_030": [
+          0.76,
+          0.32
+        ],
+        "asset_032": [
+          0.22,
+          0.65
+        ],
+        "asset_027": [
+          0.2,
+          0.75
+        ]
+      },
+      "relative_scales": {
+        "asset_002": 1.1,
+        "asset_029": 0.7,
+        "asset_030": 0.7,
+        "asset_032": 0.7,
+        "asset_027": 0.75
+      },
+      "z_orders": {
+        "asset_002": 10,
+        "asset_029": 15,
+        "asset_030": 15,
+        "asset_032": 15,
+        "asset_027": 3
+      },
+      "depth_layers": {
+        "asset_002": 0.5,
+        "asset_029": 1.0,
+        "asset_030": 1.0,
+        "asset_032": 1.0,
+        "asset_027": 0.2
+      },
+      "focal_point": [
+        0.5,
+        0.52
+      ]
+    }
+  },
+  {
+    "shot_id": "shot_003",
+    "beat_id": "beat_006",
+    "start": 10.46,
+    "end": 19.5,
+    "intent": "REVEAL",
+    "hero_assets": [
+      "asset_013"
+    ],
+    "support_assets": [
+      "asset_003"
+    ],
+    "accent_assets": [
+      "asset_018"
+    ],
+    "persistent_assets": [
+      "asset_002"
+    ],
+    "layout_template": "hero_left_support_right",
+    "normalized_positions": {
+      "asset_013": [
+        0.32,
+        0.52
+      ],
+      "asset_003": [
+        0.68,
+        0.4
+      ],
+      "asset_018": [
+        0.5,
+        0.35
+      ]
+    },
+    "relative_scales": {
+      "asset_013": 1.0,
+      "asset_003": 0.8,
+      "asset_018": 0.6
+    },
+    "z_order": {
+      "asset_013": 10,
+      "asset_003": 5,
+      "asset_018": 12
+    },
+    "depth_layers": {
+      "asset_013": 0.5,
+      "asset_003": 0.7,
+      "asset_018": 1.0
+    },
+    "focal_point": [
+      0.32,
+      0.52
+    ],
+    "visual_density": "balanced",
+    "camera_intent": {
+      "action": "lateral_reframe",
+      "focal_point": [
+        0.45,
+        0.48
+      ],
+      "zoom": 1.08,
+      "reason": "Frame the illuminated brain model with protagonist ego bubble"
+    },
+    "composition_state": {
+      "composition_id": "comp_003",
+      "shot_id": "shot_003",
+      "beat_id": "beat_006",
+      "start": 10.46,
+      "end": 19.5,
+      "hero": "asset_013",
+      "support": [
+        "asset_003"
+      ],
+      "accents": [
+        "asset_018"
+      ],
+      "persistent": [
+        "asset_002"
+      ],
+      "layout_template": "hero_left_support_right",
+      "normalized_positions": {
+        "asset_013": [
+          0.32,
+          0.52
+        ],
+        "asset_003": [
+          0.68,
+          0.4
+        ],
+        "asset_018": [
+          0.5,
+          0.35
+        ]
+      },
+      "relative_scales": {
+        "asset_013": 1.0,
+        "asset_003": 0.8,
+        "asset_018": 0.6
+      },
+      "z_orders": {
+        "asset_013": 10,
+        "asset_003": 5,
+        "asset_018": 12
+      },
+      "depth_layers": {
+        "asset_013": 0.5,
+        "asset_003": 0.7,
+        "asset_018": 1.0
+      },
+      "focal_point": [
+        0.32,
+        0.52
+      ]
+    }
+  },
+  {
+    "shot_id": "shot_004",
+    "beat_id": "beat_009",
+    "start": 19.5,
+    "end": 21.72,
+    "intent": "PAYOFF",
+    "hero_assets": [
+      "asset_001"
+    ],
+    "support_assets": [
+      "asset_015"
+    ],
+    "accent_assets": [
+      "asset_031"
+    ],
+    "persistent_assets": [
+      "asset_013"
+    ],
+    "layout_template": "hero_center",
+    "normalized_positions": {
+      "asset_001": [
+        0.5,
+        0.52
+      ],
+      "asset_015": [
+        0.25,
+        0.52
+      ],
+      "asset_031": [
+        0.32,
+        0.28
+      ]
+    },
+    "relative_scales": {
+      "asset_001": 1.05,
+      "asset_015": 0.85,
+      "asset_031": 0.65
+    },
+    "z_order": {
+      "asset_001": 10,
+      "asset_015": 5,
+      "asset_031": 15
+    },
+    "depth_layers": {
+      "asset_001": 0.5,
+      "asset_015": 0.7,
+      "asset_031": 1.0
+    },
+    "focal_point": [
+      0.5,
+      0.52
+    ],
+    "visual_density": "balanced",
+    "camera_intent": {
+      "action": "punch_in",
+      "focal_point": [
+        0.5,
+        0.52
+      ],
+      "zoom": 1.22,
+      "reason": "Dramatic punch onto stage spotlight beam illuminating hero"
+    },
+    "composition_state": {
+      "composition_id": "comp_004",
+      "shot_id": "shot_004",
+      "beat_id": "beat_009",
+      "start": 19.5,
+      "end": 21.72,
+      "hero": "asset_001",
+      "support": [
+        "asset_015"
+      ],
+      "accents": [
+        "asset_031"
+      ],
+      "persistent": [
+        "asset_013"
+      ],
+      "layout_template": "hero_center",
+      "normalized_positions": {
+        "asset_001": [
+          0.5,
+          0.52
+        ],
+        "asset_015": [
+          0.25,
+          0.52
+        ],
+        "asset_031": [
+          0.32,
+          0.28
+        ]
+      },
+      "relative_scales": {
+        "asset_001": 1.05,
+        "asset_015": 0.85,
+        "asset_031": 0.65
+      },
+      "z_orders": {
+        "asset_001": 10,
+        "asset_015": 5,
+        "asset_031": 15
+      },
+      "depth_layers": {
+        "asset_001": 0.5,
+        "asset_015": 0.7,
+        "asset_031": 1.0
+      },
+      "focal_point": [
+        0.5,
+        0.52
+      ]
+    }
+  },
+  {
+    "shot_id": "shot_005",
+    "beat_id": "beat_010",
+    "start": 21.72,
+    "end": 24.94,
+    "intent": "CONTRAST",
+    "hero_assets": [
+      "asset_010"
+    ],
+    "support_assets": [
+      "asset_024",
+      "asset_025"
+    ],
+    "accent_assets": [
+      "asset_033"
+    ],
+    "persistent_assets": [],
+    "layout_template": "wide_context",
+    "normalized_positions": {
+      "asset_010": [
+        0.48,
+        0.54
+      ],
+      "asset_024": [
+        0.2,
+        0.52
+      ],
+      "asset_025": [
+        0.75,
+        0.52
+      ],
+      "asset_033": [
+        0.35,
+        0.25
+      ]
+    },
+    "relative_scales": {
+      "asset_010": 0.85,
+      "asset_024": 0.9,
+      "asset_025": 0.9,
+      "asset_033": 0.55
+    },
+    "z_order": {
+      "asset_010": 8,
+      "asset_024": 6,
+      "asset_025": 6,
+      "asset_033": 12
+    },
+    "depth_layers": {
+      "asset_010": 0.5,
+      "asset_024": 0.7,
+      "asset_025": 0.7,
+      "asset_033": 1.0
+    },
+    "focal_point": [
+      0.48,
+      0.54
+    ],
+    "visual_density": "balanced",
+    "camera_intent": {
+      "action": "pull_back",
+      "focal_point": [
+        0.5,
+        0.52
+      ],
+      "zoom": 0.95,
+      "reason": "Pull back to reveal public completely oblivious to protagonist"
+    },
+    "composition_state": {
+      "composition_id": "comp_005",
+      "shot_id": "shot_005",
+      "beat_id": "beat_010",
+      "start": 21.72,
+      "end": 24.94,
+      "hero": "asset_010",
+      "support": [
+        "asset_024",
+        "asset_025"
+      ],
+      "accents": [
+        "asset_033"
+      ],
+      "persistent": [],
+      "layout_template": "wide_context",
+      "normalized_positions": {
+        "asset_010": [
+          0.48,
+          0.54
+        ],
+        "asset_024": [
+          0.2,
+          0.52
+        ],
+        "asset_025": [
+          0.75,
+          0.52
+        ],
+        "asset_033": [
+          0.35,
+          0.25
+        ]
+      },
+      "relative_scales": {
+        "asset_010": 0.85,
+        "asset_024": 0.9,
+        "asset_025": 0.9,
+        "asset_033": 0.55
+      },
+      "z_orders": {
+        "asset_010": 8,
+        "asset_024": 6,
+        "asset_025": 6,
+        "asset_033": 12
+      },
+      "depth_layers": {
+        "asset_010": 0.5,
+        "asset_024": 0.7,
+        "asset_025": 0.7,
+        "asset_033": 1.0
+      },
+      "focal_point": [
+        0.48,
+        0.54
+      ]
+    }
+  },
+  {
+    "shot_id": "shot_006",
+    "beat_id": "beat_012",
+    "start": 24.94,
+    "end": 33.88,
+    "intent": "EXAMPLE",
+    "hero_assets": [
+      "asset_006"
+    ],
+    "support_assets": [
+      "asset_004",
+      "asset_007"
+    ],
+    "accent_assets": [
+      "asset_035"
+    ],
+    "persistent_assets": [],
+    "layout_template": "stacked_explanation",
+    "normalized_positions": {
+      "asset_006": [
+        0.5,
+        0.46
+      ],
+      "asset_004": [
+        0.25,
+        0.48
+      ],
+      "asset_007": [
+        0.75,
+        0.48
+      ],
+      "asset_035": [
+        0.25,
+        0.75
+      ]
+    },
+    "relative_scales": {
+      "asset_006": 0.95,
+      "asset_004": 0.85,
+      "asset_007": 0.85,
+      "asset_035": 0.6
+    },
+    "z_order": {
+      "asset_006": 10,
+      "asset_004": 8,
+      "asset_007": 8,
+      "asset_035": 12
+    },
+    "depth_layers": {
+      "asset_006": 0.5,
+      "asset_004": 0.6,
+      "asset_007": 0.6,
+      "asset_035": 0.9
+    },
+    "focal_point": [
+      0.5,
+      0.46
+    ],
+    "visual_density": "balanced",
+    "camera_intent": {
+      "action": "hold",
+      "focal_point": [
+        0.5,
+        0.48
+      ],
+      "zoom": 1.02,
+      "reason": "Stable view of bystanders each trapped in their own spotlight"
+    },
+    "composition_state": {
+      "composition_id": "comp_006",
+      "shot_id": "shot_006",
+      "beat_id": "beat_012",
+      "start": 24.94,
+      "end": 33.88,
+      "hero": "asset_006",
+      "support": [
+        "asset_004",
+        "asset_007"
+      ],
+      "accents": [
+        "asset_035"
+      ],
+      "persistent": [],
+      "layout_template": "stacked_explanation",
+      "normalized_positions": {
+        "asset_006": [
+          0.5,
+          0.46
+        ],
+        "asset_004": [
+          0.25,
+          0.48
+        ],
+        "asset_007": [
+          0.75,
+          0.48
+        ],
+        "asset_035": [
+          0.25,
+          0.75
+        ]
+      },
+      "relative_scales": {
+        "asset_006": 0.95,
+        "asset_004": 0.85,
+        "asset_007": 0.85,
+        "asset_035": 0.6
+      },
+      "z_orders": {
+        "asset_006": 10,
+        "asset_004": 8,
+        "asset_007": 8,
+        "asset_035": 12
+      },
+      "depth_layers": {
+        "asset_006": 0.5,
+        "asset_004": 0.6,
+        "asset_007": 0.6,
+        "asset_035": 0.9
+      },
+      "focal_point": [
+        0.5,
+        0.46
+      ]
+    }
+  },
+  {
+    "shot_id": "shot_007",
+    "beat_id": "beat_016",
+    "start": 33.88,
+    "end": 45.486,
+    "intent": "OUTRO",
+    "hero_assets": [
+      "asset_017"
+    ],
+    "support_assets": [
+      "asset_010"
+    ],
+    "accent_assets": [
+      "asset_028"
+    ],
+    "persistent_assets": [],
+    "layout_template": "close_up",
+    "normalized_positions": {
+      "asset_017": [
+        0.5,
+        0.5
+      ],
+      "asset_010": [
+        0.28,
+        0.65
+      ],
+      "asset_028": [
+        0.5,
+        0.22
+      ]
+    },
+    "relative_scales": {
+      "asset_017": 1.25,
+      "asset_010": 0.7,
+      "asset_028": 0.55
+    },
+    "z_order": {
+      "asset_017": 10,
+      "asset_010": 5,
+      "asset_028": 12
+    },
+    "depth_layers": {
+      "asset_017": 0.5,
+      "asset_010": 0.7,
+      "asset_028": 1.0
+    },
+    "focal_point": [
+      0.5,
+      0.5
+    ],
+    "visual_density": "balanced",
+    "camera_intent": {
+      "action": "subtle_push",
+      "focal_point": [
+        0.5,
+        0.5
+      ],
+      "zoom": 1.15,
+      "reason": "Gentle push to central liberating takeaway holding through audio tail"
+    },
+    "composition_state": {
+      "composition_id": "comp_007",
+      "shot_id": "shot_007",
+      "beat_id": "beat_016",
+      "start": 33.88,
+      "end": 45.486,
+      "hero": "asset_017",
+      "support": [
+        "asset_010"
+      ],
+      "accents": [
+        "asset_028"
+      ],
+      "persistent": [],
+      "layout_template": "close_up",
+      "normalized_positions": {
+        "asset_017": [
+          0.5,
+          0.5
+        ],
+        "asset_010": [
+          0.28,
+          0.65
+        ],
+        "asset_028": [
+          0.5,
+          0.22
+        ]
+      },
+      "relative_scales": {
+        "asset_017": 1.25,
+        "asset_010": 0.7,
+        "asset_028": 0.55
+      },
+      "z_orders": {
+        "asset_017": 10,
+        "asset_010": 5,
+        "asset_028": 12
+      },
+      "depth_layers": {
+        "asset_017": 0.5,
+        "asset_010": 0.7,
+        "asset_028": 1.0
+      },
+      "focal_point": [
+        0.5,
+        0.5
+      ]
+    }
+  }
+]

@@ -9,7 +9,8 @@ import sys
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-ROOT_DIR = r"E:\image_to_animate"
+from core.config.settings import PROJECT_ROOT
+ROOT_DIR = str(PROJECT_ROOT)
 if ROOT_DIR not in sys.path:
     sys.path.insert(0, ROOT_DIR)
 

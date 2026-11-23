@@ -1,0 +1,56 @@
+{
+  "target_section": "06_spotlight_effect",
+  "status": "PASS",
+  "provenance_chain": {
+    "source_storyboard_path": "sections/brain_illusions_documentary/06_spotlight_effect/storyboard.png",
+    "source_storyboard_hash": "e505bb727da2c4acb4d59160d6f0fe371d539c0e602d06e2adb56874e035e1b6",
+    "generated_asset_sheet_path": "Separated Comic Character and Icon Asset Sheet.png",
+    "generated_asset_sheet_hash": "dd7fe1c40ea49b7530d4520a9b0b4e96ff5150b260450aa46fdba08f8938aab2",
+    "extractor_output_dir": "asset_sheet_extractor_v2_output",
+    "assets_json_hash": "36931a5214e2ba75e3c4f2b827de35c24684b730b2a75ec911c9d5e16b72fba8",
+    "report_json_hash": "e1581aede8d8a1a763282d81cfdd86cfb294e769a80fdc92f00a59576edf9759"
+  },
+  "inputs": {
+    "script": {
+      "path": "sections/brain_illusions_documentary/06_spotlight_effect/script.txt",
+      "sha256": "5f4bf0bbc88458253bd8276acb3a3d00fbab91fdd800df816f0d84b6d32c2524",
+      "character_count": 698
+    },
+    "audio": {
+      "path": "sections/brain_illusions_documentary/06_spotlight_effect/master_audio.wav",
+      "sha256": "2fd2dedd414728a29f896fe8146a8f1e775da4498cb695508b75fe22043f78d5",
+      "duration_s": 45.486
+    },
+    "whisper": {
+      "path": "sections/brain_illusions_documentary/06_spotlight_effect/timing/whisper.json",
+      "sha256": "58868eca54fccdde202dac617b3602f9ef7da922b1184134882edb5d60ac60a8",
+      "duration_s": 45.486
+    },
+    "visual_manifest": {
+      "path": "sections/brain_illusions_documentary/06_spotlight_effect/motion/visual_manifest.json",
+      "sha256": "1c593a08c5be532b1996974691f00c8c15ddaeaefdb7a41bd7807f1ce6c577ac",
+      "entity_count": 55
+    },
+    "narrative_visual_map": {
+      "path": "sections/brain_illusions_documentary/06_spotlight_effect/motion/narrative_visual_map.json",
+      "sha256": "4d58d0921447787ac869086f6fbd25ae52251964b2954d0d14fbaec3203093e3",
+      "speech_beats_count": 17,
+      "narrative_concepts_count": 17,
+      "resolved_anchors_count": 17
+    },
+    "motion_plan": {
+      "path": "sections/brain_illusions_documentary/06_spotlight_effect/motion/motion_plan.json",
+      "sha256": "db95bcd14cfc1b053eb85d836fd96b7caa068769a446db42b40e1eb01b7802ca",
+      "total_actions": 50,
+      "max_simultaneous_assets": 4,
+      "timeline_duration_s": 45.486
+    }
+  },
+  "verifications": {
+    "script_hash_verified": true,
+    "duration_fits_audio": true,
+    "zero_07_conclusion_references": true,
+    "all_assets_in_manifest": true,
+    "deterministic_reproducibility": true
+  }
+}
